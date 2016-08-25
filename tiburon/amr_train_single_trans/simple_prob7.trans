@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_GAB1_HUMAN_ -> smr-empty #1.0
+qr.TOP(analyze-01(x0: r_purpose(express-03(r_ARG2(and(x1: r_op2(protein(x2: r_xref(xref(x3: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x3 ) #1.0

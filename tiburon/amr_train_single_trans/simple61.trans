@@ -1,0 +1,26 @@
+qr
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_location(x0: ) -> r_ARG0(qc.x0 )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_5757_ )
+qc.phosphorylate-01(r_ARG1-of(stimulate-01(x0: ) ) x1: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 qr.x1 )
+qc.protein(x0: ) -> protein
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.direct-02 -> mutate-01
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.name(x0: ) -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_ )
+qc.inhibit-01(x0: x1: r_ARG1-of(modify-01(r_ARG0(mutate-01(x2: r_ARG0-of(suggest-01(x3: x4: ) ) ) ) x5: x6: ) ) ) -> decrease-01(r_ARG1(increase-01(qr.x1 qr.x2 ) ) qr.x3 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 )
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_
+qc.domain(r_ARG0-of(interact-01(r_ARG1(receptor(r_mod(nucleus(x0: ) ) ) ) ) ) r_part-of(protein(x1: ) ) ) -> small-molecule(qr.x0 qr.x1 )
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_
+qr.r_ARG1(x0: ) -> r_part-of(qc.x0 )
+qc.name(x0: ) -> name(r_op1_E2_ )
+qr.r_op1_ERα_ -> r_op1_ERα_
+qc.obligate-01(x0: r_ARG2(contact-01(x1: r_ARG1(protein(x2: ) ) ) ) ) -> protein-segment(qr.x0 qr.x1 qr.x2 )

@@ -1,0 +1,11 @@
+Tree info for input tree amr214.tree:
+	76 nodes
+	16 yield length
+Transducer info for input tree transducer simple214.trans:
+	2 states
+	29 rules
+RTG info for forward application of tree:
+	34 states
+	47 rules
+	11 unique terminal symbols
+	24696 derivations

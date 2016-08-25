@@ -1,0 +1,1 @@
+TOP(and(r_op1(quantify-01(r_ARG1(and(r_op1(represent-01(r_location(top) r_mod(experiment-01))) r_op2(left-20))) r_ARG1-of(sample-01(r_ARG2(enzyme(r_name(name(r_UNK)) r_ARG1-of(mean-01) r_xref(xref(r_UNK)))))) r_ARG2(protein(r_name(name(r_op1_SEM_)) r_xref(xref(r_value_UNIPROT_SEM4F_HUMAN_)))))) r_op2(UNK)))

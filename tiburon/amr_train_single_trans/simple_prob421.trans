@@ -1,0 +1,15 @@
+qr
+qc.mutate-01(r_ARG1(protein(r_name(name(x0: ) ) ) ) ) -> mutate-01(qr.x0 ) #1.0
+qr.r_op1_T421M_ -> r_value_T421M_ #1.0
+qc.name(x0: ) -> name(r_op1_catC_ ) #0.000815660685155
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_Sorafenib_ -> r_op1_Sorafenib_ #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_xref(qc.x0 ) #0.018045112782
+qr.r_ARG0(and(x0: r_op2(x1: ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.pathway(x0: ) -> value(qr.x0 ) #0.0666666666667
+qr.r_ARG2-of(x0: ) -> r_ARG2-of(qc.x0 ) #0.366666666667
+qc.and(r_op1(inhibit-01(x0: r_ARG1(enzyme(x1: x2: ) ) x3: x4: ) ) r_op2(activate-01(x5: x6: ) ) ) -> decrease-01(qr.x0 r_ARG1(protein(qr.x1 qr.x2 qr.x5 ) ) ) #1.0
+qc.name(x0: ) -> name(r_op1_UNIPROT_catC_HUMAN_ ) #0.000815660685155
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 ) #0.029702970297

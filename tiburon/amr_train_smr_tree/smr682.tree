@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein(r_xref(xref(r_value_UNIPROT_DOCK1_HUMAN_)) r_name(name(r_op1_Dock180_)))) r_ARG1(add-modification-00(r_ARG1(enzyme(r_name(name(r_op1_AKT_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_)))) r_ARG0(small-molecule(r_name(name(r_op1_S1P_)) r_xref(xref(r_value_CHEBI_37550_)))) r_manner(phosphorylate-01)))))

@@ -1,0 +1,42 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q21 q2 )
+q1 -> increase-01(q2 q21 )
+q21 -> r_ARG1(q22 )
+q2 -> r_ARG2(q3 )
+q22 -> and(q29 q23 )
+q22 -> and(q23 q29 )
+q3 -> protein(q18 q4 )
+q3 -> protein(q4 q18 )
+q29 -> r_op1(q30 )
+q23 -> r_op2(q24 )
+q18 -> r_name(q19 )
+q4 -> r_ARG0-of(q5 )
+q30 -> protein(q32 q31 )
+q30 -> protein(q31 q32 )
+q24 -> protein(q26 q25 )
+q24 -> protein(q25 q26 )
+q19 -> name(q20 )
+q5 -> add-modification-00(q6 )
+q32 -> r_name(q33 )
+q31 -> r_mod_p110α/p85_
+q26 -> r_name(q27 )
+q25 -> r_mod_p110β/p85_
+q20 -> r_op1_lysate_
+q6 -> r_manner(q7 )
+q33 -> name(q34 )
+q27 -> name(q28 )
+q7 -> phosphorylate-01(q13 q8 )
+q7 -> phosphorylate-01(q8 q13 )
+q34 -> r_op1_GST_
+q28 -> r_op1_GST_
+q13 -> r_ARG1(q14 )
+q8 -> r_location(q9 )
+q14 -> protein(q15 )
+q9 -> cell(q10 )
+q15 -> r_name(q16 )
+q10 -> r_name(q11 )
+q16 -> name(q17 )
+q11 -> name(q12 )
+q17 -> r_op1_Myc_
+q12 -> r_op1_COS7_

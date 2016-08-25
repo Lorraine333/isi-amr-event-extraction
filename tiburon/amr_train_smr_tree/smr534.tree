@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(enzyme(r_name(name(r_op1_HRAS_)) r_ARG2-of(mutate-01(r_value_D33I_)) r_xref(xref(r_value_UNIPROT_RASH_HUMAN_)))) r_ARG2(protein(r_name(name(r_op1_p110α_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_))))))

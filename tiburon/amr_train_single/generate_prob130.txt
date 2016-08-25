@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1-of(x1 / smr-empty)  :ARG1(x2 / bind-01 :ARG1(x3 / protein-segment :name(x4 / name :op1 "catalytic" )  :part-of(x5 / muti-index-card :op1 "RAF"  :value "UNIPROT"RAF1"HUMAN" ) ) ) )

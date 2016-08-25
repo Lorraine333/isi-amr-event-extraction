@@ -1,0 +1,34 @@
+q0
+q0 -> TOP(q1 )
+q1 -> add-modification-00(q20 q10 q2 )
+q1 -> add-modification-00(q20 q2 q10 )
+q1 -> add-modification-00(q10 q20 q2 )
+q1 -> add-modification-00(q10 q2 q20 )
+q1 -> add-modification-00(q2 q20 q10 )
+q1 -> add-modification-00(q2 q10 q20 )
+q20 -> r_manner(q21 )
+q10 -> r_ARG1(q11 )
+q2 -> r_location(q3 )
+q21 -> phosphorylate-01
+q11 -> enzyme(q18 q15 q12 )
+q11 -> enzyme(q18 q12 q15 )
+q11 -> enzyme(q15 q18 q12 )
+q11 -> enzyme(q15 q12 q18 )
+q11 -> enzyme(q12 q18 q15 )
+q11 -> enzyme(q12 q15 q18 )
+q3 -> cell-line(q7 q4 )
+q3 -> cell-line(q4 q7 )
+q18 -> r_ARG2-of(q19 )
+q15 -> r_name(q16 )
+q12 -> r_xref(q13 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q19 -> mutate-01
+q16 -> name(q17 )
+q13 -> xref(q14 )
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q17 -> r_op1_HRAS_
+q14 -> r_value_UNIPROT_RASH_HUMAN_
+q9 -> r_value_COS7_CVCL_0224_
+q6 -> r_op1_COS7_

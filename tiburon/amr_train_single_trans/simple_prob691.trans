@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_S6EWF0_HUMAN_ -> smr-empty #1.0
+qr.TOP(confirm-01(x0: r_location(and(x1: r_op2(enzyme(x2: r_xref(xref(x3: ) ) ) ) ) ) ) ) -> TOP(qc.x3 ) #1.0

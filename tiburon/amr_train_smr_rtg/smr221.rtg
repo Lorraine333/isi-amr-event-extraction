@@ -1,0 +1,45 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q12 q10 q2 )
+q1 -> increase-01(q12 q2 q10 )
+q1 -> increase-01(q10 q12 q2 )
+q1 -> increase-01(q10 q2 q12 )
+q1 -> increase-01(q2 q12 q10 )
+q1 -> increase-01(q2 q10 q12 )
+q12 -> r_ARG1(q13 )
+q10 -> r_location(q11 )
+q2 -> r_ARG0(q3 )
+q13 -> add-modification-00(q18 q16 q14 )
+q13 -> add-modification-00(q18 q14 q16 )
+q13 -> add-modification-00(q16 q18 q14 )
+q13 -> add-modification-00(q16 q14 q18 )
+q13 -> add-modification-00(q14 q18 q16 )
+q13 -> add-modification-00(q14 q16 q18 )
+q11 -> cell
+q3 -> molecular-physical-entity(q7 q4 )
+q3 -> molecular-physical-entity(q4 q7 )
+q18 -> r_ARG1(q19 )
+q16 -> r_manner(q17 )
+q14 -> r_ARG0(q15 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q19 -> protein-segment(q28 q20 )
+q19 -> protein-segment(q20 q28 )
+q17 -> phosphorylate-01
+q15 -> protein
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q28 -> r_name(q29 )
+q20 -> r_part-of(q21 )
+q9 -> r_value_CHEBI_50114_
+q6 -> r_op1_E2_
+q29 -> name(q30 )
+q21 -> protein(q25 q22 )
+q21 -> protein(q22 q25 )
+q30 -> r_UNK
+q25 -> r_name(q26 )
+q22 -> r_xref(q23 )
+q26 -> name(q27 )
+q23 -> xref(q24 )
+q27 -> r_op1_SRC-3_
+q24 -> r_value_UNIPROT_NCOA3_HUMAN_

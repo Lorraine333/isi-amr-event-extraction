@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / enzyme :part-of(x2 / macro-molecular-complex :name(x3 / name :op1 "PI"3-Kinase" ) )  :name(x4 / name :op1 "p110β" )  :xref(x5 / xref :value "UNIPROT"PK3CB"HUMAN" ) )  :ARG2(x6 / protein-family :name(x7 / name :op1 "RAS" ) ) )

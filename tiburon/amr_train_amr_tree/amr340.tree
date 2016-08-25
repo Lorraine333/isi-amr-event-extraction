@@ -1,0 +1,1 @@
+TOP(show-01(r_ARG1(and(r_op1(amino-acid(r_mod(amino-acid(r_mod_362_ r_name(name(r_op1_lysine_)))))) r_op2(amino-acid(r_mod_376_ r_name(name(r_op1_valine_)))) r_op2(enzyme(r_name(name(r_op1_L539_)) r_xref(xref(r_value_UNIPROT_RM53_HUMAN_))))))))

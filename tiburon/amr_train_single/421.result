@@ -1,0 +1,21 @@
+q28
+q28 -> TOP(q29) # 1.000000
+q49 -> value(q54) # 1.000000
+q59 -> r_op1_UNIPROT_catC_HUMAN_ # 1.000000
+q50 -> r_value_T421M_ # 1.000000
+q37 -> r_ARG2-of(q46) # 1.000000
+q46 -> mutate-01(q50) # 1.000000
+q38 -> r_xref(q49) # 1.000000
+q52 -> r_op1_Sorafenib_ # 1.000000
+q35 -> protein(q36 q37 q38) # 1.000000
+q57 -> name(q59) # 1.000000
+q54 -> r_name(q57) # 1.000000
+q34 -> molecular-physical-entity(q45) # 1.000000
+q45 -> r_name(q47) # 1.000000
+q48 -> name(q55) # 1.000000
+q30 -> r_ARG0(q34) # 1.000000
+q31 -> r_ARG1(q35) # 1.000000
+q36 -> r_name(q48) # 1.000000
+q29 -> decrease-01(q30 q31) # 1.000000
+q55 -> r_op1_catC_ # 1.000000
+q47 -> name(q52) # 1.000000

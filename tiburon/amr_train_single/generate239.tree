@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG1(add-modification-00(r_ARG0(protein) r_ARG1(protein(r_name(name(r_op1_SRC-3_)) r_mod(endogenous) r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_)))) r_manner(phosphorylate-01) r_ARG1-of(increase-01(r_ARG0(molecular-physical-entity(r_ARG1(xref(r_value_CHEBI_50114_)) r_manner(xref(r_op1_E2_)))))))))) # 1.18004E-13

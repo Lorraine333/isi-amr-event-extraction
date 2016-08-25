@@ -1,0 +1,1 @@
+(x0 / protein-family :name(x1 / name :op1 "RAS" ) )

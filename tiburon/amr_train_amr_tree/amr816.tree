@@ -1,0 +1,1 @@
+TOP(analyze-01(r_ARG1(lung) r_ARG0(immunohistochemistry) r_ARG1(UNK) r_time(after(r_quant(temporal-quantity(r_quant_14_ r_unit(day))) r_op1(challenge-01(r_ARG1(enzyme(r_name(name(r_op1_bleomycin_)) r_xref(xref(r_value_UNIPROT_BLMH_HUMAN_))))))))))

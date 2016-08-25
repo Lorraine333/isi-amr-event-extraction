@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / molecular-physical-entity :name(x2 / name :op1 "SRC-3" )  :xref(x3 / xref :value "UNIPROT"NCOA3"HUMAN" ) )  :ARG1(x4 / add-modification-00 :manner(x5 / phosphorylate-01)  :ARG0(x6 / protein)  :ARG1(x7 / protein :name(x8 / name :op1 "SRC-3" )  :xref(x9 / xref :value "UNIPROT"NCOA3"HUMAN" ) ) )  :location(x10 / macro-molecular-complex) )

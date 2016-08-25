@@ -1,0 +1,16 @@
+qr
+qr.r_ARG1(or(x0: r_op1(x1: ) x2: ) ) -> r_ARG1(qc.x1 )
+qr.r_value_UNIPROT_RAF1_HUMAN_ -> r_UNK
+qr.r_op1_293H_ -> r_op1_293H_
+qc.xref(x0: ) -> xref(qr.x0 )
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x0 qr.x1 qr.x2 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.overexpress-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 )
+qc.wild-type -> wild-type
+qr.r_location(x0: ) -> r_location(qc.x0 )
+qc.cell-line(x0: ) -> cell-line(r_xref(xref(r_UNK ) ) qr.x0 )
+qr.r_op1_CRAF_ -> r_op1_CRAF_
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qr.r_mod(x0: ) -> r_mod(qc.x0 )

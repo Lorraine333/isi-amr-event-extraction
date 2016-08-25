@@ -1,0 +1,10 @@
+q0
+q0 -> TOP(q1) # 1.000000
+q5 -> r_xref(q7) # 1.000000
+q7 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q1 -> translocate-01(q2) # 1.000000
+q3 -> protein(q4 q5) # 1.000000
+q6 -> name(q8) # 1.000000
+q4 -> r_name(q6) # 1.000000
+q2 -> r_ARG2(q3) # 1.000000
+q8 -> r_op1_PDGF_ # 1.000000

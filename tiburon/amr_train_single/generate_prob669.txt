@@ -1,0 +1,1 @@
+(x0 / cell :ARG1(x1 / increase-01 :ARG1(x2 / pathway)  :ARG0(x3 / molecular-physical-entity) ) )

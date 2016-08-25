@@ -1,0 +1,16 @@
+qr
+qr.r_xref(x0: ) -> r_xref(value(r_name(qc.x0 ) ) ) #0.0214285714286
+qc.enzyme(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.0678466076696
+qr.TOP(show-01(r_ARG1(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qr.r_value_UNIPROT_RM53_HUMAN_ -> r_op1_PUBCHEM_5757_ #1.0
+qc.name(x0: ) -> name(r_op1_L539_ ) #0.00163132137031
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.and(x0: r_op2(amino-acid(x1: x2: ) ) x3: ) -> increase-01(r_ARG1(bind-01(r_ARG1(protein ) r_ARG0(amino-acid(qr.x0 qr.x2 ) ) ) ) qr.x3 ) #1.0
+qc.amino-acid(x0: ) -> protein-segment(qr.x0 ) #1.0
+qr.r_op1(x0: ) -> r_part-of(qc.x0 ) #0.121693121693
+qr.r_mod(x0: ) -> r_part-of(qc.x0 ) #0.0569105691057
+qc.amino-acid(x0: x1: ) -> protein-family(qr.x1 ) #0.6
+qc.name(x0: ) -> name(r_op1_E2_ ) #0.0228384991843
+qc.xref(x0: ) -> name(qr.x0 ) #0.0147392290249

@@ -1,0 +1,16 @@
+qr
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.TOP(transfect-01(r_purpose(determine-01(r_ARG1(x0: ) ) ) x1: x2: x3: x4: ) ) -> TOP(qc.x0 )
+qc.upstream -> hypothesis
+qr.r_op1_p110β_ -> r_op1_p110β_
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RAC1_HUMAN_ )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.activate-01(x0: r_ARG1(and(x1: x2: ) ) x3: x4: x5: ) -> increase-01(qr.x1 qr.x3 qr.x4 )
+qr.r_op1_RAC_ -> r_op1_RAC_
+qr.r_mod(x0: ) -> r_mode(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

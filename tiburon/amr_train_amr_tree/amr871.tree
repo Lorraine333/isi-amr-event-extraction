@@ -1,0 +1,1 @@
+TOP(provide-01(r_ARG0(UNK) r_ARG0(clone-01(r_ARG1(enzyme(r_name(name(r_op1_BAC_)) r_xref(xref(r_value_UNIPROT_BACE1_HUMAN_)))))) r_ARG1(use-01(r_ARG1(exon(r_mod(downstream(r_mod(UNK) r_name(name(r_UNK)))) r_mod_6_)) r_ARG2(and(r_op1(red-02) r_op2(UNK))) r_ARG1-of(genebridges)))))

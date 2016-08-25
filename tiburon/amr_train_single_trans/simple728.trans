@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_SEM4F_HUMAN_ -> smr-empty
+qr.TOP(activity-06(x0: x1: r_ARG2(protein(x2: r_xref(xref(x3: ) ) ) ) ) ) -> TOP(qc.x3 )

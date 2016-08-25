@@ -1,0 +1,15 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.TOP(cotransfect-01(x0: r_ARG2(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qc.enzyme(r_ARG1-of(tag-01(x0: ) ) x1: x2: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 r_ARG1(protein(qr.x1 qr.x2 ) ) ) #1.0
+qc.enzyme(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.0678466076696
+qc.protein(x0: ) -> protein #0.260355029586
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_5757_ ) #0.0283446712018
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.and(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.117647058824
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.name(x0: ) -> name(r_op1_E2_ ) #0.0228384991843
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

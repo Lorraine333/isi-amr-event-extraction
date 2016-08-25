@@ -1,0 +1,35 @@
+qr
+qr.r_ARG2(x0: ) -> r_part(qc.x0 ) #0.0289256198347
+qr.r_mod_3_ -> r_UNK #0.2
+qr.r_quant(x0: ) -> r_part(qc.x0 ) #0.2
+qc.gene(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.285714285714
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.211764705882
+qr.micromolar -> r_op1_RAC1_ #0.5
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.ratio-of(r_quant(close-10(x0: ) ) x1: ) -> macro-molecular-complex(qr.x0 qr.x1 ) #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op1(x0: ) -> r_op1(qc.x0 ) #0.100529100529
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.concentration-quantity(x0: x1: ) -> protein(r_xref(xref(qr.x0 ) ) r_name(qc.x1 ) ) #1.0
+qr.r_quant_1_42_ -> r_value_UNIPROT_ #1.0
+qc.r_unit(x0: ) -> name(qr.x0 ) #0.5
+qc.contrast-01(x0: r_ARG2(affinity(r_ARG1-of(measure-01(x1: ) ) ) ) x2: ) -> bind-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_mod_3f_ -> r_UNK #1.0
+qr.UNK -> r_op1_GTPγS_ #0.0833333333333
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qc.describe-01(x0: ) -> describe-01(qr.x0 ) #0.733333333333
+qr.micromolar -> r_op1_p110β_ #0.5
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qr.r_quant_3_1_ -> r_value_UNIPROT_ #1.0
+qc.and(x0: x1: ) -> and(qr.x0 qr.x1 ) #0.352941176471
+qc.figure(x0: ) -> figure(r_name(name(qr.x0 ) ) ) #0.0384615384615
+qc.r_op2(x0: ) -> name(qr.x0 ) #0.333333333333
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_op1_1_ -> r_UNK #0.333333333333
+qr.r_op2(x0: ) -> r_op2(qc.x0 ) #0.0752212389381
+qc.small-molecule(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 ) #0.00990099009901
+qr.r_op1(x0: ) -> r_part(qc.x0 ) #0.0582010582011
+qr.r_op1_CDC42⋅GTPγS_ -> r_op1_Δp85_ #1.0
+qc.and(x0: x1: ) -> molecular-physical-entity(r_xref(xref(qr.x0 ) ) r_name(qc.x1 ) ) #0.0294117647059

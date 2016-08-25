@@ -1,0 +1,1 @@
+(x0 / macro-molecular-complex :ARG1(x1 / pathway :name(x2 / name :op1 "MEK"ERK" ) ) )

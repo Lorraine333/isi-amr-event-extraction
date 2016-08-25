@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / molecular-physical-entity :name(x2 / name :op1 "Sorafenib" ) )  :ARG1(x3 / protein :name(x4 / name :op1 "catC" )  :ARG2-of(x5 / mutate-01 :value "T421M" )  :xref(x6 / value :name(x7 / name :op1 "UNIPROT"catC"HUMAN" ) ) ) )

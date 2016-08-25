@@ -1,0 +1,3 @@
+qr
+qr.TOP(and(x0: r_op2(examine-01(r_ARG1(phosphorylate-01(r_ARG1(protein(r_name(name(x1: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x1 )
+qc.r_op1_SRC-3_ -> smr-empty

@@ -1,0 +1,19 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q10 )
+q2 -> r_ARG1(q3 )
+q10 -> r_ARG1(q11 )
+q3 -> add-modification-00(q4 q6 q8 )
+q11 -> amino-acid(q12 q15 q17 )
+q4 -> r_ARG0(q5 )
+q6 -> r_ARG0(q7 )
+q8 -> r_ARG0-of(q9 )
+q12 -> r_name(q13 )
+q15 -> r_manner(q16 )
+q17 -> r_mod_740_
+q5 -> protein
+q7 -> phosphorylate-01
+q9 -> smr-empty
+q13 -> name(q14 )
+q16 -> smr-empty
+q14 -> r_op1_MKP3_

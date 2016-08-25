@@ -1,0 +1,45 @@
+q59
+q59 -> TOP(q60) # 1.000000
+q136 -> r_value_CHEBI_50114_ # 1.000000
+q60 -> increase-01(q61 q62 q63 q64) # 1.000000
+q129 -> r_op1_E2_ # 1.000000
+q103 -> r_ARG1(q126) # 1.000000
+q132 -> r_xref(q137) # 1.000000
+q77 -> cell-line(q82 q83) # 1.000000
+q131 -> r_name(q138) # 1.000000
+q127 -> name(q129) # 1.000000
+q83 -> r_name(q94) # 1.000000
+q95 -> xref(q121) # 1.000000
+q99 -> xref(q101) # 1.000000
+q125 -> phosphorylate-01 # 1.000000
+q87 -> r_ARG0(q96) # 1.000000
+q113 -> r_name(q127) # 1.000000
+q90 -> r_name(q98) # 1.000000
+q91 -> r_xref(q95) # 1.000000
+q104 -> r_ARG0(q124) # 1.000000
+q96 -> molecular-physical-entity(q113 q114) # 1.000000
+q64 -> r_ARG1(q78) # 1.000000
+q63 -> r_location(q77) # 1.000000
+q61 -> r_mode(q80) # 1.000000
+q137 -> xref(q139) # 1.000000
+q138 -> name(q143) # 1.000000
+q62 -> r_ARG0(q81) # 1.000000
+q100 -> add-modification-00(q102 q103 q104) # 1.000000
+q139 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q80 -> hypothesis # 1.000000
+q86 -> r_ARG1(q100) # 1.000000
+q82 -> r_xref(q99) # 1.000000
+q102 -> r_manner(q125) # 1.000000
+q121 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q124 -> protein # 1.000000
+q114 -> r_xref(q123) # 1.000000
+q123 -> xref(q136) # 1.000000
+q126 -> protein(q131 q132) # 1.000000
+q101 -> r_value_RRID_CVCL_0063_ # 1.000000
+q118 -> r_op1_HEK293T_ # 1.000000
+q111 -> r_op1_ER_ # 1.000000
+q78 -> increase-01(q86 q87) # 1.000000
+q98 -> name(q111) # 1.000000
+q143 -> r_op1_SRC-3_ # 1.000000
+q81 -> protein(q90 q91) # 1.000000
+q94 -> name(q118) # 1.000000

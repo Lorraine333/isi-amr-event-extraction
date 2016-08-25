@@ -1,0 +1,17 @@
+qr
+qc.r_ARG0(x0: ) -> add-modification-00(qr.x0 ) #0.571428571429
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_CDC42_ -> r_op1_CDC42_ #0.983606557377
+qc.depend-01(r_ARG1(stimulate-01(x0: x1: r_ARG1(and(x2: r_op2(protein(x3: x4: ) ) ) ) ) ) x5: x6: ) -> increase-01(qr.x0 r_ARG0(protein(qr.x3 qr.x4 qr.x6 ) ) ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_CDC42_HUMAN_ -> r_value_UNIPROT_CDC42_HUMAN_ #1.0
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qc.r_mod_h_ -> phosphorylate-01 #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.figure(x0: ) -> r_manner(qc.x0 ) #0.772727272727
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qr.r_ARG1-of(describe-01(x0: ) ) -> r_ARG1-of(qc.x0 ) #1.0

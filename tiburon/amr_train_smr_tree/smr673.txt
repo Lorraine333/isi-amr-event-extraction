@@ -1,0 +1,1 @@
+(x0 / decrease-01 :manner(x1 / phosphorylate-01)  :ARG0(x2 / small-molecule :name(x3 / name :op1 "EHT1864" ) )  :ARG1(x4 / add-modification-00 :ARG1(x5 / UNK)  :ARG0(x6 / small-molecule :name(x7 / name :op1 "S1P" )  :xref(x8 / xref :value "CHEBI"37550" ) ) ) )

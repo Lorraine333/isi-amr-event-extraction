@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / macro-molecular-complex :part(x2 / protein :xref(x3 / xref :value "UNIPROT" )  :name(x4 / name :op1 "RAC1" ) )  :part(x5 / protein :name(x6 / name :op1 "CDC42" )  :xref(x7 / xref :value "UNIPROT" ) ) )  :ARG1(x8 / protein :name(x9 / name :op1 "p110α" ) )  :polarity"-  :ARG1-of(x10 / describe-01 :ARG0(x11 / figure :UNK ) ) )

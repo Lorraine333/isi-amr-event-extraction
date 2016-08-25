@@ -1,0 +1,1 @@
+TOP(add-modification-00(r_ARG0(protein(r_ARG1-of(mutate-01) r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_)) r_name(name(r_op1_SRC-3_)))) r_ARG1(cell-line(r_name(name(r_op1_HEK_)) r_xref(xref(r_value_HEK_CVCL_0063_))))))

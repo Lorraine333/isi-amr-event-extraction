@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / increase-01 :ARG0(x2 / molecular-physical-entity)  :ARG1(x3 / complex-with-00 :ARG2(x4 / protein-family :name(x5 / name :op1 "RAF" ) )  :ARG1(x6 / protein) ) )  :ARG1(x7 / enzyme :ARG0-of(x8 / activity-06) ) )

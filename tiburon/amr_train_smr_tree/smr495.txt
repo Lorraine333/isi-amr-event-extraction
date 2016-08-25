@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG0(x2 / protein-segment :name(x3 / name :op1 "RBD" ) ) )  :ARG0(x4 / protein-segment :ARG1-of(x5 / mutate-01)  :name(x6 / name :op1 "RBD" ) ) )

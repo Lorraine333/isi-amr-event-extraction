@@ -1,0 +1,6 @@
+q0
+q0 -> TOP(q1 )
+q1 -> protein-segment(q2 )
+q2 -> r_name(q3 )
+q3 -> name(q4 )
+q4 -> r_op1_RBD_

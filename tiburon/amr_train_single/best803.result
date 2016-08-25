@@ -1,0 +1,21 @@
+q20
+q20 -> TOP(q21) # 1.000000
+q41 -> xref(q46) # 1.000000
+q42 -> wild-type # 1.000000
+q44 -> xref(q49) # 1.000000
+q49 -> r_value_Wt_MEF_CVCL_L690_ # 1.000000
+q26 -> protein(q28 q29) # 1.000000
+q27 -> cell-line(q32 q33 q34) # 1.000000
+q29 -> r_name(q45) # 1.000000
+q34 -> r_name(q43) # 1.000000
+q28 -> r_xref(q41) # 1.000000
+q47 -> r_op1_PDGF_ # 1.000000
+q23 -> r_ARG1(q27) # 1.000000
+q33 -> r_xref(q44) # 1.000000
+q22 -> r_ARG2(q26) # 1.000000
+q43 -> name(q48) # 1.000000
+q45 -> name(q47) # 1.000000
+q46 -> r_value_UNIPROT_PGFRB_HUMAN_ # 1.000000
+q21 -> translocate-01(q22 q23) # 1.000000
+q32 -> r_mod(q42) # 1.000000
+q48 -> r_op1_MEF_ # 1.000000

@@ -1,0 +1,1 @@
+(x0 / bind-01 :manner(x1 / wild-type)  :ARG1(x2 / amino-acid :name(x3 / name :value "I37D" )  :ARG1(x4 / muti-index-card :op1 "DIRAS1"  :value "UNIPROT"DIRA1"HUMAN" ) )  :ARG2(x5 / protein) )

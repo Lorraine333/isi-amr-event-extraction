@@ -1,0 +1,21 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q4 q19 )
+q2 -> r_ARG0(q3 )
+q4 -> r_ARG1(q5 )
+q19 -> r_polarity_-
+q3 -> protein
+q5 -> bind-01(q6 q11 )
+q6 -> r_ARG1(q7 )
+q11 -> r_ARG2(q12 )
+q7 -> enzyme(q8 )
+q12 -> protein(q13 q16 )
+q8 -> r_name(q9 )
+q13 -> r_name(q14 )
+q16 -> r_xref(q17 )
+q9 -> name(q10 )
+q14 -> name(q15 )
+q17 -> xref(q18 )
+q10 -> r_op1_DIRAS_
+q15 -> r_op1_p110α_
+q18 -> r_value_UNIPROT_PK3CA_HUMAN_

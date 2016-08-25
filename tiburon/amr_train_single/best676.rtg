@@ -1,0 +1,17 @@
+q0
+q0 -> TOP(q1 )
+q1 -> decrease-01(q2 q7 q15 )
+q2 -> r_ARG0(q3 )
+q7 -> r_ARG1(q8 )
+q15 -> r_polarity_-
+q3 -> small-molecule(q4 )
+q8 -> small-molecule(q9 q12 )
+q4 -> r_name(q5 )
+q9 -> r_name(q10 )
+q12 -> r_xref(q13 )
+q5 -> name(q6 )
+q10 -> name(q11 )
+q13 -> xref(q14 )
+q6 -> r_op1_EHT1864_
+q11 -> r_op1_insulin_
+q14 -> r_value_CHEBI_5931_

@@ -1,0 +1,16 @@
+qr
+qc.show-01(x0: r_ARG1(and(r_op1(reduce-01(x1: ) ) x2: ) ) ) -> decrease-01(qr.x0 qr.x1 ) #1.0
+qr.xref(x0: ) -> r_ARG1-of(qc.x0 ) #0.0813953488372
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.TOP(and(r_op1(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qr.r_op1_PI3K_ -> r_op1_PI3K_ #1.0
+qr.r_ARG0(x0: ) -> r_location(qc.x0 ) #0.0225806451613
+qr.name(x0: ) -> r_ARG1-of(qc.x0 ) #0.0263157894737
+qc.mouse(x0: ) -> mouse #1.0
+qc.enzyme(x0: r_xref(x1: ) ) -> protein(qr.x0 qr.x1 ) #0.333333333333
+qr.r_ARG1(activity-06(r_ARG0(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.r_op1_RBD_ -> mutate-01 #0.333333333333
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_source(x0: ) -> r_part-of(qc.x0 ) #0.666666666667
+qc.cell(x0: r_name(x1: ) ) -> cell(qr.x0 qr.x1 ) #1.0
+qc.r_value_UNIPROT_ELAF_HUMAN_ -> add-modification-00 #0.25

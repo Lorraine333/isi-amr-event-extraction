@@ -1,0 +1,1 @@
+TOP(confirm-01(r_ARG0(protein(r_name(name(r_op1_e-cadherin_)) r_xref(xref(r_value_UNIPROT_CADH1_HUMAN_)))) r_ARG1(role(r_ARG1-of(key-01) r_poss(residue(r_mod(this))) r_topic(bind-01(r_ARG1(enzyme(r_name(name(r_op1_GTPase_)) r_xref(xref(r_value_UNIPROT_RAN_HUMAN_)))) r_ARG2(protein(r_name(name(r_op1_p110β__)) r_xref(xref(r_value_UNIPROT_EXOS6_HUMAN_))))))))))

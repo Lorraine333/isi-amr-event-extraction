@@ -1,0 +1,11 @@
+Tree info for input tree amr380.tree:
+	35 nodes
+	7 yield length
+Transducer info for input tree transducer simple380.trans:
+	2 states
+	21 rules
+RTG info for forward application of tree:
+	25 states
+	29 rules
+	9 unique terminal symbols
+	16 derivations

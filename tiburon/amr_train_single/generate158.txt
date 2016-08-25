@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein :name(x2 / name :op1 "CDC42" )  :xref(x3 / xref :value "UNIPROT"CDC42"HUMAN" ) )  :ARG1(x4 / enzyme :name(x5 / name :op1 "p110b" )  :xref(x6 / xref :value "UNIPROT"PK3CB"HUMAN" ) ) )

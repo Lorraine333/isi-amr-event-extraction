@@ -1,0 +1,16 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_value_PUBCHEM_5757_ -> r_value_PUBCHEM_5757_ #0.631578947368
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qc.name(x0: ) -> name(r_op1_estradiol_ ) #0.00489396411093
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.phosphorylate-01(x0: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 r_ARG0(protein ) ) #0.272727272727
+qc.induce-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.75
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.TOP(describe-01(x0: r_ARG1(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

@@ -1,0 +1,30 @@
+qr
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.transfect-01(r_purpose(determine-01(r_ARG1(depend-01(x0: r_ARG2(phosphorylate-01(x1: r_ARG1(protein(r_name(x2: ) ) ) ) ) r_ARG1(present-02(x3: ) ) ) ) ) ) x4: x5: x6: r_ARG2(or(x7: ) ) ) -> increase-01(qr.x2 qr.x3 qr.x4 qr.x7 ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.name(x0: ) -> name(r_op1_ER_ ) #0.0163132137031
+qc.r_op1_SRC-3_ -> hypothesis #0.181818181818
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qc.UNK -> phosphorylate-01 #0.138888888889
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.name(x0: ) -> r_mode(qc.x0 ) #0.0921052631579
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: x1: ) -> protein #0.0672268907563
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.r_ARG0(x0: ) -> r_location(qc.x0 ) #0.0225806451613
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_op1_HEK293T_ -> r_op1_HEK293T_ #0.5
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qc.or(x0: x1: x2: ) -> add-modification-00(qr.x0 qr.x1 qr.x2 ) #0.5
+qc.treat-04(x0: x1: x2: ) -> increase-01(qr.x1 qr.x2 ) #1.0
+qc.cell-line(x0: ) -> cell-line(r_xref(xref(r_value_RRID_CVCL_0063_ ) ) qr.x0 ) #0.0769230769231

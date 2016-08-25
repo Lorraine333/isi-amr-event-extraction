@@ -1,0 +1,1 @@
+TOP(decrease-01(r_location(cell(r_part-of(mouse) r_ARG1-of(mutate-01))) r_ARG1(protein(r_name(name(r_op1_PI3K_)) r_ARG1-of(add-modification-00)))))

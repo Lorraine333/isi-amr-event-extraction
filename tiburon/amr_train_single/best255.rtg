@@ -1,0 +1,30 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q21 )
+q2 -> r_ARG1(q3 )
+q21 -> r_ARG1(q22 )
+q3 -> increase-01(q4 q12 q20 )
+q22 -> protein(q23 q26 )
+q4 -> r_ARG1(q5 )
+q12 -> r_ARG0(q13 )
+q20 -> r_polarity_-
+q23 -> r_name(q24 )
+q26 -> r_xref(q27 )
+q5 -> add-modification-00(q6 q8 q10 )
+q13 -> small-molecule(q14 q17 )
+q24 -> name(q25 )
+q27 -> xref(q28 )
+q6 -> r_manner(q7 )
+q8 -> r_ARG1(q9 )
+q10 -> r_ARG1(q11 )
+q14 -> r_xref(q15 )
+q17 -> r_name(q18 )
+q25 -> r_op1_PR-B_
+q28 -> r_value_UNIPROT_PRGR_HUMAN_
+q7 -> phosphorylate-01
+q9 -> protein
+q11 -> protein
+q15 -> xref(q16 )
+q18 -> name(q19 )
+q16 -> r_value_PUBCHEM_5994_
+q19 -> r_op1_PR-B_

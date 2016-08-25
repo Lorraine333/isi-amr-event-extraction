@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / enzyme :name(x2 / name :op1 "RAC" ) )  :ARG2(x3 / protein :name(x4 / name :op1 "CDC42" ) ) )

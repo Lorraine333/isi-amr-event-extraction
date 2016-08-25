@@ -1,0 +1,11 @@
+Tree info for input tree amr935.tree:
+	37 nodes
+	10 yield length
+Transducer info for input tree transducer simple935.trans:
+	2 states
+	26 rules
+RTG info for forward application of tree:
+	31 states
+	36 rules
+	11 unique terminal symbols
+	32 derivations

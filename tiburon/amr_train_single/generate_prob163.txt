@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG1(x2 / enzyme :manner(x3 / phosphorylate-01)  :name(x4 / name :op1 "Ras" )  :manner(x5 / phosphorylate-01) )  :ARG1(x6 / enzyme :name(x7 / name :op1 "MKP3" )  :xref(x8 / xref :value "UNIPROT"DUS6"HUMAN" ) ) )  :location(x9 / pathway :name(x10 / name :op1 "SRC-3" ) ) )

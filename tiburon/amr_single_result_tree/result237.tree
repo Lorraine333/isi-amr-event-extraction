@@ -1,0 +1,11 @@
+Tree info for input tree amr237.tree:
+	50 nodes
+	10 yield length
+Transducer info for input tree transducer simple237.trans:
+	2 states
+	2 rules
+RTG info for forward application of tree:
+	2 states
+	2 rules
+	1 unique terminal symbols
+	1 derivations

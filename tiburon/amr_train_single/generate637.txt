@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / small-molecule :name(x2 / name :op1 "LPA" )  :xref(x3 / xref :value "CHEBI"74330" ) )  :ARG1(x4 / add-modification-00 :manner(x5 / phosphorylate-01)  :ARG1(x6 / enzyme :name(x7 / name :op1 "AKT" )  :xref(x8 / xref :value "UNIPROT"AKT1"HUMAN" ) )  :ARG0(x9 / protein) )  :location(x10 / cell :mod (x11 / wild-type) ) )

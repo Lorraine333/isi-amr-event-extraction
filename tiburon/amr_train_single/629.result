@@ -1,0 +1,37 @@
+q59
+q59 -> TOP(q60) # 1.000000
+q61 -> r_location(q79) # 1.000000
+q60 -> increase-01(q61 q62 q63 q64) # 1.000000
+q120 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q63 -> r_ARG0(q78) # 1.000000
+q90 -> r_xref(q109) # 1.000000
+q117 -> r_op1_MEF_ # 1.000000
+q108 -> protein # 1.000000
+q95 -> r_ARG0(q108) # 1.000000
+q77 -> add-modification-00(q93 q94 q95) # 1.000000
+q106 -> xref(q120) # 1.000000
+q62 -> r_ARG1(q77) # 1.000000
+q107 -> mutate-01(q110) # 1.000000
+q112 -> r_value_RRID_CVCL_M515_ # 1.000000
+q79 -> cell-line(q89 q90) # 1.000000
+q103 -> name(q117) # 1.000000
+q105 -> enzyme(q113 q114) # 1.000000
+q119 -> r_op1_CDC42_ # 1.000000
+q121 -> name(q126) # 1.000000
+q82 -> r_name(q102) # 1.000000
+q89 -> r_name(q103) # 1.000000
+q104 -> phosphorylate-01 # 1.000000
+q102 -> name(q119) # 1.000000
+q80 -> r_xref(q106) # 1.000000
+q93 -> r_manner(q104) # 1.000000
+q114 -> r_xref(q122) # 1.000000
+q109 -> xref(q112) # 1.000000
+q126 -> r_op1_AKT_ # 1.000000
+q123 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q113 -> r_name(q121) # 1.000000
+q78 -> protein(q80 q81 q82) # 1.000000
+q110 -> r_value_V12_ # 1.000000
+q64 -> r_polarity_- # 1.000000
+q81 -> r_ARG1-of(q107) # 1.000000
+q122 -> xref(q123) # 1.000000
+q94 -> r_ARG1(q105) # 1.000000

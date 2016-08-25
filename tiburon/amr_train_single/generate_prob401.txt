@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :xref(x2 / xref :value "UNIPROT"ESR1"HUMAN" )  :name(x3 / name :value "CC" )  :ARG1-of(x4 / mutate-01) )  :ARG1(x5 / protein :manner(x6 / phosphorylate-01) ) )

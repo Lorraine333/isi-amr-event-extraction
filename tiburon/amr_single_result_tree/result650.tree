@@ -1,0 +1,11 @@
+Tree info for input tree amr650.tree:
+	13 nodes
+	2 yield length
+Transducer info for input tree transducer simple650.trans:
+	2 states
+	11 rules
+RTG info for forward application of tree:
+	11 states
+	11 rules
+	4 unique terminal symbols
+	1 derivations

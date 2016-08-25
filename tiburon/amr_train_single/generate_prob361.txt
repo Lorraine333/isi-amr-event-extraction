@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :ARG0(x2 / protein)  :manner(x3 / wild-type)  :ARG1(x4 / protein :name(x5 / name :op1 "SRC" )  :manner(x6 / protein)  :ARG1(x7 / protein :manner(x8 / smr-empty) ) ) )  :ARG1(x9 / small-molecule :name(x10 / name :op1 "E2" )  :xref(x11 / xref :value "PUBCHEM"5757" ) )  :polarity"- )

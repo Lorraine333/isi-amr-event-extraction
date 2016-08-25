@@ -1,0 +1,23 @@
+qr
+qr.r_op1_EGF_ -> r_op1_EGF_ #1.0
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.enzyme(x0: x1: ) -> pathway(qr.x0 ) #0.00589970501475
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_manner(x0: ) -> r_ARG1(qc.x0 ) #0.0714285714286
+qr.r_domain(x0: ) -> r_ARG0(qc.x0 ) #1.0
+qc.cell -> protein #0.272727272727
+qr.r_op1_Gab1_ -> r_op1_Gab1_ #1.0
+qr.r_op1_Akt_ -> r_UNK #0.2
+qc.mediate-01(x0: x1: r_ARG1(stimulate-01(x2: ) ) x3: ) -> increase-01(qr.x0 r_ARG1(increase-01(qr.x2 qr.x3 ) ) ) #1.0
+qc.pathway(r_ARG1-of(activate-01(r_ARG0(small-molecule(x0: r_xref(x1: ) ) ) x2: ) ) r_mod(survive-01(x3: ) ) ) -> add-modification-00(qr.x1 qr.x2 qr.x3 ) #1.0
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.protein(x0: x1: x2: ) -> protein(qr.x1 qr.x2 ) #0.0689655172414
+qc.r_value_PUBCHEM_9884685_ -> phosphorylate-01 #1.0
+qr.r_ARG1(slash(x0: r_op2(x1: ) ) ) -> r_ARG1(qc.x1 ) #1.0
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_value_UNIPROT_EGF_HUMAN_ -> r_value_UNIPROT_EGF_HUMAN_ #0.96875

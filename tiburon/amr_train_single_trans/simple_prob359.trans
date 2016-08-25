@@ -1,0 +1,14 @@
+qr
+qc.name(x0: ) -> name(r_op1_UNIPROT_SRC-3_HUMAN_ ) #0.00489396411093
+qr.r_op2(x0: ) -> r_xref(qc.x0 ) #0.0132743362832
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.bind-01(x0: r_ARG1(protein(x1: ) ) r_ARG2(and(x2: x3: ) ) ) -> protein(qr.x1 qr.x3 ) #1.0
+qc.protein-segment(x0: ) -> protein-segment(r_part-of(protein-family(qr.x0 ) ) ) #0.25
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qc.enzyme(x0: x1: ) -> value(qr.x0 ) #0.00294985250737
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(and(x0: r_op2(x1: ) ) ) -> r_ARG1(qc.x1 ) #1.0
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.and(r_op1(mutate-01(x0: x1: x2: ) ) r_op2(abolish-01(x3: x4: ) ) ) -> bind-01(qr.x0 qr.x4 ) #1.0

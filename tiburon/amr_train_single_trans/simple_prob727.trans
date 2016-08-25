@@ -1,0 +1,3 @@
+qr
+qc.dm -> smr-empty #0.777777777778
+qr.TOP(show-01(x0: r_ARG1(affect-01(x1: r_ARG1(and(x2: r_op2(enzyme(x3: r_ARG1-of(x4: ) ) ) ) ) ) ) ) ) -> TOP(qc.x4 ) #1.0

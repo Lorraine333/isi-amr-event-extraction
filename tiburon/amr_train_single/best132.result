@@ -1,0 +1,24 @@
+q23
+q23 -> TOP(q24) # 1.000000
+q25 -> r_location(q34) # 1.000000
+q47 -> r_ARG0(q54) # 1.000000
+q36 -> decrease-01(q46 q47) # 1.000000
+q54 -> molecular-physical-entity # 1.000000
+q39 -> r_ARG0-of(q53) # 1.000000
+q58 -> name(q59) # 1.000000
+q34 -> cell # 1.000000
+q38 -> r_name(q52) # 1.000000
+q37 -> r_xref(q51) # 1.000000
+q35 -> enzyme(q37 q38 q39) # 1.000000
+q57 -> r_op1_ERK_ # 1.000000
+q51 -> xref(q55) # 1.000000
+q59 -> r_op1_RAF_ # 1.000000
+q55 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q26 -> r_ARG0(q36) # 1.000000
+q50 -> protein-family(q56) # 1.000000
+q52 -> name(q57) # 1.000000
+q27 -> r_ARG1(q35) # 1.000000
+q46 -> r_ARG1(q50) # 1.000000
+q56 -> r_name(q58) # 1.000000
+q53 -> activity-06 # 1.000000
+q24 -> increase-01(q25 q26 q27) # 1.000000

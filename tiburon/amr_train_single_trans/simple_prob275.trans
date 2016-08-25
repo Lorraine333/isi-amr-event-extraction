@@ -1,0 +1,23 @@
+qr
+qc.r_polarity_-_ -> phosphorylate-01 #0.647058823529
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_449459_ ) #0.0102040816327
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qc.small-molecule(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.148514851485
+qc.name(x0: ) -> name(r_op1_serine_ ) #0.0163132137031
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG1(x0: ) -> r_part-of(qc.x0 ) #0.0676691729323
+qc.protein(x0: r_location(and(x1: r_op2(enzyme(x2: ) ) ) ) x3: ) -> small-molecule(qr.x2 qr.x3 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qc.notice-01(r_ARG0(and(x0: x1: r_op3(peptide(r_ARG1-of(describe-01(x2: ) ) r_ARG1-of(resemble-01(x3: r_ARG2(enzyme(x4: ) ) ) ) ) ) ) ) x5: r_ARG1(induce-01(r_ARG2(phosphorylate-01(x6: r_location(x7: ) ) ) ) ) ) -> increase-01(qr.x0 r_ARG1(increase-01(qr.x1 r_ARG1(add-modification-00(qr.x2 r_manner(qc.x3 ) r_ARG1(amino-acid(qr.x4 qr.x5 qr.x6 ) ) ) ) qr.x7 ) ) ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ESR1_HUMAN_ ) #0.0170068027211
+qr.site -> r_polarity_- #1.0
+qr.r_polarity_-_ -> r_mod_867_ #0.133333333333
+qr.r_op1_4HT_ -> r_op1_4HT_ #0.333333333333
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.figure -> protein #0.846153846154

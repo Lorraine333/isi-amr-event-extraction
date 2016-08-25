@@ -1,0 +1,16 @@
+qr
+qc.compound(r_ARG0-of(show-01(x0: ) ) r_ARG2-of(except-01(x1: ) ) ) -> decrease-01(qr.x0 qr.x1 ) #1.0
+qc.r_mod_3_ -> molecular-physical-entity #0.285714285714
+qc.enzyme(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_MK01_HUMAN_ ) ) qr.x0 ) #0.184615384615
+qc.name(x0: ) -> name(r_op1_ERK_ ) #0.00734094616639
+qr.r_ARG0(figure(x0: x1: ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.cell-line(x0: x1: ) -> protein-family(qr.x0 ) #0.25
+qc.show-01(x0: x1: x2: r_ARG0-of(structure(x3: ) ) x4: ) -> increase-01(qr.x2 qr.x3 qr.x4 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_consist-of(x0: ) -> r_ARG0(qc.x0 ) #0.142857142857
+qr.r_ARG1-of(x0: ) -> r_location(qc.x0 ) #0.0588235294118
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.dns -> cell #0.5
+qr.r_ARG1(and(r_op1(x0: ) x1: ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_RAF_ ) #0.00163132137031

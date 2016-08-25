@@ -1,0 +1,21 @@
+q20
+q20 -> TOP(q21) # 1.000000
+q34 -> r_ARG0(q44) # 1.000000
+q38 -> r_ARG0-of(q45) # 1.000000
+q24 -> r_location(q32) # 1.000000
+q44 -> molecular-physical-entity # 1.000000
+q47 -> r_op1_MEK/ERK_ # 1.000000
+q39 -> r_name(q43) # 1.000000
+q42 -> protein-family(q46) # 1.000000
+q23 -> r_ARG1(q33) # 1.000000
+q43 -> name(q47) # 1.000000
+q48 -> name(q49) # 1.000000
+q49 -> r_op1_RAF_ # 1.000000
+q35 -> r_ARG1(q42) # 1.000000
+q45 -> activity-06 # 1.000000
+q33 -> pathway(q38 q39) # 1.000000
+q46 -> r_name(q48) # 1.000000
+q22 -> r_ARG0(q31) # 1.000000
+q31 -> decrease-01(q34 q35) # 1.000000
+q21 -> increase-01(q22 q23 q24) # 1.000000
+q32 -> cell # 1.000000

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein-segment :ARG1-of(x2 / mutate-01)  :name(x3 / name :op1 "RBD" ) )  :ARG1(x4 / protein :xref(x5 / xref :value "UNIPROT"PK3CB"HUMAN" )  :name(x6 / name :op1 "p110β" )  :ARG1-of(x7 / add-modification-00 :manner(x8 / phosphorylate-01) ) )  :polarity"- )

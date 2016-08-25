@@ -1,0 +1,44 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q14 q10 q2 )
+q1 -> increase-01(q14 q2 q10 )
+q1 -> increase-01(q10 q14 q2 )
+q1 -> increase-01(q10 q2 q14 )
+q1 -> increase-01(q2 q14 q10 )
+q1 -> increase-01(q2 q10 q14 )
+q14 -> r_ARG0(q15 )
+q10 -> r_ARG1(q11 )
+q2 -> r_location(q3 )
+q15 -> macro-molecular-complex(q29 q21 q16 )
+q15 -> macro-molecular-complex(q29 q16 q21 )
+q15 -> macro-molecular-complex(q21 q29 q16 )
+q15 -> macro-molecular-complex(q21 q16 q29 )
+q15 -> macro-molecular-complex(q16 q29 q21 )
+q15 -> macro-molecular-complex(q16 q21 q29 )
+q11 -> protein(q12 )
+q3 -> cell-line(q7 q4 )
+q3 -> cell-line(q4 q7 )
+q29 -> r_ARG0-of(q30 )
+q21 -> r_part(q22 )
+q16 -> r_part(q17 )
+q12 -> r_ARG0-of(q13 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q30 -> activity-06
+q22 -> enzyme(q26 q23 )
+q22 -> enzyme(q23 q26 )
+q17 -> protein(q18 )
+q13 -> activity-06
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q26 -> r_name(q27 )
+q23 -> r_xref(q24 )
+q18 -> r_name(q19 )
+q9 -> r_value_NIH3T3_CVCL_0594_
+q6 -> r_op1_NIH3T3_
+q27 -> name(q28 )
+q24 -> xref(q25 )
+q19 -> name(q20 )
+q28 -> r_op1_Mkp3_
+q25 -> r_value_UNIPORT_MK03_HUMAN_
+q20 -> r_op1_Luc_

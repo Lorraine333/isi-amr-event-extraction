@@ -1,0 +1,14 @@
+qr
+qc.contrast-01(x0: r_ARG2(interact-01(r_ARG0(isoform(x1: x2: ) ) x3: ) ) r_ARG0(x4: ) ) -> bind-01(qr.x2 qr.x3 qr.x4 )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qr.prototypical -> r_polarity_-
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_mod(x0: ) -> r_ARG2(qc.x0 )
+qr.r_op1_3_ -> r_op1_p110β_
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.name(x0: ) -> name(r_op1_ERAS_ )
+qc.enzyme(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_RASE_HUMAN_ ) ) qr.x0 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

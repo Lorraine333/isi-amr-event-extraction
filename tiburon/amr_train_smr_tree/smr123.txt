@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / complex-with-00 :ARG2(x2 / enzyme :mod (x3 / protein-family :name(x4 / name :op1 "RAF" ) ) )  :ARG1(x5 / enzyme :mod (x6 / protein-family :name(x7 / name :op1 "RAF" ) ) ) ) )

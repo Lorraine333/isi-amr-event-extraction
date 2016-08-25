@@ -1,0 +1,1 @@
+(x0 / or :ARG1(x1 / enzyme)  :ARG1-of(x2 / activity-06) )

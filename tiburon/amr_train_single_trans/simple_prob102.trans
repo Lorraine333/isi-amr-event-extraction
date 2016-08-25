@@ -1,0 +1,19 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(add-modification-00(r_manner(phosphorylate-01 ) r_ARG0(qc.x0 ) ) ) #0.0117647058824
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.and(r_ARG0(coexpress-01(x0: ) ) r_op2(activate-01(x1: x2: ) ) x3: ) -> increase-01(qr.x0 qr.x1 r_ARG0(and(qr.x2 r_op2(protein-family(qr.x3 r_name(name(r_op1_RAS_ ) ) ) ) ) ) ) #1.0
+qc.name(x0: ) -> name(r_op1_MEF_ ) #0.031810766721
+qc.UNK -> protein #0.166666666667
+qr.r_ARG1(x0: ) -> r_location(qc.x0 ) #0.018045112782
+qc.enzyme(x0: x1: ) -> cell-line(qr.x0 qr.x1 ) #0.0442477876106
+qc.enzyme(x0: x1: ) -> enzyme(r_mod(wild-type ) qr.x0 qr.x1 ) #0.00589970501475
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_MEF-1_CVCL_4240_ ) #0.0102040816327
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op1_CRAF_ -> r_op1_CRAF_ #1.0
+qr.r_ARG2(x0: ) -> r_op1(qc.x0 ) #0.00413223140496
+qr.r_value_UNIPROT_RAF1_HUMAN_ -> r_value_UNIPROT_RAF1_HUMAN_ #0.952380952381
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

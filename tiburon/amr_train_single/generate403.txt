@@ -1,0 +1,1 @@
+(x0 / decrease-01 :location(x1 / cell)  :ARG1(x2 / protein :xref(x3 / name :value "UNIPROT"NCOA3"HUMAN" )  :name(x4 / name :op1 "SRC-3" ) )  :ARG0(x5 / name :name(x6 / name :op1 "E2" ) ) )

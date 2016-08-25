@@ -1,0 +1,20 @@
+q30
+q30 -> TOP(q31) # 1.000000
+q40 -> r_ARG0(q44) # 1.000000
+q44 -> molecular-physical-entity # 1.000000
+q56 -> r_op1_RAF_ # 1.000000
+q48 -> r_ARG1(q52) # 1.000000
+q33 -> r_ARG1(q37) # 1.000000
+q47 -> r_ARG2(q53) # 1.000000
+q36 -> increase-01(q40 q41) # 1.000000
+q55 -> name(q56) # 1.000000
+q53 -> protein-family(q54) # 1.000000
+q54 -> r_name(q55) # 1.000000
+q41 -> r_ARG1(q45) # 1.000000
+q39 -> r_ARG0-of(q46) # 1.000000
+q52 -> protein # 1.000000
+q45 -> complex-with-00(q47 q48) # 1.000000
+q37 -> enzyme(q39) # 1.000000
+q46 -> activity-06 # 1.000000
+q31 -> increase-01(q32 q33) # 1.000000
+q32 -> r_ARG0(q36) # 1.000000

@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )  :manner(x2 / phosphorylate-01) )

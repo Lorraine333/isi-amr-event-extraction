@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :ARG0(x2 / protein)  :ARG1(x3 / muti-index-card :op1 "RAF"  :value "UNIPROT"RAF1"HUMAN" )  :manner(x4 / phosphorylate-01) )  :ARG0(x5 / decrease-01 :ARG1(x6 / muti-index-card :op1 "RAF"  :value "UNIPROT"RAF1"HUMAN" )  :ARG0(x7 / molecular-physical-entity) ) )

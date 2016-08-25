@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG1(mutate-01(r_ARG1(protein-segment(r_name(name(r_op1_E2_)) r_part-of(protein(r_xref(xref(r_op1_SRC-3_)))))))) r_ARG1(increase-01(r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(protein(r_name(name(r_op1_SRC-3_)))) r_ARG0(protein))) r_ARG0(protein(r_name(name(r_op1_E2_)) r_xref(xref(r_UNK)))))))) # 2.826997E-13

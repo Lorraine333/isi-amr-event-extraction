@@ -1,0 +1,18 @@
+qr
+qr.r_op2_3-Kinase_ -> r_op1_PI_3-Kinase_ #0.5
+qc.enzyme(x0: x1: ) -> protein-family(qr.x0 ) #0.0442477876106
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x0 qr.x1 qr.x2 ) #0.0707070707071
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qc.name(x0: x1: ) -> name(qr.x1 ) #0.238095238095
+qr.r_mod_1_ -> r_polarity_- #0.136363636364
+qr.r_op1_RAS_ -> r_op1_RAS_ #1.0
+qc.enzyme(x0: ) -> macro-molecular-complex(qr.x0 ) #0.0153846153846
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_mod(x0: ) -> r_part-of(qc.x0 ) #0.0569105691057
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 ) #0.0345864661654
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qc.relate-01(r_ARG1(possible-01(x0: r_ARG1(interact-01(x1: x2: ) ) ) ) r_ARG2(figure(x3: ) ) ) -> bind-01(qr.x1 qr.x2 qr.x3 ) #1.0

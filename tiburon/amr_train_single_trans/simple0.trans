@@ -1,0 +1,30 @@
+qr
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x0 qr.x1 qr.x2 )
+qr.r_op1_EGF_ -> r_op1_EGF_
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qc.rescue-01(x0: x1: x2: ) -> increase-01(qr.x0 qr.x1 qr.x2 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )
+qr.r_op1_Gab1_ -> r_op1_Gab1_
+qc.xref(x0: ) -> xref(r_value_MEF-1_CVCL_4240_ )
+qr.kinase(x0: ) -> r_ARG1-of(qc.x0 )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_ARG0(express-03(r_ARG2(x0: ) ) ) -> r_ARG0(qc.x0 )
+qc.name(x0: ) -> name(r_op1_PI3K_ )
+qc.r_name(x0: ) -> add-modification-00(qr.x0 )
+qc.wild-type -> wild-type
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_
+qr.name(x0: ) -> r_manner(qc.x0 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qc.protein(r_mod(protein(x0: x1: ) ) x2: x3: x4: ) -> cell-line(qr.x1 qr.x3 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.and(r_op1(x0: ) r_op2(enzyme(x1: x2: ) ) ) -> macro-molecular-complex(qr.x0 qr.x1 qr.x2 )
+qc.r_op1_PI-3_ -> phosphorylate-01
+qc.name(x0: ) -> name(r_op1_MEF_ )
+qr.r_location(x0: ) -> r_location(qc.x0 )
+qc.activate-01(r_ARG2-of(induce-01(x0: ) ) x1: ) -> increase-01(qr.x0 qr.x1 )
+qr.r_value_UNIPROT_EGF_HUMAN_ -> r_value_UNIPROT_EGF_HUMAN_
+qr.r_mod(x0: ) -> r_mod(qc.x0 )

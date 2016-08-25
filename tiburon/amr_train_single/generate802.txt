@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG2(x1 / molecular-physical-entity :xref(x2 / xref :value "PUBCHEM"5497152" )  :name(x3 / name :op1 "LPA" ) )  :ARG1(x4 / cell-line :mod (x5 / wild-type)  :xref(x6 / xref :value "Wt"MEF"CVCL"L690" )  :name(x7 / name :op1 "MEF" ) ) )

@@ -1,0 +1,1 @@
+TOP(possible-01(r_ARG1(be-temporally-at-91(r_ARG1(transactivate-01(r_ARG2(enzyme(r_name(name(r_op1_CRAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))) r_ARG1(gene(r_name(name(r_op1_BRAF_)) r_xref(xref(r_value_UNIPROT_BRAF_HUMAN_)))))) r_ARG2(UNK)))))

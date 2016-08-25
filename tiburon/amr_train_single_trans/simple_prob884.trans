@@ -1,0 +1,3 @@
+qr
+qr.TOP(phosphate(x0: x1: x2: r_time(dose-01(r_ARG1-of(x3: ) ) ) ) ) -> TOP(qc.x3 ) #1.0
+qc.indicate-01 -> smr-empty #1.0

@@ -1,0 +1,17 @@
+q19
+q19 -> TOP(q20) # 1.000000
+q22 -> add-modification-00(q23 q24 q25) # 1.000000
+q25 -> r_ARG1(q34) # 1.000000
+q32 -> phosphorylate-01 # 1.000000
+q23 -> r_manner(q32) # 1.000000
+q24 -> r_ARG0(q33) # 1.000000
+q20 -> increase-01(q21) # 1.000000
+q39 -> name(q42) # 1.000000
+q21 -> r_ARG1(q22) # 1.000000
+q35 -> r_name(q39) # 1.000000
+q40 -> xref(q41) # 1.000000
+q41 -> r_value_UNIPROT_ # 1.000000
+q36 -> r_xref(q40) # 1.000000
+q33 -> protein # 1.000000
+q42 -> r_op1_PI3K_ # 1.000000
+q34 -> macro-molecular-complex(q35 q36) # 1.000000

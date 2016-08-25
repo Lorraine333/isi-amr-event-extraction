@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / smr-empty) )

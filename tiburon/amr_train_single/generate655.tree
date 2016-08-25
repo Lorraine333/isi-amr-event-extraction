@@ -1,0 +1,1 @@
+TOP(decrease-01(r_location(cell(r_ARG1(enzyme(r_name(name(r_op1_p110β_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)))))) r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(enzyme(r_name(name(r_op1_AKT_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)))) r_ARG0(small-molecule(r_xref(xref(r_value_CHEBI_74330_)) r_name(name(r_op1_LPA_)))))))) # 4.41418E-8

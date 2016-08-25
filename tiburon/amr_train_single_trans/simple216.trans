@@ -1,0 +1,21 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 )
+qc.protein-segment(x0: x1: r_ARG1-of(mean-01(r_ARG2(and(x2: x3: x4: x5: x6: r_op2(amino-acid(x7: x8: x9: ) ) ) ) ) ) ) -> protein-segment(qr.x6 qr.x8 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.induce-01(x0: x1: x2: r_location(cell(r_ARG1-of(transfect-01(r_ARG2(vector(r_ARG2-of(express-03(x3: ) ) ) ) ) ) ) ) x4: ) -> increase-01(qr.x2 qr.x3 )
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 )
+qr.r_op2(x0: ) -> r_part-of(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ )
+qr.r_location(x0: ) -> r_ARG1(qc.x0 )
+qc.phosphorylate-01(r_ARG1(protein(r_name(x0: ) ) ) x1: ) -> add-modification-00(qr.x0 qr.x1 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ )
+qc.name(x0: ) -> name(r_op1_SRC-3_ )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.amino-acid(x0: x1: x2: ) -> protein(qr.x1 qr.x2 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.enzyme(x0: x1: x2: ) -> molecular-physical-entity(qr.x1 qr.x2 )
+qr.r_op1_serine_ -> r_UNK
+qr.name(x0: ) -> r_manner(qc.x0 )
+qc.r_op1_SRC-3_ -> phosphorylate-01
+qc.name(x0: ) -> name(r_op1_E2_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

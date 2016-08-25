@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :part-of(x2 / protein-family :name(x3 / name :op2 "GTPase"  :op1 "RHO" ) )  :name(x4 / name :op1 "RAC1" ) )  :ARG1(x5 / enzyme :name(x6 / name :op1 "p110β" ) )  :location(x7 / protein-segment :name(x8 / name :op1 "RBD" ) ) )

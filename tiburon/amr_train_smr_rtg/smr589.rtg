@@ -1,0 +1,30 @@
+q0
+q0 -> TOP(q1 )
+q1 -> complex-with-00(q2 )
+q2 -> r_ARG1(q3 )
+q3 -> and(q12 q4 )
+q3 -> and(q4 q12 )
+q12 -> r_op2(q13 )
+q4 -> r_op1(q5 )
+q13 -> protein(q19 q17 q14 )
+q13 -> protein(q19 q14 q17 )
+q13 -> protein(q17 q19 q14 )
+q13 -> protein(q17 q14 q19 )
+q13 -> protein(q14 q19 q17 )
+q13 -> protein(q14 q17 q19 )
+q5 -> protein(q9 q6 )
+q5 -> protein(q6 q9 )
+q19 -> r_xref(q20 )
+q17 -> r_ARG1-of(q18 )
+q14 -> r_name(q15 )
+q9 -> r_xref(q10 )
+q6 -> r_name(q7 )
+q20 -> xref(q21 )
+q18 -> mutate-01
+q15 -> name(q16 )
+q10 -> xref(q11 )
+q7 -> name(q8 )
+q21 -> r_value_UNIPROT_
+q16 -> r_op2_p110β_
+q11 -> r_value_UNIPROT_
+q8 -> r_op1_p85_

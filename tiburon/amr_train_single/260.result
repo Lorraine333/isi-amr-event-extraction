@@ -1,0 +1,19 @@
+q21
+q21 -> TOP(q22) # 1.000000
+q39 -> protein(q41 q42) # 1.000000
+q48 -> r_op1_SRC-3_ # 1.000000
+q24 -> r_ARG1(q28) # 1.000000
+q38 -> phosphorylate-01 # 1.000000
+q28 -> add-modification-00(q29 q30 q31) # 1.000000
+q30 -> r_ARG0(q40) # 1.000000
+q46 -> xref(q47) # 1.000000
+q47 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q27 -> molecular-physical-entity # 1.000000
+q42 -> r_name(q45) # 1.000000
+q45 -> name(q48) # 1.000000
+q40 -> protein # 1.000000
+q41 -> r_xref(q46) # 1.000000
+q31 -> r_ARG1(q39) # 1.000000
+q29 -> r_manner(q38) # 1.000000
+q23 -> r_ARG0(q27) # 1.000000
+q22 -> increase-01(q23 q24) # 1.000000

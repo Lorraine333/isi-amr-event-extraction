@@ -1,0 +1,11 @@
+Tree info for input tree amr640.tree:
+	58 nodes
+	12 yield length
+Transducer info for input tree transducer simple640.trans:
+	2 states
+	21 rules
+RTG info for forward application of tree:
+	24 states
+	28 rules
+	7 unique terminal symbols
+	16 derivations

@@ -1,0 +1,1 @@
+TOP(and(r_mod(also) r_op1(experiment-01(r_ARG0(course(r_mod(time))) r_ARG1-of(transient-02(r_ARG1(phosphorylate-01(r_ARG1(enzyme(r_name(name(r_op1_AKT_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_)))))) r_degree(more))) r_time(mutate-01(r_ARG1(enzyme(r_name(name(r_op1_RBD_)))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_5b_)))))))) r_ARG1-of(show-01(r_polarity_-_))))

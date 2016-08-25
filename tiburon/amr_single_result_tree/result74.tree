@@ -1,0 +1,11 @@
+Tree info for input tree amr74.tree:
+	34 nodes
+	8 yield length
+Transducer info for input tree transducer simple74.trans:
+	2 states
+	18 rules
+RTG info for forward application of tree:
+	23 states
+	29 rules
+	6 unique terminal symbols
+	64 derivations

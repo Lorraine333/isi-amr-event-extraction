@@ -1,0 +1,1 @@
+TOP(cause-01(r_ARG0(induce-01(r_topic(protein(r_name(name(r_op1_PR-B_)))) r_ARG0(small-molecule(r_name(name(r_UNK)) r_xref(xref(r_UNK)))) r_polarity_-_ r_ARG2(phosphorylate-01(r_ARG1(protein(r_name(name(r_op1_SRC-3_)))) r_location(cell(r_ARG3-of(express-03(r_ARG2(receptor(r_op1(glucocorticoid) r_ARG1-of(describe-01(r_ARG0(data(r_ARG1-of(show-01(r_polarity_-_))))))))))))))))))

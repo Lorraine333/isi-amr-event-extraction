@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )  :ARG0(x2 / protein-segment :name(x3 / name :op1 "p110β" )  :ARG1(x4 / phosphorylate-01) ) )

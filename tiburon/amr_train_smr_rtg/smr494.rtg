@@ -1,0 +1,34 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q10 q3 q2 )
+q1 -> increase-01(q10 q2 q3 )
+q1 -> increase-01(q3 q10 q2 )
+q1 -> increase-01(q3 q2 q10 )
+q1 -> increase-01(q2 q10 q3 )
+q1 -> increase-01(q2 q3 q10 )
+q10 -> r_ARG1(q11 )
+q3 -> r_ARG0(q4 )
+q2 -> r_polarity_-
+q11 -> protein(q19 q15 q12 )
+q11 -> protein(q19 q12 q15 )
+q11 -> protein(q15 q19 q12 )
+q11 -> protein(q15 q12 q19 )
+q11 -> protein(q12 q19 q15 )
+q11 -> protein(q12 q15 q19 )
+q4 -> protein-segment(q8 q5 )
+q4 -> protein-segment(q5 q8 )
+q19 -> r_name(q20 )
+q15 -> r_ARG1-of(q16 )
+q12 -> r_xref(q13 )
+q8 -> r_ARG1-of(q9 )
+q5 -> r_name(q6 )
+q20 -> name(q21 )
+q16 -> add-modification-00(q17 )
+q13 -> xref(q14 )
+q9 -> mutate-01
+q6 -> name(q7 )
+q21 -> r_op1_p110β_
+q17 -> r_manner(q18 )
+q14 -> r_value_UNIPROT_PK3CB_HUMAN_
+q7 -> r_op1_RBD_
+q18 -> phosphorylate-01

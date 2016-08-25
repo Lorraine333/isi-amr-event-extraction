@@ -1,0 +1,11 @@
+Tree info for input tree amr230.tree:
+	62 nodes
+	14 yield length
+Transducer info for input tree transducer simple230.trans:
+	2 states
+	18 rules
+RTG info for forward application of tree:
+	21 states
+	23 rules
+	8 unique terminal symbols
+	4 derivations

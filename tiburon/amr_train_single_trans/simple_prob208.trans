@@ -1,0 +1,22 @@
+qr
+qc.mutate-01 -> mutate-01 #0.642857142857
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_polarity_-_ -> r_value_UNIPROT_NCOA3_HUMAN_ #0.0333333333333
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.contrast-01(r_ARG2(protein(x0: ) ) x1: r_ARG1(protein-segment(x2: x3: ) ) x4: ) -> protein(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.phosphorylate-01(x0: ) -> xref(qr.x0 ) #0.030303030303
+qr.r_ARG2-of(x0: ) -> r_ARG2-of(qc.x0 ) #0.366666666667
+qc.indicate-01(x0: r_ARG1(possible-01(r_ARG1(alter-01(x1: r_ARG1(mobility(r_name(name(x2: ) ) ) ) ) ) ) ) x3: ) -> translocate-01(qr.x1 qr.x2 qr.x3 ) #1.0
+qr.r_ARG1-of(x0: ) -> r_part-of(qc.x0 ) #0.0235294117647
+qr.r_ARG2(x0: ) -> r_xref(qc.x0 ) #0.0165289256198
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qc.change-01(r_mod(wild-type(x0: ) ) x1: x2: r_ARG2-of(result-01(r_ARG1(phosphorylate-01(r_ARG1(protein(x3: ) ) ) ) ) ) ) -> amino-acid(qr.x0 qr.x3 ) #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op1_electrophoretic_ -> r_polarity_- #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.name(x0: ) -> name(r_op1_alanine_ ) #0.00489396411093
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

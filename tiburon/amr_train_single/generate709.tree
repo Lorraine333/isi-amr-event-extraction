@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(and(r_op1(protein(r_name(name(r_op1_COS7_)) r_mod_p110β/p85_)) r_op2(protein(r_name(name(r_op1_COS7_)) r_mod_p110β/p85_)))) r_ARG2(protein(r_name(name(r_op1_COS7_)) r_ARG0-of(add-modification-00(r_ARG1(phosphorylate-01(r_ARG1(protein(r_name(name(r_op1_Myc_)))) r_op2(cell(r_name(name(r_op1_COS7_)))))))))))) # 4.177309E-25

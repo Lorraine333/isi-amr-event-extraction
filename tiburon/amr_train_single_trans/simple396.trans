@@ -1,0 +1,17 @@
+qr
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 )
+qc.mutate-01(r_ARG1(enzyme(r_name(name(x0: ) ) ) ) ) -> mutate-01(qr.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.effective-04(x0: x1: r_ARG1(support-01(r_ARG1(phosphorylate-01(x2: ) ) ) ) x3: ) -> bind-01(qr.x2 qr.x3 )
+qc.or(r_op1(be-located-at-91(r_ARG1(enzyme(x0: x1: x2: ) ) x3: ) ) x4: ) -> protein(qr.x1 qr.x2 qr.x4 )
+qr.r_op1_EG_ -> r_value_CC_
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_
+qr.TOP(appear-02(r_ARG1(x0: ) x1: ) ) -> TOP(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_compared-to(x0: ) -> r_ARG1(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_op2(x0: ) -> r_ARG2-of(qc.x0 )
+qr.r_op1_ERα_ -> r_op1_ERα_
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 )
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

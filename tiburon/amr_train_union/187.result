@@ -1,0 +1,27 @@
+q499
+q499 -> TOP(q500) # 1.000000
+q516 -> r_ARG1(q523) # 1.000000
+q516 -> r_ARG1(q525) # 1.000000
+q606 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q515 -> r_ARG0(q521) # 1.000000
+q536 -> r_xref(q585) # 1.000000
+q583 -> name(q916 q917) # 1.000000
+q545 -> r_xref(q575) # 1.000000
+q546 -> r_name(q586) # 1.000000
+q523 -> protein(q534 q543) # 1.000000
+q593 -> xref(q616) # 1.000000
+q593 -> xref(q606) # 1.000000
+q521 -> protein(q545 q546) # 1.000000
+q873 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q543 -> r_xref(q593) # 1.000000
+q534 -> r_name(q583) # 1.000000
+q685 -> r_op1_SRC-3_ # 1.000000
+q525 -> protein(q536 q534) # 1.000000
+q585 -> xref(q873) # 1.000000
+q575 -> xref(q767) # 1.000000
+q767 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q500 -> add-modification-00(q515 q516) # 1.000000
+q916 -> r_op1_estrogen_ # 1.000000
+q616 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q586 -> name(q685) # 1.000000
+q917 -> r_op2_receptor_ # 1.000000

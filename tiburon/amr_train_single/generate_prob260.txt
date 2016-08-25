@@ -1,0 +1,1 @@
+(x0 / cell :manner(x1 / protein) )

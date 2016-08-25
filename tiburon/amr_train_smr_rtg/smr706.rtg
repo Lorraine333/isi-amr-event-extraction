@@ -1,0 +1,26 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q8 q7 q2 )
+q1 -> bind-01(q8 q2 q7 )
+q1 -> bind-01(q7 q8 q2 )
+q1 -> bind-01(q7 q2 q8 )
+q1 -> bind-01(q2 q8 q7 )
+q1 -> bind-01(q2 q7 q8 )
+q8 -> r_ARG1(q9 )
+q7 -> r_polarity_-
+q2 -> r_ARG2(q3 )
+q9 -> enzyme(q10 )
+q3 -> enzyme(q4 )
+q10 -> r_name(q11 )
+q4 -> r_name(q5 )
+q11 -> name(q14 q13 q12 )
+q11 -> name(q14 q12 q13 )
+q11 -> name(q13 q14 q12 )
+q11 -> name(q13 q12 q14 )
+q11 -> name(q12 q14 q13 )
+q11 -> name(q12 q13 q14 )
+q5 -> name(q6 )
+q14 -> r_op3_p110β_
+q13 -> r_op1_PI_
+q12 -> r_op2_3-Kinase_
+q6 -> r_op1_RAS_

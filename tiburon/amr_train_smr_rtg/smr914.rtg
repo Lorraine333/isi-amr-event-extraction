@@ -1,0 +1,13 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 )
+q2 -> r_ARG1(q3 )
+q3 -> enzyme(q8 q4 )
+q3 -> enzyme(q4 q8 )
+q8 -> r_name(q9 )
+q4 -> r_ARG1-of(q5 )
+q9 -> name(q10 )
+q5 -> add-modification-00(q6 )
+q10 -> r_op1_Ras_
+q6 -> r_manner(q7 )
+q7 -> phosphorylate-01

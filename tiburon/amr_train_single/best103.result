@@ -1,0 +1,27 @@
+q26
+q26 -> TOP(q27) # 1.000000
+q38 -> enzyme(q39 q40) # 1.000000
+q62 -> name(q63) # 1.000000
+q55 -> r_ARG0-of(q59) # 1.000000
+q37 -> increase-01(q43 q44) # 1.000000
+q63 -> r_op1_MEK/ERK_ # 1.000000
+q52 -> r_name(q61) # 1.000000
+q60 -> xref(q64) # 1.000000
+q40 -> r_value_UNIPROT_BRAF_HUMAN_ # 1.000000
+q50 -> r_op1_BRAF_ # 1.000000
+q61 -> name(q65) # 1.000000
+q49 -> small-molecule(q51 q52) # 1.000000
+q65 -> r_op1_PLX_ # 1.000000
+q48 -> name(q50) # 1.000000
+q56 -> r_name(q62) # 1.000000
+q30 -> r_polarity_- # 1.000000
+q47 -> pathway(q55 q56) # 1.000000
+q44 -> r_ARG0(q49) # 1.000000
+q43 -> r_ARG1(q47) # 1.000000
+q27 -> increase-01(q28 q29 q30) # 1.000000
+q59 -> activity-06 # 1.000000
+q51 -> r_xref(q60) # 1.000000
+q64 -> r_value_PUBCHEM_24180719_ # 1.000000
+q29 -> r_ARG0(q38) # 1.000000
+q28 -> r_ARG1(q37) # 1.000000
+q39 -> r_name(q48) # 1.000000

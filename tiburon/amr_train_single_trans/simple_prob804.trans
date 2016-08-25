@@ -1,0 +1,8 @@
+qr
+qc.way(x0: ) -> xref(qr.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_LPA_ ) #0.00326264274062
+qr.r_mod(x0: ) -> r_xref(qc.x0 ) #0.0162601626016
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qr.r_quant_1_ -> r_value_PUBCHEM_5497152_ #0.5
+qr.TOP(x0: ) -> TOP(translocate-01(r_ARG2(qc.x0 ) r_ARG1(cell-line(r_name(name(r_op1_MEF_ ) ) ) ) ) ) #0.0042194092827

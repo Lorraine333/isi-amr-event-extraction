@@ -1,0 +1,1 @@
+(x0 / protein :xref(x1 / name :op1 "AF-1" )  :name(x2 / name :polarity"- ) )

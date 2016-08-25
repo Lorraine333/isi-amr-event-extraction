@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / enzyme :ARG1-of(x2 / add-modification-00 :manner(x3 / phosphorylate-01) )  :name(x4 / name :op1 "Ras" ) )  :ARG1(x5 / pathway :name(x6 / name :op1 "Ras" ) ) )

@@ -1,0 +1,3 @@
+qr
+qr.TOP(and(x0: r_op2(and(x1: x2: r_op2(enzyme(x3: r_xref(xref(x4: ) ) ) ) ) ) ) ) -> TOP(qc.x4 ) #1.0
+qc.r_value_UNIPROT_LYOX_HUMAN_ -> smr-empty #1.0

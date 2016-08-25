@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / phosphorylate-01)  :ARG0(x2 / mutate-01 :ARG1(x3 / protein-segment :name(x4 / name :op1 "ERα" )  :ARG1(x5 / protein :manner(x6 / phosphorylate-01) ) ) ) )

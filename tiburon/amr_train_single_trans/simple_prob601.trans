@@ -1,0 +1,19 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.name(x0: ) -> name(r_op1_p110β_ ) #0.036704730832
+qr.r_op2(x0: ) -> r_part(qc.x0 ) #0.0929203539823
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x1 qr.x2 ) #0.10101010101
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_CDC42_ -> r_op1_CDC42_ #0.983606557377
+qr.r_mod_s3_ -> r_polarity_- #1.0
+qr.r_op1(x0: ) -> r_part(qc.x0 ) #0.0582010582011
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.or(x0: x1: x2: x3: r_ARG1-of(describe-01(r_ARG0(figure(x4: ) ) ) ) ) -> bind-01(qr.x0 r_ARG2(macro-molecular-complex(qr.x1 qr.x2 ) ) qr.x4 ) #0.5
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_RBD-DM_ ) #0.000815660685155
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qc.and(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 ) #0.0588235294118
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

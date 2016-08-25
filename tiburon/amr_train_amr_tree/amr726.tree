@@ -1,0 +1,1 @@
+TOP(coexpress-01(r_ARG1(or(r_ARG0-of(activity-06(r_mod(constitutive))) r_op1(protein(r_name(name(r_op1_DIRAS1_)) r_xref(xref(r_value_UNIPROT_DIRA1_HUMAN_)))) r_op2(enzyme(r_name(name(r_op1_DIRAS2_)) r_xref(xref(r_value_UNIPROT_DIRA2_HUMAN_)))))) r_ARG2(protein(r_name(name(r_op1_FLAG_ r_op2_p110β/p85_)))) r_location(cell(r_name(name(r_op1_COS7_))))))

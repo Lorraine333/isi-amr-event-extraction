@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(protein(r_name(name(r_op1_CDC42_)) r_xref(xref(r_value_UNIPROT_CDC42_HUMAN_)))) r_ARG2(protein-segment(r_name(name(r_UNK)) r_part-of(enzyme(r_name(name(r_op1_p110b_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)))))))) # 1.283204E-10

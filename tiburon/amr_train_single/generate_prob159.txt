@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / enzyme :ARG0(x2 / name :op1 "GTPase" )  :ARG0(x3 / protein) )  :manner(x4 / phosphorylate-01) )

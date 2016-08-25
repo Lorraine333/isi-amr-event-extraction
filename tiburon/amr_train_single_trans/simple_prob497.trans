@@ -1,0 +1,17 @@
+qr
+qc.or(x0: x1: ) -> and(qr.x0 qr.x1 ) #0.3125
+qr.r_op2(x0: ) -> r_op2(qc.x0 ) #0.0752212389381
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.peptide(x0: r_ARG0-of(indicate-01(r_ARG1(mutate-01(x1: ) ) ) ) r_ARG0-of(have-03(x2: r_ARG1(affect-01(x3: x4: ) ) ) ) ) -> increase-01(qr.x1 qr.x4 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.TOP(stimulate-01(r_ARG0(x0: ) x1: x2: ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_Gβγ_ ) #0.00244698205546
+qc.name(x0: ) -> name(r_op1_PDGFR_ ) #0.00163132137031
+qc.depend-01(r_ARG1(enzyme(x0: ) ) x1: ) -> small-molecule(qr.x0 r_xref(xref(qr.x1 ) ) ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_polarity_-_ -> r_UNK #0.0333333333333
+qc.enzyme(x0: ) -> protein-segment(r_part-of(protein(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_ ) ) r_name(name(r_op1_p110β_ ) ) ) ) qr.x0 ) #0.0153846153846
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.lipid(x0: ) -> small-molecule(r_xref(xref(r_value_PUBCHEM_274122_ ) ) qr.x0 ) #0.25
+qr.r_op1_RBD_ -> r_op1_RBD_ #0.842105263158
+qr.r_op1(activity-06(r_ARG0(x0: ) ) ) -> r_op1(qc.x0 ) #1.0

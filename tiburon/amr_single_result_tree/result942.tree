@@ -1,0 +1,11 @@
+Tree info for input tree amr942.tree:
+	2 nodes
+	1 yield length
+Transducer info for input tree transducer simple942.trans:
+	2 states
+	2 rules
+RTG info for forward application of tree:
+	2 states
+	2 rules
+	4 unique terminal symbols
+	1 derivations

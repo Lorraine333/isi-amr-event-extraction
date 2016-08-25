@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG2(x1 / protein :name(x2 / name :op1 "PDGF" )  :xref(x3 / xref :value "UNIPROT"PGFRB"HUMAN" ) ) )

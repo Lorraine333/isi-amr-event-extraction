@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG0(x1 / protein)  :ARG1(x2 / protein :manner(x3 / wild-type)  :name(x4 / name :op1 "SRC-3" )  :name(x5 / name :op1 "SRC-3" ) ) )

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / enzyme :location-of(x2 / protein :name(x3 / name :UNK ) )  :xref(x4 / xref :value "MEF-1" ) )  :ARG1(x5 / add-modification-00 :manner(x6 / phosphorylate-01)  :ARG1(x7 / enzyme :name(x8 / name :op1 "AKT" )  :xref(x9 / xref :value "UNIPROT"AKT1"HUMAN" ) ) )  :manner(x10 / describe-01 :ARG0(x11 / figure :mod "4"F" ) ) )

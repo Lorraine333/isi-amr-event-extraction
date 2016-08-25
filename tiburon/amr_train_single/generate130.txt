@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / pathway :ARG0-of(x2 / activity-06)  :name(x3 / name :op1 "MEK"ERK" ) )  :ARG1(x4 / bind-01 :ARG2(x5 / protein-segment :name(x6 / name :op2 "domain"  :op1 "catalytic" )  :part-of(x7 / enzyme :name(x8 / name :op1 "RAF" )  :xref(x9 / xref :value "UNIPROT"RAF1"HUMAN" ) ) )  :ARG1(x10 / small-molecule) ) )

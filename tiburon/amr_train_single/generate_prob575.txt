@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / coexpress-00 :ARG1(x2 / macro-molecular-complex :ARG1(x3 / protein)  :ARG1(x4 / muti-index-card :op1 "Gβ"  :mod "S2"G" ) ) )  :ARG1(x5 / muti-index-card :op1 "p110β"  :polarity"- ) )

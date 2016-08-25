@@ -1,0 +1,18 @@
+qr
+qr.r_name(x0: ) -> r_xref(qc.x0 ) #0.0345323741007
+qc.indicate-01(x0: r_ARG1(possible-01(r_ARG1(alter-01(x1: x2: ) ) ) ) x3: ) -> translocate-01(qr.x1 qr.x3 ) #1.0
+qc.change-01(x0: x1: r_ARG1(protein(x2: ) ) r_ARG2-of(result-01(r_ARG1(phosphorylate-01(r_ARG1(protein(x3: ) ) ) ) ) ) ) -> protein(qr.x0 qr.x2 qr.x3 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.wild-type(x0: ) -> wild-type #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> xref(qr.x0 ) #0.0187601957586
+qr.r_op1_SRC-3_ -> r_value_UNIPROT_NCOA3_HUMAN_ #0.0105263157895
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_mod(x0: ) -> r_mod(qc.x0 ) #0.268292682927
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

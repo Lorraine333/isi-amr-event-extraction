@@ -1,0 +1,19 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_part-of(x0: ) -> r_part-of(qc.x0 ) #0.807692307692
+qc.protein-segment(r_ARG1-of(bind-01(r_ARG2(small-molecule(x0: x1: ) ) ) ) x2: ) -> protein-segment(qr.x0 qr.x2 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.enzyme(x0: ) -> enzyme #0.0153846153846
+qc.bind-01(x0: x1: x2: ) -> bind-01(qr.x1 qr.x2 ) #0.222222222222
+qr.r_op1_ERK_ -> r_op1_ERK_ #1.0
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qc.require-01(r_ARG0(induce-01(x0: ) ) x1: x2: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.name(x0: ) -> name(r_op2_site_ r_op1_ATP-binding_ ) #0.000815660685155
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x0 qr.x2 ) #0.0707070707071
+qc.drug -> small-molecule #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.xref(x0: ) -> xref(r_value_UNIPROT_MK01_HUMAN_ ) #0.0260770975057
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

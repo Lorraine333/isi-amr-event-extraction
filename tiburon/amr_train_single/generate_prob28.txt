@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / enzyme :manner(x2 / wild-type)  :name(x3 / name :op1 "Gab1" )  :manner(x4 / smr-empty) )  :ARG1(x5 / protein)  :ARG1(x6 / activity-06) )

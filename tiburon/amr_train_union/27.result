@@ -1,0 +1,42 @@
+q802
+q802 -> TOP(q803) # 1.000000
+q893 -> r_xref(q912) # 1.000000
+q803 -> increase-01(q820 q821) # 1.000000
+q855 -> r_name(q875) # 1.000000
+q910 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q820 -> r_ARG1(q847) # 1.000000
+q1053 -> r_op1_tyrosine_ # 1.000000
+q1026 -> r_xref(q1208) # 1.000000
+q1204 -> phosphorylate-01 # 1.000000
+q902 -> r_part-of(q915) # 1.000000
+q901 -> r_ARG1-of(q920) # 1.000000
+q1132 -> r_manner(q1203) # 1.000000
+q1024 -> r_manner(q1204) # 1.000000
+q1205 -> name(q1360) # 1.000000
+q891 -> r_name(q916) # 1.000000
+q914 -> add-modification-00(q1024) # 1.000000
+q824 -> protein(q854 q855) # 1.000000
+q919 -> name(q1053) # 1.000000
+q1264 -> r_value_UNIPROT_GAB1_HUMAN_ # 1.000000
+q875 -> name(q909) # 1.000000
+q915 -> protein(q1026 q1027) # 1.000000
+q854 -> r_xref(q876) # 1.000000
+q859 -> r_ARG0(q877) # 1.000000
+q912 -> xref(q1144) # 1.000000
+q916 -> name(q931) # 1.000000
+q892 -> r_ARG1-of(q914) # 1.000000
+q909 -> r_op1_EGF_ # 1.000000
+q1208 -> xref(q1264) # 1.000000
+q877 -> amino-acid(q900 q901 q902) # 1.000000
+q1360 -> r_op1_Gab1_ # 1.000000
+q1027 -> r_name(q1205) # 1.000000
+q1144 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q900 -> r_name(q919) # 1.000000
+q920 -> add-modification-00(q1132) # 1.000000
+q821 -> r_ARG0(q824) # 1.000000
+q847 -> increase-01(q858 q859) # 1.000000
+q858 -> r_ARG1(q867) # 1.000000
+q931 -> r_op1_PI3K_ # 1.000000
+q1203 -> phosphorylate-01 # 1.000000
+q867 -> macro-molecular-complex(q891 q892 q893) # 1.000000
+q876 -> xref(q910) # 1.000000

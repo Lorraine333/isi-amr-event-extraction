@@ -1,0 +1,10 @@
+qr
+qr.r_time(x0: ) -> r_ARG2-of(qc.x0 ) #0.25
+qr.r_ARG1(x0: ) -> r_manner(qc.x0 ) #0.0165413533835
+qc.mutate-01 -> protein #0.0714285714286
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.phosphorylate-01(x0: ) -> phosphorylate-01 #0.606060606061
+qc.test-01(x0: x1: ) -> increase-01(r_ARG0(protein(qr.x0 ) ) qr.x1 ) #1.0
+qc.capable-01(x0: r_ARG2(promote-01(x1: ) ) ) -> add-modification-00(qr.x0 qr.x1 r_ARG0(protein ) ) #1.0
+qc.next -> mutate-01 #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008

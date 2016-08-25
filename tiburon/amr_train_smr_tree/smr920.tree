@@ -1,0 +1,1 @@
+TOP(increase-01(r_mode(hypothesis) r_ARG1(increase-01(r_ARG1(enzyme(r_name(name(r_op1_Erk1/2_)) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)))) r_ARG0(molecular-physical-entity(r_name(name(r_UNK r_UNK)))))) r_ARG0(add-modification-00(r_manner(phosphorylate-01) r_ARG1(enzyme(r_name(name(r_op1_Ras_)))) r_ARG0(protein)))))

@@ -1,0 +1,43 @@
+q42
+q42 -> TOP(q43) # 1.000000
+q43 -> increase-01(q44 q45) # 1.000000
+q76 -> name(q83) # 1.000000
+q59 -> amino-acid(q71 q72) # 1.000000
+q66 -> r_name(q76) # 1.000000
+q51 -> r_ARG1(q58) # 1.000000
+q67 -> r_name(q80) # 1.000000
+q60 -> protein(q62 q63) # 1.000000
+q94 -> name(q97) # 1.000000
+q72 -> r_part-of(q78) # 1.000000
+q54 -> r_ARG1(q61) # 1.000000
+q90 -> r_op1_p85_ # 1.000000
+q58 -> macro-molecular-complex(q66) # 1.000000
+q92 -> xref(q96) # 1.000000
+q63 -> r_xref(q81) # 1.000000
+q80 -> name(q90) # 1.000000
+q85 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q49 -> bind-01(q54 q55) # 1.000000
+q68 -> r_part-of(q79) # 1.000000
+q45 -> r_ARG0(q49) # 1.000000
+q87 -> r_xref(q92) # 1.000000
+q79 -> macro-molecular-complex(q91) # 1.000000
+q44 -> r_ARG1(q48) # 1.000000
+q78 -> protein(q86 q87) # 1.000000
+q77 -> name(q84) # 1.000000
+q81 -> xref(q85) # 1.000000
+q95 -> r_op1_Gab1_ # 1.000000
+q61 -> protein-family(q67 q68) # 1.000000
+q62 -> r_name(q77) # 1.000000
+q97 -> r_op1_PI3K_ # 1.000000
+q83 -> r_op1_PI3K_ # 1.000000
+q84 -> r_op1_EGF_ # 1.000000
+q55 -> r_ARG2(q59) # 1.000000
+q75 -> name(q82) # 1.000000
+q50 -> r_ARG0(q60) # 1.000000
+q86 -> r_name(q93) # 1.000000
+q71 -> r_name(q75) # 1.000000
+q96 -> r_value_UNIPROT_GAB1_HUMAN_ # 1.000000
+q93 -> name(q95) # 1.000000
+q82 -> r_op1_tyrosine_ # 1.000000
+q48 -> increase-01(q50 q51) # 1.000000
+q91 -> r_name(q94) # 1.000000

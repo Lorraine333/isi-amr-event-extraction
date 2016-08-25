@@ -1,0 +1,1 @@
+(x0 / increase-01 :manner(x1 / phosphorylate-01)  :manner(x2 / phosphorylate-01) )

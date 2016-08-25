@@ -1,0 +1,1 @@
+TOP(and(r_op1(starve-01(r_time(day(r_mod(next))) r_ARG1(cell) r_ARG2(serum))) r_op2(harvest-01(r_ARG1(immunoblot-01)))))

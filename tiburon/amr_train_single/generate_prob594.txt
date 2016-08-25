@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein)  :ARG1(x2 / protein :manner(x3 / smr-empty) ) )

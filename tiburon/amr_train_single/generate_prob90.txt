@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / small-molecule :name(x2 / name :op1 "SRC-3" )  :xref(x3 / xref :value "UNIPROT"NCOA3"HUMAN" ) )  :ARG0(x4 / molecular-physical-entity :ARG0-of(x5 / decrease-01 :ARG1(x6 / muti-index-card :op1 "RAF"  :value "UNIPROT"RAF1"HUMAN" ) ) )  :location(x7 / cell) )

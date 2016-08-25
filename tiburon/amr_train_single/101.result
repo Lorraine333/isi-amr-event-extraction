@@ -1,0 +1,33 @@
+q44
+q44 -> TOP(q45) # 1.000000
+q88 -> r_name(q95) # 1.000000
+q48 -> r_location(q57) # 1.000000
+q55 -> small-molecule(q58 q59) # 1.000000
+q47 -> r_ARG1(q56) # 1.000000
+q78 -> xref(q85) # 1.000000
+q67 -> r_ARG1(q80) # 1.000000
+q82 -> r_op1_PLX_ # 1.000000
+q79 -> name(q82) # 1.000000
+q87 -> r_op1_MEF_ # 1.000000
+q95 -> name(q100) # 1.000000
+q58 -> r_name(q79) # 1.000000
+q92 -> r_value_PUBCHEM_24180719_ # 1.000000
+q59 -> r_xref(q81) # 1.000000
+q75 -> name(q87) # 1.000000
+q66 -> r_manner(q76) # 1.000000
+q57 -> cell-line(q62 q63) # 1.000000
+q62 -> r_name(q75) # 1.000000
+q80 -> enzyme(q88 q89) # 1.000000
+q56 -> add-modification-00(q66 q67 q68) # 1.000000
+q68 -> r_ARG0(q77) # 1.000000
+q76 -> phosphorylate-01 # 1.000000
+q96 -> xref(q99) # 1.000000
+q77 -> protein # 1.000000
+q99 -> r_value_UNIPORT_PLK1_HUMAN_ # 1.000000
+q81 -> xref(q92) # 1.000000
+q85 -> r_value_MEF-1_CVCL_4240_ # 1.000000
+q89 -> r_xref(q96) # 1.000000
+q100 -> r_op1_ERK_ # 1.000000
+q45 -> increase-01(q46 q47 q48) # 1.000000
+q46 -> r_ARG0(q55) # 1.000000
+q63 -> r_xref(q78) # 1.000000

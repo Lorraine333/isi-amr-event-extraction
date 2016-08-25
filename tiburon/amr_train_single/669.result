@@ -1,0 +1,31 @@
+q41
+q41 -> TOP(q42) # 1.000000
+q86 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q50 -> r_xref(q65) # 1.000000
+q90 -> r_op1_S1P_ # 1.000000
+q55 -> r_ARG0(q64) # 1.000000
+q76 -> r_name(q81) # 1.000000
+q70 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q47 -> protein(q49 q50) # 1.000000
+q49 -> r_name(q62) # 1.000000
+q83 -> xref(q86) # 1.000000
+q80 -> xref(q85) # 1.000000
+q77 -> r_xref(q83) # 1.000000
+q44 -> r_ARG1(q48) # 1.000000
+q67 -> r_op1_CDC42_ # 1.000000
+q65 -> xref(q70) # 1.000000
+q81 -> name(q88) # 1.000000
+q72 -> r_xref(q80) # 1.000000
+q85 -> r_value_CHEBI_37550_ # 1.000000
+q48 -> add-modification-00(q53 q54 q55) # 1.000000
+q53 -> r_manner(q66) # 1.000000
+q43 -> r_ARG0(q47) # 1.000000
+q54 -> r_ARG1(q63) # 1.000000
+q63 -> enzyme(q76 q77) # 1.000000
+q82 -> name(q90) # 1.000000
+q66 -> phosphorylate-01 # 1.000000
+q64 -> small-molecule(q72 q73) # 1.000000
+q62 -> name(q67) # 1.000000
+q88 -> r_op1_ERK_ # 1.000000
+q42 -> increase-01(q43 q44) # 1.000000
+q73 -> r_name(q82) # 1.000000

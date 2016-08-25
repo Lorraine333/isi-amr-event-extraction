@@ -1,0 +1,1 @@
+TOP(and(r_op2(stimulate-01(r_ARG2(protein(r_name(name(r_op1_FGF2_)) r_xref(xref(r_value_UNIPROT_FGF2_HUMAN_)))) r_duration(temporal-quantity(r_quant_30_ r_unit(minute))))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_1_))))))

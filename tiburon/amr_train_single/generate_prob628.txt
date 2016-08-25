@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / muti-index-card :UNK  :UNK )  :ARG1(x2 / add-modification-00 :manner(x3 / phosphorylate-01)  :ARG0(x4 / muti-index-card :UNK  :UNK )  :ARG0(x5 / protein) )  :ARG0(x6 / name :mod "S2"G" ) )

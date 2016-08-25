@@ -1,0 +1,3 @@
+qr
+qr.TOP(demonstrate-01(x0: r_ARG1(require-01(x1: x2: r_ARG1(and(x3: r_op2(enzyme(x4: r_xref(xref(x5: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x5 )
+qc.r_value_UNIPROT_AKT1_HUMAN_ -> smr-empty

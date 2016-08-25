@@ -1,0 +1,27 @@
+q0
+q0 -> TOP(q1) # 1.000000
+q3 -> r_ARG1(q5) # 1.000000
+q13 -> protein(q17 q18) # 1.000000
+q8 -> r_part(q13) # 1.000000
+q9 -> r_part(q12) # 1.000000
+q5 -> macro-molecular-complex(q8 q9 r_mod(wild-type)) # 1.000000
+q20 -> name(r_op1_p110β_) # 1.000000
+q20 -> name(q23) # 1.000000
+q11 -> xref(r_value_UNIPROT_) # 1.000000
+q2 -> r_ARG2(q4) # 1.000000
+q17 -> r_name(q22) # 1.000000
+q6 -> r_name(q10) # 1.000000
+q21 -> xref(r_value_UNIPROT_) # 1.000000
+q10 -> name(r_op1_p110β_) # 1.000000
+q10 -> name(q14) # 1.000000
+q7 -> r_xref(q11) # 1.000000
+q4 -> protein(q6 q7) # 1.000000
+q1 -> bind-01(q2 q3) # 1.000000
+q14 -> r_op1_CDC42_ # 1.000000
+q18 -> r_xref(q21) # 1.000000
+q23 -> r_op1_p85_ # 1.000000
+q16 -> r_xref(q19) # 1.000000
+q15 -> r_name(q20) # 1.000000
+q12 -> protein(q15 q16) # 1.000000
+q19 -> xref(r_value_UNIPROT_) # 1.000000
+q22 -> name(r_op1_p110β_) # 1.000000

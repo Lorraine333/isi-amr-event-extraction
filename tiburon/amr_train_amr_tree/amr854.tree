@@ -1,0 +1,1 @@
+TOP(load-01(r_ARG1(protein(r_name(name(r_op1_coli_)) r_ARG1-of(purify-01(r_ARG2(and(r_op1(enzyme(r_name(name(r_op1_glutathione_)) r_xref(xref(r_value_UNIPROT_GSHB_HUMAN_)))))))) r_xref(xref(r_UNK)))) r_ARG2(in-vitro(r_name(name(r_op1_GDP/GTPγS_))))))

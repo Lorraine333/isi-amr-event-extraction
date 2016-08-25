@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :name(x2 / name :value "F446"472"589" )  :xref(x3 / xref :value "UNIPROT"GAB1"HUMAN" )  :name(x4 / name :op1 "tyrosine" ) )  :ARG1(x5 / protein-family :name(x6 / name :op1 "p85" )  :part-of(x7 / macro-molecular-complex :xref(x8 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x9 / name :op1 "PI-3" ) ) )  :polarity"- )

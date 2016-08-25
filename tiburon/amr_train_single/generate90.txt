@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / protein-family :name(x2 / name :op1 "ERK" ) )  :ARG0(x3 / molecular-physical-entity :ARG0-of(x4 / decrease-01 :ARG1(x5 / protein-family :name(x6 / name :op1 "RAF" ) ) ) )  :location(x7 / cell) )

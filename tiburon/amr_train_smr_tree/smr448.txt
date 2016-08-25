@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG0(x1 / protein :name(x2 / name :op1 "RAC" ) )  :ARG1(x3 / enzyme :name(x4 / name :op1 "p110β" )  :ARG1-of(x5 / bind-01 :direction(x6 / downstream)  :ARG2(x7 / protein :name(x8 / name :op1 "GPCR" ) ) ) ) )

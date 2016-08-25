@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / cell :manner(x2 / phosphorylate-01) )  :ARG0(x3 / add-modification-00 :manner(x4 / phosphorylate-01)  :manner(x5 / smr-empty) ) )

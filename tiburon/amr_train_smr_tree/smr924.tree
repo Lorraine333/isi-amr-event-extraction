@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_xref(xref(r_value_UNIPROT_ELK1_HUMAN_)) r_name(name(r_op1_Elk-1_)))) r_polarity_- r_ARG0(protein(r_name(name(r_op1_FGF2_)) r_xref(xref(r_value_UNIPROT_KS6A1_HUMAN_)))) r_location(cell)))

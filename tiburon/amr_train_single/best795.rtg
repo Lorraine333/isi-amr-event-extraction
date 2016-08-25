@@ -1,0 +1,10 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q7 )
+q2 -> r_ARG1(q3 )
+q7 -> r_ARG2(q8 )
+q3 -> protein-segment(q4 )
+q8 -> protein
+q4 -> r_name(q5 )
+q5 -> name(q6 )
+q6 -> r_op1_Gβ_

@@ -1,0 +1,17 @@
+qr
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0952380952381
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.take-01(x0: r_ARG2(consider-02(r_ARG1(suggest-01(x1: x2: x3: ) ) ) ) r_ARG1(signal-07(x4: r_ARG2(express-03(x5: ) ) ) ) x6: x7: ) -> decrease-01(qr.x2 qr.x5 qr.x7 ) #1.0
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_ERK1/2_ ) #0.000815660685155
+qr.r_op1_MKP3_ -> r_op1_MKP3_ #0.944444444444
+qr.r_op1_NIH3T3_ -> r_op1_NIH3T3_ #0.75
+qr.r_location(x0: ) -> r_location(qc.x0 ) #0.695652173913
+qc.cell-line(x0: ) -> cell-line(r_xref(xref(r_value_NIH3T3_CVCL_0594_ ) ) qr.x0 ) #0.461538461538
+qr.r_value_UNIPROT_DUS6_HUMAN_ -> r_value_UNIPROT_DUS6_HUMAN_ #1.0
+qc.pathway(x0: ) -> pathway(qr.x0 ) #0.4
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

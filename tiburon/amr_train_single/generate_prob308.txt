@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG1(x2 / add-modification-00 :ARG0(x3 / protein)  :ARG0(x4 / smr-empty)  :ARG1(x5 / add-modification-00 :manner(x6 / activity-06)  :manner(x7 / phosphorylate-01) ) )  :ARG0(x8 / phosphorylate-01) )  :ARG0(x9 / add-modification-00 :manner(x10 / activity-06)  :manner(x11 / phosphorylate-01) ) )

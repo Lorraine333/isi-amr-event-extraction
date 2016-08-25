@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :manner(x2 / phosphorylate-01)  :ARG1(x3 / protein :xref(x4 / xref :UNK )  :name(x5 / name :op1 "SRC-3" ) )  :ARG0(x6 / protein) )  :ARG0(x7 / hypothesis)  :manner(x8 / hypothesis) )

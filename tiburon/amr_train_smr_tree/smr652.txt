@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / cell-line :xref(x2 / xref :value "RRID"CVCL"4240" )  :name(x3 / name :op1 "MEF" ) )  :ARG0(x4 / small-molecule :xref(x5 / xref :value "CHEBI"5931" )  :name(x6 / name :op1 "insulin" ) ) )

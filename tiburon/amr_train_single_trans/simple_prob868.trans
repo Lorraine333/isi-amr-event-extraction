@@ -1,0 +1,3 @@
+qr
+qc.protein -> smr-empty #1.0
+qr.TOP(affect-01(x0: x1: x2: r_ARG1(and(x3: r_op2(stable-03(x4: r_ARG1(x5: ) ) ) ) ) ) ) -> TOP(qc.x5 ) #1.0

@@ -1,0 +1,1 @@
+TOP(observe-01(r_ARG1(and(r_op1(bind-01(r_ARG1-of(weak-02(r_degree(more))) r_ARG2(protein(r_name(name(r_op1_RHOG_)) r_xref(xref(r_value_UNIPROT_RHOG_HUMAN_)))))) r_op2(bind-01(r_ARG1-of(minimal-02) r_ARG2(protein(r_name(name(r_op1_RHOA_)) r_xref(xref(r_value_UNIPROT_RHOA_HUMAN_)))))))) r_mod(also) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_3e_))))))

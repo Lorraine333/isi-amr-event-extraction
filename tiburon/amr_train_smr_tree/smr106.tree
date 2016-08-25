@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_name(name(r_op1_ERK_)) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)))) r_ARG0(bind-01(r_ARG1(small-molecule) r_ARG2(protein-segment(r_name(name(r_op2_site_ r_op1_ATP-binding_)) r_part-of(enzyme)))))))

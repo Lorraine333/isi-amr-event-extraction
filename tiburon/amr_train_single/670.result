@@ -1,0 +1,18 @@
+q18
+q18 -> TOP(q19) # 1.000000
+q43 -> r_op1_RAC1_ # 1.000000
+q31 -> r_name(q40) # 1.000000
+q40 -> name(q43) # 1.000000
+q20 -> r_ARG0(q29) # 1.000000
+q35 -> r_ARG1(q39) # 1.000000
+q32 -> r_xref(q41) # 1.000000
+q29 -> protein(q31 q32) # 1.000000
+q19 -> increase-01(q20 q21 q22) # 1.000000
+q30 -> increase-01(q35 q36) # 1.000000
+q21 -> r_ARG1(q30) # 1.000000
+q22 -> r_polarity_- # 1.000000
+q42 -> molecular-physical-entity # 1.000000
+q44 -> r_value_UNIPROT_RAC1_HUMAN_ # 1.000000
+q41 -> xref(q44) # 1.000000
+q39 -> pathway # 1.000000
+q36 -> r_ARG0(q42) # 1.000000

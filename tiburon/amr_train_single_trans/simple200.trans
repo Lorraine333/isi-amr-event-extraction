@@ -1,0 +1,3 @@
+qr
+qc.growth-factor -> smr-empty
+qr.TOP(possible-01(r_ARG1(activate-01(x0: r_ARG0(stimulus(x1: r_ARG2-of(include-01(r_ARG1(and(x2: r_op2(x3: ) ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x3 )

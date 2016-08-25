@@ -1,0 +1,1 @@
+(x0 / bind-01 :op1 (x1 / xref :value "UNIPROT"RAC1"HUMAN" )  :ARG2(x2 / macro-molecular-complex :ARG0(x3 / add-modification-00 :manner(x4 / phosphorylate-01)  :manner(x5 / smr-empty) )  :ARG1(x6 / enzyme :manner(x7 / mutate-01) ) ) )

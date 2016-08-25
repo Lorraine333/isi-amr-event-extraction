@@ -1,0 +1,1 @@
+TOP(inhibit-01(r_ARG0(person(r_ARG1-of(resemble-01(r_ARG2(molecular-physical-entity(r_ARG0-of(inhibit-01(r_ARG1(enzyme(r_name(name(r_op1_RAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))) r_name(name(r_UNK)))))))) r_ARG1(pathway(r_name(name(r_op1_MEK/ERK_)))) r_time(concentrate-02(r_ARG1-of(high-02(r_degree(more)))))))

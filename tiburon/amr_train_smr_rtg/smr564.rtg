@@ -1,0 +1,28 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 )
+q2 -> r_ARG0(q3 )
+q3 -> and(q12 q4 )
+q3 -> and(q4 q12 )
+q12 -> r_op2(q13 )
+q4 -> r_op1(q5 )
+q13 -> amino-acid(q17 q15 q14 )
+q13 -> amino-acid(q17 q14 q15 )
+q13 -> amino-acid(q15 q17 q14 )
+q13 -> amino-acid(q15 q14 q17 )
+q13 -> amino-acid(q14 q17 q15 )
+q13 -> amino-acid(q14 q15 q17 )
+q5 -> protein(q9 q6 )
+q5 -> protein(q6 q9 )
+q17 -> r_name(q18 )
+q15 -> r_ARG1-of(q16 )
+q14 -> r_mod_740_
+q9 -> r_name(q10 )
+q6 -> r_xref(q7 )
+q18 -> name(q19 )
+q16 -> phosphorylate-01
+q10 -> name(q11 )
+q7 -> xref(q8 )
+q19 -> r_op1_tyrosine_
+q11 -> r_op1_CDC42_
+q8 -> r_value_UNIPROT_CDC42_HUMAN_

@@ -1,0 +1,11 @@
+Tree info for input tree amr644.tree:
+	75 nodes
+	16 yield length
+Transducer info for input tree transducer simple644.trans:
+	2 states
+	19 rules
+RTG info for forward application of tree:
+	25 states
+	32 rules
+	7 unique terminal symbols
+	128 derivations

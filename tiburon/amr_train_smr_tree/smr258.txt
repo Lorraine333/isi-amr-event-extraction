@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG0(x1 / protein)  :ARG1(x2 / amino-acid :part-of(x3 / protein :name(x4 / name :op1 "SRC-3" )  :xref(x5 / xref :value "UNIPROT"NCOA3"HUMAN" ) )  :mod "867"  :name(x6 / name :op1 "serine" ) )  :manner(x7 / phosphorylate-01) )

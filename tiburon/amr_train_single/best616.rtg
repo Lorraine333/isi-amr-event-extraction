@@ -1,0 +1,27 @@
+q0
+q0 -> TOP(q1 )
+q1 -> decrease-01(q2 q6 q20 )
+q2 -> r_location(q3 )
+q6 -> r_ARG1(q7 )
+q20 -> r_ARG0(q21 )
+q3 -> cell(q4 )
+q7 -> add-modification-00(q8 q10 q12 )
+q21 -> and(q22 q24 )
+q4 -> r_mod(q5 )
+q8 -> r_ARG0(q9 )
+q10 -> r_manner(q11 )
+q12 -> r_ARG1(q13 )
+q22 -> r_op1(q23 )
+q24 -> r_op2(q25 )
+q5 -> wild-type
+q9 -> protein
+q11 -> phosphorylate-01
+q13 -> enzyme(q14 q17 )
+q23 -> protein
+q25 -> protein
+q14 -> r_name(q15 )
+q17 -> r_xref(q18 )
+q15 -> name(q16 )
+q18 -> xref(q19 )
+q16 -> r_op1_AKT_
+q19 -> r_value_UNIPROT_AKT1_HUMAN_

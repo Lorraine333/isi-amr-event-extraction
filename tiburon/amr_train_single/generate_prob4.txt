@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :manner(x1 / phosphorylate-01)  :manner(x2 / protein) )

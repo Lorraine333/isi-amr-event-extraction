@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG0(x1 / nucleus)  :ARG1(x2 / enzyme :ARG1-of(x3 / add-modification-00 :manner(x4 / phosphorylate-01) )  :xref(x5 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x6 / name :op1 "Erk1"2" ) )  :ARG0(x7 / small-molecule :name(x8 / name :op1 "doxycycline" )  :xref(x9 / xref :value "PUBCHEM"54671203" ) ) )

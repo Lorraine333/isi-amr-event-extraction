@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / protein :manner(x2 / phosphorylate-01) )  :ARG1(x3 / protein :manner(x4 / phosphorylate-01) )  :location(x5 / cell) )

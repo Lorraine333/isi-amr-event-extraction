@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG1(small-molecule(r_name(name(r_op1_SRC-3_)) r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_)))) r_ARG0(molecular-physical-entity(r_ARG0-of(decrease-01(r_ARG1(muti-index-card(r_op1_RAF_ r_value_UNIPROT_RAF1_HUMAN_)))))) r_location(cell))) # 0.000246

@@ -1,0 +1,14 @@
+qr
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 )
+qc.name(x0: ) -> name(r_op1_p110β_ )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_op1_CDC42_ -> r_op1_CDC42_
+qr.TOP(isoform(x0: x1: r_ARG1-of(cause-01(r_ARG0(x2: ) ) ) ) ) -> TOP(qc.x2 )
+qr.r_value_UNIPROT_CDC42_HUMAN_ -> r_value_UNIPROT_CDC42_HUMAN_
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.bind-01(x0: r_ARG0(and(x1: x2: ) ) x3: x4: x5: x6: x7: ) -> bind-01(qr.x1 qr.x2 )
+qr.r_op1(x0: ) -> r_ARG2(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

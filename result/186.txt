@@ -1,0 +1,422 @@
+******************************single membership test******************************
+All Trees Have Been Generated!
+Successed on  167 / 167
+Failed on  0 / 167
+******************************union membership test******************************
+All Trees Have Been Generated!
+Successed on  167 / 167
+Failed on  0 / 167
+******************************single rule number******************************
+[4L, 4L, 1L, 1L, 1L, 1L, 1L, 1L, 16L, 1L, 16L, 1L, 2L, 16L, 4L, 4L, 1L, 1L, 1L, 4L, 1L, 8L, 16L, 1L, 1L, 16L, 16L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 2L, 2L, 256L, 2L, 1L, 1L, 1L, 1L, 1L, 32L, 1L, 1L, 4L, 1L, 1L, 1L, 1L, 1L, 144L, 486L, 2L, 4L, 1L, 288L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 16L, 4L, 4L, 4L, 16L, 16L, 4L, 4L, 4L, 4L, 4L, 4L, 1L, 1L, 2L, 1L, 4L, 1L, 1L, 1L, 1L, 1L, 1L, 108L, 1L, 4L, 1L, 1L, 1L, 2L, 1L, 1L, 1L, 1L, 1L, 4L, 4L, 4L, 4L, 1L, 1L, 1L, 1L, 1L, 4L, 4L, 1L, 1L, 1L, 1L, 2L, 1L, 1L, 1L, 1L, 1L, 1L, 4L, 1L, 1L, 1L, 1L, 1L, 4L, 4L, 1L, 4L, 1L, 1L, 1L, 1L, 1L, 1L, 2L, 1L, 1L, 2L, 1L, 1L, 1L, 1L, 1L, 1L, 4L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 8L, 8L, 32L, 4L, 4L, 1L]
+10
+******************************union rules number******************************
+[187251014419541130240L, 187251014419541130240L, 1L, 1L, 147097658429614080L, 147097658429614080L, 1L, 1L, 10424778817536L, 5L, 578619201945600L, 349028352L, 90505175040L, 2424245760L, 77061834432L, 77061834432L, 1L, 1L, 12830173050L, 12830173050L, 12830173050L, 12830173050L, 4935168L, 1L, 2L, 870384326446080L, 1556510325394752L, 1211381547655392L, 28754606697824734272L, 28754606697824734272L, 28754606697824734272L, 28754606697824734272L, 4310566630284096L, 8304179831870837L, 8304179831870837L, 8304179831870837L, 27539155008L, 313722203948217216L, 1388878216848818841600L, 1388878216848818841600L, 146598452121600L, 192823378675200L, 192823378675200L, 192823378675200L, 2238927657707520L, 13141259739330640L, 13141259739330640L, 13141259739330640L, 13141259739330640L, 47118827520L, 2272320L, 14694172014240L, 25443760320L, 25443760320L, 25443760320L, 968020282577115245076480L, 968020282577115245076480L, 968020282577115245076480L, 85568540379840L, 85568540379840L, 9984057729483264L, 9984057729483264L, 275612040L, 151400194028021760L, 151400194028021760L, 272287130976000L, 5021530536960L, 5836220087281920L, 376594390888611840L, 122501748695040L, 122501748695040L, 122501748695040L, 122501748695040L, 122501748695040L, 122501748695040L, 1007525376L, 1007525376L, 1007525376L, 1007525376L, 1007525376L, 10982080512L, 13458432L, 10892497824L, 149760L, 3181211486208L, 15712240732L, 15712240732L, 15712240732L, 15712240732L, 4532750167063967280L, 4532750167063967280L, 10008041056650000L, 2209616357913583732L, 2209616357913583732L, 4608L, 411264L, 4644420768L, 4644420768L, 98304L, 22110521472L, 3555328L, 3555328L, 44L, 12091691430000L, 12091691430000L, 15167817729792L, 15167817729792L, 142379165327616L, 142379165327616L, 142379165327616L, 245336L, 39006321120L, 4961742851520L, 10892497824L, 451200L, 4256L, 4256L, 1239035879644056L, 10892497824L, 451200L, 2062154957780739060L, 2062154957780739060L, 2062154957780739060L, 2062154957780739060L, 1026863407885952L, 645472620L, 645472620L, 645472620L, 645472620L, 1276853760L, 1276853760L, 7329096521120064L, 7329096521120064L, 75196512L, 523589923200L, 523589923200L, 232428841391376L, 232428841391376L, 278114400L, 278114400L, 276639563032980L, 18089203903056L, 1760000400L, 1760000400L, 12802944L, 254016L, 254016L, 4918717440L, 3301337088L, 413897017134916288116L, 413897017134916288116L, 413897017134916288116L, 646184448L, 2724913152L, 280663014240L, 280663014240L, 280663014240L, 280663014240L, 324011520L, 324011520L, 324011520L, 1290879071136000L, 1290879071136000L, 1290879071136000L, 2832377180595336L, 2832377180595336L, 2832377180595336L]
+17416724508223464189826
+******************************single best******************************
+Number  0  Failed!
+Number  1  Failed!
+Test Number  2  Success!
+Test Number  3  Success!
+Test Number  4  Success!
+Test Number  5  Success!
+Test Number  6  Success!
+Test Number  7  Success!
+Number  8  Failed!
+Test Number  9  Success!
+Number  10  Failed!
+Test Number  12  Success!
+Number  14  Failed!
+Number  15  Failed!
+Number  16  Failed!
+Number  17  Failed!
+Test Number  18  Success!
+Test Number  19  Success!
+Test Number  20  Success!
+Number  21  Failed!
+Test Number  22  Success!
+Number  23  Failed!
+Number  24  Failed!
+Test Number  25  Success!
+Test Number  26  Success!
+Number  27  Failed!
+Number  28  Failed!
+Test Number  29  Success!
+Test Number  30  Success!
+Test Number  31  Success!
+Test Number  32  Success!
+Test Number  33  Success!
+Test Number  34  Success!
+Test Number  36  Success!
+Test Number  37  Success!
+Test Number  38  Success!
+Test Number  39  Success!
+Test Number  40  Success!
+Number  42  Failed!
+Number  43  Failed!
+Test Number  44  Success!
+Test Number  45  Success!
+Test Number  47  Success!
+Test Number  48  Success!
+Test Number  49  Success!
+Test Number  50  Success!
+Number  51  Failed!
+Test Number  52  Success!
+Test Number  53  Success!
+Number  54  Failed!
+Test Number  55  Success!
+Test Number  56  Success!
+Test Number  58  Success!
+Test Number  59  Success!
+Test Number  60  Success!
+Number  61  Failed!
+Number  62  Failed!
+Test Number  63  Success!
+Number  64  Failed!
+Test Number  65  Success!
+Number  67  Failed!
+Test Number  68  Success!
+Test Number  70  Success!
+Test Number  71  Success!
+Test Number  72  Success!
+Test Number  73  Success!
+Test Number  74  Success!
+Test Number  75  Success!
+Number  76  Failed!
+Number  77  Failed!
+Number  78  Failed!
+Number  79  Failed!
+Number  80  Failed!
+Number  81  Failed!
+Number  82  Failed!
+Number  83  Failed!
+Number  84  Failed!
+Number  85  Failed!
+Number  86  Failed!
+Number  88  Failed!
+Test Number  89  Success!
+Test Number  90  Success!
+Test Number  91  Success!
+Test Number  92  Success!
+Number  93  Failed!
+Test Number  94  Success!
+Test Number  95  Success!
+Test Number  96  Success!
+Test Number  97  Success!
+Test Number  98  Success!
+Test Number  101  Success!
+Number  102  Failed!
+Test Number  103  Success!
+Number  104  Failed!
+Test Number  105  Success!
+Test Number  106  Success!
+Test Number  107  Success!
+Test Number  108  Success!
+Test Number  109  Success!
+Test Number  111  Success!
+Test Number  112  Success!
+Test Number  113  Success!
+Test Number  114  Success!
+Number  115  Failed!
+Number  116  Failed!
+Number  118  Failed!
+Number  119  Failed!
+Test Number  120  Success!
+Test Number  121  Success!
+Test Number  122  Success!
+Test Number  123  Success!
+Test Number  124  Success!
+Number  125  Failed!
+Number  126  Failed!
+Test Number  127  Success!
+Test Number  128  Success!
+Test Number  129  Success!
+Test Number  130  Success!
+Number  131  Failed!
+Test Number  132  Success!
+Test Number  133  Success!
+Test Number  134  Success!
+Test Number  135  Success!
+Test Number  136  Success!
+Test Number  138  Success!
+Number  139  Failed!
+Test Number  140  Success!
+Test Number  141  Success!
+Test Number  142  Success!
+Test Number  143  Success!
+Test Number  144  Success!
+Number  145  Failed!
+Number  146  Failed!
+Test Number  147  Success!
+Number  148  Failed!
+Test Number  149  Success!
+Test Number  150  Success!
+Test Number  151  Success!
+Test Number  152  Success!
+Test Number  153  Success!
+Test Number  155  Success!
+Test Number  156  Success!
+Test Number  157  Success!
+Test Number  158  Success!
+Test Number  159  Success!
+Test Number  160  Success!
+Test Number  161  Success!
+Test Number  163  Success!
+Test Number  165  Success!
+Test Number  166  Success!
+Test Number  167  Success!
+Number  168  Failed!
+Test Number  169  Success!
+Test Number  170  Success!
+Test Number  171  Success!
+Test Number  172  Success!
+Test Number  173  Success!
+Test Number  174  Success!
+Test Number  175  Success!
+Test Number  176  Success!
+Test Number  178  Success!
+Number  180  Failed!
+Number  181  Failed!
+Number  182  Failed!
+Number  183  Failed!
+Number  184  Failed!
+Test Number  185  Success!
+Successed on  114 / 167
+Failed on  53 / 167
+******************************union best******************************
+Number  0  Failed!
+Number  1  Failed!
+Test Number  2  Success!
+Test Number  3  Success!
+Number  4  Failed!
+Number  5  Failed!
+Test Number  6  Success!
+Test Number  7  Success!
+Number  8  Failed!
+Number  9  Failed!
+Number  10  Failed!
+Number  12  Failed!
+Number  14  Failed!
+Number  15  Failed!
+Number  16  Failed!
+Number  17  Failed!
+Test Number  18  Success!
+Test Number  19  Success!
+Number  20  Failed!
+Number  21  Failed!
+Number  22  Failed!
+Number  23  Failed!
+Number  24  Failed!
+Test Number  25  Success!
+Number  26  Failed!
+Number  27  Failed!
+Number  28  Failed!
+Number  29  Failed!
+Number  30  Failed!
+Number  31  Failed!
+Number  32  Failed!
+Number  33  Failed!
+Number  34  Failed!
+Number  36  Failed!
+Number  37  Failed!
+Number  38  Failed!
+Number  39  Failed!
+Number  40  Failed!
+Number  42  Failed!
+Number  43  Failed!
+Number  44  Failed!
+Number  45  Failed!
+Number  47  Failed!
+Number  48  Failed!
+Number  49  Failed!
+Number  50  Failed!
+Number  51  Failed!
+Number  52  Failed!
+Number  53  Failed!
+Number  54  Failed!
+Number  55  Failed!
+Number  56  Failed!
+Number  58  Failed!
+Number  59  Failed!
+Number  60  Failed!
+Number  61  Failed!
+Number  62  Failed!
+Number  63  Failed!
+Number  64  Failed!
+Number  65  Failed!
+Number  67  Failed!
+Number  68  Failed!
+Number  70  Failed!
+Number  71  Failed!
+Number  72  Failed!
+Number  73  Failed!
+Number  74  Failed!
+Number  75  Failed!
+Number  76  Failed!
+Number  77  Failed!
+Number  78  Failed!
+Number  79  Failed!
+Number  80  Failed!
+Number  81  Failed!
+Number  82  Failed!
+Number  83  Failed!
+Number  84  Failed!
+Number  85  Failed!
+Number  86  Failed!
+Number  88  Failed!
+Number  89  Failed!
+Number  90  Failed!
+Number  91  Failed!
+Number  92  Failed!
+Number  93  Failed!
+Number  94  Failed!
+Number  95  Failed!
+Number  96  Failed!
+Number  97  Failed!
+Number  98  Failed!
+Number  101  Failed!
+Number  102  Failed!
+Number  103  Failed!
+Number  104  Failed!
+Number  105  Failed!
+Number  106  Failed!
+Number  107  Failed!
+Number  108  Failed!
+Number  109  Failed!
+Number  111  Failed!
+Number  112  Failed!
+Number  113  Failed!
+Test Number  114  Success!
+Number  115  Failed!
+Number  116  Failed!
+Number  118  Failed!
+Number  119  Failed!
+Number  120  Failed!
+Number  121  Failed!
+Number  122  Failed!
+Number  123  Failed!
+Number  124  Failed!
+Number  125  Failed!
+Number  126  Failed!
+Number  127  Failed!
+Number  128  Failed!
+Test Number  129  Success!
+Number  130  Failed!
+Number  131  Failed!
+Number  132  Failed!
+Number  133  Failed!
+Number  134  Failed!
+Number  135  Failed!
+Number  136  Failed!
+Number  138  Failed!
+Number  139  Failed!
+Number  140  Failed!
+Number  141  Failed!
+Number  142  Failed!
+Number  143  Failed!
+Number  144  Failed!
+Number  145  Failed!
+Number  146  Failed!
+Number  147  Failed!
+Number  148  Failed!
+Number  149  Failed!
+Number  150  Failed!
+Number  151  Failed!
+Number  152  Failed!
+Number  153  Failed!
+Number  155  Failed!
+Number  156  Failed!
+Number  157  Failed!
+Number  158  Failed!
+Number  159  Failed!
+Number  160  Failed!
+Number  161  Failed!
+Number  163  Failed!
+Number  165  Failed!
+Number  166  Failed!
+Number  167  Failed!
+Number  168  Failed!
+Number  169  Failed!
+Number  170  Failed!
+Number  171  Failed!
+Number  172  Failed!
+Number  173  Failed!
+Number  174  Failed!
+Number  175  Failed!
+Number  176  Failed!
+Number  178  Failed!
+Number  180  Failed!
+Number  181  Failed!
+Number  182  Failed!
+Number  183  Failed!
+Number  184  Failed!
+Number  185  Failed!
+Successed on  9 / 167
+Failed on  158 / 167
+******************************test membership******************************
+Number  11  Failed!
+Number  13  Failed!
+Number  35  Failed!
+Number  41  Failed!
+Number  46  Failed!
+Number  57  Failed!
+Number  66  Failed!
+Number  69  Failed!
+Number  87  Failed!
+Test Number  99  Success!
+Test Number  100  Success!
+Number  110  Failed!
+Number  117  Failed!
+Test Number  137  Success!
+Test Number  154  Success!
+Number  162  Failed!
+Number  164  Failed!
+Number  177  Failed!
+Number  179  Failed!
+Successed on  4 / 19
+Failed on  15 / 19
+******************************test count******************************
+[0L, 90505175040L, 4310566630284096L, 313722203948217216L, 192823378675200L, 0L, 85568540379840L, 9984057729483264L, 1007525376L, 4532750167063967280L, 4532750167063967280L, 0L, 0L, 1026863407885952L, 276639563032980L, 0L, 3301337088L, 324011520L, 0L]
+494478902761260112
+******************************test best******************************
+Number  11  Failed!
+Number  13  Failed!
+Number  35  Failed!
+Number  41  Failed!
+Number  46  Failed!
+Number  57  Failed!
+Number  66  Failed!
+Number  69  Failed!
+Number  87  Failed!
+Number  99  Failed!
+Number  100  Failed!
+Number  110  Failed!
+Number  117  Failed!
+Number  137  Failed!
+Number  154  Failed!
+Number  162  Failed!
+Number  164  Failed!
+Number  177  Failed!
+Number  179  Failed!
+Successed on  0 / 19
+Failed on  19 / 19
+******************************test can generate some smr******************************
+13 can generate some smr
+35 can generate some smr
+41 can generate some smr
+46 can generate some smr
+66 can generate some smr
+69 can generate some smr
+87 can generate some smr
+99 can generate some smr
+100 can generate some smr
+137 can generate some smr
+154 can generate some smr
+164 can generate some smr
+177 can generate some smr
+13/19 test data can generate some smr
+******************************average single smatch score******************************
+0.906766467066
+******************************average union smatch score******************************
+0.623173652695
+******************************average test smatch score******************************
+0.455789473684

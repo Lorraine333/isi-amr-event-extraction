@@ -1,0 +1,18 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_ARG0(thing(x0: r_name(name(x1: ) ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qc.nanomolar -> protein #0.333333333333
+qr.r_ARG1(x0: ) -> r_mode(qc.x0 ) #0.00300751879699
+qc.r_quant_10_ -> phosphorylate-01 #1.0
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.plasmid -> hypothesis #1.0
+qr.r_unit(x0: ) -> r_ARG0(qc.x0 ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.and(x0: r_op2(concentration-quantity(x1: x2: ) ) ) -> add-modification-00(qr.x0 r_manner(qc.x1 ) qr.x2 ) #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.treat-04(r_ARG1-of(describe-01(x0: ) ) x1: x2: x3: ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qc.r_op1_B_ -> molecular-physical-entity #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

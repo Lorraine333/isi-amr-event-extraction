@@ -1,0 +1,30 @@
+q39
+q39 -> TOP(q40) # 1.000000
+q68 -> protein(q80) # 1.000000
+q74 -> r_xref(q82) # 1.000000
+q58 -> r_ARG0-of(q65) # 1.000000
+q42 -> r_ARG1(q45) # 1.000000
+q77 -> r_value_V12_ # 1.000000
+q48 -> r_part(q71) # 1.000000
+q49 -> r_part(q68) # 1.000000
+q80 -> r_name(q83) # 1.000000
+q73 -> r_name(q81) # 1.000000
+q85 -> r_op1_Mkp3_ # 1.000000
+q72 -> mutate-01(q77) # 1.000000
+q79 -> r_op1_Ras_ # 1.000000
+q83 -> name(q87) # 1.000000
+q56 -> r_name(q66) # 1.000000
+q66 -> name(q79) # 1.000000
+q46 -> enzyme(q56 q57 q58) # 1.000000
+q84 -> r_value_UNIPROT_DUS6_HUMAN_ # 1.000000
+q45 -> macro-molecular-complex(q47 q48 q49) # 1.000000
+q87 -> r_op1_Luc_ # 1.000000
+q81 -> name(q85) # 1.000000
+q57 -> r_ARG1-of(q72) # 1.000000
+q71 -> enzyme(q73 q74) # 1.000000
+q70 -> activity-06 # 1.000000
+q47 -> r_ARG0-of(q70) # 1.000000
+q40 -> increase-01(q41 q42) # 1.000000
+q65 -> activity-06 # 1.000000
+q41 -> r_ARG0(q46) # 1.000000
+q82 -> xref(q84) # 1.000000

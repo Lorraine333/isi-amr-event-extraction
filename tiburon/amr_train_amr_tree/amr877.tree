@@ -1,0 +1,1 @@
+TOP(use-01(r_ARG0(sequence-01(r_mod(genome(r_name(name(r_op1_DNA_)) r_source(and(r_op1(isolate-01(r_ARG2(enzyme(r_mod(heterozygous) r_mod(homozygous) r_name(name(r_op1_p110β-RBD_)) r_xref(xref(r_value_UNIPROT_BID_HUMAN_)))) r_ARG1(mouse(r_mod(dm))))) r_op2(UNK))))))) r_ARG1(UNK)))

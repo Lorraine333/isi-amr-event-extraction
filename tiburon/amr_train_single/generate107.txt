@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / bind-01 :ARG1(x2 / small-molecule)  :ARG2(x3 / complex-with-00 :ARG2(x4 / enzyme :name(x5 / name :op1 "CRAF" )  :xref(x6 / xref :value "UNIPROT"RAF1"HUMAN" ) )  :ARG1(x7 / enzyme :name(x8 / name :op1 "CRAF" )  :xref(x9 / xref :value "UNIPROT"RAF1"HUMAN" ) ) ) )  :ARG1(x10 / protein) )

@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein-segment(r_name(name(r_op1_AF-2_)) r_part-of(protein(r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)))))) r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_)) r_name(name(r_op1_SRC-3_)))) r_ARG0(protein)))))

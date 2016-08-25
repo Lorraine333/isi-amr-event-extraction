@@ -1,0 +1,18 @@
+qr
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_ErbB3_ -> r_op1_ErbB3_ #1.0
+qc.transfect-01 -> activity-06 #0.666666666667
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qr.r_ARG1-of(x0: ) -> r_ARG0-of(qc.x0 ) #0.0588235294118
+qr.r_ARG0(and(x0: r_op2(x1: ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qr.r_value_UNIPROT_NRG1_HUMAN_ -> r_value_UNIPROT_NRG1_HUMAN_ #1.0
+qr.r_value_UNIPROT_ERBB3_HUMAN_ -> r_value_UNIPROT_ERBB3_HUMAN_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(infer-01(r_ARG1(possible-01(r_ARG1(x0: ) ) ) ) ) -> TOP(qc.x0 ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.stimulate-01(x0: r_ARG1(activate-01(r_ARG1(kinase(x1: ) ) r_location(and(x2: r_op2(cell(x3: r_ARG1-of(mean-01(r_ARG2(and(r_op1(protein(x4: x5: ) ) x6: ) ) ) ) ) ) x7: ) ) ) ) ) -> increase-01(r_ARG1(increase-01(qr.x0 r_ARG1(enzyme(qr.x1 qr.x3 qr.x5 ) ) ) ) qr.x6 ) #1.0
+qr.r_op1_PI-3_ -> r_op1_PI-3_ #1.0
+qr.r_op1_NRG_ -> r_op1_NRG_ #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ ) #0.015873015873
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

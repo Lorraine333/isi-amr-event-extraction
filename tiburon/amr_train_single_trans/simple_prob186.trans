@@ -1,0 +1,19 @@
+qr
+qr.r_ARG2(x0: ) -> r_location(qc.x0 ) #0.0619834710744
+qc.amino-acid(r_name(x0: ) x1: x2: x3: ) -> add-modification-00(qr.x0 r_ARG0(qc.x1 ) r_ARG1(protein(qr.x2 qr.x3 ) ) ) #1.0
+qc.macro-molecular-complex(x0: x1: ) -> macro-molecular-complex #0.2
+qc.r_op1_SRC_ -> phosphorylate-01 #1.0
+qc.r_mod_3_ -> protein #0.428571428571
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_UNK -> r_op1_estrogen_ #0.0344827586207
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.be-located-at-91(x0: r_ARG1(phosphorylate-01(r_ARG2-of(induce-01(x1: ) ) x2: ) ) x3: ) -> increase-01(qr.x1 qr.x2 qr.x3 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

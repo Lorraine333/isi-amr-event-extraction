@@ -1,0 +1,29 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q20 )
+q2 -> r_ARG1(q3 )
+q20 -> r_ARG0(q21 )
+q3 -> increase-01(q4 q12 )
+q21 -> protein(q22 q25 )
+q4 -> r_ARG0(q5 )
+q12 -> r_ARG0(q13 )
+q22 -> r_name(q23 )
+q25 -> r_xref(q26 )
+q5 -> protein(q6 q9 )
+q13 -> protein(q14 q17 )
+q23 -> name(q24 )
+q26 -> xref(q27 )
+q6 -> r_name(q7 )
+q9 -> r_xref(q10 )
+q14 -> r_name(q15 )
+q17 -> r_xref(q18 )
+q24 -> r_op1_Gab1_
+q27 -> r_value_UNIPROT_GAB1_HUMAN_
+q7 -> name(q8 )
+q10 -> xref(q11 )
+q15 -> name(q16 )
+q18 -> xref(q19 )
+q8 -> r_op1_Pi-3_
+q11 -> r_value_UNIPROT_P85A_HUMAN_
+q16 -> r_op1_NRG_
+q19 -> r_value_UNIPROT_NRG1_HUMAN_

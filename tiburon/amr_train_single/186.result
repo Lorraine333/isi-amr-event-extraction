@@ -1,0 +1,27 @@
+q35
+q35 -> TOP(q36) # 1.000000
+q64 -> name(q73) # 1.000000
+q39 -> r_location(q48) # 1.000000
+q46 -> add-modification-00(q53 q54 q55) # 1.000000
+q76 -> name(q77) # 1.000000
+q49 -> r_name(q64) # 1.000000
+q69 -> r_name(q76) # 1.000000
+q77 -> r_op1_SRC-3_ # 1.000000
+q67 -> r_value_CHEBI_50114_ # 1.000000
+q38 -> r_ARG1(q46) # 1.000000
+q47 -> molecular-physical-entity(q49 q50) # 1.000000
+q54 -> r_ARG0(q65) # 1.000000
+q53 -> r_manner(q63) # 1.000000
+q48 -> macro-molecular-complex # 1.000000
+q55 -> r_ARG1(q62) # 1.000000
+q70 -> r_xref(q75) # 1.000000
+q75 -> xref(q79) # 1.000000
+q62 -> protein(q69 q70) # 1.000000
+q50 -> r_xref(q66) # 1.000000
+q73 -> r_op1_estrogen_ # 1.000000
+q66 -> xref(q67) # 1.000000
+q65 -> protein # 1.000000
+q36 -> increase-01(q37 q38 q39) # 1.000000
+q37 -> r_ARG0(q47) # 1.000000
+q63 -> phosphorylate-01 # 1.000000
+q79 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000

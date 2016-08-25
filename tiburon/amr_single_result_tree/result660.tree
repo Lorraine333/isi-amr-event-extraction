@@ -1,0 +1,11 @@
+Tree info for input tree amr660.tree:
+	97 nodes
+	21 yield length
+Transducer info for input tree transducer simple660.trans:
+	2 states
+	21 rules
+RTG info for forward application of tree:
+	28 states
+	34 rules
+	7 unique terminal symbols
+	64 derivations

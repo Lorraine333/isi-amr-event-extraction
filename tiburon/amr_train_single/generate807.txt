@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG2(x1 / molecular-physical-entity :name(x2 / name :op1 "LPA" )  :xref(x3 / xref :value "PUBCHEM"5497152" ) ) )

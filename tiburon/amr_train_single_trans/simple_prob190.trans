@@ -1,0 +1,28 @@
+qr
+qr.r_ARG1-of(describe-01(r_ARG0(protein(x0: x1: ) ) ) ) -> r_ARG1-of(qc.x1 ) #1.0
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 ) #0.234513274336
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_estrogen_ -> r_op1_estrogen_ #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ESR2_HUMAN_ ) #0.0226757369615
+qr.r_op2_receptor_ -> r_op2_receptor_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.or(r_op1(activate-01(r_ARG1(enzyme(x0: x1: ) ) ) ) r_op2(enzyme(x2: x3: x4: ) ) ) -> protein(qr.x0 qr.x1 qr.x4 ) #1.0
+qc.phosphorylate-01(x0: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 r_ARG0(protein ) ) #0.272727272727
+qr.r_op1_estradiol_ -> r_op1_estradiol_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: x1: x2: ) -> name(qr.x0 qr.x1 qr.x2 ) #0.666666666667
+qc.r_value_UNIPROT_ESR1_HUMAN_ -> phosphorylate-01 #0.5
+qr.r_ARG1(involve-01(r_ARG2(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.TOP(investigate-01(x0: x1: r_ARG1(mechanism(r_ARG0-of(x2: ) ) ) ) ) -> TOP(qc.x2 ) #1.0
+qr.r_op3_α_ -> r_op3_β_ #0.5
+qc.and(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.117647058824
+qc.r_xref(x0: ) -> add-modification-00(qr.x0 ) #0.909090909091
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qc.find-01(x0: x1: x2: r_time(present-02(x3: ) ) ) -> increase-01(qr.x0 qr.x3 ) #1.0
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.small-molecule(x0: x1: ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.158415841584
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842

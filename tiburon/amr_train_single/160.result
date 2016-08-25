@@ -1,0 +1,16 @@
+q16
+q16 -> TOP(q17) # 1.000000
+q33 -> r_op1_Elmo1_ # 1.000000
+q23 -> macro-molecular-complex(q28) # 1.000000
+q18 -> r_ARG2(q22) # 1.000000
+q30 -> name(q33) # 1.000000
+q17 -> bind-01(q18 q19) # 1.000000
+q19 -> r_ARG1(q23) # 1.000000
+q31 -> name(q32) # 1.000000
+q25 -> r_xref(q29) # 1.000000
+q28 -> r_name(q31) # 1.000000
+q24 -> r_name(q30) # 1.000000
+q29 -> xref(q34) # 1.000000
+q22 -> protein(q24 q25) # 1.000000
+q34 -> r_value_UNIPORT_ELMO1_HUMAN_ # 1.000000
+q32 -> r_op1_Gβγ_ # 1.000000

@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG0(protein) r_ARG1(enzyme(r_name(name(r_op1_Raf1_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))) r_ARG0(enzyme(r_ARG1-of(add-modification-00(r_manner(phosphorylate-01))) r_name(name(r_op1_Ras_)))))) # 1.809072E-7

@@ -1,0 +1,27 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q10 q24 )
+q2 -> r_ARG0(q3 )
+q10 -> r_ARG1(q11 )
+q24 -> r_ARG1(q25 )
+q3 -> protein(q4 q7 )
+q11 -> increase-01(q12 q20 )
+q25 -> cell
+q4 -> r_name(q5 )
+q7 -> r_xref(q8 )
+q12 -> r_ARG0(q13 )
+q20 -> r_ARG1(q21 )
+q5 -> name(q6 )
+q8 -> xref(q9 )
+q13 -> protein(q14 q17 )
+q21 -> muti-index-card(q22 q23 )
+q6 -> r_op1_ErbB3_
+q9 -> r_value_UNIPROT_ERBB3_HUMAN_
+q14 -> r_name(q15 )
+q17 -> r_xref(q18 )
+q22 -> r_op1_Akt_
+q23 -> r_value_UNIPROT_AKT1_HUMAN_
+q15 -> name(q16 )
+q18 -> xref(q19 )
+q16 -> r_op1_EGF_
+q19 -> r_value_UNIPROT_EGF_HUMAN_

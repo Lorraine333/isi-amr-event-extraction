@@ -1,0 +1,1 @@
+TOP(detect-01(r_ARG1(bind-01(r_ARG1(protein(r_name(name(r_op1_p110β_)) r_xref(xref(r_value_UNIPROT_EXOS6_HUMAN_)))))) r_ARG2(immunoblot-01(r_ARG1(protein(r_name(name(r_op1_FLAG_)) r_xref(xref(r_value_UNIPROT_AL5AP_HUMAN_))))))))

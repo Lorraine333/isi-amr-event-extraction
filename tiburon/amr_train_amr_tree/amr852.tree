@@ -1,0 +1,1 @@
+TOP(and(r_op1(represent-01(r_ARG1(and(r_op1(experiment-01) r_op2(show-01(r_ARG0(quantify-01(r_ARG1(experiment-01(r_quant_2_ r_ARG0-of(depend-01(r_polarity_-_)))))) r_ARG1-of(mean-01))))))) r_op2(enzyme(r_name(name(r_op1_SEM_)) r_xref(xref(r_value_UNIPROT_SEM4F_HUMAN_))))))

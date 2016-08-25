@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein(r_xref(xref(r_UNK)) r_name(name(r_UNK)))) r_ARG1(increase-01(r_ARG0(small-molecule(r_xref(xref(r_UNK)) r_name(name(r_op1_R1881_)))) r_ARG1(add-modification-00(r_ARG1(protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_)) r_name(name(r_op1_SRC-3_)))) r_manner(phosphorylate-01) r_ARG0(protein))))))) # 1.763273E-8

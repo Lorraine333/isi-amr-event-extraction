@@ -1,0 +1,29 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q4 q9 q23 )
+q2 -> r_location(q3 )
+q4 -> r_ARG2(q5 )
+q9 -> r_ARG0(q10 )
+q23 -> r_ARG1(q24 )
+q3 -> fibroblast
+q5 -> enzyme(q6 )
+q10 -> protein(q11 q18 q21 )
+q24 -> protein(q25 )
+q6 -> r_name(q7 )
+q11 -> r_ARG1-of(q12 )
+q18 -> r_name(q19 )
+q21 -> r_ARG1-of(q22 )
+q25 -> r_name(q26 )
+q7 -> name(q8 )
+q12 -> bind-01(q13 )
+q19 -> name(q20 )
+q22 -> add-modification-00
+q26 -> name(q27 )
+q8 -> r_op1_PI3K_
+q13 -> r_ARG2(q14 )
+q20 -> r_op1_RAC_
+q27 -> r_op1_p110β_
+q14 -> enzyme(q15 )
+q15 -> r_name(q16 )
+q16 -> name(q17 )
+q17 -> r_op1_p110β_

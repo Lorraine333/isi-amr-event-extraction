@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG1(x1 / cell :name(x2 / name :op1 "E2" ) )  :ARG1(x3 / protein-segment :name(x4 / name :polarity"- )  :part-of(x5 / gene :name(x6 / name :value "GO" )  :name(x7 / name :UNK ) ) )  :manner(x8 / describe-01 :ARG0(x9 / smr-empty) ) )

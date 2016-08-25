@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein-segment :name(x2 / name :op1 "AF-1" )  :part-of(x3 / protein :name(x4 / name :op1 "ERα" )  :xref(x5 / xref :value "UNIPROT"ESR1"HUMAN" ) ) )  :ARG1(x6 / add-modification-00 :manner(x7 / phosphorylate-01)  :ARG1(x8 / protein :xref(x9 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x10 / name :op1 "SRC-3" ) )  :ARG0(x11 / protein) ) )

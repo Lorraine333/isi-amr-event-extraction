@@ -1,0 +1,11 @@
+qr
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.protein(x0: ) -> protein(qr.x0 ) #0.0650887573964
+qc.name(x0: x1: ) -> name(r_op1_p110β_ ) #0.047619047619
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qc.interact-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.444444444444
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(employ-02(x0: x1: x2: x3: r_purpose(study-01(x4: r_ARG1(x5: ) ) ) ) ) -> TOP(qc.x5 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

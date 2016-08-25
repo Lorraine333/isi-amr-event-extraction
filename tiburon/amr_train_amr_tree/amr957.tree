@@ -1,0 +1,1 @@
+TOP(or(r_op1(treat-04(r_ARG2(or(r_op1(small-molecule(r_ARG0-of(inhibit-01(r_ARG1(protein-family(r_name(name(r_op1_PI3K_)))))) r_name(name(r_op1_LY294002_)) r_xref(xref(r_UNK)))))))) r_op2(enzyme(r_name(name(r_op1_Akt_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_))))))

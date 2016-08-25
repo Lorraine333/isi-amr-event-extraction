@@ -1,0 +1,11 @@
+Tree info for input tree amr360.tree:
+	50 nodes
+	8 yield length
+Transducer info for input tree transducer simple360.trans:
+	2 states
+	20 rules
+RTG info for forward application of tree:
+	24 states
+	38 rules
+	8 unique terminal symbols
+	3456 derivations

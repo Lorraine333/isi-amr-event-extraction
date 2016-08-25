@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG0(x1 / enzyme :name(x2 / name :op1 "SRC-3" )  :xref(x3 / xref :polarity"- ) )  :ARG0(x4 / enzyme :name(x5 / name :op1 "p85" )  :manner(x6 / smr-empty) )  :ARG1-of(x7 / smr-empty) )

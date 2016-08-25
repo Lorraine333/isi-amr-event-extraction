@@ -1,0 +1,11 @@
+Tree info for input tree amr645.tree:
+	75 nodes
+	16 yield length
+Transducer info for input tree transducer simple645.trans:
+	2 states
+	20 rules
+RTG info for forward application of tree:
+	25 states
+	35 rules
+	8 unique terminal symbols
+	432 derivations

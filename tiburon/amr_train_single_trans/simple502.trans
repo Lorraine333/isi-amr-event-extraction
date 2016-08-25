@@ -1,0 +1,13 @@
+qr
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qc.name(x0: ) -> name(r_op1_GTPases_ )
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_op1_p110β_ -> r_op1_p110β_
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.enzyme(x0: x1: x2: x3: x4: ) -> protein-family(qr.x3 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.interact-01(x0: x1: ) -> bind-01(qr.x0 qr.x1 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )

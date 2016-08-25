@@ -1,0 +1,11 @@
+qr
+qr.r_ARG1(interact-01(r_ARG0(x0: ) x1: ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.enzyme(x0: x1: ) -> protein(qr.x0 ) #0.0648967551622
+qc.resemble-01(r_ARG1(isoform(x0: x1: ) ) r_ARG1-of(possible-01(x2: x3: ) ) ) -> bind-01(qr.x1 qr.x3 ) #1.0
+qr.r_mod(x0: ) -> r_ARG2(qc.x0 ) #0.0650406504065
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_RAS_ -> r_op1_RAS_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_p110γ_ ) #0.00163132137031

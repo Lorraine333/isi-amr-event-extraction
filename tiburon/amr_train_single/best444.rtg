@@ -1,0 +1,16 @@
+q0
+q0 -> TOP(q1 )
+q1 -> decrease-01(q2 q8 )
+q2 -> r_location(q3 )
+q8 -> r_ARG1(q9 )
+q3 -> cell(q4 q6 )
+q9 -> protein(q10 q13 )
+q4 -> r_part-of(q5 )
+q6 -> r_ARG1-of(q7 )
+q10 -> r_name(q11 )
+q13 -> r_ARG1-of(q14 )
+q5 -> mouse
+q7 -> mutate-01
+q11 -> name(q12 )
+q14 -> add-modification-00
+q12 -> r_op1_PI3K_

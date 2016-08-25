@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / enzyme :name(x2 / name :op1 "Shp2" )  :xref(x3 / xref :value "UNIPROT"PTN11"HUMAN" ) )  :ARG1(x4 / increase-01 :ARG1(x5 / protein :name(x6 / name :op1 "EGF" )  :xref(x7 / xref :value "UNIPROT"EGF"HUMAN" ) )  :ARG1(x8 / add-modification-00 :ARG1(x9 / pathway :name(x10 / name :op1 "PI3K" ) )  :manner(x11 / phosphorylate-01)  :ARG0(x12 / protein) ) ) )

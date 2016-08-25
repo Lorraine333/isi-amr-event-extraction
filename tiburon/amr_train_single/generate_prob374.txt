@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / add-modification-00 :manner(x2 / smr-empty)  :manner(x3 / phosphorylate-01) ) )

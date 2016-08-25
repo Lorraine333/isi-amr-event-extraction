@@ -1,0 +1,1 @@
+TOP(cotransfect-01(r_li_a_ r_ARG0(cell-line(r_name(name(r_op1_HEK293T_)))) r_ARG2(enzyme(r_ARG1-of(tag-01(r_ARG2(protein(r_name(name(r_op1_GFP_)) r_xref(xref(r_value_UNIPROT_FPGT_HUMAN_)))))) r_mod(wild-type) r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)))) r_ARG1-of(describe-01(r_ARG0(and(r_op1(UNK)))))))

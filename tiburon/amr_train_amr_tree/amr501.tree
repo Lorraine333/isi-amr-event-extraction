@@ -1,0 +1,1 @@
+TOP(point-01(r_ARG1(add-02(r_ARG1(or(r_op1(signal-07(r_ARG0(enzyme(r_name(name(r_UNK)))))))))) r_ARG2(role(r_ARG1-of(critical-02) r_poss(protein-segment(r_name(name(r_op1_RBD_)))) r_purpose(activity-06(r_ARG0(enzyme(r_name(name(r_op1_p110β_)) r_xref(xref(r_value_UNIPROT_EXOS6_HUMAN_)))))) r_location(cell(r_ARG0-of(live-01)))))))

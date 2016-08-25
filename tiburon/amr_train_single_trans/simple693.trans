@@ -1,0 +1,5 @@
+qr
+qr.r_op1_RAC_ -> r_UNK
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_UNK
+qc.enzyme(r_name(name(x0: ) ) r_xref(xref(x1: ) ) ) -> muti-index-card(qr.x0 qr.x1 )
+qr.TOP(and(r_op2(abolish-01(x0: x1: x2: r_ARG1(activate-01(x3: r_ARG1(x4: ) ) ) x5: x6: ) ) ) ) -> TOP(qc.x4 )

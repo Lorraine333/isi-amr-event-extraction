@@ -1,0 +1,20 @@
+qr
+qc.and(x0: x1: ) -> molecular-physical-entity(qr.x1 ) #0.0294117647059
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RAF1_HUMAN_ ) #0.00453514739229
+qr.r_op2(x0: ) -> r_part(qc.x0 ) #0.0929203539823
+qr.r_value_UNIPROT_RAF1_HUMAN_ -> r_value_UNIPROT_RAF1_HUMAN_ #0.952380952381
+qr.r_ARG0-of(x0: ) -> r_ARG0-of(qc.x0 ) #0.483870967742
+qr.r_op1_RAF_ -> r_op1_RAF_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.name(x0: ) -> name(r_op1_RAF_ ) #0.00163132137031
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.signal-07(x0: x1: x2: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.inhibit-01(x0: ) -> decrease-01(qr.x0 ) #0.857142857143
+qc.molecular-physical-entity(x0: x1: ) -> molecular-physical-entity(qr.x0 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

@@ -1,0 +1,34 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q12 )
+q2 -> r_ARG0(q3 )
+q12 -> r_ARG1(q13 )
+q3 -> enzyme(q4 q6 q9 )
+q13 -> add-modification-00(q14 q16 q31 )
+q4 -> r_ARG0-of(q5 )
+q6 -> r_name(q7 )
+q9 -> r_manner(q10 )
+q14 -> r_manner(q15 )
+q16 -> r_ARG1(q17 )
+q31 -> r_ARG0(q32 )
+q5 -> activity-06
+q7 -> name(q8 )
+q10 -> mutate-01(q11 )
+q15 -> phosphorylate-01
+q17 -> macro-molecular-complex(q18 q26 )
+q32 -> protein
+q8 -> r_op1_p110_
+q11 -> r_value_CAAX_
+q18 -> r_part(q19 )
+q26 -> r_ARG0(q27 )
+q19 -> enzyme(q20 q23 )
+q27 -> protein(q28 )
+q20 -> r_name(q21 )
+q23 -> r_xref(q24 )
+q28 -> r_name(q29 )
+q21 -> name(q22 )
+q24 -> xref(q25 )
+q29 -> name(q30 )
+q22 -> r_op1_Mkp3_
+q25 -> r_value_UNIPROT_DUS6_HUMAN_
+q30 -> r_op1_Mkp3_

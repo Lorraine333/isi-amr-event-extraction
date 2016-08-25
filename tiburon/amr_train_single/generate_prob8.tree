@@ -1,0 +1,1 @@
+TOP(add-modification-00(r_ARG0(cell) r_ARG1(amino-acid(r_ARG1(amino-acid(r_name(name(r_op1_Gab1_)) r_manner(smr-empty) r_mod_740_)) r_name(name(r_op1_tyrosine_)))) r_manner(phosphorylate-01) r_ARG1(protein(r_name(name(r_op1_EGF_)) r_xref(xref(r_value_UNIPROT_EGF_HUMAN_)))))) # 0.000049

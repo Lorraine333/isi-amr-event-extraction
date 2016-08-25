@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG0(x1 / enzyme :name(x2 / name :op1 "p110β" ) )  :ARG1(x3 / bind-01 :ARG2(x4 / protein)  :ARG1(x5 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" ) ) )

@@ -1,0 +1,1 @@
+(x0 / protein :name(x1 / name :op1 "SRC-3" )  :xref(x2 / name :name(x3 / name :op1 "UNIPROT"SRC-3"HUMAN" ) ) )

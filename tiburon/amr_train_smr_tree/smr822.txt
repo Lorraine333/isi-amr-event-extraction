@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :manner(x1 / phosphorylate-01)  :location(x2 / cell-line :name(x3 / name :op1 "COS7" )  :xref(x4 / xref :value "COS7"CVCL"0224" ) )  :ARG1(x5 / enzyme :ARG2-of(x6 / mutate-01)  :name(x7 / name :op1 "NRAS" )  :xref(x8 / xref :value "UNIPROT"RASN"HUMAN" ) ) )

@@ -1,0 +1,1 @@
+TOP(reduce-01(r_ARG1-of(show-01(r_ARG0(figure))) r_ARG1(express-03(r_condition(present-02(r_ARG1(small-molecule(r_name(name(r_UNK)))))) r_ARG2(enzyme(r_mod(endogenous) r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)))))) r_ARG2(great) r_ARG1-of(compare-01(r_ARG1(lane(r_mod_3_)) r_ARG2(lane(r_mod_4_))))))

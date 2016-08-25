@@ -1,0 +1,46 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q24 q10 q2 )
+q1 -> increase-01(q24 q2 q10 )
+q1 -> increase-01(q10 q24 q2 )
+q1 -> increase-01(q10 q2 q24 )
+q1 -> increase-01(q2 q24 q10 )
+q1 -> increase-01(q2 q10 q24 )
+q24 -> r_ARG0(q25 )
+q10 -> r_ARG1(q11 )
+q2 -> r_location(q3 )
+q25 -> small-molecule(q29 q26 )
+q25 -> small-molecule(q26 q29 )
+q11 -> add-modification-00(q22 q14 q12 )
+q11 -> add-modification-00(q22 q12 q14 )
+q11 -> add-modification-00(q14 q22 q12 )
+q11 -> add-modification-00(q14 q12 q22 )
+q11 -> add-modification-00(q12 q22 q14 )
+q11 -> add-modification-00(q12 q14 q22 )
+q3 -> cell-line(q7 q4 )
+q3 -> cell-line(q4 q7 )
+q29 -> r_name(q30 )
+q26 -> r_xref(q27 )
+q22 -> r_manner(q23 )
+q14 -> r_ARG1(q15 )
+q12 -> r_ARG0(q13 )
+q7 -> r_name(q8 )
+q4 -> r_xref(q5 )
+q30 -> name(q31 )
+q27 -> xref(q28 )
+q23 -> phosphorylate-01
+q15 -> enzyme(q19 q16 )
+q15 -> enzyme(q16 q19 )
+q13 -> protein
+q8 -> name(q9 )
+q5 -> xref(q6 )
+q31 -> r_op1_PLX_
+q28 -> r_value_PUBCHEM_24180719_
+q19 -> r_name(q20 )
+q16 -> r_xref(q17 )
+q9 -> r_op1_MEF_
+q6 -> r_value_MEF-1_CVCL_4240_
+q20 -> name(q21 )
+q17 -> xref(q18 )
+q21 -> r_op1_MEK_
+q18 -> r_value_UNIPROT_MP2K1_HUMAN_

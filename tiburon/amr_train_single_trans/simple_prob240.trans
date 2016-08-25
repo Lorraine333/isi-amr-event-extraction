@@ -1,0 +1,10 @@
+qr
+qc.phosphorylate-01(r_ARG2-of(induce-01(r_ARG0(enzyme(x0: ) ) ) ) r_ARG1(protein(x1: ) ) ) -> protein(qr.x0 r_mod(endogenous ) qr.x1 ) #0.5
+qr.r_name(x0: ) -> r_xref(qc.x0 ) #0.0345323741007
+qc.name(x0: ) -> xref(qr.x0 ) #0.0187601957586
+qc.abolish-01(x0: x1: ) -> decrease-01(qr.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_E2_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.0178571428571
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.TOP(and(x0: r_op2(x1: ) ) ) -> TOP(qc.x1 ) #1.0

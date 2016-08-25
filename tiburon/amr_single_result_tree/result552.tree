@@ -1,0 +1,11 @@
+Tree info for input tree amr552.tree:
+	36 nodes
+	8 yield length
+Transducer info for input tree transducer simple552.trans:
+	2 states
+	12 rules
+RTG info for forward application of tree:
+	14 states
+	18 rules
+	4 unique terminal symbols
+	16 derivations

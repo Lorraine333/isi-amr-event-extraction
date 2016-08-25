@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / pathway :name(x2 / name :op1 "MEK"ERK" ) )  :ARG0(x3 / increase-01 :ARG1(x4 / complex-with-00 :ARG1(x5 / smr-empty)  :ARG1(x6 / enzyme :name(x7 / name :op1 "RAF" ) ) )  :ARG0(x8 / protein) ) )

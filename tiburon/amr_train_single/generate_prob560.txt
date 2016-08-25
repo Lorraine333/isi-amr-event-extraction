@@ -1,0 +1,1 @@
+(x0 / bind-01 :op1 (x1 / xref :value "UNIPROT"RAC1"HUMAN" )  :ARG1(x2 / add-modification-00 :manner(x3 / smr-empty)  :manner(x4 / smr-empty) ) )

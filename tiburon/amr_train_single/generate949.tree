@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_name(name(r_op1_MKP3_)) r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_)))) r_ARG0(add-modification-00(r_ARG1(enzyme(r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)) r_name(name(r_op1_Erk1/2_)))) r_manner(phosphorylate-01) r_ARG0(protein))) r_location(cell-line(r_name(name(r_op1_NIH3T3_)) r_name(xref(r_value_NIH3T3_CVCL_0594_)))))) # 4.524878E-10

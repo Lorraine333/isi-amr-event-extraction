@@ -1,0 +1,11 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_op1_PI3K_ -> r_op1_PI3K_ #1.0
+qc.enzyme(x0: x1: ) -> protein(qr.x0 ) #0.0648967551622
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qc.name(x0: ) -> name(r_op1_GPCR_ ) #0.00326264274062
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.couple-01(x0: x1: r_instrument(and(x2: r_op2(bind-01(x3: ) ) ) ) ) -> bind-01(qr.x1 qr.x3 ) #1.0

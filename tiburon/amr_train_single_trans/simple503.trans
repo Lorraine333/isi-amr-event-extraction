@@ -1,0 +1,14 @@
+qr
+qr.r_ARG1(member(x0: x1: x2: r_ARG1-of(include-91(r_ARG2(x3: ) ) ) x4: ) ) -> r_ARG1(qc.x3 )
+qc.protein-family(x0: ) -> protein-family(qr.x0 )
+qc.name(x0: ) -> name(r_op1_p110β_ )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.r_op1_RBD_ -> hypothesis
+qc.interact-01(r_purpose(identify-01(r_ARG1(protein-segment(r_name(x0: ) ) ) ) ) x1: r_ARG1-of(probe-01(x2: x3: x4: x5: x6: x7: ) ) ) -> bind-01(qr.x0 qr.x1 qr.x3 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.name(x0: ) -> r_mode(qc.x0 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.name(x0: ) -> name(r_op1_GTPases_ )
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

@@ -1,0 +1,3 @@
+qr
+qc.mouse -> smr-empty
+qr.TOP(fibroblast(r_part-of(embryo(r_mod(x0: ) ) ) ) ) -> TOP(qc.x0 )

@@ -1,0 +1,1 @@
+TOP(enrich-01(r_ARG1(enzyme(r_name(name(r_op1_Phopho_)) r_mod(enzyme(r_name(name(r_op1_Erk1/2_)))) r_xref(xref(r_value_UNIPROT_PLM_HUMAN_)))) r_degree(high) r_location(nucleus(r_ARG1-of(follow-01(r_ARG2(treat-04(r_ARG2(protein(r_name(name(r_op1_FGF2_)) r_xref(xref(r_value_UNIPROT_FGF2_HUMAN_)))))))) r_xref(xref(r_value_GO_0005634_)))) r_location(culture-01(r_mod(control)))))

@@ -1,0 +1,22 @@
+q26
+q26 -> TOP(q27) # 1.000000
+q30 -> r_polarity_- # 1.000000
+q59 -> name(q60) # 1.000000
+q37 -> protein # 1.000000
+q55 -> value(q57) # 1.000000
+q38 -> add-modification-00(q39 q40 q41) # 1.000000
+q51 -> r_xref(q55) # 1.000000
+q58 -> r_op1_SRC-3_ # 1.000000
+q56 -> name(q58) # 1.000000
+q29 -> r_ARG1(q38) # 1.000000
+q52 -> r_name(q56) # 1.000000
+q48 -> protein # 1.000000
+q39 -> r_manner(q49) # 1.000000
+q49 -> phosphorylate-01 # 1.000000
+q27 -> increase-01(q28 q29 q30) # 1.000000
+q50 -> protein(q51 q52) # 1.000000
+q57 -> r_name(q59) # 1.000000
+q28 -> r_ARG0(q37) # 1.000000
+q60 -> r_op1_UNIPROT_SRC-3_HUMAN_ # 1.000000
+q41 -> r_ARG0(q48) # 1.000000
+q40 -> r_ARG1(q50) # 1.000000

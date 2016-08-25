@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG1(x2 / pathway :ARG0-of(x3 / activity-06)  :name(x4 / name :op1 "MEK"ERK" ) )  :ARG0(x5 / small-molecule :xref(x6 / xref :value "PUBCHEM"24180719" )  :name(x7 / name :op1 "PLX" ) ) )  :ARG0(x8 / enzyme :name(x9 / name :op1 "BRAF" )  :value "UNIPROT"BRAF"HUMAN" )  :polarity"- )

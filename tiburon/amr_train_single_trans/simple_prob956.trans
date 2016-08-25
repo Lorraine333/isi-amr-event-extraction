@@ -1,0 +1,17 @@
+qr
+qr.r_UNK -> r_value_PUBCHEM_54671203_ #0.0689655172414
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.name(x0: ) -> name(r_op1_MKP3_ ) #0.00163132137031
+qc.protein-family(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_ ) ) qr.x0 ) #0.105263157895
+qc.name(x0: ) -> name(r_op1_doxycycline_ ) #0.00163132137031
+qc.small-molecule(r_ARG0-of(inhibit-01(x0: ) ) x1: x2: ) -> increase-01(qr.x0 r_ARG0(small-molecule(qr.x1 qr.x2 ) ) ) #1.0
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.enzyme(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.0678466076696
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.name(x0: ) -> name(r_op1_LY294002_ ) #0.000815660685155
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_UNK #0.063829787234
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.or(r_op1(treat-04(r_ARG2(or(x0: ) ) ) ) x1: ) -> increase-01(qr.x0 qr.x1 r_polarity_- ) #1.0

@@ -1,0 +1,1 @@
+(x0 / amino-acid :name(x1 / name :op1 "RAB5" )  :manner(x2 / phosphorylate-01)  :mod "740" )

@@ -1,0 +1,22 @@
+q21
+q21 -> TOP(q22) # 1.000000
+q62 -> r_UNK # 1.000000
+q45 -> r_xref(q59) # 1.000000
+q28 -> r_part(q33) # 1.000000
+q33 -> protein(q44 q45) # 1.000000
+q27 -> macro-molecular-complex(q28 q29) # 1.000000
+q56 -> xref(q66) # 1.000000
+q49 -> r_xref(q56) # 1.000000
+q53 -> name(q62) # 1.000000
+q59 -> xref(q63) # 1.000000
+q48 -> r_name(q52) # 1.000000
+q23 -> r_ARG1(q27) # 1.000000
+q61 -> r_op1_p85_ # 1.000000
+q44 -> r_name(q53) # 1.000000
+q63 -> r_value_UNIPROT_ # 1.000000
+q52 -> name(q61) # 1.000000
+q29 -> r_part(q35) # 1.000000
+q24 -> r_polarity_- # 1.000000
+q66 -> r_value_UNIPROT_ # 1.000000
+q22 -> bind-01(q23 q24) # 1.000000
+q35 -> protein(q48 q49) # 1.000000

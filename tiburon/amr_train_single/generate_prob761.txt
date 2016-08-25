@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein-segment :ARG1(x2 / add-modification-00 :manner(x3 / phosphorylate-01)  :manner(x4 / smr-empty) ) )  :ARG1(x5 / muti-index-card :op1 "PI3K"  :polarity"- ) )

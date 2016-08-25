@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / add-modification-00 :ARG0(x2 / protein)  :ARG1(x3 / protein :name(x4 / name :op1 "SRC-3" )  :mod (x5 / endogenous)  :xref(x6 / xref :value "UNIPROT"NCOA3"HUMAN" ) )  :manner(x7 / phosphorylate-01)  :ARG1-of(x8 / increase-01 :ARG0(x9 / molecular-physical-entity :xref(x10 / xref :value "CHEBI"50114" )  :name(x11 / name :op1 "E2" ) ) ) ) )

@@ -1,0 +1,3 @@
+qr
+qr.TOP(treat-04(x0: x1: x2: x3: x4: r_ARG1-of(follow-01(x5: x6: x7: r_ARG1(or(x8: r_op1(absent-01(r_ARG1(small-molecule(x9: r_xref(xref(x10: ) ) ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x10 )
+qc.r_value_PUBCHEM_54671203_ -> smr-empty

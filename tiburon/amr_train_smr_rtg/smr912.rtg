@@ -1,0 +1,53 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q27 q10 q2 )
+q1 -> increase-01(q27 q2 q10 )
+q1 -> increase-01(q10 q27 q2 )
+q1 -> increase-01(q10 q2 q27 )
+q1 -> increase-01(q2 q27 q10 )
+q1 -> increase-01(q2 q10 q27 )
+q27 -> r_location(q28 )
+q10 -> r_ARG1(q11 )
+q2 -> r_ARG0(q3 )
+q28 -> cell-line(q32 q29 )
+q28 -> cell-line(q29 q32 )
+q11 -> add-modification-00(q25 q14 q12 )
+q11 -> add-modification-00(q25 q12 q14 )
+q11 -> add-modification-00(q14 q25 q12 )
+q11 -> add-modification-00(q14 q12 q25 )
+q11 -> add-modification-00(q12 q25 q14 )
+q11 -> add-modification-00(q12 q14 q25 )
+q3 -> small-molecule(q7 q4 )
+q3 -> small-molecule(q4 q7 )
+q32 -> r_xref(q33 )
+q29 -> r_name(q30 )
+q25 -> r_manner(q26 )
+q14 -> r_ARG1(q15 )
+q12 -> r_ARG0(q13 )
+q7 -> r_name(q8 )
+q4 -> r_xref(q5 )
+q33 -> xref(q34 )
+q30 -> name(q31 )
+q26 -> phosphorylate-01
+q15 -> enzyme(q22 q19 q16 )
+q15 -> enzyme(q22 q16 q19 )
+q15 -> enzyme(q19 q22 q16 )
+q15 -> enzyme(q19 q16 q22 )
+q15 -> enzyme(q16 q22 q19 )
+q15 -> enzyme(q16 q19 q22 )
+q13 -> protein
+q8 -> name(q9 )
+q5 -> xref(q6 )
+q34 -> r_value_NIH3T3_CVCL_0594_
+q31 -> r_op1_NIH3T3_
+q22 -> r_ARG2-of(q23 )
+q19 -> r_name(q20 )
+q16 -> r_xref(q17 )
+q9 -> r_op1_doxycycline_
+q6 -> r_value_PUBCHEM_54671203_
+q23 -> mutate-01(q24 )
+q20 -> name(q21 )
+q17 -> xref(q18 )
+q24 -> r_value_G12R_
+q21 -> r_op1_H-Ras_
+q18 -> r_value_UNIPROT_RASH_HUMAN_

@@ -1,0 +1,7 @@
+qr
+qr.r_mod(x0: ) -> r_mode(qc.x0 ) #0.0487804878049
+qr.TOP(macro-molecular-complex(r_ARG0(x0: ) x1: x2: ) ) -> TOP(qc.x0 ) #1.0
+qc.lipid -> hypothesis #0.5
+qc.assay-01(x0: x1: x2: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.kinase -> UNK #0.5
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008

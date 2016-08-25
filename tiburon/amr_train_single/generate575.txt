@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / coexpress-00 :ARG1(x2 / macro-molecular-complex :part(x3 / gene :name(x4 / name :op1 "PIP"3" )  :xref(x5 / xref :UNK ) )  :part(x6 / enzyme :name(x7 / name :op1 "PIP"3" )  :xref(x8 / xref :UNK ) ) ) )  :ARG1(x9 / enzyme :name(x10 / name :op1 "PIP"3" )  :xref(x11 / xref :value "UNIPROT" ) ) )

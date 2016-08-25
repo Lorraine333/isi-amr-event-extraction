@@ -1,0 +1,14 @@
+qr
+qr.TOP(reach-01(x0: r_ARG0(x1: ) x2: x3: ) ) -> TOP(qc.x1 )
+qr.r_op1_LPA_ -> r_op1_LPA_
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.activate-01(x0: x1: r_condition(stimulate-01(x2: ) ) ) -> increase-01(qr.x0 qr.x2 )
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RAC1_HUMAN_ )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_CHEBI_74330_ )
+qr.r_op1_RAC_ -> r_op1_RAC_
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.enzyme(x0: x1: ) -> small-molecule(qr.x0 qr.x1 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

@@ -1,0 +1,17 @@
+qr
+qr.r_op1_RBD_ -> r_polarity_- #0.105263157895
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.name(x0: ) -> name(r_op1_DIRAS_ ) #0.00326264274062
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.enzyme(x0: x1: x2: x3: x4: ) -> protein-segment(qr.x0 qr.x1 r_part-of(protein(qr.x2 qr.x4 ) ) ) #0.5
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qc.mutate-01 -> mutate-01 #0.642857142857
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qc.bind-01(x0: x1: x2: x3: x4: x5: r_ARG0-of(suggest-01(r_ARG1(bind-01(r_ARG2(protein-segment(r_name(name(x6: ) ) ) ) ) ) ) ) ) -> bind-01(qr.x4 qr.x5 qr.x6 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_RBD_ -> r_op1_RBD_ #0.842105263158
+qr.r_ARG2-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.4
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

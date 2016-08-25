@@ -1,0 +1,13 @@
+qr
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.protein(x0: ) -> protein-family(qr.x0 ) #0.0591715976331
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.contrast-01(x0: x1: r_ARG2(instead-of-91(r_ARG1(and(r_op1(protein(x2: x3: ) ) x4: ) ) ) ) x5: r_ARG1(and(x6: r_op2(activate-01(x7: x8: ) ) ) ) ) -> bind-01(r_ARG0(protein(qr.x2 qr.x5 ) ) qr.x7 ) #0.5
+qc.name(x0: x1: ) -> name(r_op2_GTPase_ qr.x0 ) #0.214285714286
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_RHO_ -> r_op1_RHO_ #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG2(x0: ) -> r_part-of(qc.x0 ) #0.0743801652893
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008

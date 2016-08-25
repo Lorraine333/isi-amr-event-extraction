@@ -1,0 +1,25 @@
+qr
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.xref(x0: ) -> xref(r_value_UNIPROT_MK01_HUMAN_ ) #0.0260770975057
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.growth-factor -> protein #0.5
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.also -> phosphorylate-01 #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.culture-01(r_purpose(determine-01(r_ARG1(possible-01(x0: x1: ) ) ) ) r_ARG1(cell(r_name(x2: ) x3: x4: ) ) x5: r_location(and(r_op1(and(x6: r_op1(absent-01(x7: ) ) ) ) ) ) ) -> increase-01(qr.x1 qr.x2 r_ARG1(increase-01(qr.x3 qr.x7 ) ) ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.r_mod(x0: ) -> r_ARG0(qc.x0 ) #0.130081300813
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qc.affect-01(r_ARG2(stimulate-01(x0: x1: ) ) x2: r_ARG1-of(cause-01(r_ARG0(activate-01(x3: x4: ) ) ) ) ) -> add-modification-00(qr.x0 qr.x2 qr.x4 ) #1.0
+qr.r_op1_tet-crkl_ -> r_UNK #1.0
+qc.r_op1_NIH3T3_ -> hypothesis #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op2_on/H_ -> r_UNK #1.0
+qc.name(x0: ) -> name(r_op1_Erk1/2_ ) #0.00652528548124
+qr.r_op1_Ras_ -> r_op1_Ras_ #1.0
+qr.name(x0: ) -> r_mode(qc.x0 ) #0.0921052631579
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.small-molecule(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0693069306931
+qc.protein(x0: ) -> molecular-physical-entity(qr.x0 ) #0.00591715976331
+qc.name(x0: x1: ) -> name(qr.x0 qr.x1 ) #0.0714285714286

@@ -1,0 +1,20 @@
+qr
+qc.protein(x0: x1: ) -> protein #0.0672268907563
+qc.protein(r_name(x0: ) ) -> protein(qr.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.require-01(x0: x1: x2: ) -> add-modification-00(qr.x0 r_manner(qc.x1 ) r_ARG1(amino-acid(qr.x2 ) ) ) #0.2
+qc.small-molecule(x0: x1: ) -> value(qr.x0 ) #0.019801980198
+qc.name(x0: ) -> name(r_op1_UNIPROT_SRC-3_HUMAN_ ) #0.00489396411093
+qc.r_op1_SRC-3_ -> mutate-01 #0.181818181818
+qc.capable-01(x0: r_ARG2(induce-01(r_ARG2(phosphorylate-01(x1: ) ) x2: ) ) x3: r_ARG0-of(indicate-01(r_ARG1(possible-01(x4: ) ) ) ) ) -> increase-01(qr.x1 qr.x4 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.r_polarity_-_ -> phosphorylate-01 #0.647058823529
+qr.r_ARG1(x0: ) -> r_xref(qc.x0 ) #0.018045112782
+qr.name(x0: ) -> r_ARG2-of(qc.x0 ) #0.0131578947368
+qr.r_ARG0(localize-01(x0: r_ARG1(x1: ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.induce-01(r_ARG2(phosphorylate-01(r_ARG1(protein(x0: ) ) ) ) r_ARG2-of(respond-01(x1: ) ) ) -> protein(qr.x0 qr.x1 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_purpose(x0: ) -> r_part-of(qc.x0 ) #0.166666666667

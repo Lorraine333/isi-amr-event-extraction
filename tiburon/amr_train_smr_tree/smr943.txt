@@ -1,0 +1,1 @@
+(x0 / increase-01 :mod e(x1 / hypothesis)  :ARG0(x2 / enzyme :ARG1-of(x3 / add-modification-00 :manner(x4 / phosphorylate-01) )  :name(x5 / name :op1 "Ras" ) )  :ARG1(x6 / enzyme :name(x7 / name :op1 "MKP3" )  :xref(x8 / xref :value "UNIPROT"DUS6"HUMAN" ) ) )

@@ -1,0 +1,15 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q9 q13 )
+q2 -> r_ARG1(q3 )
+q9 -> r_ARG1(q10 )
+q13 -> r_op1_RBD_
+q3 -> enzyme(q4 q7 )
+q10 -> muti-index-card(q11 q12 )
+q4 -> r_name(q5 )
+q7 -> r_manner(q8 )
+q11 -> r_op1_p110β_
+q12 -> r_polarity_-
+q5 -> name(q6 )
+q8 -> phosphorylate-01
+q6 -> r_op1_RAS_

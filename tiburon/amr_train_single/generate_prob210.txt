@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / amino-acid :name(x2 / name :op1 "ERα" )  :manner(x3 / phosphorylate-01)  :mod "740" )  :ARG1(x4 / increase-01 :ARG0(x5 / molecular-physical-entity :name(x6 / name :op1 "E2" )  :name(x7 / name :op1 "SRC-3" ) )  :ARG1(x8 / add-modification-00 :ARG2(x9 / amino-acid :name(x10 / name :op1 "ERα" )  :manner(x11 / phosphorylate-01)  :mod "740" ) ) ) )

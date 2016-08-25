@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(decrease-01(r_ARG0(molecular-physical-entity) r_ARG1(enzyme(r_name(name(r_op1_RAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))) r_ARG1(enzyme(r_ARG0-of(activity-06) r_name(name(r_op1_ERK_)) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)))) r_location(cell)))

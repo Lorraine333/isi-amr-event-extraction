@@ -1,0 +1,21 @@
+qr
+qc.enzyme(x0: ) -> protein(r_xref(xref(r_UNK ) ) qr.x0 ) #0.0153846153846
+qr.synthetic -> r_UNK #1.0
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_R1881_ -> r_op1_R1881_ #0.5
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_E2_ -> r_UNK #0.0357142857143
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qc.induce-01(r_ARG0(and(x0: x1: ) ) r_ARG2(phosphorylate-01(x2: ) ) r_condition(present-02(r_ARG1(and(x3: x4: x5: r_ARG1-of(describe-01(x6: ) ) x7: ) ) ) ) ) -> increase-01(qr.x0 r_ARG1(increase-01(qr.x1 r_ARG1(add-modification-00(qr.x2 qr.x5 qr.x6 ) ) ) ) ) #1.0
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qc.androgen(x0: x1: ) -> small-molecule(r_xref(qc.x0 ) qr.x1 ) #1.0
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.name(x0: ) -> name(r_op2_receptor_ qr.x0 ) #0.00163132137031
+qc.r_mod(x0: ) -> xref(qr.x0 ) #0.25
+qc.respective -> phosphorylate-01 #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.TOP(show-01(r_ARG1(possible-01(r_ARG1(x0: ) ) ) ) ) -> TOP(qc.x0 ) #1.0
+qc.figure -> protein #0.846153846154
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

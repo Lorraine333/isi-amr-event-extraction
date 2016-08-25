@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein(r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_)) r_ARG1-of(bind-01(r_ARG2(enzyme(r_name(name(r_op1_GTPγ_)) r_xref(xref(r_value_UNIPROT_GCA_DICDI_)))))) r_name(name(r_op1_RAC1_)))) r_ARG1(enzyme(r_ARG0-of(activity-06) r_name(name(r_op1_p110b_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_))))))

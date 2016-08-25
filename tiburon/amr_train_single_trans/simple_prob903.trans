@@ -1,0 +1,26 @@
+qr
+qr.r_op1_MAP_ -> r_op1_MAP_ #1.0
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op1_Erk_ -> r_op1_Erk_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.cell-line(x0: ) -> cell-line(r_xref(xref(r_value_NIH3T3_CVCL_0594_ ) ) qr.x0 ) #0.461538461538
+qr.r_op2_kinase_ -> r_op2_kinase_ #0.6
+qc.r_value_UNIPROT_RASA1_HUMAN_ -> phosphorylate-01 #0.6
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_UNK -> r_UNK #0.275862068966
+qc.protein(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_ ) ) qr.x0 ) #0.00591715976331
+qc.downregulate-01(x0: x1: x2: r_manner(induce-01(x3: ) ) x4: x5: ) -> increase-01(r_ARG1(decrease-01(qr.x1 qr.x2 ) ) qr.x3 qr.x5 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: x1: x2: ) -> name(qr.x0 qr.x1 qr.x2 ) #0.666666666667
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 r_ARG1-of(qc.x1 ) ) #0.00884955752212
+qr.r_op1_Ras_ -> r_op1_Ras_ #1.0
+qc.r_xref(x0: ) -> add-modification-00(qr.x0 ) #0.909090909091
+qc.name(x0: x1: x2: x3: ) -> name(qr.x0 qr.x1 qr.x2 qr.x3 ) #0.857142857143
+qc.enzyme(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_MK01_HUMAN_ ) ) qr.x0 ) #0.184615384615
+qr.r_op1_NIH3T3_ -> r_op1_NIH3T3_ #0.75
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_op3_phosphatase_ -> r_op3_phosphatase_ #1.0
+qr.r_location(x0: ) -> r_location(qc.x0 ) #0.695652173913
+qr.r_op4_3_ -> r_op4_3_ #1.0

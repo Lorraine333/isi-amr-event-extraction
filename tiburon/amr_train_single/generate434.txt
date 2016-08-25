@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / macro-molecular-complex :ARG0(x2 / enzyme :name(x3 / name :op1 "ERK" ) )  :part(x4 / enzyme :name(x5 / name :op1 "MEK" ) ) )  :ARG0(x6 / molecular-physical-entity :name(x7 / name :UNK ) ) )

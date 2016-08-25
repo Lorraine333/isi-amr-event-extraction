@@ -1,0 +1,24 @@
+q28
+q28 -> TOP(q29) # 1.000000
+q60 -> phosphorylate-01 # 1.000000
+q63 -> r_xref(q68) # 1.000000
+q62 -> r_name(q67) # 1.000000
+q40 -> hypothesis # 1.000000
+q30 -> r_mode(q40) # 1.000000
+q32 -> r_ARG1(q39) # 1.000000
+q66 -> r_op1_AF-1_ # 1.000000
+q31 -> r_ARG0(q41) # 1.000000
+q42 -> r_ARG0(q56) # 1.000000
+q68 -> xref(q69) # 1.000000
+q70 -> r_op1_SRC-3_ # 1.000000
+q67 -> name(q70) # 1.000000
+q39 -> add-modification-00(q42 q43 q44) # 1.000000
+q41 -> protein-segment(q51) # 1.000000
+q43 -> r_ARG1(q53) # 1.000000
+q56 -> protein # 1.000000
+q57 -> name(q66) # 1.000000
+q44 -> r_manner(q60) # 1.000000
+q29 -> increase-01(q30 q31 q32) # 1.000000
+q51 -> r_name(q57) # 1.000000
+q53 -> protein(q62 q63) # 1.000000
+q69 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000

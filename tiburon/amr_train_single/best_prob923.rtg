@@ -1,0 +1,25 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q13 q14 q22 )
+q2 -> r_ARG1(q3 )
+q13 -> r_polarity_-
+q14 -> r_ARG0(q15 )
+q22 -> r_location(q23 )
+q3 -> enzyme(q4 q10 )
+q15 -> protein(q16 q19 )
+q23 -> cell
+q4 -> r_name(q5 )
+q10 -> r_xref(q11 )
+q16 -> r_name(q17 )
+q19 -> r_xref(q20 )
+q5 -> name(q6 q7 q8 q9 )
+q11 -> xref(q12 )
+q17 -> name(q18 )
+q20 -> xref(q21 )
+q6 -> r_op1_p90_
+q7 -> r_op2_ribosomal_
+q8 -> r_op3_S6_
+q9 -> r_op4_kinase_
+q12 -> r_value_UNIPROT_KS6A1_HUMAN_
+q18 -> r_op1_FGF2_
+q21 -> r_value_UNIPROT_FGF2_HUMAN_

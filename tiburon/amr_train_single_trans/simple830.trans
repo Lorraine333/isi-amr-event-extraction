@@ -1,0 +1,3 @@
+qr
+qc.r_op1_p101_ -> smr-empty
+qr.TOP(and(x0: r_op2(express-03(x1: r_ARG3(and(x2: r_op2(subunit(x3: x4: r_mod(or(x5: r_op2(protein(r_name(name(x6: ) ) ) ) ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x6 )

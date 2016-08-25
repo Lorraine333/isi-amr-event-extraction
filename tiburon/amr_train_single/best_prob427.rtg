@@ -1,0 +1,19 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q8 )
+q2 -> r_ARG0(q3 )
+q8 -> r_ARG1(q9 )
+q3 -> decrease-01(q4 )
+q9 -> add-modification-00(q10 q12 q14 )
+q4 -> r_ARG1(q5 )
+q10 -> r_manner(q11 )
+q12 -> r_manner(q13 )
+q14 -> r_ARG1(q15 )
+q5 -> muti-index-card(q6 q7 )
+q11 -> phosphorylate-01
+q13 -> phosphorylate-01
+q15 -> muti-index-card(q16 q17 )
+q6 -> r_op1_RAF_
+q7 -> r_value_UNIPROT_RAF1_HUMAN_
+q16 -> r_op1_RAF_
+q17 -> r_value_UNIPROT_RAF1_HUMAN_

@@ -1,0 +1,40 @@
+q52
+q52 -> TOP(q53) # 1.000000
+q53 -> increase-01(q54 q55 q56) # 1.000000
+q84 -> r_op1_NIH3T3_ # 1.000000
+q55 -> r_ARG0(q65) # 1.000000
+q82 -> name(q84) # 1.000000
+q56 -> r_ARG1(q64) # 1.000000
+q66 -> r_xref(q83) # 1.000000
+q89 -> r_op1_fibroblast_ # 1.000000
+q107 -> r_xref(q112) # 1.000000
+q75 -> r_name(q82) # 1.000000
+q81 -> enzyme(q102 q103) # 1.000000
+q78 -> xref(q85) # 1.000000
+q65 -> protein(q66 q67) # 1.000000
+q79 -> enzyme(q107 q108) # 1.000000
+q106 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q111 -> xref(q118) # 1.000000
+q108 -> r_name(q114) # 1.000000
+q116 -> r_op1_MKP3_ # 1.000000
+q102 -> r_name(q113) # 1.000000
+q80 -> name(q86 q87 q88 q89) # 1.000000
+q86 -> r_op4_2_ # 1.000000
+q67 -> r_name(q80) # 1.000000
+q103 -> r_xref(q111) # 1.000000
+q112 -> xref(q117) # 1.000000
+q83 -> xref(q106) # 1.000000
+q113 -> name(q116) # 1.000000
+q85 -> r_value_NIH3T3_CVCL_0594_ # 1.000000
+q117 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q54 -> r_location(q63) # 1.000000
+q87 -> r_op2_growth_ # 1.000000
+q63 -> cell-line(q74 q75) # 1.000000
+q74 -> r_xref(q78) # 1.000000
+q71 -> r_ARG1(q81) # 1.000000
+q114 -> name(q115) # 1.000000
+q88 -> r_op3_factor_ # 1.000000
+q64 -> increase-01(q70 q71) # 1.000000
+q70 -> r_ARG0(q79) # 1.000000
+q118 -> r_value_UNIPROT_DUS6_HUMAN_ # 1.000000
+q115 -> r_op1_Erk1/2_ # 1.000000

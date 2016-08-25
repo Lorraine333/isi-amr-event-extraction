@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG2(protein(r_name(name(r_op1(p85))) r_xref(xref(r_value_UNIPROT_)))) r_ARG1(protein(r_name(name(r_UNK r_op1(p110))) r_xref(xref(r_value_UNIPROT_)))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_S4_E_))))))

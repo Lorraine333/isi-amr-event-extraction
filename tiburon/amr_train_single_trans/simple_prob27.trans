@@ -1,0 +1,23 @@
+qr
+qc.protein(x0: x1: x2: ) -> macro-molecular-complex(qr.x0 r_ARG1-of(qc.x1 ) qr.x2 ) #0.0344827586207
+qc.name(x0: ) -> name(r_op1_tyrosine_ ) #0.00570962479608
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG3-of(x0: ) -> r_manner(qc.x0 ) #0.545454545455
+qc.kinase(r_ARG1-of(associate-01(r_ARG2(amino-acid(x0: x1: x2: ) ) ) ) x3: ) -> amino-acid(qr.x0 r_ARG1-of(add-modification-00(qr.x1 ) ) r_part-of(protein(qr.x2 qr.x3 ) ) ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ ) #0.015873015873
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.contrast-01(x0: x1: ) -> increase-01(qr.x0 r_ARG0(protein(r_xref(xref(r_value_UNIPROT_EGF_HUMAN_ ) ) r_name(qc.x1 ) ) ) ) #0.25
+qr.mutate-01(x0: ) -> r_manner(qc.x0 ) #0.333333333333
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.r_mod_-/-_ -> phosphorylate-01 #1.0
+qc.name(x0: ) -> name(r_op1_Gab1_ ) #0.000815660685155
+qc.xref(x0: ) -> xref(r_value_UNIPROT_GAB1_HUMAN_ ) #0.00113378684807
+qc.name(x0: ) -> name(r_op1_PI3K_ ) #0.0114192495922
+qc.fail-01(x0: r_ARG2(show-01(r_ARG1(activity-06(x1: ) ) ) ) ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.r_ARG2(x0: ) -> name(qr.x0 ) #0.25
+qc.phosphorylate-01 -> phosphorylate-01 #0.923076923077
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.r_ARG2-of(x0: ) -> add-modification-00(qr.x0 ) #0.5
+qr.r_ARG1(cell(r_mod(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qr.UNK -> r_op1_EGF_ #0.0833333333333

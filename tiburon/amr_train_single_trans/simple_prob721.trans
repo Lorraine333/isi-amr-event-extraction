@@ -1,0 +1,11 @@
+qr
+qr.r_op2(x0: ) -> r_ARG2(qc.x0 ) #0.0663716814159
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qr.r_op1_RAC_ -> r_op1_RAC_ #0.958333333333
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(direct-02(r_ARG1(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_op1_CDC42_ -> r_op1_CDC42_ #0.983606557377
+qc.bind-01(r_ARG1(and(x0: x1: ) ) x2: ) -> bind-01(qr.x0 qr.x1 ) #1.0

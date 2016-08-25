@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / molecular-physical-entity :name(x2 / name :op1 "Sorafenib" ) )  :ARG1(x3 / add-modification-00 :ARG1(x4 / enzyme :xref(x5 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x6 / name :op1 "ERK" ) )  :manner(x7 / phosphorylate-01)  :ARG0(x8 / protein) )  :location(x9 / cell) )

@@ -1,0 +1,18 @@
+qr
+qc.show-01(x0: x1: x2: r_ARG0-of(suggest-01(r_ARG1(stimulate-01(x3: ) ) ) ) ) -> increase-01(qr.x0 qr.x3 ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qc.name(x0: ) -> name(r_op1_p110β_ ) #0.036704730832
+qr.r_manner(x0: ) -> r_manner(qc.x0 ) #0.785714285714
+qc.in-vivo -> phosphorylate-01 #1.0
+qr.r_ARG1(signal-07(x0: r_instrument(contribute-01(x1: r_ARG2(x2: ) ) ) ) ) -> r_ARG1(qc.x2 ) #1.0
+qc.enzyme(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 ) #0.00884955752212
+qr.r_op1_PI3K_ -> r_op1_PI3K_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(and(r_op2(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_ARG0(enzyme(x0: r_mod(x1: ) x2: ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.activity-06(x0: x1: ) -> add-modification-00(qr.x0 qr.x1 ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ ) #0.015873015873
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

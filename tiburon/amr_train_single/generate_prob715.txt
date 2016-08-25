@@ -1,0 +1,1 @@
+(x0 / increase-01 :manner(x1 / hypothesis)  :ARG1(x2 / UNK) )

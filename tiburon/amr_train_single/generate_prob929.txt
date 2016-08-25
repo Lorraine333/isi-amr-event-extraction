@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / enzyme :name(x2 / name :op1 "Ras" )  :manner(x3 / phosphorylate-01) )  :ARG1(x4 / enzyme :xref(x5 / xref :UNK )  :ARG1-of(x6 / add-modification-00 :manner(x7 / phosphorylate-01) )  :name(x8 / name :op1 "Erk1"2" ) )  :location(x9 / cell-line :xref(x10 / xref :value "NIH3T3"CVCL"0594" )  :name(x11 / name :op1 "NIH3T3" ) ) )

@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG1(x1 / protein-segment :name(x2 / name :op1 "RBD" )  :part-of(x3 / mouse)  :ARG1-of(x4 / mutate-01 :ARG2(x5 / enzyme :name(x6 / name :op1 "p110β" ) ) ) )  :ARG0(x7 / fibrosis :mod (x8 / experimental)  :part-of(x9 / lung) ) )

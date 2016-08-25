@@ -1,0 +1,21 @@
+q29
+q29 -> TOP(q30) # 1.000000
+q42 -> name(q45) # 1.000000
+q58 -> r_value_UNIPROT_ELMO1_HUMAN_ # 1.000000
+q54 -> xref(q58) # 1.000000
+q32 -> r_ARG2(q36) # 1.000000
+q36 -> protein-segment(q38 q39) # 1.000000
+q39 -> r_part-of(q43) # 1.000000
+q48 -> r_op1_N-terminus_ # 1.000000
+q53 -> name(q55) # 1.000000
+q45 -> r_op1_Gβγ_ # 1.000000
+q50 -> r_xref(q54) # 1.000000
+q38 -> r_name(q44) # 1.000000
+q49 -> r_name(q53) # 1.000000
+q35 -> macro-molecular-complex(q37) # 1.000000
+q43 -> protein(q49 q50) # 1.000000
+q44 -> name(q48) # 1.000000
+q31 -> r_ARG1(q35) # 1.000000
+q37 -> r_name(q42) # 1.000000
+q30 -> bind-01(q31 q32) # 1.000000
+q55 -> r_op1_Elmo1_ # 1.000000

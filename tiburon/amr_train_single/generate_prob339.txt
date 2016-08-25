@@ -1,0 +1,1 @@
+(x0 / name :ARG1(x1 / protein-family :name(x2 / name :UNK ) ) )

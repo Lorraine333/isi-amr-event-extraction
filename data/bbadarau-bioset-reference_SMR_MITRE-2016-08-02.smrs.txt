@@ -1,0 +1,1825 @@
+# workset bioset-reference_SMR_MITRE (generated on Tue Aug 2, 2016 at 18:04:25 for user bbadarau)
+
+# ::id pmc_534114_0001.1 ::date 2016-06-02T02:23:14
+# ::snt Expression of wild type Gab1 rescues EGF-induced PI-3 kinase and Akt activation in Gab1 deficient MEFs.
+# ::save-date Wed Jul 13, 2016 ::user bbadarau ::file pmc_534114_0001_1.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :mod (w / wild-type)
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p4 / protein :name (n4 / name :op1 "EGF")
+                        :xref (x4 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n2 / name :op1 "PI3K")
+                        :xref (x2 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG1-of (a / add-modification-00
+                              :manner (p5 / phosphorylate-01))))
+            :location (c / cell-line :name (n5 / name :op1 "MEF")
+                  :xref (x5 / xref :value "MEF-1:CVCL_4240")))
+      :card2 (i4 / increase-01
+            :ARG0 (p2 / protein :name (n6 / name :op1 "Gab1")
+                  :mod (w2 / wild-type)
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p3 / protein :name (n7 / name :op1 "EGF")
+                        :xref (x7 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n3 / name :op1 "Akt")
+                        :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                        :ARG1-of (a2 / add-modification-00
+                              :manner (p6 / phosphorylate-01))))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :xref (x8 / xref :value "MEF-1:CVCL_4240"))))
+
+# ::id pmc_534114_0001.2 ::date 2016-06-03T07:24:11 ::authors bbadarau
+# ::snt The indicated cell lines were serum-starved for 24 hours and stimulated with 10 ng/ml EGF for five minutes at 37°C.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0001_2.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0001.3 ::date 2016-06-03T07:25:23 ::authors bbadarau
+# ::snt Cell extracts were prepared and analyzed for Gab1 tyrosine phosphorylation and Gab1 expression.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0001_3.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0001.4 ::date 2016-06-03T07:25:59 ::authors bbadarau
+# ::snt Both WT MEFs and cells expressing exogenous Gab1 show Gab1 tyrosine phosphorylation in response to EGF treatment.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Tue Jun 7, 2016 ::user bbadarau ::file pmc_534114_0001_4.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a3 / amino-acid :name (n2 / name :op1 "tyrosine")
+                        :part-of (p / protein :name (n3 / name :op1 "Gab1")
+                              :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p3 / phosphorylate-01))
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "Wt MEF:CVCL_L690")))
+      :card2 (i3 / increase-01
+            :ARG0 (p6 / protein :name (n7 / name :op1 "EGF")
+                  :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a5 / amino-acid :name (n8 / name :op1 "tyrosine")
+                        :part-of (p9 / protein :name (n9 / name :op1 "Gab1")
+                              :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p7 / phosphorylate-01))
+            :location (c2 / cell-line :name (n5 / name :op1 "MEF")
+                  :xref (x4 / xref :value "MEF-1:CVCL_4240"))))
+
+# ::id pmc_534114_0001.5 ::date 2016-06-03T08:19:43 ::authors bbadarau
+# ::snt The indicated cell lines were serum-starved for 24 hours and stimulated with 10 ng/ml EGF for five minutes at 37°C.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0001_5.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0001.6 ::date 2016-06-03T08:20:50 ::authors bbadarau
+# ::snt Cell extracts were analyzed for Gab1 tyrosine phosphorylation and Gab1 expression.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0001_6.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0001.7 ::date 2016-06-03T08:21:18 ::authors bbadarau
+# ::snt Cells rescued with wild type Gab1 exhibit Gab1 tyrosine phosphorylation in response to EGF treatment, while Gab1 -/- cells and Gab1-deficient cells expressing ErbB3 do not.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Tue Jun 7, 2016 ::user bbadarau ::file pmc_534114_0001_7.txt
+(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+            :manner (p4 / phosphorylate-01)
+            :location (c2 / cell)))
+
+# ::id pmc_534114_0001.8 ::date 2016-06-06T04:19:10 ::authors bbadarau
+# ::snt MEFs derived from Gab1-/- or wild type (WT) embryos were stimulated with EGF and assayed for Gab1 tyrosine phosphorylation, for activation of PI-3 kinase and for Akt stimulation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0001_8.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0001.9 ::date 2016-06-06T04:20:43 ::authors bbadarau
+# ::snt As shown in Figure 1A, the endogenous Gab1 present in WT MEFs is tyrosine phosphorylated in response to EGF treatment.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 6, 2016 ::user bbadarau ::file pmc_534114_0001_9.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p2 / protein :name (n2 / name :op1 "Gab1")
+                        :mod (e / endogenous)
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+            :manner (p3 / phosphorylate-01)
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "Wt MEF:CVCL_L690"))))
+
+# ::id pmc_534114_0002.1 ::date 2016-06-06T05:11:26 ::authors bbadarau
+# ::snt Cells were additionally stimulated with 10 ng/ml NRG and cell extracts analyzed for ErbB3 tyrosine phosphorylation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0002_1.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0002.2 ::date 2016-06-06T05:11:45 ::authors bbadarau
+# ::snt The endogenous EGFR is tyrosine phosphorylated in response to EGF in all cell lines.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0002_2.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (a3 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (e / enzyme :name (n / name :op1 "EGFR")
+                        :mod (e2 / endogenous)
+                        :xref (x2 / xref :value "UNIPROT:EGFR_HUMAN")))
+            :manner (p3 / phosphorylate-01)))
+
+# ::id pmc_534114_0002.3 ::date 2016-06-06T05:18:02 ::authors bbadarau
+# ::snt ErbB3 exhibits weak constitutive tyrosine phosphorylation that is enhanced by NRG treatment, but is not significantly enhanced by treatment with EGF.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Tue Jun 7, 2016 ::user bbadarau ::file pmc_534114_0002_3.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+                  :xref (x2 / xref :value "UNIPROT:NRG1_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p3 / protein)
+                  :ARG1 (a3 / amino-acid :name (n4 / name :op1 "tyrosine")
+                        :part-of (e2 / enzyme :name (n3 / name :op1 "ErbB3")
+                              :xref (x / xref :value "UNIPROT:ERBB3_HUMAN")))
+                  :manner (p4 / phosphorylate-01)))
+      :card2 (i3 / increase-01 :polarity -
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                        :part-of (e / enzyme :name (n6 / name :op1 "ErbB3")
+                              :xref (x4 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                  :manner (p5 / phosphorylate-01))))
+
+# ::id pmc_534114_0002.4 ::date 2016-06-06T05:33:03 ::authors bbadarau
+# ::snt Cells expressing ErbB3 show tyrosine phosphorylation in response to treatment with NRG (Figure 4A, upper and middle right panels).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 6, 2016 ::user bbadarau ::file pmc_534114_0002_4.txt
+(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+            :xref (x / xref :value "UNIPROT:NRG1_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (e2 / enzyme :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p / phosphorylate-01)))
+
+# ::id pmc_534114_0002.5 ::date 2016-06-12T09:05:13 ::authors nnistor
+# ::snt While ErbB3 is relatively ineffective at mediating EGF-stimulation of PI-3 kinase activation, it is an efficient mediator of PI-3 kinase stimulation in response to NRG stimulation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0002_5.txt
+(m / multi-index-card
+      :card1 (i4 / increase-01 :polarity -
+            :ARG0 (e / enzyme :name (n / name :op1 "ErbB3")
+                  :xref (x4 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p / protein :name (n5 / name :op1 "EGF")
+                        :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n6 / name :op1 "PI3K")
+                        :xref (x6 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG1-of (a / add-modification-00
+                              :manner (p3 / phosphorylate-01)))))
+      :card2 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+                  :xref (x / xref :value "UNIPROT:NRG1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (e3 / enzyme :name (n3 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN"))
+                  :ARG1 (m3 / macro-molecular-complex :name (n4 / name :op1 "PI3K")
+                        :xref (x3 / xref :value "UNIPROT:P85A_HUMAN")))))
+
+# ::id pmc_534114_0003.1 ::date 2016-06-30T08:07:18 ::authors bbadarau
+# ::snt The indicated cell lines were serum-starved for 24 hours and stimulated with 10 ng/ml EGF for five minutes at 37°C.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_1.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0003.2 ::date 2016-06-30T08:08:19 ::authors bbadarau
+# ::snt Cell extracts were prepared and analyzed for Gab1 tyrosine phosphorylation, Gab1 co-immunoprecipitation with p85, p85 expression, Gab1 co-immunoprecipitation with Shp2, and Gab1 expression.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_2.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0003.3 ::date 2016-06-12T09:17:38 ::authors nnistor
+# ::snt Both Gab1 and Gab1F446/472/589 are tyrosine phosphorylated in response to EGF treatment, and both form a stable complex with Shp2.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_3.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                        :part-of (p3 / protein :name (n2 / name :op1 "Gab1")
+                              :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p4 / phosphorylate-01)))
+      :card2 (i3 / increase-01
+            :ARG0 (p5 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                        :part-of (p7 / protein :name (n6 / name :op1 "Gab1")
+                              :ARG1-of (m2 / mutate-01 :value "F446/472/589")
+                              :xref (x7 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p12 / phosphorylate-01)))
+      :card3 (b / bind-01
+            :ARG1 (p8 / protein :name (n7 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG2 (e / enzyme :name (n8 / name :op1 "Shp2")
+                  :xref (x5 / xref :value "UNIPROT:PTN11_HUMAN")))
+      :card4 (b2 / bind-01
+            :ARG1 (p10 / protein :name (n9 / name :op1 "Gab1")
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN")
+                  :ARG1-of (m5 / mutate-01 :value "F446/472/589"))
+            :ARG2 (e2 / enzyme :name (n10 / name :op1 "Shp2")
+                  :xref (x8 / xref :value "UNIPROT:PTN11_HUMAN"))))
+
+# ::id pmc_534114_0003.4 ::date 2016-06-12T09:31:09 ::authors nnistor
+# ::snt However, Gab1F446/472/589 fails to associate with the p85 subunit of PI-3 kinase.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_4.txt
+(b / bind-01 :polarity -
+      :ARG1 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :ARG1-of (m / mutate-01 :value "F446/472/589"))
+      :ARG2 (p3 / protein-family :name (n2 / name :op1 "p85")
+            :part-of (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K")
+                  :xref (x2 / xref :value "UNIPROT:P85A_HUMAN"))))
+
+# ::id pmc_534114_0003.5 ::date 2016-06-30T08:18:16 ::authors bbadarau
+# ::snt The indicated cell lines were serum-starved for 24 hours and stimulated with 100 ng/ml EGF for five minutes at 37°C.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_5.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0003.6 ::date 2016-06-30T08:18:44 ::authors bbadarau
+# ::snt Cell extracts were prepared and phosphotyrosine immunoprecipitates were analyzed for PI-3 kinase activity.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_6.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0003.7 ::date 2016-06-12T09:36:12 ::authors nnistor
+# ::snt Gab1 -/- cells fail to show phosphotyrosine-associated PI-3 kinase activity, while cells expressing exogenous Gab1 display phosphotyrosine-associated PI-3 kinase activity that is augmented by EGF treatment.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_7.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (a / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x3 / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG1-of (a2 / add-modification-00
+                        :manner (p2 / phosphorylate-01)))
+            :ARG1 (m / macro-molecular-complex :name (n2 / name :op1 "PI3K")
+                  :xref (x2 / xref :value "UNIPROT:P85A_HUMAN")
+                  :ARG1-of (a3 / add-modification-00
+                        :manner (p4 / phosphorylate-01)))))
+
+# ::id pmc_534114_0003.8 ::date 2016-06-12T09:49:06 ::authors nnistor
+# ::snt Expression of wild type Gab1 in Gab1-deficient MEFs rescues the EGF-induced PI-3 kinase activity.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 30, 2016 ::user bbadarau ::file pmc_534114_0003_8.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :mod (w / wild-type))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n3 / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (m / macro-molecular-complex :name (n4 / name :op1 "PI3K")
+                  :xref (x4 / xref :value "UNIPROT:P85A_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell-line :name (n2 / name :op1 "MEF")
+            :xref (x2 / xref :value "MEF-1:CVCL_4240")))
+
+# ::id pmc_534114_0003.9 ::date 2016-06-12T09:54:49 ::authors nnistor
+# ::snt The docking protein Gab1 is the primary mediator of EGF-stimulated activation of the PI-3K/Akt cell survival pathway.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0003_9.txt
+(i2 / increase-01
+      :ARG0 (p2 / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p3 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (p4 / pathway :name (n3 / name :op1 "PI-3K/Akt"))
+                  :manner (p / phosphorylate-01))))
+
+# ::id pmc_534114_0003.10 ::date 2016-06-12T10:08:39 ::authors nnistor
+# ::snt We demonstrate that Gab1 is essential for EGF stimulation of PI-3 kinase and Akt in these cells and that these responses are mediated by complex formation between p85, the regulatory subunit of PI-3 kinase, and three canonical tyrosine phosphorylation sites on Gab1.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0003_10.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p3 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K")))
+            :location (c / cell))
+      :card2 (i4 / increase-01
+            :ARG0 (p4 / protein :name (n4 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p5 / protein :name (n5 / name :op1 "EGF")
+                        :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                        :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN")))
+            :location (c2 / cell))
+      :card3 (i6 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein-family :name (n7 / name :op1 "p85")
+                        :part-of (m3 / macro-molecular-complex :name (n8 / name :op1 "PI3K")))
+                  :ARG2 (a / amino-acid :name (n9 / name :op1 "tyrosine")
+                        :part-of (p6 / protein :name (n10 / name :op1 "Gab1")
+                              :xref (x7 / xref :value "UNIPROT:GAB1_HUMAN"))))
+            :ARG1 (i7 / increase-01
+                  :ARG0 (p7 / protein :name (n11 / name :op1 "EGF")
+                        :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 m3))
+      :card4 (i8 / increase-01
+            :ARG0 (b2 / bind-01
+                  :ARG1 (p8 / protein-family :name (n12 / name :op1 "p85")
+                        :part-of (m4 / macro-molecular-complex :name (n13 / name :op1 "PI3K")))
+                  :ARG2 (a2 / amino-acid :name (n14 / name :op1 "tyrosine")
+                        :part-of (p9 / protein :name (n15 / name :op1 "Gab1")
+                              :xref (x8 / xref :value "UNIPROT:GAB1_HUMAN"))))
+            :ARG1 (i9 / increase-01
+                  :ARG0 (p10 / protein :name (n16 / name :op1 "EGF")
+                        :xref (x9 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 m4)))
+
+# ::id pmc_534114_0003.11 ::date 2016-06-12T10:10:12 ::authors nnistor
+# ::snt The canonical p85 binding sites on Gab1 are essential for PI-3 kinase and Akt activation in response to EGF stimulation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0003_11.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPORT:EGF_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "Gab1")
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")
+                        :ARG1-of (b / bind-01
+                              :ARG2 (p5 / protein-family :name (n9 / name :op1 "p85"))))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p7 / protein)
+                        :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p6 / phosphorylate-01))))
+      :card2 (i4 / increase-01
+            :ARG0 (p3 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x4 / xref :value "UNIPORT:EGF_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n5 / name :op1 "Gab1")
+                        :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN")
+                        :ARG1-of (b2 / bind-01
+                              :ARG2 (p8 / protein-family :name (n7 / name :op1 "p85"))))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p10 / protein)
+                        :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                              :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p9 / phosphorylate-01)))))
+
+# ::id pmc_534114_0003.12 ::date 2016-06-12T10:15:30 ::authors nnistor
+# ::snt Taken together, these results demonstrate that Gab1 is required for EGF-stimulation of PI-3 kinase and Akt.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0003_12.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))))
+      :card2 (i4 / increase-01
+            :ARG0 (p3 / protein :name (n4 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n6 / name :op1 "EGF")
+                        :xref (x6 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n5 / name :op1 "Akt")
+                        :xref (x5 / xref :value "UNIPROT:AKT1_HUMAN")))))
+
+# ::id pmc_534114_0004.1 ::date 2016-07-01T01:35:48 ::authors bbadarau
+# ::snt Taken together, these results demonstrate that Gab1 is required for EGF-stimulation of PI-3 kinase and Akt.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0004_1.txt
+(s / smr-empty)
+
+# ::id pmc_534114_0004.2 ::date 2016-06-12T10:23:02 ::authors nnistor
+# ::snt Expression of a Gab1 mutant protein deficient in Shp2 binding enhances EGF-induced activation of the PI-3 kinase/Akt signaling pathway.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0004_2.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :ARG2-of (m / mutate-01))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (p3 / pathway :name (n3 / name :op1 "PI-3K/Akt"))
+                  :manner (p4 / phosphorylate-01))))
+
+# ::id pmc_534114_0004.3 ::date 2016-06-12T10:27:49 ::authors nnistor
+# ::snt Furthermore, complex formation between Gab1 and the protein tyrosine phosphatase Shp2 negatively regulates Gab1 mediated PI-3 kinase and Akt activation following EGF-receptor stimulation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0004_3.txt
+(m / multi-index-card
+      :card1 (d / decrease-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein :name (n / name :op1 "Gab1")
+                        :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG2 (e3 / enzyme :name (n2 / name :op1 "Shp2")
+                        :xref (x2 / xref :value "UNIPROT:PTN11_HUMAN")))
+            :ARG1 (i2 / increase-01
+                  :ARG0 p
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p5 / protein)
+                        :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p2 / phosphorylate-01))))
+      :card2 (d2 / decrease-01
+            :ARG0 (c2 / complex-with-00
+                  :ARG1 (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG2 (e / enzyme :name (n5 / name :op1 "Shp2")
+                        :xref (x5 / xref :value "UNIPROT:PTN11_HUMAN")))
+            :ARG1 (i3 / increase-01
+                  :ARG0 p3
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p6 / protein)
+                        :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                              :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p4 / phosphorylate-01)))))
+
+# ::id pmc_534114_0004.4 ::date 2016-06-12T10:37:45 ::authors nnistor
+# ::snt Expression of Gab1 mutant protein deficient in Shp2 binding rescues EGF-induced PI-3 kinase/Akt activation in Gab1 -/- MEFs.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0004_4.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+                  :ARG2-of (m2 / mutate-01))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p5 / protein)
+                        :ARG1 (m3 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p6 / phosphorylate-01)))
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :xref (x4 / xref :value "MEF-1:CVCL_4240")))
+      :card2 (i4 / increase-01
+            :ARG0 (p3 / protein :name (n5 / name :op1 "Gab1")
+                  :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n6 / name :op1 "EGF")
+                        :xref (x6 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 (e2 / enzyme :name (n7 / name :op1 "Akt")
+                              :xref (x7 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p7 / phosphorylate-01)))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :xref (x8 / xref :value "MEF-1:CVCL_4240"))))
+
+# ::id pmc_534114_0004.5 ::date 2016-06-12T10:45:49 ::authors nnistor
+# ::snt Taken together, these results suggest a role for Shp2 in negatively regulating the EGF induced activation of the PI-3 kinase pathway via Gab1, possibly by dephosphorylating Gab1 at p85 binding sites.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jul 1, 2016 ::user bbadarau ::file pmc_534114_0004_5.txt
+(d / decrease-01
+      :ARG0 (e / enzyme :name (n / name :op1 "Shp2")
+            :xref (x / xref :value "UNIPROT:PTN11_HUMAN"))
+      :ARG1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 (p3 / pathway :name (n3 / name :op1 "PI3K"))
+                  :manner (p / phosphorylate-01))))
+
+# ::id pmc_534114_0005.1 ::date 2016-06-12T10:49:43 ::authors nnistor
+# ::snt We also demonstrate that tyrosine phosphorylation of ErbB3 may lead to recruitment and activation of PI-3 kinase and Akt in Gab1-/- MEFs.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Sun Jun 12, 2016 ::user nnistor ::file pmc_534114_0005_1.txt
+(m / multi-index-card
+      :card1 (m2 / multi-index-card
+            :card1 (i2 / increase-01
+                  :ARG0 (a / add-modification-00
+                        :ARG0 (p2 / protein)
+                        :ARG1 (a2 / amino-acid :name (n2 / name :op1 "tyrosine")
+                              :part-of (p5 / protein :name (n3 / name :op1 "ErbB3")
+                                    :xref (x / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p3 / phosphorylate-01))
+                  :ARG1 (e3 / enzyme :name (n4 / name :op1 "PI-3")
+                        :xref (x2 / xref :value "UNIPROT:P85A_HUMAN"))
+                  :location (c / cell-line :name (n8 / name :op1 "MEF")
+                        :xref (x5 / xref :value "MEF-1:CVCL_4240")))
+            :card2 (i3 / increase-01
+                  :ARG0 (a3 / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                              :part-of (p6 / protein :name (n6 / name :op1 "ErbB3")
+                                    :xref (x3 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p7 / phosphorylate-01))
+                  :ARG1 (e2 / enzyme :name (n7 / name :op1 "Akt")
+                        :xref (x4 / xref :value "UNIPROT:AKT1_HUMAN"))))
+      :card2 (m3 / multi-index-card
+            :card1 (i4 / increase-01
+                  :ARG0 (a5 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 (a7 / amino-acid :name (n9 / name :op1 "tyrosine")
+                              :part-of (p10 / protein :name (n11 / name :op1 "ErbB3")
+                                    :xref (x6 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p12 / phosphorylate-01))
+                  :ARG1 (e4 / enzyme :name (n13 / name :op1 "PI-3")
+                        :xref (x8 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a9 / activity-06))
+                  :location (c2 / cell-line :name (n15 / name :op1 "MEF")
+                        :xref (x10 / xref :value "MEF-1:CVCL_4240")))
+            :card2 (i5 / increase-01
+                  :ARG0 (a6 / add-modification-00
+                        :ARG0 (p9 / protein)
+                        :ARG1 (a8 / amino-acid :name (n10 / name :op1 "tyrosine")
+                              :part-of (p11 / protein :name (n12 / name :op1 "erbB3")
+                                    :xref (x7 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p13 / phosphorylate-01))
+                  :ARG1 (e5 / enzyme :name (n14 / name :op1 "Akt")
+                        :xref (x9 / xref :value "UNIPROT:AKT1_HUMAN")
+                        :ARG0-of (a10 / activity-06))
+                  :location (c3 / cell-line :name (n16 / name :op1 "MEF")
+                        :xref (x11 / xref :value "MEF-1:CVCL_4240")))))
+
+# ::id pmc_534114_0005.2 ::date 2016-06-12T11:10:35 ::authors nnistor
+# ::snt Expression of ErbB3 in Gab1-deficient MEFs partially rescues EGF-induced activation of the PI-3 kinase/Akt signaling pathway.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Sun Jun 12, 2016 ::user nnistor ::file pmc_534114_0005_2.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "ErbB3")
+            :xref (x / xref :value "UNIPROT:ERBB3_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (p3 / pathway :name (n5 / name :op1 "PI-3/Akt")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell-line :name (n3 / name :op1 "MEF")
+            :xref (x3 / xref :value "MEF-1:CVCL_4240")))
+
+# ::id pmc_534114_0005.4 ::date 2016-06-12T11:17:54 ::authors nnistor
+# ::snt Thus, EGF and NRG can stimulate PI-3 kinase activation in normal and transfected cells by means of Gab1 and ErbB3, respectively.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_534114_0005_4.txt
+(m / multi-index-card
+      :card1 (i3 / increase-01
+            :ARG0 (p3 / protein :name (n5 / name :op1 "Gab1")
+                  :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i2 / increase-01
+                  :ARG0 (p / protein :name (n2 / name :op1 "EGF")
+                        :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n4 / name :op1 "PI-3")
+                        :ARG0-of (a2 / activity-06))))
+      :card2 (i5 / increase-01
+            :ARG0 (p4 / protein :name (n6 / name :op1 "Gab1")
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i4 / increase-01
+                  :ARG0 (p2 / protein :name (n3 / name :op1 "NRG")
+                        :xref (x2 / xref :value "UNIPROT:NRG1_HUMAN"))
+                  :ARG1 (e / enzyme :name (n / name :op1 "Pi-3")
+                        :xref (x4 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a / activity-06))))
+      :card3 (i6 / increase-01
+            :ARG0 (p5 / protein :name (n7 / name :op1 "ErbB3")
+                  :xref (x11 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i7 / increase-01
+                  :ARG0 (p6 / protein :name (n8 / name :op1 "EGF")
+                        :xref (x7 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e3 / enzyme :name (n9 / name :op1 "PI-3")
+                        :ARG0-of (a3 / activity-06)
+                        :xref (x3 / xref :value "UNIPROT:P85A_HUMAN"))))
+      :card4 (i8 / increase-01
+            :ARG0 (p7 / protein :name (n10 / name :op1 "ErbB3")
+                  :xref (x10 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i9 / increase-01
+                  :ARG0 (p8 / protein :name (n11 / name :op1 "NRG")
+                        :xref (x8 / xref :value "UNIPROT:NRG1_HUMAN"))
+                  :ARG1 (e4 / enzyme :name (n12 / name :op1 "PI-3")
+                        :xref (x9 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a4 / activity-06)))))
+
+# ::id pmc_534114_0005.5 ::date 2016-06-12T11:31:53 ::authors nnistor
+# ::snt while only cells expressing the ectopically introduced ErbB3 protein show ErbB3 tyrosine phosphorylation in response to EGF stimulation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Sun Jun 12, 2016 ::user nnistor ::file pmc_534114_0005_5.txt
+(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p4 / protein :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p5 / phosphorylate-01))
+      :location (c / cell))
+
+# ::id pmc_534114_0005.6 ::date 2016-06-12T11:34:50 ::authors nnistor
+# ::snt Interestingly, ErbB3 reproducibly shows constitutive low-level tyrosine phosphorylation that is augmented only 1.3-fold in response to EGF treatment.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_534114_0005_6.txt
+(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p5 / protein :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p3 / phosphorylate-01)))
+
+# ::id pmc_534114_0005.11 ::date 2016-06-12T11:40:06 ::authors nnistor
+# ::snt Ectopic expression of ErbB3 in Gab1 deficient cells results in a partial rescue of EGF-induced Akt activation relative to cells expressing wild type Gab1.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Sun Jun 12, 2016 ::user nnistor ::file pmc_534114_0005_11.txt
+(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "ErbB3")
+            :xref (x / xref :value "UNIPROT:ERBB3_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (e / enzyme :name (n3 / name :op1 "Akt")
+                  :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell))
+
+# ::id pmc_1234335_0001.1 ::date 2016-06-12T11:43:45 ::authors nnistor
+# ::snt Together these data demonstrate that E2-induced SRC-3 phosphorylation is dependent on a direct interaction between SRC-3 and ERα and can occur outside of the nucleus.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_1234335_0001_1.txt
+(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (p2 / protein :name (n / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG2 (p3 / protein :name (n2 / name :op1 "ERα")
+                  :xref (x2 / xref :value "UNIPROT:ESR1_HUMAN")))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n3 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 p2
+                  :manner (p4 / phosphorylate-01))))
+
+# ::id pmc_1234335_0001.2 ::date 2016-06-12T11:48:29 ::authors nnistor
+# ::snt Mutations in the coactivator binding groove of the ERα ligand binding domain inhibit E2-stimulated SRC-3 phosphorylation, as do mutations in the nuclear receptor-interacting domain of SRC-3, suggesting that ERα must directly contact SRC-3 for this posttranslational modification to take place.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 27, 2016 ::user bbadarau ::file pmc_1234335_0001_2.txt
+(m2 / multi-index-card
+      :card1 (d / decrease-01
+            :ARG0 (p10 / protein-segment :name (n8 / name :op1 "ligand" :op2 "binding" :op3 "domain")
+                  :ARG1-of (m / mutate-01)
+                  :part-of (p3 / protein :name (n / name :op1 "ERα")
+                        :xref (x / xref :value "UNIPROT:ESR1_HUMAN")))
+            :ARG1 (i2 / increase-01
+                  :ARG0 (s / small-molecule :name (n2 / name :op1 "E2")
+                        :xref (x2 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p13 / phosphorylate-01))))
+      :card2 (d2 / decrease-01
+            :ARG0 (p6 / protein-segment
+                  :part-of (p7 / protein :name (n4 / name :op1 "SRC-3")
+                        :xref (x5 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :ARG1-of (m3 / mutate-01))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s2 / small-molecule :name (n5 / name :op1 "E2")
+                        :xref (x4 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 p7
+                        :manner (p14 / phosphorylate-01))))
+      :card3 (i4 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein :name (n6 / name :op1 "ERα")
+                        :xref (x6 / xref :value "UNIPROT:ESR1_HUMAN"))
+                  :ARG2 (p9 / protein :name (n7 / name :op1 "SRC-3")
+                        :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN")))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (p11 / protein :name (n9 / name :op1 "SRC-3")
+                        :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p12 / phosphorylate-01))))
+
+# ::id pmc_1234335_0001.3 ::date 2016-06-12T12:05:40 ::authors nnistor
+# ::snt FIG. 2. Estradiol-induced SRC-3 phosphorylation requires the presence of ER. (A) HEK293T cells were transfected with Flag-tagged SRC-3 (SRC-3) or its phosphorylation mutant (A6), in the absence or presence of ER.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_1234335_0001_3.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n5 / name :op1 "ER")
+                  :xref (x4 / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s / small-molecule :name (n6 / name :op1 "estradiol")
+                        :xref (x5 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a3 / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n7 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p6 / phosphorylate-01))))
+      :card2 (a / add-modification-00
+            :ARG0 (p2 / protein :name (n / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c / cell-line :name (n2 / name :op1 "HEK")
+                  :xref (x2 / xref :value "HEK:CVCL_0063")))
+      :card3 (a2 / add-modification-00
+            :ARG0 (p3 / protein :name (n3 / name :op1 "SRC-3")
+                  :ARG1-of (m2 / mutate-01)
+                  :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c2 / cell-line :name (n4 / name :op1 "HEK")
+                  :xref (x3 / xref :value "HEK:CVCL_0063"))))
+
+# ::id pmc_1234335_0001.4 ::date 2016-06-12T12:12:23 ::authors nnistor
+# ::snt FIG. 1. Estradiol induction of SRC-3 phosphorylation
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_1234335_0001_4.txt
+(i2 / increase-01
+      :ARG0 (s / small-molecule :name (n / name :op1 "estradiol")
+            :xref (x2 / xref :value "PUBCHEM:5757"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :manner (p / phosphorylate-01)))
+
+# ::id pmc_1234335_0001.5 ::date 2016-06-13T09:53:03 ::authors nnistor
+# ::snt we investigated the mechanisms involved in estradiol (E2)-induced SRC-3 phosphorylation and found that this occurs only when either activated estrogen receptor (ER) or activated ER is present.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_1234335_0001_5.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (s / small-molecule :name (n2 / name :op1 "estradiol")
+                  :xref (x2 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p2 / protein :name (n / name :op1 "estrogen" :op2 "receptor" :op3 "α")
+                        :xref (x / xref :value "UNIPROT:ESR1_HUMAN")
+                        :ARG0-of (a2 / activity-06))
+                  :ARG1 (p3 / protein :name (n3 / name :op1 "SRC-3")
+                        :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p4 / phosphorylate-01)))
+      :card2 (i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n4 / name :op1 "estradiol")
+                  :xref (x4 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p6 / protein :name (n5 / name :op1 "ERβ")
+                        :xref (x5 / xref :value "UNIPROT:ESR2_HUMAN")
+                        :ARG0-of (a4 / activity-06))
+                  :ARG1 (p7 / protein :name (n6 / name :op1 "SRC-3")
+                        :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p5 / phosphorylate-01))))
+
+# ::id pmc_1234335_0001.7 ::date 2016-06-12T12:16:52 ::authors nnistor
+# ::snt FIG. 4. Both AF-1 and LBD/AF-2 domains of ER are required for maximal induction of SRC-3 phosphorylation in response to E2.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_1234335_0001_7.txt
+(i2 / increase-01
+      :ARG0 (s / small-molecule :name (n / name :op1 "E2")
+            :xref (x / xref :value "PUBCHEM:5757"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :manner (p4 / phosphorylate-01)))
+
+# ::id pmc_1234335_0001.8 ::date 2016-06-13T10:11:37 ::authors nnistor
+# ::snt Since SERMs do not promote interaction between SRC coactivators and ER in HEK293T (data not shown) and other cell lines (23, 48), the data are consistent with a requirement for a direct binding between ER and SRC-3 for induction of coactivator phosphorylation.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_1234335_0001_8.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p2 / protein :name (n / name :op1 "ER")
+                  :xref (x / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG2 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 p3
+            :manner (p5 / phosphorylate-01)))
+
+# ::id pmc_1234335_0001.9 ::date 2016-06-13T10:20:38 ::authors nnistor
+# ::snt These data indicated that an intact coactivator-binding groove within the LBD is essential for E2-induced SRC-3 phosphorylation and imply that a direct interaction between SRC-3 and ERα is necessary.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_1234335_0001_9.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG2 (p5 / protein-segment :name (n5 / name :op1 "LBD")
+                  :part-of (p / protein :name (n3 / name :op1 "ERα")
+                        :xref (x2 / xref :value "UNIPROT:ESR1_HUMAN"))))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n4 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 p2)))
+
+# ::id pmc_1234335_0001.10 ::date 2016-06-12T12:27:14 ::authors nnistor
+# ::snt As shown in Fig. 2A and B, E2 induced SRC-3 phosphorylation at all six sites (T24, S505, S543, S857, S860, and S867) in cells transfected with an expression vector for wild-type ER_ (Fig. 2A, lanes 3 and 4, rows 1 to 6) or ER_ (Fig. 2B, rows 1 to 6), but not in cells transfected with an empty expression vector (Fig. 2A, lanes 1 and 2, rows 1 to 6).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_1234335_0001_10.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (s / small-molecule :name (n / name :op1 "E2")
+                  :xref (x / xref :value "PUBCHEM:5757"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (a3 / amino-acid :mod 24 :name (n2 / name :op1 "tyrosine")
+                        :part-of (p3 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p4 / phosphorylate-00))
+            :location (c / cell))
+      :card2 (i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n4 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a5 / amino-acid :mod 505 :name (n5 / name :op1 "serine")
+                        :part-of (p6 / protein :name (n6 / name :op1 "SRC-3")
+                              :xref (x4 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p7 / phosphorylate-01))
+            :location (c2 / cell))
+      :card3 (i4 / increase-01
+            :ARG0 (s3 / small-molecule :name (n7 / name :op1 "E2")
+                  :xref (x5 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a7 / amino-acid :mod 543 :name (n8 / name :op1 "serine")
+                        :part-of (p9 / protein :name (n9 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p10 / phosphorylate-01))
+            :location (c3 / cell))
+      :card4 (i5 / increase-01
+            :ARG0 (s4 / small-molecule :name (n10 / name :op1 "E2")
+                  :xref (x7 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a8 / add-modification-00
+                  :ARG0 (p11 / protein)
+                  :ARG1 (a9 / amino-acid :mod 857 :name (n11 / name :op1 "serine")
+                        :part-of (p12 / protein :name (n12 / name :op1 "SRC-3")
+                              :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p13 / phosphorylate-01))
+            :location (c4 / cell))
+      :card5 (i6 / increase-01
+            :ARG0 (s5 / small-molecule :name (n13 / name :op1 "E2")
+                  :xref (x9 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a10 / add-modification-00
+                  :ARG0 (p14 / protein)
+                  :ARG1 (a11 / amino-acid :mod 860 :name (n14 / name :op1 "serine")
+                        :part-of (p16 / protein :name (n16 / name :op1 "SRC-3")
+                              :xref (x10 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p15 / phosphorylate-01))
+            :location (c5 / cell))
+      :card6 (i7 / increase-01
+            :ARG0 (s6 / small-molecule :name (n15 / name :op1 "E2")
+                  :xref (x12 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a12 / add-modification-00
+                  :ARG0 (p17 / protein)
+                  :ARG1 (a13 / amino-acid :mod 867 :name (n17 / name :op1 "serine")
+                        :part-of (p18 / protein :name (n18 / name :op1 "SRC-3")
+                              :xref (x11 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p19 / phosphorylate-01))
+            :location (c6 / cell)))
+
+# ::id pmc_3178447_0001.1 ::date 2016-06-12T12:55:43 ::authors nnistor
+# ::snt Figure 1. RAF inhibitors rapidly activate MEK/ERK in cells with wild-type BRAF.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0001_1.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p / protein-family :name (n / name :op1 "RAF")))
+      :ARG1 (p2 / pathway :name (n2 / name :op1 "MEK/ERK")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+# ::id pmc_3178447_0001.2 ::date 2016-06-12T12:56:51 ::authors nnistor
+# ::snt We found that ATP-competitive RAF inhibitors inhibit ERK signaling in cells with mutant BRAF, but unexpectedly enhance signaling in cells with wild-type BRAF.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 27, 2016 ::user bbadarau ::file pmc_3178447_0001_2.txt
+(d / decrease-01
+      :ARG0 (m / molecular-physical-entity
+            :ARG0-of (d2 / decrease-01
+                  :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF"))))
+      :ARG1 (p4 / protein-family :name (n4 / name :op1 "ERK"))
+      :location (c / cell))
+
+# ::id pmc_3178447_0001.3 ::date 2016-06-12T12:57:54 ::authors nnistor
+# ::snt Six distinct ATP-competitive RAF inhibitors induced ERK activation in cells with wild-type BRAF, but inhibited signaling in mutant BRAFV600E cells (Fig. 1a, b, Supplementary Fig. 2a, b, Data Not Shown (DNS), structures of compounds shown in Supplementary Fig. 3, except that of PLX4032, which is unavailable). PLX47206, and its analog in clinical trial.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0001_3.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN"))
+      :location (c / cell))
+
+# ::id pmc_3178447_0001.4 ::date 2016-06-12T12:59:20 ::authors nnistor
+# ::snt Induction of ERK signaling by PLX4720 was rapid (Fig. 1c), reversible (Fig. 1d), and associated with increased phosphorylation of the ERK substrate RSK (Fig 1b).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0001_4.txt
+(b / bind-01
+      :ARG1 (i2 / increase-01
+            :ARG0 (s / small-molecule :name (n2 / name :op1 "PLX4720")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG1 (e / enzyme :name (n3 / name :op1 "ERK")
+                  :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")))
+      :ARG2 (i3 / increase-01
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (p4 / protein-family :name (n4 / name :op1 "RSK"))
+                  :manner (p / phosphorylate-01))))
+
+# ::id pmc_3178447_0001.5 ::date 2016-06-12T13:00:17 ::authors nnistor
+# ::snt MEK and ERK phosphorylation were induced at intermediate concentrations of RAF inhibitor, and inhibited at much higher doses (Fig. 1a).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_3178447_0001_5.txt
+(m3 / multi-index-card
+      :card1 (m2 / multi-index-card
+            :card1 (i2 / increase-01
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p6 / protein)
+                        :ARG1 (e / enzyme :name (n4 / name :op1 "MEK")
+                              :xref (x / xref :value "UNIPROT:MP2K1_HUMAN"))
+                        :manner (p7 / phosphorylate-01)))
+            :card2 (i3 / increase-01
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p10 / protein)
+                        :ARG1 (e2 / enzyme :name (n5 / name :op1 "ERK")
+                              :xref (x2 / xref :value "UNIPROT:MK01_HUMAN"))
+                        :manner (p9 / phosphorylate-01))))
+      :card2 (m4 / multi-index-card
+            :card1 (d / decrease-01
+                  :ARG0 (p11 / protein)
+                  :ARG1 (a3 / add-modification-00
+                        :ARG0 (p12 / protein)
+                        :ARG1 (e3 / enzyme :name (n6 / name :op1 "MEK")
+                              :xref (x3 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                        :manner (p13 / phosphorylate-01)))
+            :card2 (d2 / decrease-01
+                  :ARG0 (p14 / protein)
+                  :ARG1 (a4 / add-modification-00
+                        :ARG0 (p15 / protein)
+                        :ARG1 (e4 / enzyme :name (n7 / name :op1 "ERK")
+                              :xref (x4 / xref :value "UNIPROT:MK01_HUMAN"))
+                        :manner (p16 / phosphorylate-01)))))
+
+# ::id pmc_3178447_0001.6 ::date 2016-06-12T13:09:25 ::authors nnistor
+# ::snt PLX induced pronounced phosphorylation of MEK and ERK in wild-type MEFs and BRAF (−/−) MEFs.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0001_6.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (s3 / small-molecule :name (n3 / name :op1 "PLX")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (e / enzyme :name (n4 / name :op1 "MEK")
+                        :xref (x2 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                  :manner (p6 / phosphorylate-01))
+            :location (c / cell-line :name (n5 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "MEF:CVCL_L690")))
+      :card2 (i4 / increase-01
+            :ARG0 (s4 / small-molecule :name (n9 / name :op1 "PLX")
+                  :xref (x7 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p11 / protein)
+                  :ARG1 (e3 / enzyme :name (n10 / name :op1 "MEK")
+                        :xref (x8 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                  :manner (p12 / phosphorylate-01))
+            :location (c3 / cell-line :name (n11 / name :op1 "MEF")
+                  :xref (x9 / xref :value "MEF-1:CVCL_4240")))
+      :card3 (i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n6 / name :op1 "PLX")
+                  :xref (x4 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (e2 / enzyme :name (n7 / name :op1 "ERK")
+                        :xref (x5 / xref :value "UNIPROT:MK01_HUMAN"))
+                  :manner (p9 / phosphorylate-01))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :mod (w2 / wild-type)
+                  :xref (x6 / xref :value "MEF:CVCL_L690")))
+      :card4 (i5 / increase-01
+            :ARG0 (s / small-molecule :name (n12 / name :op1 "PLX")
+                  :xref (x10 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p15 / protein)
+                  :ARG1 (e4 / enzyme :name (n13 / name :op1 "ERK")
+                        :xref (x11 / xref :value "UNIPORT:PLK1_HUMAN"))
+                  :manner (p14 / phosphorylate-01))
+            :location (c4 / cell-line :name (n14 / name :op1 "MEF")
+                  :xref (x12 / xref :value "MEF-1:CVCL_4240"))))
+
+# ::id pmc_3178447_0001.8 ::date 2016-06-12T13:27:11 ::authors nnistor
+# ::snt Coexpression of CRAF and active RAS in CRAF (−/−) MEFs reconstituted the wild-type phenotype (Supplementary Fig. 6b, c).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 27, 2016 ::user bbadarau ::file pmc_3178447_0001_8.txt
+(i2 / increase-01
+      :ARG0 (a2 / and
+            :op1 (e / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+            :op2 (p / protein-family :name (n3 / name :op1 "RAS")
+                  :ARG1-of (a / add-modification-00
+                        :ARG0 (p3 / protein)
+                        :manner (p2 / phosphorylate-01))))
+      :ARG1 (e3 / enzyme :name (n5 / name :op1 "CRAF")
+            :mod (w / wild-type)
+            :xref (x4 / xref :value "UNIPROT:RAF1_HUMAN"))
+      :location (c / cell-line :name (n2 / name :op1 "MEF")
+            :xref (x3 / xref :value "MEF-1:CVCL_4240")))
+
+# ::id pmc_3178447_0001.9 ::date 2016-06-12T13:29:02 ::authors nnistor
+# ::snt We conclude that BRAF is dispensable for MEK/ERK activation by PLX, and that CRAF expression is required for significant induction.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0001_9.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01 :polarity -
+            :ARG0 (e / enzyme :value "UNIPROT:BRAF_HUMAN" :name (n / name :op1 "BRAF"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s2 / small-molecule :name (n3 / name :op1 "PLX")
+                        :xref (x / xref :value "PUBCHEM:24180719"))
+                  :ARG1 (p / pathway :name (n2 / name :op1 "MEK/ERK")
+                        :ARG0-of (a / activity-06))))
+      :card2 (i4 / increase-01
+            :ARG0 (e2 / enzyme :name (n4 / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (s / small-molecule :name (n5 / name :op1 "PLX")
+                        :xref (x3 / xref :value "PUBCHEM:24180719"))
+                  :ARG1 (p4 / pathway :name (n6 / name :op1 "MEK/ERK")
+                        :ARG0-of (a2 / activity-06)))))
+
+# ::id pmc_3178447_0002.1 ::date 2016-06-12T13:32:35 ::authors nnistor
+# ::snt We employed chemical genetic methods to show that drug-mediated transactivation of RAF dimers is responsible for paradoxical activation of the enzyme by inhibitors.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_1.txt
+(i2 / increase-01
+      :ARG0 (i3 / increase-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (c / complex-with-00
+                  :ARG1 (p2 / protein)
+                  :ARG2 (p3 / protein-family :name (n2 / name :op1 "RAF"))))
+      :ARG1 (e / enzyme
+            :ARG0-of (a / activity-06)))
+
+# ::id pmc_3178447_0002.2 ::date 2016-06-12T13:34:05 ::authors nnistor
+# ::snt Induction of ERK signaling requires direct binding of the drug to the ATP-binding site of one kinase of the dimer and is dependent on RAS activity.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Fri Jun 17, 2016 ::user bbadarau ::file pmc_3178447_0002_2.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule)
+            :ARG2 (p / protein-segment :name (n / name :op1 "ATP-binding" :op2 "site")
+                  :part-of (e2 / enzyme)))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")))
+
+# ::id pmc_3178447_0002.3 ::date 2016-06-12T13:43:33 ::authors nnistor
+# ::snt Drug binding to one member of RAF homo-(CRAF/CRAF) or heterodimers (CRAF/BRAF) inhibits one protomer, but results in transactivation of the drug-free protomer.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_3.txt
+(m / multi-index-card
+      :card1 (d / decrease-01
+            :ARG0 (b / bind-01
+                  :ARG1 (s / small-molecule)
+                  :ARG2 (c / complex-with-00
+                        :ARG1 (e3 / enzyme :name (n / name :op1 "CRAF")
+                              :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+                        :ARG2 (e4 / enzyme :name (n4 / name :op1 "CRAF")
+                              :xref x)))
+            :ARG1 (p / protein))
+      :card2 (d2 / decrease-01
+            :ARG0 (b2 / bind-01
+                  :ARG1 (s2 / small-molecule)
+                  :ARG2 (c2 / complex-with-00
+                        :ARG1 (e / enzyme :name (n2 / name :op1 "CRAF")
+                              :xref x)
+                        :ARG2 (e2 / enzyme :name (n3 / name :op1 "BRAF")
+                              :xref (x2 / xref :value "UNIPROT:BRAF_HUMAN"))))
+            :ARG1 (p2 / protein)))
+
+# ::id pmc_3178447_0002.4 ::date 2016-06-12T13:44:37 ::authors nnistor
+# ::snt Figure 4. MEK/ERK induction occurs via transactivation of RAF dimers
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_4.txt
+(i2 / increase-01
+      :ARG0 (i3 / increase-01
+            :ARG0 (p2 / protein)
+            :ARG1 (c / complex-with-00
+                  :ARG1 (e2 / enzyme
+                        :mod p4)
+                  :ARG2 (e / enzyme
+                        :mod (p4 / protein-family :name (n2 / name :op1 "RAF")))))
+      :ARG1 (p / pathway :name (n / name :op1 "MEK/ERK")))
+
+# ::id pmc_3178447_0002.6 ::date 2016-06-12T13:49:02 ::authors nnistor
+# ::snt c, Activation in the context of the heterodimer BRAF/CRAF occurs in trans.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_6.txt
+(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (e / enzyme :name (n2 / name :op1 "BRAF")
+                  :xref (x / xref :value "UNIPROT:BRAF_HUMAN"))
+            :ARG2 (e2 / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (p / protein
+            :ARG0-of (a / activity-06)))
+
+# ::id pmc_3178447_0002.7 ::date 2016-06-12T13:49:27 ::authors nnistor
+# ::snt c, Treatment with RAF inhibitor results in elevated phosphorylation at activating phosphorylation sites on RAF.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_7.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 e)
+      :ARG1 (a2 / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (e / enzyme :name (n2 / name :op1 "RAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+            :manner (p5 / phosphorylate-01)))
+
+# ::id pmc_3178447_0002.8 ::date 2016-06-12T13:53:13 ::authors nnistor
+# ::snt V5-tagged wild-type CRAF or kinase-dead CRAFD486N were overexpressed in 293H cells.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_8.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG1 (e / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x / xref :value "UNIPORT:RAF1_HUMAN")
+                  :mod (w / wild-type))
+            :location (c / cell-line :name (n2 / name :op1 "293H")
+                  :xref (x2 / xref :value "HEK:CVCL_6643")))
+      :card2 (i3 / increase-01
+            :ARG1 (p2 / protein :name (n3 / name :op1 "CRAF")
+                  :xref (x3 / xref :value "UNIPORT:RAF1_HUMAN")
+                  :ARG1-of (m2 / mutate-01 :value "D486N"))
+            :location (c2 / cell-line :name (n4 / name :op1 "293H")
+                  :xref (x4 / xref :value "HEK:CVCL_6643"))))
+
+# ::id pmc_3178447_0002.12 ::date 2016-06-12T13:59:13 ::authors nnistor
+# ::snt Note that phosphorylation at S338 steadily increased, even when concentrations were reached that inhibited MEK/ERK.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Sun Jun 12, 2016 ::user nnistor ::file pmc_3178447_0002_12.txt
+(i2 / increase-01
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :mod 338 :name (n2 / name :op1 "serine"))))
+
+# ::id pmc_3178447_0002.14 ::date 2016-06-12T14:02:10 ::authors nnistor
+# ::snt Figure 3. RAF inhibitor induces the active, phosphorylated state of wild-type and kinase-dead RAF
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_14.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (d / decrease-01
+                  :ARG0 (m3 / molecular-physical-entity)
+                  :ARG1 (e / enzyme :name (n2 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p3 / protein)
+                  :ARG1 (e2 / enzyme :name (n3 / name :op1 "RAF")
+                        :xref x
+                        :mod (w / wild-type))
+                  :manner (p5 / phosphorylate-01)))
+      :card2 (i3 / increase-01
+            :ARG0 (d2 / decrease-01
+                  :ARG0 (m4 / molecular-physical-entity)
+                  :ARG1 (e3 / enzyme :name (n4 / name :op1 "RAF")
+                        :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (e4 / enzyme :name (n5 / name :op1 "RAF")
+                        :xref (x3 / xref :value "UNIPROT:RAF1_HUMAN")
+                        :ARG1-of (m2 / mutate-01))
+                  :manner (p7 / phosphorylate-01))))
+
+# ::id pmc_3178447_0002.15 ::date 2016-06-12T14:08:27 ::authors nnistor
+# ::snt Thus, activation of MEK/ERK by PLX depends on its direct binding to the RAF kinase active site.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_15.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 p
+            :ARG2 (p2 / protein-segment
+                  :part-of (e / enzyme :name (n2 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+                  :ARG0-of a))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n3 / name :op1 "PLX")
+                  :xref (x2 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (p / pathway :name (n / name :op1 "MEK-ERK")
+                  :ARG0-of (a / activity-06))))
+
+# ::id pmc_3178447_0002.16 ::date 2016-06-12T14:09:03 ::authors nnistor
+# ::snt Thus, activation of RAF by ATP-competitive inhibitors can be explained by transactivation: binding of drug to one RAF in the dimer activates the other.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_16.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (d / decrease-01
+                  :ARG0 (m2 / molecular-physical-entity)
+                  :ARG1 (e / enzyme :name (n / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "RAF")
+                  :ARG0-of (a / activity-06)
+                  :xref x))
+      :card2 (i3 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (m3 / molecular-physical-entity)
+                  :ARG2 (e3 / enzyme :name (n3 / name :op1 "RAF")
+                        :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (e4 / enzyme :name (n4 / name :op1 "RAF")
+                  :ARG0-of (a2 / activity-06)
+                  :xref x2)))
+
+# ::id pmc_3178447_0002.17 ::date 2016-06-12T14:09:29 ::authors nnistor
+# ::snt This is consistent with the enhancement of induction by active RAS, which promotes homo- and hetero-dimerization of BRAF and CRAF10,12.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_17.txt
+(m / multi-index-card
+      :card1 (i4 / increase-01
+            :ARG0 (i3 / increase-01
+                  :ARG0 (e / enzyme :name (n / name :op1 "RAS")
+                        :ARG0-of (a / activity-06)
+                        :xref (x / xref :value "UNIPROT:RASH_HUMAN")))
+            :ARG1 (c / complex-with-00
+                  :ARG1 (e2 / enzyme :name (n2 / name :op1 "BRAF")
+                        :xref (x4 / xref :value "UNIPROT:BRAF_HUMAN"))
+                  :ARG2 (e3 / enzyme :name (n3 / name :op1 "BRAF")
+                        :xref x4)))
+      :card2 (i2 / increase-01
+            :ARG0 (i6 / increase-01
+                  :ARG0 (e4 / enzyme :name (n4 / name :op1 "RAS")
+                        :ARG0-of (a2 / activity-06)
+                        :xref (x2 / xref :value "UNIPROT:RASH_HUMAN"))
+                  :ARG1 (c2 / complex-with-00
+                        :ARG1 (e5 / enzyme :name (n5 / name :op1 "CRAF")
+                              :xref (x3 / xref :value "UNIPROT:RAF1_HUMAN"))
+                        :ARG2 (e6 / enzyme :name (n6 / name :op1 "CRAF")
+                              :xref x3))))
+      :card3 (i5 / increase-01
+            :ARG0 (i7 / increase-01
+                  :ARG0 (e7 / enzyme :name (n7 / name :op1 "RAS")
+                        :xref (x5 / xref :value "UNIPROT:RASH_HUMAN")
+                        :ARG0-of (a3 / activity-06))
+                  :ARG1 (c3 / complex-with-00
+                        :ARG1 (e8 / enzyme :name (n8 / name :op1 "BRAF")
+                              :xref (x7 / xref :value "UNIPROT:BRAF_HUMAN"))
+                        :ARG2 (e9 / enzyme :name (n9 / name :op1 "CRAF")
+                              :xref (x6 / xref :value "UNIPROT:RAF1_HUMAN"))))))
+
+# ::id pmc_3178447_0002.18 ::date 2016-06-12T14:09:50 ::authors nnistor
+# ::snt Our model suggests that transactivation will be dependent on formation of RAF dimers.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_18.txt
+(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (e2 / enzyme
+                  :mod p2)
+            :ARG2 (e / enzyme
+                  :mod (p2 / protein-family :name (n / name :op1 "RAF")))))
+
+# ::id pmc_3178447_0002.19 ::date 2016-06-12T14:10:48 ::authors nnistor
+# ::snt All RAF inhibitors tested induced phosphorylation at p338 of endogenous CRAF (Fig. 3d).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_19.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p6 / protein-family :name (n2 / name :op1 "RAF")))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (p5 / protein-segment :name (n3 / name :op1 "p338")
+                  :part-of (e2 / enzyme :name (n4 / name :op1 "CRAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")
+                        :mod (e / endogenous)))
+            :manner (p3 / phosphorylate-01)))
+
+# ::id pmc_3178447_0002.20 ::date 2016-06-12T14:16:55 ::authors nnistor
+# ::snt The data suggest that binding of PLX to CRAF induces activation of the enzyme and, subsequently, ERK signaling.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3178447_0002_20.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule :name (n / name :op1 "PLX")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG2 (e / enzyme :name (n2 / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (e2 / enzyme :name (n3 / name :op1 "CRAF")
+            :ARG0-of (a / activity-06)
+            :xref x2))
+
+# ::id pmc_3178447_0002.21 ::date 2016-06-12T14:17:17 ::authors nnistor
+# ::snt Six distinct ATP-competitive RAF inhibitors induced ERK activation in cells with wild-type BRAF, but inhibited signaling in mutant BRAFV600E cells (Fig. 1a, b, Supplementary Fig. 2a, b, Data Not Shown (DNS), structures of compounds shown in Supplementary Fig. 3, except that of PLX4032, which is unavailable).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0002_21.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (e / enzyme :name (n3 / name :op1 "RAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (e2 / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+# ::id pmc_3178447_0002.23 ::date 2016-06-13T11:54:30 ::authors nnistor
+# ::snt Transactivation from CRAF to BRAF can occur as well.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_3178447_0002_23.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein)
+            :ARG1 (e / enzyme :name (n / name :op1 "CRAF"))
+            :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+      :card2 (i3 / increase-01
+            :ARG0 (p2 / protein)
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "BRAF")
+                  :xref (x2 / xref :value "UNIPROT:BRAF_HUMAN"))))
+
+# ::id pmc_3178447_0003.13 ::date 2016-06-12T14:21:46 ::authors nnistor
+# ::snt Figure 2. MEK/ERK activation requires binding of drug to the catalytic domain of RAF
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0003_13.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule)
+            :ARG2 (p / protein-segment :name (n / name :op1 "catalytic" :op2 "domain")
+                  :part-of (e / enzyme :name (n3 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))))
+      :ARG1 (p4 / pathway :name (n4 / name :op1 "MEK/ERK")
+            :ARG0-of (a / activity-06)))
+
+# ::id pmc_3178447_0003.21 ::date 2016-06-12T14:27:16 ::authors nnistor
+# ::snt Six distinct ATP-competitive RAF inhibitors induced ERK activation in cells with wild-type BRAF, but inhibited signaling in mutant BRAFV600E cells (Fig. 1a, b, Supplementary Fig. 2a, b, Data Not Shown (DNS), structures of compounds shown in Supplementary Fig. 3, except that of PLX4032, which is unavailable).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3178447_0003_21.txt
+(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+# ::id pmc_3690480_0001.1 ::date 2016-06-12T14:30:19 ::authors nnistor
+# ::snt but instead RAC1 and CDC42 from the RHO subfamily of small GTPases bind and activate p110β via its RBD.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3690480_0001_1.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC1")
+                  :part-of (p3 / protein-family :name (n3 / name :op1 "RHO"))
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (p2 / protein-segment :name (n2 / name :op1 "RBD")
+                  :part-of (e4 / enzyme :name (n8 / name :op1 "p110β")
+                        :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+      :card2 (b2 / bind-01
+            :ARG1 (p9 / protein :name (n9 / name :op1 "CDC42")
+                  :xref (x7 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (p10 / protein-segment :name (n10 / name :op1 "RBD")
+                  :part-of (e3 / enzyme :name (n11 / name :op1 "p110β")
+                        :xref (x8 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+      :card3 (i2 / increase-01
+            :ARG0 (p4 / protein :name (n4 / name :op1 "RAC1")
+                  :xref (x3 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n5 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :card4 (i3 / increase-01
+            :ARG0 (p6 / protein :name (n6 / name :op1 "CDC42")
+                  :xref (x5 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n7 / name :op1 "p110β")
+                  :xref (x6 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06))))
+
+# ::id pmc_3690480_0001.2 ::date 2016-06-12T14:34:04 ::authors nnistor
+# ::snt Surprisingly, p110β bound to both RAC1 and CDC42 in a GTP-dependent manner.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0001_2.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (e / enzyme :name (n / name :op1 "p110β")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p2 / protein :name (n2 / name :op1 "RAC1")
+                  :xref (x2 / xref :value "UNIPROT:RAC1_HUMAN")))
+      :card2 (b2 / bind-01
+            :ARG1 (e2 / enzyme :name (n4 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN"))))
+
+# ::id pmc_3690480_0001.3 ::date 2016-06-12T14:37:23 ::authors nnistor
+# ::snt Figure 2. RAC and CDC42 Directly Bind and Active p110b (A) p110b interacts with distinct RAS subfamily GTPases to non-b isoforms.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0001_3.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "RAC")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")))
+      :card2 (b2 / bind-01
+            :ARG1 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (e2 / enzyme :name (n / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a / activity-06))))
+      :card3 (i2 / increase-01
+            :ARG0 (p / protein :name (n5 / name :op1 "RAC")
+                  :xref (x5 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e3 / enzyme :name (n6 / name :op1 "p110b")
+                  :xref (x6 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06)))
+      :card3 (i3 / increase-01
+            :ARG0 (p4 / protein :name (n7 / name :op1 "CDC42")
+                  :xref (x7 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e4 / enzyme :name (n8 / name :op1 "p110b")
+                  :xref (x8 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a3 / activity-06))))
+
+# ::id pmc_3690480_0001.5 ::date 2016-06-12T14:40:52 ::authors nnistor
+# ::snt Taken together, these data show that the RHO family GTPases RAC1 and CDC42 bind to p110β in an isoform-specific manner and potently and directly stimulate its lipid kinase activity.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0001_5.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN")
+                  :part-of (p3 / protein-family :name (n3 / name :op1 "RHO")))
+            :ARG2 (e2 / enzyme :name (n2 / name :op1 "p110β")
+                  :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN")))
+      :card2 (b2 / bind-01
+            :ARG1 (p4 / protein :name (n4 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN")
+                  :part-of (p2 / protein-family :name (n6 / name :op1 "RHO")))
+            :ARG2 (e / enzyme :name (n5 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+# ::id pmc_3690480_0001.6 ::date 2016-06-12T14:41:16 ::authors nnistor
+# ::snt (F) Binding of p110b to RAC1 and CDC42 is isoform specific.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0001_6.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (e / enzyme :name (n / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p3 / protein :name (n3 / name :op1 "RAC1")
+                  :xref (x3 / xref :value "UNIPROT:RAC1_HUMAN")))
+      :card2 (b2 / bind-01
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "p110b")
+                  :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p4 / protein :name (n4 / name :op1 "CDC42")
+                  :xref (x4 / xref :value "UNIPROT:CDC42_HUMAN"))))
+
+# ::id pmc_3690480_0001.8 ::date 2016-06-12T14:42:12 ::authors nnistor
+# ::snt (E) RHO GTPases directly bind p110b in a GTPdependent manner.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0001_8.txt
+(b / bind-01
+      :ARG1 (e / enzyme :name (n / name :op1 "GTPase")
+            :part-of (p / protein-family :name (n2 / name :op1 "RHO")))
+      :ARG2 (e2 / enzyme :name (n3 / name :op1 "p110b")
+            :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+# ::id pmc_3690480_0001.9 ::date 2016-06-12T14:44:30 ::authors nnistor
+# ::snt Figure 3. RAC and CDC42 Are Interactors of the p110b RAS-Binding Domain
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3690480_0001_9.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (p3 / protein-segment :name (n7 / name :op1 "RAS-binding" :op2 "domain")
+                  :part-of (e3 / enzyme :name (n3 / name :op1 "p110b")
+                        :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+      :card2 (b2 / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (p4 / protein-segment :name (n4 / name :op1 "RAS-binding" :op2 "domain")
+                  :part-of (e / enzyme :name (n5 / name :op1 "p110b")
+                        :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN")))))
+
+# ::id pmc_3690480_0002.2 ::date 2016-06-12T14:45:27 ::authors nnistor
+# ::snt Strikingly, GTPgS-loaded RAC1 or CDC42 strongly stimulated p110b lipid kinase activity in vitro (Figure 2G), alone and in cooperation with a phosphotyrosine peptide (pY740), or when p110b was complexed with a less inhibitory, truncated p85 (Dp85 schematic in Figure 3C).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Thu Jun 16, 2016 ::user bbadarau ::file pmc_3690480_0002_2.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN")
+                  :ARG1-of (b / bind-01
+                        :ARG2 (e3 / enzyme :name (n5 / name :op1 "GTPγ")
+                              :xref (x5 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e / enzyme :name (n2 / name :op1 "p110b")
+                  :ARG0-of (a / activity-06)
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")))
+      :card2 (i3 / increase-01
+            :ARG0 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN")
+                  :ARG1-of (b2 / bind-01
+                        :ARG2 (e4 / enzyme :name (n6 / name :op1 "GTPγ")
+                              :xref (x6 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e2 / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+# ::id pmc_3690480_0002.3 ::date 2016-06-12T14:46:01 ::authors nnistor
+# ::snt (G) RAC1 and CDC42 directly stimulate p110b lipid kinase activity.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0002_3.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n3 / name :op1 "p110b")
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06)))
+      :card2 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a / activity-06)))))
+
+# ::id pmc_3690480_0002.5 ::date 2016-06-12T14:49:18 ::authors nnistor
+# ::snt Figure 4. RAC/CDC42 Binding to p110b Regulates PI3K Activity In Vivo
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0002_5.txt
+(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p / pathway :name (n / name :op1 "RAC/CDC42"))
+            :ARG2 (e2 / enzyme :name (n2 / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")))
+      :ARG1 (e / enzyme :name (n3 / name :op1 "PI3K")
+            :ARG0-of (a / activity-06)
+            :xref (x2 / xref :value "PK3CA_HUMAN")))
+
+# ::id pmc_3690480_0002.6 ::date 2016-06-12T14:53:40 ::authors nnistor
+# ::snt (H) RAC1 and CDC42 activate p110b in vivo.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0002_6.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "RAC1")
+                  :xref (x2 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :card2 (i3 / increase-01
+            :ARG0 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a2 / activity-06)))))
+
+# ::id pmc_3690480_0003.1 ::date 2016-06-12T14:55:54 ::authors nnistor
+# ::snt (E) Gbg subunits directly bind to the N terminus of Elmo1.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0003_1.txt
+(b / bind-01
+      :ARG1 (m / macro-molecular-complex :name (n4 / name :op1 "Gβγ"))
+      :ARG2 (p3 / protein-segment :name (n2 / name :op1 "N-terminus")
+            :part-of (p4 / protein :name (n3 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPROT:ELMO1_HUMAN"))))
+
+# ::id pmc_3690480_0003.3 ::date 2016-06-13T12:20:47 ::authors nnistor
+# ::snt We thus probed Gbg subunits for direct binding to purified recombinant Elmo1 (Figure 6E) and found Gbg to strongly bind to full-length Elmo and several N-terminal fragments.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_3690480_0003_3.txt
+(m / multi-index-card
+      :card1 (b / bind-01
+            :ARG1 (m3 / macro-molecular-complex :name (n / name :op1 "Gβγ"))
+            :ARG2 (p2 / protein :name (n2 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPORT:ELMO1_HUMAN")))
+      :card2 (b2 / bind-01
+            :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "Gβγ"))
+            :ARG2 (p / protein-segment :name (n4 / name :op1 "N-terminus")
+                  :part-of (p3 / protein :name (n5 / name :op1 "Elmo1")
+                        :xref (x2 / xref :value "UNIPORT:ELMO1_HUMAN")))))
+
+# ::id pmc_3690480_0003.4 ::date 2016-06-13T12:26:44 ::authors nnistor
+# ::snt Reminiscent of Dictyostelium ElmoE, we find the N terminus of human Elmo1 to directly bind Gbg subunits, suggesting conservation of this pathway in mammals.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_3690480_0003_4.txt
+(b / bind-01
+      :ARG1 (p / protein-segment :name (n / name :op1 "N-terminus")
+            :part-of (p2 / protein :name (n2 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPORT:ELMO1_HUMAN")))
+      :ARG2 (m / macro-molecular-complex :name (n3 / name :op1 "Gbg")))
+
+# ::id pmc_4345513_0001.1 ::date 2016-06-12T15:07:05 ::authors nnistor
+# ::snt We found that prolonged expression of active Ras resulted in up-regulation of the MKP3 gene via the PI3K/Akt pathway.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0001_1.txt
+(i3 / increase-01
+      :ARG0 (p / pathway :name (n / name :op1 "PI3K/AKt"))
+      :ARG1 (i2 / increase-01
+            :ARG0 (e / enzyme :name (n3 / name :op1 "Ras")
+                  :ARG0-of (a / activity-06))
+            :ARG1 (g / gene :name (n4 / name :op1 "MKP3")
+                  :xref (x / xref :value "HGNC:895"))))
+
+# ::id pmc_4345513_0001.3 ::date 2016-06-12T15:07:57 ::authors nnistor
+# ::snt Taking these observations into consideration, our data suggest that the PI3K/Akt pathway transmits the active Ras signal to MKP3 expression, which in turn leads to the down-regulation of the Erk1/2 activity in NIH3T3 cells
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_4345513_0001_3.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (p / pathway :name (n / name :op1 "PI3K/Akt"))
+            :ARG1 (e / enzyme :name (n2 / name :op1 "Ras")
+                  :ARG0-of (a / activity-06)))
+      :card2 (d / decrease-01
+            :ARG0 (e2 / enzyme :name (n3 / name :op1 "MKP3")
+                  :xref (x / xref :value "UNIPROT:DUS6_HUMAN"))
+            :ARG1 (p2 / pathway :name (n4 / name :op1 "ERK1/2"))
+            :location (c / cell-line :name (n5 / name :op1 "NIH3T3")
+                  :xref (x2 / xref :value "NIH3T3:CVCL_0594"))))
+
+# ::id pmc_4345513_0001.4 ::date 2016-06-12T15:08:36 ::authors nnistor
+# ::snt Transient transfection of active RasV12, p110-CAAX (constitutively active p110 subunit of PI3K), or Akt led to a strong increase in reporter activity of the pMkp3-Luc(−1597/−10) construct
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0001_4.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "Ras")
+                  :ARG0-of (a / activity-06)
+                  :ARG1-of (m2 / mutate-01 :value "V12"))
+            :ARG1 (m3 / macro-molecular-complex
+                  :part (e2 / enzyme :name (n2 / name :op1 "Mkp3")
+                        :xref (x / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p / protein :name (n3 / name :op1 "Luc"))
+                  :ARG0-of a))
+      :card2 (i3 / increase-01
+            :ARG0 (e6 / enzyme :name (n4 / name :op1 "p110")
+                  :ARG1-of (m4 / mutate-01 :value "CAAX")
+                  :ARG0-of (a2 / activity-06))
+            :ARG1 (m5 / macro-molecular-complex
+                  :part (e3 / enzyme :name (n5 / name :op1 "Mkp3")
+                        :xref (x2 / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p3 / protein :name (n6 / name :op1 "Luc"))
+                  :ARG0-of a2))
+      :card3 (i4 / increase-01
+            :ARG0 (e4 / enzyme :name (n7 / name :op1 "Akt")
+                  :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a3 / activity-06))
+            :ARG1 (m6 / macro-molecular-complex
+                  :part (e5 / enzyme :name (n8 / name :op1 "Mkp3")
+                        :xref (x4 / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p4 / protein :name (n9 / name :op1 "Luc"))
+                  :ARG0-of a3)))
+
+# ::id pmc_4345513_0001.5 ::date 2016-06-12T15:09:18 ::authors nnistor
+# ::snt Northern blot analysis revealed that prolonged expression of active Ras increased MAP kinase phosphatase 3 (MKP3) mRNA expression, a negative regulator of Erk MAPK
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0001_5.txt
+(i2 / increase-01
+      :ARG0 (e2 / enzyme :name (n7 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (n8 / nucleic-acid :name (n9 / name :op1 "mRNA")
+            :ARG0-of (e3 / encode-01
+                  :ARG1 (e / enzyme :name (n10 / name :op1 "MAP" :op2 "kinase" :op3 "phosphatase" :op4 "3")
+                        :xref (x / xref :value "UNIPORT:MK03_HUMAN")))))
+
+# ::id pmc_4345513_0001.6 ::date 2016-06-12T15:13:14 ::authors nnistor
+# ::snt Up-regulation of MKP3 expression by active Ras expression.
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Mon Jun 13, 2016 ::user nnistor ::file pmc_4345513_0001_6.txt
+(i2 / increase-01
+      :ARG0 (e / enzyme :name (n2 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (p2 / protein :name (n3 / name :op1 "MKP3")
+            :xref (x / xref :value "UNIPORT:MK03_HUMAN")))
+
+# ::id pmc_4345513_0001.8 ::date 2016-06-12T15:15:29 ::authors nnistor
+# ::snt Transient co-transfection of active H-RasV12 and pMkp3-Luc(−1597/−10) into NIH3T3 cells led to a concentration-dependent increase in promoter reporter activity, while dominant-negative RasN17 had no effect (Fig. 3C).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0001_8.txt
+(m / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "H-Ras")
+                  :ARG0-of (a / activity-06)
+                  :xref (x / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m2 / mutate-01 :value "V12"))
+            :ARG1 (p / protein
+                  :ARG0-of a)
+            :location (c / cell-line :name (n2 / name :op1 "NIH3T3")
+                  :xref (x2 / xref :value "NIH3T3:CVCL_0594")))
+      :card2 (i3 / increase-01
+            :ARG0 (m3 / macro-molecular-complex
+                  :part (e2 / enzyme :name (n3 / name :op1 "Mkp3")
+                        :xref (x3 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p2 / protein :name (n4 / name :op1 "Luc"))
+                  :ARG0-of (a2 / activity-06))
+            :ARG1 (p3 / protein
+                  :ARG0-of a2)
+            :location (c2 / cell-line :name (n5 / name :op1 "NIH3T3")
+                  :xref (x4 / xref :value "NIH3T3:CVCL_0594")))
+      :card3 (i4 / increase-01 :polarity -
+            :ARG0 (e3 / enzyme :name (n6 / name :op1 "Ras")
+                  :ARG1-of (m4 / mutate-01 :value "N17"))
+            :ARG1 (p4 / protein :name (n7 / name :op1 "H-Ras")
+                  :ARG0-of (a3 / activity-06)
+                  :xref (x5 / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m5 / mutate-01 :value "V12"))
+            :location (c3 / cell-line :xref "NIH3T3:CVCL_0594" :name (n8 / name :op1 "NIH3T3")))
+      :card4 (i5 / increase-01 :polarity -
+            :ARG0 (e4 / enzyme :name (n9 / name :op1 "Ras")
+                  :ARG1-of (m6 / mutate-01))
+            :ARG1 (m7 / macro-molecular-complex
+                  :part (e5 / enzyme :name (n10 / name :op1 "Mkp3")
+                        :xref (x6 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p5 / protein :name (n11 / name :op1 "Luc"))
+                  :ARG0-of (a4 / activity-06))))
+
+# ::id pmc_4345513_0001.9 ::date 2016-06-12T15:15:57 ::authors nnistor
+# ::snt Thus, long-term activation of the Ras signaling pathway up-regulates MKP3 expression at the transcriptional level in NIH3T3 fibroblasts
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0001_9.txt
+(i2 / increase-01
+      :ARG0 (p2 / pathway :name (n2 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (p3 / protein :name (n3 / name :op1 "MKP3")
+            :xref (x / xref :value "UNIPROT:MK03_HUMAN"))
+      :location (c / cell-line :name (n / name :op1 "NIH3T3")
+            :xref (x2 / xref :value "NIH3T3:CVCL_0594")))
+
+# ::id pmc_4345513_0002.4 ::date 2016-06-12T15:05:17 ::authors nnistor
+# ::snt Transient transfection of active RasV12, p110-CAAX (constitutively active p110 subunit of PI3K), or Akt led to a strong increase in reporter activity of the pMkp3-Luc(−1597/−10) construct (Fig. 4C).
+# ::note Sentence+ loaded by script SntLoaderUlf1.7.pl
+# ::save-date Wed Jun 15, 2016 ::user nnistor ::file pmc_4345513_0002_4.txt
+(m4 / multi-index-card
+      :card1 (i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "Ras")
+                  :ARG1-of (m / mutate-01 :value "V12")
+                  :ARG0-of (a / activity-06))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 (m3 / macro-molecular-complex
+                        :part (e4 / enzyme :name (n6 / name :op1 "Mkp3")
+                              :xref (x3 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p6 / protein :name (n7 / name :op1 "Luc")))
+                  :manner (p3 / phosphorylate-01)))
+      :card2 (i3 / increase-01
+            :ARG0 (e6 / enzyme :name (n2 / name :op1 "p110")
+                  :ARG1-of (m2 / mutate-01 :value "CAAX")
+                  :ARG0-of (a3 / activity-06))
+            :ARG1 (a5 / add-modification-00
+                  :ARG0 (p / protein)
+                  :ARG1 (m5 / macro-molecular-complex
+                        :part (e3 / enzyme :name (n5 / name :op1 "Mkp3")
+                              :xref (x2 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p5 / protein :name (n4 / name :op1 "Luc")))
+                  :manner (p7 / phosphorylate-01)))
+      :card3 (i4 / increase-01
+            :ARG0 (e2 / enzyme :name (n3 / name :op1 "Akt")
+                  :xref (x / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a4 / activity-06))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (m6 / macro-molecular-complex
+                        :part (e5 / enzyme :name (n8 / name :op1 "Mkp3")
+                              :xref (x4 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p9 / protein :name (n9 / name :op1 "Luc"))))))

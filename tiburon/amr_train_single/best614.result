@@ -1,0 +1,46 @@
+q45
+q45 -> TOP(q46) # 1.000000
+q46 -> decrease-01(q47 q48 q49 q50) # 1.000000
+q96 -> xref(q102) # 1.000000
+q48 -> r_ARG0(q64) # 1.000000
+q108 -> r_op1_CDC42_ # 1.000000
+q94 -> name(q107) # 1.000000
+q50 -> r_polarity_- # 1.000000
+q112 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q66 -> r_op1(q78) # 1.000000
+q100 -> r_op1_RAC1_ # 1.000000
+q64 -> and(q66 q67) # 1.000000
+q85 -> r_name(q99) # 1.000000
+q72 -> r_ARG1(q75) # 1.000000
+q97 -> name(q100) # 1.000000
+q80 -> r_part(q93) # 1.000000
+q104 -> r_name(q111) # 1.000000
+q47 -> r_location(q65) # 1.000000
+q75 -> enzyme(q81 q82) # 1.000000
+q86 -> r_xref(q95) # 1.000000
+q99 -> name(q108) # 1.000000
+q82 -> r_xref(q98) # 1.000000
+q93 -> enzyme(q103 q104) # 1.000000
+q76 -> protein # 1.000000
+q113 -> r_op1_p110β_ # 1.000000
+q109 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q79 -> macro-molecular-complex(q80) # 1.000000
+q70 -> r_mod(q79) # 1.000000
+q65 -> cell(q70) # 1.000000
+q77 -> protein(q85 q86) # 1.000000
+q81 -> r_name(q94) # 1.000000
+q90 -> r_xref(q96) # 1.000000
+q111 -> name(q113) # 1.000000
+q63 -> add-modification-00(q71 q72) # 1.000000
+q67 -> r_op2(q77) # 1.000000
+q98 -> xref(q109) # 1.000000
+q49 -> r_ARG1(q63) # 1.000000
+q101 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q95 -> xref(q101) # 1.000000
+q78 -> protein(q89 q90) # 1.000000
+q102 -> r_value_UNIPROT_RAC1_HUMAN_ # 1.000000
+q107 -> r_op1_AKT_ # 1.000000
+q89 -> r_name(q97) # 1.000000
+q103 -> r_xref(q110) # 1.000000
+q71 -> r_ARG0(q76) # 1.000000
+q110 -> xref(q112) # 1.000000

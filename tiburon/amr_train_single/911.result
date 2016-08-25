@@ -1,0 +1,42 @@
+q63
+q63 -> TOP(q64) # 1.000000
+q101 -> r_xref(q128) # 1.000000
+q64 -> decrease-01(q65 q66) # 1.000000
+q79 -> r_part(q94) # 1.000000
+q117 -> r_name(q122) # 1.000000
+q69 -> pathway(q75) # 1.000000
+q85 -> r_ARG0(q99) # 1.000000
+q77 -> name(q92) # 1.000000
+q126 -> xref(q145) # 1.000000
+q99 -> protein # 1.000000
+q102 -> r_name(q123) # 1.000000
+q125 -> name(q143) # 1.000000
+q80 -> r_part(q97) # 1.000000
+q84 -> r_ARG1(q98) # 1.000000
+q135 -> r_value_HGNC_17007_ # 1.000000
+q78 -> add-modification-00(q83 q84 q85) # 1.000000
+q123 -> name(q137) # 1.000000
+q83 -> r_manner(q96) # 1.000000
+q92 -> r_op1_Ras/Raf/MEK/Erk_ # 1.000000
+q141 -> r_op1_PI3K_ # 1.000000
+q75 -> r_name(q77) # 1.000000
+q136 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q96 -> phosphorylate-01 # 1.000000
+q76 -> macro-molecular-complex(q79 q80) # 1.000000
+q128 -> xref(q136) # 1.000000
+q70 -> increase-01(q71 q72) # 1.000000
+q130 -> xref(q135) # 1.000000
+q122 -> name(q141) # 1.000000
+q145 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q72 -> r_ARG1(q78) # 1.000000
+q65 -> r_ARG1(q69) # 1.000000
+q106 -> r_xref(q130) # 1.000000
+q98 -> gene(q105 q106) # 1.000000
+q137 -> r_op1_Akt_ # 1.000000
+q143 -> r_op1_MKP3_ # 1.000000
+q105 -> r_name(q125) # 1.000000
+q66 -> r_ARG0(q70) # 1.000000
+q97 -> enzyme(q101 q102) # 1.000000
+q118 -> r_xref(q126) # 1.000000
+q71 -> r_ARG0(q76) # 1.000000
+q94 -> enzyme(q117 q118) # 1.000000

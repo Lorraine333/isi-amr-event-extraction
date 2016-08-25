@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / enzyme :ARG1-of(x2 / add-modification-00 :manner(x3 / phosphorylate-01) )  :name(x4 / name :op1 "DIRAS" ) )  :ARG1(x5 / enzyme :name(x6 / name :op1 "AKT" ) )  :location(x7 / cell) )

@@ -1,0 +1,1 @@
+(x0 / increase-01 :manner(x1 / hypothesis)  :ARG0(x2 / smr-empty)  :ARG1(x3 / add-modification-00 :manner(x4 / phosphorylate-01)  :manner(x5 / smr-empty) ) )

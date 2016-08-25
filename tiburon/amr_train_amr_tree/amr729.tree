@@ -1,0 +1,1 @@
+TOP(indicate-01(r_ARG1(align-01(r_ARG1(dna-sequence(r_ARG1-of(code-01(r_ARG0(color))) r_mod(amino-acid))) r_ARG2(enzyme(r_name(name(r_op1_n-ras_ r_op2_termini_)))))) r_ARG0(enzyme(r_mod(small) r_name(name(r_op1_gtpase_)) r_xref(xref(r_value_UNIPROT_RAN_HUMAN_))))))

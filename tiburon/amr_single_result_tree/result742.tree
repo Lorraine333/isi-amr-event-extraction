@@ -1,0 +1,11 @@
+Tree info for input tree amr742.tree:
+	35 nodes
+	7 yield length
+Transducer info for input tree transducer simple742.trans:
+	2 states
+	20 rules
+RTG info for forward application of tree:
+	27 states
+	37 rules
+	7 unique terminal symbols
+	432 derivations

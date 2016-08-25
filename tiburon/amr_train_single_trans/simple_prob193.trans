@@ -1,0 +1,23 @@
+qr
+qc.inhibit-01(x0: x1: r_ARG1-of(modify-01(r_ARG0(mutate-01(x2: x3: ) ) x4: x5: ) ) ) -> decrease-01(r_ARG1(increase-01(qr.x1 qr.x2 ) ) qr.x3 ) #1.0
+qr.r_ARG0-of(x0: ) -> r_ARG0(qc.x0 ) #0.129032258065
+qc.obligate-01(x0: r_ARG2(contact-01(x1: r_ARG1(protein(x2: ) ) ) ) ) -> protein-segment(qr.x0 qr.x2 ) #0.5
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_location(x0: ) -> r_ARG0(qc.x0 ) #0.101449275362
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.protein(x0: ) -> protein(qr.x0 ) #0.0650887573964
+qc.phosphorylate-01(r_ARG1-of(stimulate-01(x0: ) ) x1: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 qr.x1 ) #1.0
+qc.name(x0: ) -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_ ) #0.00163132137031
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: ) -> name(r_op1_E2_ ) #0.0228384991843
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.protein(x0: ) -> protein #0.260355029586
+qc.domain(r_ARG0-of(interact-01(r_ARG1(receptor(r_mod(nucleus(x0: ) ) ) ) ) ) r_part-of(protein(x1: ) ) ) -> molecular-physical-entity(qr.x0 qr.x1 ) #0.2
+qc.suggest-01(x0: x1: ) -> mutate-01(qr.x0 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.xref(x0: ) -> xref(r_value_CHEBI_50114_ ) #0.0249433106576
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qr.r_ARG1(x0: ) -> r_part-of(qc.x0 ) #0.0676691729323
+qr.r_op1_ERα_ -> r_op1_ERα_ #0.976744186047
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842

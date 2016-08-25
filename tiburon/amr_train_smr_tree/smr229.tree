@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(molecular-physical-entity(r_xref(xref(r_value_CHEBI_50114_)) r_name(name(r_op1_E2_)))) r_ARG1(bind-01(r_ARG2(protein(r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)) r_name(name(r_op1_ERα_)))) r_ARG1(protein(r_name(name(r_op1_SRC-3_)) r_mod(wild-type) r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_))))))))

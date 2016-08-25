@@ -1,0 +1,33 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q12 q2 )
+q1 -> increase-01(q2 q12 )
+q12 -> r_ARG1(q13 )
+q2 -> r_ARG0(q3 )
+q13 -> bind-01(q26 q14 )
+q13 -> bind-01(q14 q26 )
+q3 -> small-molecule(q9 q4 )
+q3 -> small-molecule(q4 q9 )
+q26 -> r_ARG1(q27 )
+q14 -> r_ARG0(q15 )
+q9 -> r_name(q10 )
+q4 -> r_xref(q5 )
+q27 -> protein
+q15 -> amino-acid(q19 q16 )
+q15 -> amino-acid(q16 q19 )
+q10 -> name(q11 )
+q5 -> value(q6 )
+q19 -> r_part-of(q20 )
+q16 -> r_name(q17 )
+q11 -> r_op1_E2_
+q6 -> r_name(q7 )
+q20 -> protein-segment(q21 )
+q17 -> name(q18 )
+q7 -> name(q8 )
+q21 -> r_part-of(q22 )
+q18 -> r_op1_L539_
+q8 -> r_op1_PUBCHEM_5757_
+q22 -> protein-family(q23 )
+q23 -> r_name(q24 )
+q24 -> name(q25 )
+q25 -> r_op1_ERα_

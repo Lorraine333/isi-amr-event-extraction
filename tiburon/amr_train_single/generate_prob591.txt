@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG0(x1 / protein :name(x2 / name :op1 "GTPase" )  :name(x3 / name :op1 "RBD" ) )  :ARG1(x4 / bind-01 :ARG2(x5 / increase-01 :polarity"-  :ARG1(x6 / smr-empty) ) ) )

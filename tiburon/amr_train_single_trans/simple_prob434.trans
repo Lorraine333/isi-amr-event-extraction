@@ -1,0 +1,14 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_UNK -> r_op1_MEK_ #0.0344827586207
+qr.r_op1_MEK/ERK_ -> r_UNK #0.333333333333
+qc.molecular-physical-entity(r_ARG0-of(inhibit-01(x0: ) ) x1: ) -> macro-molecular-complex(qr.x0 r_part(enzyme(qr.x1 ) ) ) #1.0
+qc.inhibit-01(r_ARG0(person(r_ARG1-of(resemble-01(x0: ) ) ) ) x1: x2: ) -> decrease-01(qr.x0 qr.x1 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.pathway(x0: ) -> molecular-physical-entity(qr.x0 ) #0.0666666666667
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_ERK_ ) #0.00734094616639
+qr.r_ARG1(x0: ) -> r_part(qc.x0 ) #0.0165413533835

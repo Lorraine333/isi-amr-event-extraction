@@ -1,0 +1,13 @@
+qr
+qr.r_op1_RAF_ -> r_op1_RAF_ #1.0
+qc.induce-01(x0: x1: x2: r_instrument(transactivate-01(x3: ) ) ) -> increase-01(qr.x1 r_ARG0(increase-01(r_ARG1(complex-with-00(qr.x2 qr.x3 ) ) r_ARG0(protein ) ) ) ) #1.0
+qr.UNK -> r_op1_RAF_ #0.0833333333333
+qc.dimer(x0: ) -> protein-family(qr.x0 ) #0.333333333333
+qc.pathway(x0: ) -> pathway(qr.x0 ) #0.4
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG2(x0: ) -> r_ARG2(enzyme(r_mod(protein-family(r_name(name(qr.x0 ) ) ) ) ) ) #0.00413223140496
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(enzyme(r_mod(qc.x0 ) ) ) #0.0015037593985
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_MEK/ERK_ -> r_op1_MEK/ERK_ #0.666666666667

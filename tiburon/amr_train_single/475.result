@@ -1,0 +1,29 @@
+q54
+q54 -> TOP(q55) # 1.000000
+q78 -> r_xref(q99) # 1.000000
+q70 -> protein(q78 q79) # 1.000000
+q108 -> r_UNK # 1.000000
+q106 -> r_UNK # 1.000000
+q67 -> r_part(q70) # 1.000000
+q101 -> xref(q109) # 1.000000
+q74 -> protein(q86 q87) # 1.000000
+q57 -> r_ARG0(q61) # 1.000000
+q77 -> r_op1_RAB5_ # 1.000000
+q94 -> name(q104) # 1.000000
+q79 -> r_name(q98) # 1.000000
+q76 -> r_value_UNIPROT_RAB5A_HUMAN_ # 1.000000
+q71 -> xref(q76) # 1.000000
+q61 -> macro-molecular-complex(q66 q67) # 1.000000
+q60 -> protein(q62 q63) # 1.000000
+q55 -> decrease-01(q56 q57) # 1.000000
+q109 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q99 -> xref(q106) # 1.000000
+q63 -> r_name(q72) # 1.000000
+q72 -> name(q77) # 1.000000
+q86 -> r_xref(q101) # 1.000000
+q62 -> r_xref(q71) # 1.000000
+q104 -> r_op1_p85_ # 1.000000
+q66 -> r_part(q74) # 1.000000
+q56 -> r_ARG1(q60) # 1.000000
+q98 -> name(q108) # 1.000000
+q87 -> r_name(q94) # 1.000000

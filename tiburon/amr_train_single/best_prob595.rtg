@@ -1,0 +1,38 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q14 q32 )
+q2 -> r_ARG1(q3 )
+q14 -> r_ARG1(q15 )
+q32 -> r_manner(q33 )
+q3 -> macro-molecular-complex(q4 q6 )
+q15 -> small-molecule(q16 q24 )
+q33 -> describe-01(q34 )
+q4 -> r_ARG2(q5 )
+q6 -> r_ARG0(q7 )
+q16 -> r_ARG1(q17 )
+q24 -> r_manner(q25 )
+q34 -> r_ARG0(q35 )
+q5 -> smr-empty
+q7 -> protein(q8 q11 )
+q17 -> enzyme(q18 q21 )
+q25 -> protein(q26 q29 )
+q35 -> name(q36 )
+q8 -> r_xref(q9 )
+q11 -> r_name(q12 )
+q18 -> r_name(q19 )
+q21 -> r_xref(q22 )
+q26 -> r_xref(q27 )
+q29 -> r_name(q30 )
+q36 -> r_UNK
+q9 -> xref(q10 )
+q12 -> name(q13 )
+q19 -> name(q20 )
+q22 -> xref(q23 )
+q27 -> xref(q28 )
+q30 -> name(q31 )
+q10 -> r_value_UNIPROT_
+q13 -> r_op1_RAC1_
+q20 -> r_op1_Δp85_
+q23 -> r_value_UNIPROT_CDC42_HUMAN_
+q28 -> r_value_UNIPROT_
+q31 -> r_op1_RAC1_

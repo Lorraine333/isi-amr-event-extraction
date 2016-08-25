@@ -1,0 +1,11 @@
+Tree info for input tree amr423.tree:
+	49 nodes
+	10 yield length
+Transducer info for input tree transducer simple423.trans:
+	2 states
+	19 rules
+RTG info for forward application of tree:
+	20 states
+	27 rules
+	6 unique terminal symbols
+	72 derivations

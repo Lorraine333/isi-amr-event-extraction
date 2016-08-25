@@ -1,0 +1,16 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q4 q13 )
+q2 -> r_manner(q3 )
+q4 -> r_ARG1(q5 )
+q13 -> r_ARG2(q14 )
+q3 -> wild-type
+q5 -> amino-acid(q6 q9 )
+q14 -> protein
+q6 -> r_name(q7 )
+q9 -> r_ARG1(q10 )
+q7 -> name(q8 )
+q10 -> muti-index-card(q11 q12 )
+q8 -> r_value_I37D_
+q11 -> r_op1_DIRAS1_
+q12 -> r_value_UNIPROT_DIRA1_HUMAN_

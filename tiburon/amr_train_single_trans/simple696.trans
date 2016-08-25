@@ -1,0 +1,3 @@
+qr
+qc.lipid -> smr-empty
+qr.TOP(assay-01(r_ARG1(kinase(r_mod(x0: ) ) ) ) ) -> TOP(qc.x0 )

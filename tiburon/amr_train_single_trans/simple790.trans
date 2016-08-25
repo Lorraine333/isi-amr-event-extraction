@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_SEM4F_HUMAN_ -> smr-empty
+qr.TOP(quantify-01(x0: x1: r_ARG1-of(sample-01(r_ARG2(mean-01(x2: r_ARG2(enzyme(x3: r_xref(xref(x4: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x4 )

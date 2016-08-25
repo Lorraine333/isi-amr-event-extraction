@@ -1,0 +1,21 @@
+qr
+qr.r_ARG0(lane(r_mod(value-interval(x0: x1: ) ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.TOP(possible-01(x0: r_ARG1(observe-01(x1: r_ARG0(x2: ) x3: ) ) ) ) -> TOP(qc.x2 ) #1.0
+qr.r_op2(x0: ) -> r_part-of(qc.x0 ) #0.128318584071
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qc.r_op2_7_ -> protein #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qc.and(r_op1(after(x0: r_op1(treat-04(x1: ) ) ) ) r_op2(represent-01(r_ARG0(phosphorylate-01(r_ARG1(protein-segment(r_mod(amino-acid(x2: x3: x4: ) ) ) ) ) ) ) ) x5: r_op2(amino-acid(x6: x7: r_xref(x8: ) ) ) r_ARG1-of(describe-01(x9: ) ) x10: ) -> increase-01(qr.x1 r_ARG1(add-modification-00(r_ARG1(amino-acid(qr.x2 qr.x3 qr.x5 ) ) qr.x8 qr.x9 ) ) ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_threonine_ -> r_op1_threonine_ #1.0
+qc.amino-acid(x0: x1: x2: ) -> protein(qr.x1 qr.x2 ) #0.527272727273
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_mod_24_ -> r_mod_24_ #1.0
+qc.r_value_PUBCHEM_5951_ -> phosphorylate-01 #0.111111111111
+qr.r_value_PUBCHEM_5757_ -> r_value_PUBCHEM_5757_ #0.631578947368
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

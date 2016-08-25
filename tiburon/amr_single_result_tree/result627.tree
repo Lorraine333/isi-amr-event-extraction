@@ -1,0 +1,11 @@
+Tree info for input tree amr627.tree:
+	67 nodes
+	16 yield length
+Transducer info for input tree transducer simple627.trans:
+	2 states
+	26 rules
+RTG info for forward application of tree:
+	32 states
+	38 rules
+	8 unique terminal symbols
+	64 derivations

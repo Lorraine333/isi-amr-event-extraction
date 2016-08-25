@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(phosphorylate-01) r_ARG1(add-modification-00(r_ARG1(amino-acid(r_name(name(r_op1_SRC-3_)) r_ARG1(protein(r_name(name(r_op1_SRC-3_)) r_ARG1-of(mutate-01) r_name(name(r_value_UNIPROT_NCOA3_HUMAN_)))))) r_manner(phosphorylate-01))) r_polarity_-)) # 0.003824

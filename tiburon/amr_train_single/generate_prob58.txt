@@ -1,0 +1,1 @@
+(x0 / protein-segment :ARG1(x1 / protein) )

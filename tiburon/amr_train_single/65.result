@@ -1,0 +1,19 @@
+q24
+q24 -> TOP(q25) # 1.000000
+q37 -> r_xref(q43) # 1.000000
+q27 -> r_ARG1(q31) # 1.000000
+q43 -> xref(q49) # 1.000000
+q47 -> r_op1_SRC-3_ # 1.000000
+q49 -> r_value_HEK_CVCL_0063_ # 1.000000
+q40 -> name(q46) # 1.000000
+q33 -> r_name(q42) # 1.000000
+q31 -> cell-line(q36 q37) # 1.000000
+q45 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q46 -> r_op1_HEK_ # 1.000000
+q42 -> name(q47) # 1.000000
+q32 -> r_xref(q41) # 1.000000
+q36 -> r_name(q40) # 1.000000
+q25 -> add-modification-00(q26 q27) # 1.000000
+q30 -> protein(q32 q33) # 1.000000
+q41 -> xref(q45) # 1.000000
+q26 -> r_ARG0(q30) # 1.000000

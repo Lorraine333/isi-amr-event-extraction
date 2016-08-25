@@ -1,0 +1,22 @@
+qr
+qr.name(x0: ) -> r_location(qc.x0 ) #0.0131578947368
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.glucocorticoid -> phosphorylate-01 #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.r_op1_PR-B_ -> cell #1.0
+qr.r_ARG0(data(r_ARG1-of(show-01(x0: ) ) ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qr.r_polarity_-_ -> r_polarity_- #0.466666666667
+qr.TOP(cause-01(r_ARG0(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_op1(x0: ) -> r_manner(qc.x0 ) #0.010582010582
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.r_polarity_-_ -> protein #0.117647058824
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.induce-01(r_topic(protein(r_name(x0: ) ) ) x1: x2: x3: ) -> increase-01(qr.x0 qr.x1 qr.x2 qr.x3 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.phosphorylate-01(x0: r_location(cell(r_ARG3-of(express-03(r_ARG2(receptor(x1: r_ARG1-of(describe-01(x2: ) ) ) ) ) ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_UNK -> r_UNK #0.275862068966
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

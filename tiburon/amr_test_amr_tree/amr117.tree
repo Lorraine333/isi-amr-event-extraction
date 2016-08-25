@@ -1,0 +1,1 @@
+TOP(infer-01(r_ARG1(depend-01(r_ARG0(activate-01(r_ARG1(pathway(r_name(name(r_op1_MEK/ERK_)))) r_ARG0(small-molecule(r_name(name(r_op1_PLX_)) r_xref(xref(r_value_PUBCHEM_449006_)))))) r_ARG1(bind-01(r_ARG1-of(direct-02) r_ARG2(protein-segment(r_ARG1(activity-06(r_ARG1(kinase(r_name(name(r_op1_RAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_))))))))))))))

@@ -1,0 +1,3 @@
+qr
+qr.conclude-01 -> r_polarity_-
+qr.TOP(x0: ) -> TOP(increase-01(r_ARG1(increase-01(r_ARG1(pathway(r_ARG0-of(activity-06 ) r_name(name(r_op1_MEK/ERK_ ) ) ) ) r_ARG0(small-molecule(r_xref(xref(r_value_PUBCHEM_24180719_ ) ) r_name(name(r_op1_PLX_ ) ) ) ) ) ) r_ARG0(enzyme(r_name(name(r_op1_BRAF_ ) ) r_value_UNIPROT_BRAF_HUMAN_ ) ) qr.x0 ) )

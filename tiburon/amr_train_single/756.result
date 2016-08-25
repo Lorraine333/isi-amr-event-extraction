@@ -1,0 +1,46 @@
+q39
+q39 -> TOP(q40) # 1.000000
+q74 -> r_xref(q88) # 1.000000
+q40 -> bind-01(q41 q42) # 1.000000
+q96 -> r_op1_p110β_ # 1.000000
+q91 -> r_op1_p85_ # 1.000000
+q41 -> r_ARG2(q45) # 1.000000
+q50 -> r_part(q59) # 1.000000
+q48 -> r_part(q58) # 1.000000
+q49 -> r_part(q57) # 1.000000
+q52 -> r_xref(q56) # 1.000000
+q57 -> protein(q63 q64) # 1.000000
+q59 -> protein(q73 q74) # 1.000000
+q66 -> r_xref(q87) # 1.000000
+q99 -> r_op1_p85_ # 1.000000
+q58 -> protein(q65 q66) # 1.000000
+q55 -> protein(q75 q76) # 1.000000
+q87 -> xref(q100) # 1.000000
+q69 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q89 -> name(q99) # 1.000000
+q85 -> xref(q94) # 1.000000
+q84 -> name(q92) # 1.000000
+q46 -> protein(q51 q52) # 1.000000
+q56 -> xref(q69) # 1.000000
+q60 -> name(q80) # 1.000000
+q80 -> r_op1_CDC42_ # 1.000000
+q92 -> r_op1_p110β_ # 1.000000
+q63 -> r_xref(q85) # 1.000000
+q101 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q51 -> r_name(q60) # 1.000000
+q73 -> r_name(q83) # 1.000000
+q82 -> name(q96) # 1.000000
+q47 -> r_part(q55) # 1.000000
+q95 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q88 -> xref(q101) # 1.000000
+q83 -> name(q91) # 1.000000
+q64 -> r_name(q84) # 1.000000
+q86 -> xref(q95) # 1.000000
+q76 -> r_name(q89) # 1.000000
+q42 -> r_ARG1(q46) # 1.000000
+q75 -> r_xref(q86) # 1.000000
+q45 -> macro-molecular-complex(q47 q48) # 1.000000
+q45 -> macro-molecular-complex(q49 q50) # 1.000000
+q100 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q94 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q65 -> r_name(q82) # 1.000000

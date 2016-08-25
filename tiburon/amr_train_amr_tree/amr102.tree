@@ -1,0 +1,1 @@
+TOP(and(r_ARG0(coexpress-01(r_ARG2(enzyme(r_name(name(r_op1_CRAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))) r_op2(activate-01(r_ARG1(enzyme(r_name(name(r_op1_RAS_)) r_xref(xref(r_value_UNIPROT_RASA1_HUMAN_)))) r_ARG2(enzyme(r_name(name(r_op1_CRAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))) r_ARG1-of(UNK)))

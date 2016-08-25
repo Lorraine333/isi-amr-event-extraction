@@ -1,0 +1,38 @@
+q42
+q42 -> TOP(q43) # 1.000000
+q43 -> increase-01(q44 q45 q46) # 1.000000
+q69 -> add-modification-00(q75 q76 q77) # 1.000000
+q62 -> r_location(q71) # 1.000000
+q61 -> r_ARG1(q73) # 1.000000
+q44 -> r_ARG1(q53) # 1.000000
+q104 -> r_op1_Ras_ # 1.000000
+q55 -> enzyme(q56 q57) # 1.000000
+q76 -> r_ARG1(q99) # 1.000000
+q75 -> r_manner(q97) # 1.000000
+q54 -> hypothesis # 1.000000
+q57 -> r_xref(q70) # 1.000000
+q99 -> enzyme(q101) # 1.000000
+q72 -> name(q84) # 1.000000
+q94 -> protein # 1.000000
+q71 -> nucleus # 1.000000
+q102 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q87 -> r_name(q96) # 1.000000
+q95 -> phosphorylate-01 # 1.000000
+q70 -> xref(q74) # 1.000000
+q86 -> r_xref(q98) # 1.000000
+q100 -> r_op1_Erk1/2_ # 1.000000
+q96 -> name(q100) # 1.000000
+q101 -> r_name(q103) # 1.000000
+q73 -> enzyme(q85 q86 q87) # 1.000000
+q97 -> phosphorylate-01 # 1.000000
+q56 -> r_name(q72) # 1.000000
+q45 -> r_mode(q54) # 1.000000
+q103 -> name(q104) # 1.000000
+q85 -> r_ARG2-of(q95) # 1.000000
+q60 -> r_ARG0(q69) # 1.000000
+q98 -> xref(q102) # 1.000000
+q53 -> decrease-01(q60 q61 q62) # 1.000000
+q46 -> r_ARG0(q55) # 1.000000
+q74 -> r_value_UNIPROT_DUS6_HUMAN_ # 1.000000
+q77 -> r_ARG0(q94) # 1.000000
+q84 -> r_op1_MKP3_ # 1.000000

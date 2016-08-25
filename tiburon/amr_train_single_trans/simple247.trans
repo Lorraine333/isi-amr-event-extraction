@@ -1,0 +1,21 @@
+qr
+qr.r_op1_serine_ -> r_op1_serine_
+qr.r_ARG0(lane(r_mod(value-interval(x0: x1: ) ) ) ) -> r_ARG0(qc.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 )
+qr.TOP(possible-01(x0: r_ARG1(observe-01(x1: r_ARG0(x2: ) x3: ) ) ) ) -> TOP(qc.x2 )
+qr.r_op2(x0: ) -> r_part-of(qc.x0 )
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 )
+qc.r_op2_7_ -> protein
+qc.phosphorylate-01(x0: ) -> phosphorylate-01
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ )
+qc.name(x0: ) -> name(r_op1_SRC-3_ )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.and(r_op1(after(x0: r_op1(treat-04(x1: ) ) ) ) r_op2(represent-01(x2: ) ) x3: r_op2(amino-acid(x4: x5: x6: ) ) r_ARG1-of(describe-01(x7: ) ) x8: ) -> increase-01(qr.x1 r_ARG1(add-modification-00(qr.x2 r_ARG1(amino-acid(qr.x3 qr.x4 qr.x5 ) ) qr.x7 ) ) )
+qc.amino-acid(x0: x1: x2: ) -> protein(qr.x1 qr.x2 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_value_PUBCHEM_5757_ -> r_value_PUBCHEM_5757_
+qr.r_op1_E2_ -> r_op1_E2_
+qr.r_mod_543_ -> r_mod_543_
+qr.r_ARG0(x0: ) -> r_manner(qc.x0 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

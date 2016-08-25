@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG1(x1 / amino-acid :ARG0(x2 / protein :name(x3 / name :op1 "ErbB3" )  :xref(x4 / xref :value "UNIPROT"ERBB3"HUMAN" ) )  :name(x5 / name :op1 "tyrosine" ) )  :manner(x6 / protein)  :ARG0(x7 / protein :name(x8 / name :op1 "NRG" )  :xref(x9 / xref :value "UNIPROT"NRG1"HUMAN" ) ) )

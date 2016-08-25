@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / amino-acid :name(x2 / name :op1 "Dock180" )  :manner(x3 / smr-empty)  :mod "740" )  :ARG1(x4 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )  :ARG1(x5 / bind-01 :direction(x6 / hypothesis)  :ARG0(x7 / muti-index-card :op1 "p110β"  :polarity"- ) ) )

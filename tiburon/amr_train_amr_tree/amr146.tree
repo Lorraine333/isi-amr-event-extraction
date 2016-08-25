@@ -1,0 +1,1 @@
+TOP(isoform(r_ARG1-of(describe-01(r_ARG0(figure(r_UNK)))) r_ARG2(bind-01(r_ARG1(protein(r_name(name(r_op1_p110b_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)))) r_ARG2(and(r_op1(protein(r_name(name(r_op1_RAC1_)) r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_)))) r_op2(protein(r_name(name(r_op1_CDC42_)) r_xref(xref(r_value_UNIPROT_CDC42_HUMAN_)))))))) r_ARG1-of(specific-02)))

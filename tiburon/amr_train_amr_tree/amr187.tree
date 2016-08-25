@@ -1,0 +1,1 @@
+TOP(transcribe-01(r_ARG0(primary(r_domain(protein(r_name(name(r_op1_SRC_ r_op2_3/AIB1/ACTR/pCIP/RAC3/TRAM1_)))))) r_ARG1(and(r_op1(enzyme(r_name(name(r_op1_estrogen_ r_op2_receptor_)))) r_op2(protein(r_name(name(r_op1_erα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_))))))))

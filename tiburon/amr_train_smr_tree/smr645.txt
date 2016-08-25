@@ -1,0 +1,1 @@
+(x0 / decrease-01 :location(x1 / cell-line :name(x2 / name :op1 "MEF" )  :xref(x3 / xref :value "RRID"CVCL"4240" ) )  :ARG1(x4 / add-modification-00 :manner(x5 / phosphorylate-01)  :ARG0(x6 / small-molecule :xref(x7 / xref :value "CHEBI"37550" )  :name(x8 / name :op1 "S1P" ) )  :ARG1(x9 / enzyme :name(x10 / name :op1 "ERK" )  :xref(x11 / xref :value "UNIPROT"MK01"HUMAN" ) ) ) )

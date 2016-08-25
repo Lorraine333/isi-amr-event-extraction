@@ -1,0 +1,1 @@
+TOP(and(r_op1(UNK) r_op2(enzyme(r_name(name(r_op1_o_ r_op2_g_ r_op3_2_)) r_ARG1-of(mean-01) r_name(name(r_op1_±SEM_)) r_xref(xref(r_value_UNIPROT_SEM4F_HUMAN_)))) r_op3(statistical-test-91(r_ARG2(less-than(r_op1_0_05_))))))

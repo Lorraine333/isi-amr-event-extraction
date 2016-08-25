@@ -1,0 +1,13 @@
+qr
+qr.TOP(contrast-01(r_ARG2(contrast-01(r_ARG1(x0: ) x1: ) ) x2: ) ) -> TOP(qc.x0 ) #1.0
+qc.protein-family(x0: ) -> protein-family(qr.x0 ) #0.631578947368
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qr.r_ARG2(none(r_poss(x0: ) ) ) -> r_ARG2(qc.x0 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.bind-01(x0: x1: ) -> bind-01(qr.x0 qr.x1 r_polarity_- ) #0.0454545454545
+qc.name(x0: ) -> name(r_op1_Ras_ ) #0.00652528548124
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

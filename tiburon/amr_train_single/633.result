@@ -1,0 +1,19 @@
+q20
+q20 -> TOP(q21) # 1.000000
+q38 -> name(q43) # 1.000000
+q23 -> r_ARG1(q27) # 1.000000
+q27 -> enzyme(q32 q33) # 1.000000
+q40 -> r_op1_CDC42_ # 1.000000
+q33 -> r_xref(q37) # 1.000000
+q43 -> r_op1_PI3K_ # 1.000000
+q29 -> r_xref(q39) # 1.000000
+q42 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q44 -> r_value_UNIPROT_PK3CA_HUMAN_ # 1.000000
+q36 -> name(q40) # 1.000000
+q39 -> xref(q42) # 1.000000
+q37 -> xref(q44) # 1.000000
+q26 -> protein(q28 q29) # 1.000000
+q21 -> increase-01(q22 q23) # 1.000000
+q22 -> r_ARG0(q26) # 1.000000
+q32 -> r_name(q38) # 1.000000
+q28 -> r_name(q36) # 1.000000

@@ -1,0 +1,16 @@
+qr
+qc.transcribe-01(x0: x1: ) -> add-modification-00(qr.x0 qr.x1 ) #1.0
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_ARG0(primary(r_domain(x0: ) ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_op2_receptor_ -> r_op2_receptor_ #1.0
+qc.and(r_op1(enzyme(x0: ) ) r_op2(protein(x1: x2: ) ) ) -> protein(qr.x0 qr.x2 ) #1.0
+qc.name(x0: x1: ) -> name(qr.x1 ) #0.238095238095
+qr.r_op1_estrogen_ -> r_op1_estrogen_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: x1: ) -> name(qr.x0 qr.x1 ) #0.0714285714286
+qr.r_op2_3/AIB1/ACTR/pCIP/RAC3/TRAM1_ -> r_op1_SRC-3_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

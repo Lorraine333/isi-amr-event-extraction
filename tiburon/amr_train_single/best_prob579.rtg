@@ -1,0 +1,30 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q27 )
+q2 -> r_ARG1(q3 )
+q27 -> r_ARG1-of(q28 )
+q3 -> add-modification-00(q4 q6 q18 )
+q28 -> smr-empty
+q4 -> r_ARG0(q5 )
+q6 -> r_manner(q7 )
+q18 -> r_ARG1(q19 )
+q5 -> smr-empty
+q7 -> macro-molecular-complex(q8 q14 )
+q19 -> enzyme(q20 q22 q25 )
+q8 -> r_ARG1(q9 )
+q14 -> r_ARG2(q15 )
+q20 -> r_manner(q21 )
+q22 -> r_name(q23 )
+q25 -> r_manner(q26 )
+q9 -> add-modification-00(q10 q12 )
+q15 -> muti-index-card(q16 q17 )
+q21 -> phosphorylate-01
+q23 -> name(q24 )
+q26 -> smr-empty
+q10 -> r_manner(q11 )
+q12 -> r_manner(q13 )
+q16 -> r_op1_p110α_
+q17 -> r_polarity_-
+q24 -> r_op1_AKT_
+q11 -> phosphorylate-01
+q13 -> smr-empty

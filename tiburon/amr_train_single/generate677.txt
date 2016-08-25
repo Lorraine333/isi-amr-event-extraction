@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG1(x1 / cell-line :xref(x2 / xref :value "RRID"CVCL"4240" )  :name(x3 / name :op1 "MEF" ) )  :ARG0(x4 / decrease-01 :ARG1(x5 / protein :xref(x6 / xref :value "UNIPROT"RAC1"HUMAN" )  :name(x7 / name :op1 "RAC" ) ) ) )

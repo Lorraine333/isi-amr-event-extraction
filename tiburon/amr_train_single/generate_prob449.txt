@@ -1,0 +1,1 @@
+(x0 / bind-01 :manner(x1 / muti-index-card :op1 "PI3K"  :polarity"- )  :ARG1(x2 / enzyme :name(x3 / name :op1 "RAS" )  :manner(x4 / phosphorylate-01) ) )

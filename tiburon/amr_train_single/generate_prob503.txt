@@ -1,0 +1,1 @@
+(x0 / bind-01 :manner(x1 / hypothesis)  :ARG1(x2 / protein)  :ARG1(x3 / protein-family :name(x4 / name :op1 "RAS" ) ) )

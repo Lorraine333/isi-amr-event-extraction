@@ -1,0 +1,37 @@
+q0
+q0 -> TOP(q1) # 1.000000
+q22 -> r_op1_PLX_ # 1.000000
+q27 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q27 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q27 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q12 -> r_ARG0(q18) # 1.000000
+q4 -> r_location(q7) # 1.000000
+q24 -> r_xref(q27) # 1.000000
+q15 -> name(q22) # 1.000000
+q15 -> name(r_op1_MEF_) # 1.000000
+q10 -> r_manner(q19) # 1.000000
+q23 -> r_name(q26) # 1.000000
+q18 -> protein # 1.000000
+q28 -> r_op1_ERK_ # 1.000000
+q1 -> increase-01(q2 q3 q4) # 1.000000
+q5 -> small-molecule(q8 q9) # 1.000000
+q26 -> name(q28) # 1.000000
+q26 -> name(r_op1_MEF_) # 1.000000
+q8 -> r_name(q15) # 1.000000
+q3 -> r_ARG1(q6) # 1.000000
+q13 -> r_name(q20) # 1.000000
+q16 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q16 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q16 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q11 -> r_ARG1(q17) # 1.000000
+q20 -> name(r_op1_MEF_) # 1.000000
+q21 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q21 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q21 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q9 -> r_xref(q16) # 1.000000
+q14 -> r_xref(q21) # 1.000000
+q6 -> add-modification-00(q10 q11 q12) # 1.000000
+q17 -> enzyme(q23 q24) # 1.000000
+q19 -> phosphorylate-01 # 1.000000
+q2 -> r_ARG0(q5) # 1.000000
+q7 -> cell-line(q13 q14) # 1.000000

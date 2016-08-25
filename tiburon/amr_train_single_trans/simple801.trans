@@ -1,0 +1,13 @@
+qr
+qr.r_op2(x0: ) -> r_ARG2(qc.x0 )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_ARG1(migrate-01(r_ARG0(and(x0: r_op2(enzyme(x1: r_mod(x2: ) x3: ) ) x4: ) ) ) ) -> r_ARG1(qc.x2 )
+qr.r_op1_PDGF_ -> r_op1_PDGF_
+qc.enzyme(x0: x1: ) -> cell-line(qr.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PGFRB_HUMAN_ )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qc.name(x0: ) -> name(r_op1_MEF_ )
+qc.assess-01(x0: r_ARG1(and(x1: x2: ) ) x3: x4: ) -> translocate-01(qr.x0 qr.x2 )

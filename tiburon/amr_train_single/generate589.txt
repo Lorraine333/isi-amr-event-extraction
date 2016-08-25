@@ -1,0 +1,1 @@
+(x0 / complex-with-00 :ARG1(x1 / and :op2 (x2 / protein :xref(x3 / xref :value "UNIPROT" )  :ARG1-of(x4 / mutate-01)  :name(x5 / name :op2 "p110β" ) )  :op1 (x6 / protein :xref(x7 / xref :value "UNIPROT" )  :name(x8 / name :op1 "p85" ) ) ) )

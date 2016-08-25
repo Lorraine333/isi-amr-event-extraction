@@ -1,0 +1,1 @@
+(x0 / bind-01 :manner(x1 / protein)  :ARG1(x2 / protein :name(x3 / name :op1 "RHOA" )  :xref(x4 / xref :value "UNIPROT"RHOA"HUMAN" ) ) )

@@ -1,0 +1,44 @@
+q0
+q0 -> TOP(q1 )
+q1 -> decrease-01(q2 q3 q15 q39 )
+q2 -> r_polarity_-
+q3 -> r_ARG0(q4 )
+q15 -> r_ARG1(q16 )
+q39 -> r_location(q40 )
+q4 -> enzyme(q5 q8 q11 )
+q16 -> increase-01(q17 q25 )
+q40 -> cell(q41 )
+q5 -> r_name(q6 )
+q8 -> r_xref(q9 )
+q11 -> r_ARG1-of(q12 )
+q17 -> r_ARG0(q18 )
+q25 -> r_ARG1(q26 )
+q41 -> r_mod(q42 )
+q6 -> name(q7 )
+q9 -> xref(q10 )
+q12 -> add-modification-00(q13 )
+q18 -> protein(q19 q22 )
+q26 -> add-modification-00(q27 q29 q37 )
+q42 -> wild-type
+q7 -> r_op1_H-Ras_
+q10 -> r_value_UNIPROT_RASH_HUMAN_
+q13 -> r_manner(q14 )
+q19 -> r_name(q20 )
+q22 -> r_xref(q23 )
+q27 -> r_manner(q28 )
+q29 -> r_ARG1(q30 )
+q37 -> r_ARG0(q38 )
+q14 -> phosphorylate-01
+q20 -> name(q21 )
+q23 -> xref(q24 )
+q28 -> phosphorylate-01
+q30 -> enzyme(q31 q34 )
+q38 -> protein
+q21 -> r_op1_FGF2_
+q24 -> r_value_UNIPROT_FGF2_HUMAN_
+q31 -> r_xref(q32 )
+q34 -> r_name(q35 )
+q32 -> xref(q33 )
+q35 -> name(q36 )
+q33 -> r_value_UNIPROT_MK01_HUMAN_
+q36 -> r_op1_Erk1/2_

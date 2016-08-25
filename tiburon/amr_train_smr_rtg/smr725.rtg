@@ -1,0 +1,27 @@
+q0
+q0 -> TOP(q1 )
+q1 -> add-modification-00(q2 )
+q2 -> r_manner(q3 )
+q3 -> coexpress-01(q15 q9 q4 )
+q3 -> coexpress-01(q15 q4 q9 )
+q3 -> coexpress-01(q9 q15 q4 )
+q3 -> coexpress-01(q9 q4 q15 )
+q3 -> coexpress-01(q4 q15 q9 )
+q3 -> coexpress-01(q4 q9 q15 )
+q15 -> r_ARG1(q16 )
+q9 -> r_ARG2(q10 )
+q4 -> r_ARG3(q5 )
+q16 -> enzyme(q17 )
+q10 -> protein-segment(q12 q11 )
+q10 -> protein-segment(q11 q12 )
+q5 -> cell(q6 )
+q17 -> r_name(q18 )
+q12 -> r_name(q13 )
+q11 -> r_mod_p110β/p85_
+q6 -> r_name(q7 )
+q18 -> name(q19 )
+q13 -> name(q14 )
+q7 -> name(q8 )
+q19 -> r_op1_DIRAS1_
+q14 -> r_op1_FLAG_
+q8 -> r_op1_COS7_

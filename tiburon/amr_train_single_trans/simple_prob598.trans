@@ -1,0 +1,12 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_ ) ) qr.x0 ) #0.0177514792899
+qc.name(x0: ) -> name(r_op1_p110α_ ) #0.00652528548124
+qc.interact-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.444444444444
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_RAS_ ) #0.00489396411093
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

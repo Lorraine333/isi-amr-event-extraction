@@ -1,0 +1,50 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q10 q2 )
+q1 -> increase-01(q2 q10 )
+q10 -> r_ARG1(q11 )
+q2 -> r_ARG0(q3 )
+q11 -> increase-01(q21 q13 q12 )
+q11 -> increase-01(q21 q12 q13 )
+q11 -> increase-01(q13 q21 q12 )
+q11 -> increase-01(q13 q12 q21 )
+q11 -> increase-01(q12 q21 q13 )
+q11 -> increase-01(q12 q13 q21 )
+q3 -> protein(q7 q4 )
+q3 -> protein(q4 q7 )
+q21 -> r_ARG1(q22 )
+q13 -> r_ARG0(q14 )
+q12 -> r_polarity_-
+q7 -> r_name(q8 )
+q4 -> r_xref(q5 )
+q22 -> add-modification-00(q33 q25 q23 )
+q22 -> add-modification-00(q33 q23 q25 )
+q22 -> add-modification-00(q25 q33 q23 )
+q22 -> add-modification-00(q25 q23 q33 )
+q22 -> add-modification-00(q23 q33 q25 )
+q22 -> add-modification-00(q23 q25 q33 )
+q14 -> small-molecule(q18 q15 )
+q14 -> small-molecule(q15 q18 )
+q8 -> name(q9 )
+q5 -> xref(q6 )
+q33 -> r_manner(q34 )
+q25 -> r_ARG1(q26 )
+q23 -> r_ARG0(q24 )
+q18 -> r_xref(q19 )
+q15 -> r_name(q16 )
+q9 -> r_op1_PR-B_
+q6 -> r_value_UNIPROT_PRGR_HUMAN_
+q34 -> phosphorylate-01
+q26 -> protein(q30 q27 )
+q26 -> protein(q27 q30 )
+q24 -> protein
+q19 -> xref(q20 )
+q16 -> name(q17 )
+q30 -> r_xref(q31 )
+q27 -> r_name(q28 )
+q20 -> r_value_PUBCHEM_5994_
+q17 -> r_op1_progesterone_
+q31 -> xref(q32 )
+q28 -> name(q29 )
+q32 -> r_value_UNIPROT_NCOA3_HUMAN_
+q29 -> r_op1_SRC-3_

@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / enzyme :name(x2 / name :op1 "RAS" ) )  :ARG2(x3 / enzyme :name(x4 / name :op1 "p110β" ) )  :polarity"- )

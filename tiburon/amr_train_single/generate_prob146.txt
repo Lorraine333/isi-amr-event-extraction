@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :name(x2 / name :op1 "p110b" )  :xref(x3 / xref :value "UNIPROT"PK3CB"HUMAN" ) )  :ARG2(x4 / add-modification-00 :manner(x5 / phosphorylate-01)  :manner(x6 / smr-empty) ) )

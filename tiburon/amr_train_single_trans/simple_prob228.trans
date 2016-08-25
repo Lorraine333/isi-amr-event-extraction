@@ -1,0 +1,17 @@
+qr
+qc.enzyme(x0: ) -> molecular-physical-entity(r_xref(xref(r_value_CHEBI_50114_ ) ) qr.x0 ) #0.138461538462
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.enzyme(r_ARG0-of(phosphorylate-01(r_ARG1(protein(x0: ) ) ) ) x1: x2: ) -> amino-acid(r_part-of(protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 qr.x1 ) ) qr.x2 ) #0.333333333333
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_ ) ) qr.x0 ) #0.0355029585799
+qc.observe-01(x0: r_ARG1(phosphorylate-01(r_ARG2-of(induce-01(x1: ) ) x2: ) ) x3: r_time(use-01(x4: ) ) x5: ) -> increase-01(qr.x1 r_ARG1(bind-01(qr.x2 qr.x4 ) ) ) #1.0
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qc.mutate-01 -> mutate-01 #0.642857142857
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_ARG2-of(x0: ) -> r_ARG2-of(qc.x0 ) #0.366666666667
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 ) #0.0345864661654
+qr.TOP(and(r_op1(x0: ) x1: x2: x3: ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_alanine_ ) #0.00489396411093
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

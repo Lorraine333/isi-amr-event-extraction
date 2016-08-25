@@ -1,0 +1,11 @@
+Tree info for input tree amr309.tree:
+	68 nodes
+	14 yield length
+Transducer info for input tree transducer simple309.trans:
+	2 states
+	23 rules
+RTG info for forward application of tree:
+	22 states
+	33 rules
+	9 unique terminal symbols
+	39366 derivations

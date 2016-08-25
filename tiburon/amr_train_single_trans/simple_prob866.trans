@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_AL5AP_HUMAN_ -> smr-empty #1.0
+qr.TOP(detect-01(x0: r_ARG2(immunoblot-01(r_ARG1(protein(x1: r_xref(xref(x2: ) ) ) ) ) ) ) ) -> TOP(qc.x2 ) #1.0

@@ -1,0 +1,23 @@
+qr
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.r_op3_receptor_ -> phosphorylate-01 #0.4
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.xref(x0: ) -> xref(r_value_UNIPROT_MK01_HUMAN_ ) #0.0260770975057
+qc.affect-01(x0: x1: x2: r_ARG1-of(and(x3: x4: x5: x6: r_op2(protein(x7: r_xref(xref(x8: ) ) ) ) ) ) ) -> increase-01(qr.x1 qr.x2 qr.x8 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_CADH1_HUMAN_ -> r_polarity_- #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.name(x0: x1: x2: ) -> r_manner(qc.x2 ) #0.666666666667
+qr.r_value_UNIPROT_RAC1_HUMAN_ -> r_value_UNIPROT_RAC1_HUMAN_ #0.96875
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.enzyme(x0: ) -> small-molecule(r_xref(xref(r_value_CHEBI_74330_ ) ) qr.x0 ) #0.0307692307692
+qc.or(r_op1(phosphorylate-01(r_ARG2-of(induce-01(x0: ) ) x1: ) ) r_op2(activate-01(x2: r_ARG2-of(induce-01(r_ARG0(agonist(r_name(x3: ) ) ) ) ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qr.r_op1_ERK_ -> r_op1_ERK_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_op1_LPA_ -> r_op1_LPA_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: x1: ) -> name(qr.x0 ) #0.214285714286
+qr.r_ARG0(knock-down-02(r_ARG1(or(r_op1(x0: ) x1: ) ) ) ) -> r_ARG0(qc.x0 ) #1.0

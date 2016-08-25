@@ -1,0 +1,1 @@
+TOP(bind-01(r_location(fibroblast) r_ARG2(enzyme(r_name(name(r_op1_PI3K_)))) r_ARG0(protein(r_ARG1-of(bind-01(r_ARG2(enzyme(r_name(name(r_op1_p110β_)))))) r_name(name(r_op1_RAC_)) r_ARG1-of(add-modification-00))) r_ARG1(protein(r_name(name(r_op1_p110β_)))))) # 2.718833E-13

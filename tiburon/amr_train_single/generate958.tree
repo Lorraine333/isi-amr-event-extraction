@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(small-molecule(r_name(name(r_op1_LY294002_)) r_UNK)) r_ARG1(increase-01(r_ARG0(small-molecule(r_name(name(r_op1_doxycycline_)) r_xref(xref(r_value_PUBCHEM_54671203_)))) r_ARG1(enzyme(r_name(name(r_op1_MKP3_)) r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_)))))) r_polarity_-)) # 3.002496E-8

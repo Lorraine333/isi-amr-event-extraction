@@ -1,0 +1,23 @@
+qr
+qc.r_mod(x0: ) -> name(qr.x0 ) #0.6
+qc.r_op2_domain_ -> protein #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(protein-segment(qr.x0 ) ) #0.00645161290323
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.this -> r_op1_AF-2_ #0.333333333333
+qc.phosphorylate-01(r_ARG2-of(induce-01(r_ARG0(enzyme(x0: ) ) ) ) r_ARG1(enzyme(x1: x2: ) ) ) -> small-molecule(qr.x0 qr.x2 ) #1.0
+qr.data(x0: ) -> r_name(qc.x0 ) #1.0
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_5757_ ) #0.0283446712018
+qc.reveal-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.r_op1_LBD_ -> phosphorylate-01 #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: x1: ) -> protein #0.0672268907563
+qc.or(x0: r_op2(enzyme(r_name(x1: ) ) ) r_op2(enzyme(r_name(x2: ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_ARG0(induce-01(x0: r_ARG2(x1: ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qr.name(x0: x1: ) -> r_ARG0(qc.x1 ) #0.181818181818
+qc.require-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.888888888889

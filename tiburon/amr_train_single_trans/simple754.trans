@@ -1,0 +1,3 @@
+qr
+qr.TOP(stable-03(x0: x1: x2: x3: x4: r_ARG1-of(mutate-01(x5: x6: r_ARG2(and(x7: r_op2(table(x8: ) ) ) ) ) ) ) ) -> TOP(qc.x8 )
+qc.r_mod_1_ -> smr-empty

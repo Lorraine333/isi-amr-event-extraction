@@ -1,0 +1,11 @@
+Tree info for input tree amr437.tree:
+	71 nodes
+	17 yield length
+Transducer info for input tree transducer simple437.trans:
+	2 states
+	11 rules
+RTG info for forward application of tree:
+	12 states
+	12 rules
+	2 unique terminal symbols
+	1 derivations

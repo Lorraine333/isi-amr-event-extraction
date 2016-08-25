@@ -1,0 +1,1 @@
+TOP(treat-04(r_ARG1(enzyme(r_name(name(r_op1_catC_)) r_ARG2-of(mutate-01(r_value_T421M_)) r_xref(xref(r_value_UNIPROT_CATC_HUMAN_)))) r_ARG2(or(r_op1(vehicle) r_op2(small-molecule(r_name(name(r_op1_PLX4720_)) r_ARG0-of(hour(r_name(name(r_UNK)))) r_xref(xref(r_value_PUBCHEM_24180719_))))))))

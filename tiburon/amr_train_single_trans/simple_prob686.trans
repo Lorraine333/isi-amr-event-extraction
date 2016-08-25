@@ -1,0 +1,23 @@
+qr
+qr.TOP(contrast-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_value_UNIPROT_AKT1_HUMAN_ #0.936170212766
+qr.r_value_UNIPROT_INS_HUMAN_ -> r_polarity_- #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_op1_Dock180_ -> r_op1_Dock180_ #1.0
+qc.name(x0: ) -> name(r_op1_PDGF_ ) #0.00244698205546
+qr.r_ARG0(knock-down-02(r_ARG1(or(r_op1(dock-01(r_ARG1(x0: ) ) ) x1: ) ) ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.protein-family(r_mod(macro-molecular-complex(x0: r_part(protein(x1: x2: ) ) ) ) x3: ) -> protein(qr.x2 qr.x3 ) #1.0
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qc.interfere-01(x0: x1: x2: r_ARG1(and(x3: x4: x5: r_op4(protein(x6: r_xref(xref(x7: ) ) ) ) ) ) ) -> increase-01(qr.x0 qr.x1 qr.x7 ) #1.0
+qc.r_value_PUBCHEM_62707_ -> phosphorylate-01 #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PDGFB_HUMAN_ ) #0.00340136054422
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.and(r_op1(phosphorylate-01(x0: r_ARG2-of(induce-01(r_ARG0(small-molecule(x1: r_xref(x2: ) ) ) ) ) ) ) x3: ) -> add-modification-00(qr.x0 qr.x2 qr.x3 ) #1.0
+qr.r_op1_AKT_ -> r_op1_AKT_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.xref(x0: ) -> xref(r_value_UNIPROT_DOCK1_HUMAN_ ) #0.00566893424036

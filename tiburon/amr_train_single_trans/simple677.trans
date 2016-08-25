@@ -1,0 +1,5 @@
+qr
+qr.r_ARG1(x0: ) -> r_ARG1(protein(r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_ ) ) r_name(name(qr.x0 ) ) ) )
+qc.cause-01(x0: ) -> decrease-01(qr.x0 )
+qr.UNK -> r_op1_RAC_
+qr.TOP(x0: ) -> TOP(add-modification-00(r_ARG1(cell-line(r_xref(xref(r_value_RRID_CVCL_4240_ ) ) r_name(name(r_op1_MEF_ ) ) ) ) r_ARG0(qc.x0 ) ) )

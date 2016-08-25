@@ -1,0 +1,50 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q27 q2 )
+q1 -> increase-01(q2 q27 )
+q27 -> r_ARG1(q28 )
+q2 -> r_ARG0(q3 )
+q28 -> increase-01(q34 q29 )
+q28 -> increase-01(q29 q34 )
+q3 -> bind-01(q17 q4 )
+q3 -> bind-01(q4 q17 )
+q34 -> r_ARG0(q35 )
+q29 -> r_ARG1(q30 )
+q17 -> r_ARG1(q18 )
+q4 -> r_ARG2(q5 )
+q35 -> protein(q39 q36 )
+q35 -> protein(q36 q39 )
+q30 -> macro-molecular-complex(q31 )
+q18 -> protein-family(q24 q19 )
+q18 -> protein-family(q19 q24 )
+q5 -> amino-acid(q14 q6 )
+q5 -> amino-acid(q6 q14 )
+q39 -> r_name(q40 )
+q36 -> r_xref(q37 )
+q31 -> r_name(q32 )
+q24 -> r_name(q25 )
+q19 -> r_part-of(q20 )
+q14 -> r_name(q15 )
+q6 -> r_part-of(q7 )
+q40 -> name(q41 )
+q37 -> xref(q38 )
+q32 -> name(q33 )
+q25 -> name(q26 )
+q20 -> macro-molecular-complex(q21 )
+q15 -> name(q16 )
+q7 -> protein(q11 q8 )
+q7 -> protein(q8 q11 )
+q41 -> r_op1_EGF_
+q38 -> r_value_UNIPROT_EGF_HUMAN_
+q33 -> r_op1_PI3K_
+q26 -> r_op1_p85_
+q21 -> r_name(q22 )
+q16 -> r_op1_tyrosine_
+q11 -> r_name(q12 )
+q8 -> r_xref(q9 )
+q22 -> name(q23 )
+q12 -> name(q13 )
+q9 -> xref(q10 )
+q23 -> r_op1_PI3K_
+q13 -> r_op1_Gab1_
+q10 -> r_value_UNIPROT_GAB1_HUMAN_

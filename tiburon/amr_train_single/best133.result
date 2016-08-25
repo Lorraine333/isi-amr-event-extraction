@@ -1,0 +1,29 @@
+q28
+q28 -> TOP(q29) # 1.000000
+q56 -> r_name(q63) # 1.000000
+q46 -> r_name(q49) # 1.000000
+q62 -> name(q65) # 1.000000
+q37 -> r_xref(q53) # 1.000000
+q53 -> xref(q61) # 1.000000
+q35 -> protein(q36 q37 q38) # 1.000000
+q67 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q49 -> name(q54) # 1.000000
+q34 -> protein-segment(q45 q46) # 1.000000
+q31 -> r_ARG2(q34) # 1.000000
+q52 -> enzyme(q57 q58) # 1.000000
+q45 -> r_part-of(q52) # 1.000000
+q63 -> name(q66) # 1.000000
+q38 -> r_part-of(q51) # 1.000000
+q54 -> r_op1_RBD_ # 1.000000
+q58 -> r_xref(q64) # 1.000000
+q64 -> xref(q67) # 1.000000
+q50 -> name(q55) # 1.000000
+q61 -> r_value_UNIPROT_RAC1_HUMAN_ # 1.000000
+q65 -> r_op1_p110β_ # 1.000000
+q66 -> r_op1_RHO_ # 1.000000
+q30 -> r_ARG1(q35) # 1.000000
+q36 -> r_name(q50) # 1.000000
+q51 -> protein-family(q56) # 1.000000
+q29 -> bind-01(q30 q31) # 1.000000
+q55 -> r_op1_RAC1_ # 1.000000
+q57 -> r_name(q62) # 1.000000

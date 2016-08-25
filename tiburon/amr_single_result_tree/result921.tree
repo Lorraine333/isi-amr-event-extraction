@@ -1,0 +1,11 @@
+Tree info for input tree amr921.tree:
+	72 nodes
+	16 yield length
+Transducer info for input tree transducer simple921.trans:
+	2 states
+	19 rules
+RTG info for forward application of tree:
+	21 states
+	25 rules
+	6 unique terminal symbols
+	16 derivations

@@ -1,0 +1,1 @@
+TOP(treat-04(r_time(after(r_op1(temporal-quantity(r_quant_24_ r_unit(hour))))) r_ARG1(cell) r_ARG2(small-molecule(r_name(name(r_op1_doxycycline_)) r_quant_2_ r_name(name(r_op1_μg/ml_)) r_xref(xref(r_value_PUBCHEM_54671203_)))) r_duration(temporal-quantity(r_quant_1_ r_mod(additional) r_quant_24_ r_unit(hour)))))

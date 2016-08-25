@@ -1,0 +1,3 @@
+qr
+qr.TOP(and(x0: r_op2(protein(r_name(name(x1: x2: ) ) ) ) ) ) -> TOP(qc.x2 )
+qc.r_op2_1_ -> smr-empty

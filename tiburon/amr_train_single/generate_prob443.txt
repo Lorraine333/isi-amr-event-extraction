@@ -1,0 +1,1 @@
+(x0 / bind-01 :location(x1 / fibroblast)  :ARG1(x2 / muti-index-card :op1 "PI3K"  :polarity"- )  :ARG0(x3 / add-modification-00 :ARG1-of(x4 / bind-01 :ARG0(x5 / muti-index-card :op1 "Elmo1"  :value "UNIPROT"ELMO1"HUMAN" ) )  :ARG1(x6 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )  :ARG0(x7 / protein) )  :ARG1(x8 / protein) )

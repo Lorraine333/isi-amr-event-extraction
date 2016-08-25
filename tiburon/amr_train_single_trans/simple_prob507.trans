@@ -1,0 +1,14 @@
+qr
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0952380952381
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_3_ -> r_op1_RRAS1_ #0.111111111111
+qr.r_mod(x0: ) -> r_ARG1(qc.x0 ) #0.0569105691057
+qc.xref(x0: ) -> xref(r_value_UNIPROT_Q25284_LOLFO_ ) #0.00340136054422
+qc.enzyme(x0: ) -> protein(qr.x0 ) #0.138461538462
+qr.TOP(contrast-01(x0: r_ARG2(x1: ) x2: ) ) -> TOP(qc.x1 ) #1.0
+qr.r_op1_non-β_ -> r_op1_non-β_ #1.0
+qc.interact-01(r_ARG0(isoform(x0: x1: ) ) x2: ) -> bind-01(qr.x1 qr.x2 ) #1.0
+qc.name(x0: ) -> name(r_op2_isoform_ qr.x0 ) #0.00570962479608
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 ) #0.0345864661654
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

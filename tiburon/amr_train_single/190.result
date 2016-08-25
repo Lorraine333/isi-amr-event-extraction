@@ -1,0 +1,41 @@
+q51
+q51 -> TOP(q52) # 1.000000
+q78 -> r_value_UNIPROT_ESR2_HUMAN_ # 1.000000
+q108 -> phosphorylate-01 # 1.000000
+q52 -> increase-01(q53 q54) # 1.000000
+q96 -> r_op3_β_ # 1.000000
+q118 -> name(q120) # 1.000000
+q107 -> protein(q113 q114) # 1.000000
+q58 -> increase-01(q60 q61) # 1.000000
+q95 -> r_op2_receptor_ # 1.000000
+q114 -> r_name(q118) # 1.000000
+q80 -> r_manner(q108) # 1.000000
+q59 -> protein(q64 q65 q66) # 1.000000
+q90 -> r_xref(q105) # 1.000000
+q64 -> r_name(q77) # 1.000000
+q119 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q66 -> r_xref(q73) # 1.000000
+q77 -> name(q94 q95 q96) # 1.000000
+q110 -> r_op1_estradiol_ # 1.000000
+q54 -> r_ARG0(q59) # 1.000000
+q74 -> add-modification-00(q93) # 1.000000
+q104 -> name(q110) # 1.000000
+q89 -> r_name(q104) # 1.000000
+q73 -> xref(q78) # 1.000000
+q81 -> r_ARG1(q107) # 1.000000
+q113 -> r_xref(q117) # 1.000000
+q103 -> phosphorylate-01 # 1.000000
+q65 -> r_ARG1-of(q74) # 1.000000
+q61 -> r_ARG1(q76) # 1.000000
+q105 -> xref(q112) # 1.000000
+q75 -> molecular-physical-entity(q89 q90) # 1.000000
+q93 -> r_manner(q103) # 1.000000
+q109 -> protein # 1.000000
+q94 -> r_op1_estrogen_ # 1.000000
+q112 -> r_value_CHEBI_50114_ # 1.000000
+q53 -> r_ARG1(q58) # 1.000000
+q76 -> add-modification-00(q80 q81 q82) # 1.000000
+q117 -> xref(q119) # 1.000000
+q82 -> r_ARG0(q109) # 1.000000
+q60 -> r_ARG0(q75) # 1.000000
+q120 -> r_op1_SRC-3_ # 1.000000

@@ -1,0 +1,1 @@
+TOP(phosphate(r_ARG1(cell(r_mod(primary) r_mod(wild-type) r_mod(enzyme(r_mod(homozygous) r_name(name(r_op1_p110β-RBD_)) r_xref(xref(r_value_UNIPROT_BID_HUMAN_)))) r_name(name(r_op1_mef_)))) r_ARG2(and(r_ARG1-of(starve-01(r_ARG2(serum))) r_op2(stimulate-01(r_ARG2(enzyme(r_name(name(r_op1_sphingosine_ r_op2_1_)))))))) r_ARG1-of(s1p) r_time(dose-01(r_ARG1-of(indicate-01)))))

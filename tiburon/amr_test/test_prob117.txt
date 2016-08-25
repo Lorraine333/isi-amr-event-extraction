@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / macro-molecular-complex :ARG1(x2 / pathway :name(x3 / name :op1 "MEK"ERK" ) ) )  :ARG1(x4 / bind-01 :manner(x5 / phosphorylate-01)  :ARG1(x6 / protein-segment :ARG1(x7 / activity-06) ) ) )

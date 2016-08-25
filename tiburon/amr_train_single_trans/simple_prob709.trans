@@ -1,0 +1,25 @@
+qr
+qc.express-03(x0: ) -> add-modification-00(qr.x0 ) #1.0
+qr.r_op1_Myc_ -> r_op1_Myc_ #1.0
+qc.and(x0: x1: x2: ) -> and(qr.x1 qr.x2 ) #0.5
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1(x0: ) -> r_op1(qc.x0 ) #0.100529100529
+qc.name(x0: ) -> name(r_op1_GST_ ) #0.000815660685155
+qc.protein(x0: ) -> protein(qr.x0 r_mod_p110β/p85_ ) #0.00591715976331
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.gene(x0: x1: ) -> cell(qr.x0 ) #0.0714285714286
+qr.TOP(and(r_op1(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.incubate-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.and(r_op1(tag-01(x0: ) ) x1: x2: x3: ) -> phosphorylate-01(qr.x0 qr.x3 ) #1.0
+qc.name(x0: ) -> name(r_op1_COS7_ ) #0.00244698205546
+qc.name(x0: ) -> name(r_op1_lysate_ ) #0.000815660685155
+qc.cell(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.142857142857
+qr.r_ARG3-of(x0: ) -> r_ARG0-of(qc.x0 ) #0.181818181818
+qc.protein(x0: ) -> protein(qr.x0 r_mod_p110α/p85_ ) #0.00591715976331
+qr.r_ARG2(lysate(r_source(x0: ) ) ) -> r_ARG2(qc.x0 ) #1.0
+qr.r_op2(x0: ) -> r_op2(qc.x0 ) #0.0752212389381
+qr.r_op2(x0: ) -> r_location(qc.x0 ) #0.0176991150442
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qr.r_ARG2(x0: ) -> r_manner(qc.x0 ) #0.0619834710744

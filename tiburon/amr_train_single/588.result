@@ -1,0 +1,26 @@
+q27
+q27 -> TOP(q28) # 1.000000
+q29 -> r_ARG1(q38) # 1.000000
+q31 -> r_polarity_- # 1.000000
+q38 -> protein(q40 q41) # 1.000000
+q61 -> r_ARG0(q66) # 1.000000
+q64 -> r_value_UNIPROT_ # 1.000000
+q40 -> r_name(q57) # 1.000000
+q54 -> xref(q64) # 1.000000
+q60 -> r_manner(q67) # 1.000000
+q44 -> r_ARG1-of(q56) # 1.000000
+q55 -> xref(q58) # 1.000000
+q41 -> r_xref(q55) # 1.000000
+q46 -> r_xref(q54) # 1.000000
+q57 -> name(q65) # 1.000000
+q59 -> r_op1_CDC42_ # 1.000000
+q45 -> r_name(q53) # 1.000000
+q53 -> name(q59) # 1.000000
+q66 -> protein # 1.000000
+q30 -> r_ARG0(q39) # 1.000000
+q56 -> add-modification-00(q60 q61) # 1.000000
+q58 -> r_value_UNIPROT_ # 1.000000
+q65 -> r_op1_p110β_ # 1.000000
+q39 -> protein(q44 q45 q46) # 1.000000
+q28 -> increase-01(q29 q30 q31) # 1.000000
+q67 -> phosphorylate-01 # 1.000000

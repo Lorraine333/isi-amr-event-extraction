@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / enzyme :ARG0-of(x2 / activity-06)  :name(x3 / name :op1 "Ras" ) )  :ARG1(x4 / nucleic-acid :ARG0-of(x5 / encode-01 :ARG1(x6 / enzyme :xref(x7 / xref :value "UNIPORT"MK03"HUMAN" )  :name(x8 / name :op1 "MAP"  :op2 "kinase"  :op3 "phosphatase"  :op4 "3" ) ) )  :name(x9 / name :op1 "mRNA" ) ) )

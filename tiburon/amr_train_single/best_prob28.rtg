@@ -1,0 +1,16 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q11 q13 )
+q2 -> r_ARG1(q3 )
+q11 -> r_ARG1(q12 )
+q13 -> r_ARG1(q14 )
+q3 -> enzyme(q4 q6 q9 )
+q12 -> protein
+q14 -> activity-06
+q4 -> r_manner(q5 )
+q6 -> r_name(q7 )
+q9 -> r_manner(q10 )
+q5 -> wild-type
+q7 -> name(q8 )
+q10 -> smr-empty
+q8 -> r_op1_Gab1_

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein :ARG0(x2 / mutate-01) )  :ARG1(x3 / add-modification-00 :ARG1(x4 / mutate-01)  :ARG1(x5 / phosphorylate-01)  :ARG0(x6 / protein) ) )

@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / protein :xref(x2 / xref :value "UNIPROT"ESR1"HUMAN" )  :mod (x3 / endogenous)  :name(x4 / name :op1 "ERα" ) ) )

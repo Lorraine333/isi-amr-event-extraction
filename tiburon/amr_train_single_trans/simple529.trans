@@ -1,0 +1,13 @@
+qr
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 )
+qr.TOP(contrast-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 )
+qr.r_op1_DIRAS_ -> r_op1_DIRAS_
+qc.in-vitro -> cell
+qr.r_ARG1(lipid(r_op1(x0: ) x1: ) ) -> r_ARG1(qc.x0 )
+qc.fail-01(x0: r_ARG2(stimulate-01(x1: ) ) x2: ) -> decrease-01(qr.x0 qr.x1 qr.x2 )
+qr.r_manner(x0: ) -> r_location(qc.x0 )
+qc.name(x0: ) -> name(r_op1_AKT_ )
+qc.protein(x0: ) -> enzyme(r_ARG1-of(add-modification-00(r_manner(phosphorylate-01 ) ) ) qr.x0 )

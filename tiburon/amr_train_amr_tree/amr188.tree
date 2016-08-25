@@ -1,0 +1,1 @@
+TOP(and(r_op1(identify-01(r_ARG1(site(r_quant_6_ r_ARG0-of(phosphorylate-01(r_ARG1(protein(r_name(name(r_op1_SRC-3_)))))))))) r_op2(possible-01(r_ARG1(induce-01(r_ARG1(this) r_ARG0(and(r_op1(UNK) r_op2(cytokine) r_op2(growth-factor))))) r_ARG0-of(involve-01(r_ARG1(pathway(r_mod(disease(r_name(name(r_op1_multiple_ r_op2_kinase_)))) r_ARG0-of(signal-07)))))))))

@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(cell(r_name(name(r_op1_MEF_)) r_location-of(protein(r_name(name(r_UNK)))) r_xref(xref(r_value_MEF-1_)))) r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(enzyme(r_name(name(r_op1_AKT_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_)))))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_4_F_))))))

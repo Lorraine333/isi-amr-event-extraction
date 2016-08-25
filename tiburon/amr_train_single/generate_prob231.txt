@@ -1,0 +1,1 @@
+(x0 / molecular-physical-entity :xref(x1 / xref :value "UNIPROT"ESR1"HUMAN" )  :name(x2 / name :op1 "E2" ) )

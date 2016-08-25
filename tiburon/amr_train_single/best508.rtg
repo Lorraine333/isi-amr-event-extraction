@@ -1,0 +1,16 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q2 q7 )
+q2 -> r_ARG1(q3 )
+q7 -> r_ARG2(q8 )
+q3 -> protein(q4 )
+q8 -> enzyme(q9 q12 )
+q4 -> r_name(q5 )
+q9 -> r_name(q10 )
+q12 -> r_xref(q13 )
+q5 -> name(q6 )
+q10 -> name(q11 )
+q13 -> xref(q14 )
+q6 -> r_op1_non-β_
+q11 -> r_op1_RRAS2_
+q14 -> r_value_UNIPROT_RRAS2_HUMAN_

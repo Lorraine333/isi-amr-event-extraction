@@ -1,0 +1,13 @@
+qr
+qc.name(x0: ) -> name(r_op1_p110β_ ) #0.036704730832
+qr.r_op2(x0: ) -> r_ARG2(qc.x0 ) #0.0663716814159
+qr.r_value_UNIPROT_MBTP1_HUMAN_ -> r_UNK #1.0
+qc.protein(x0: x1: ) -> potein(qr.x0 qr.x1 ) #0.00280112044818
+qc.and(x0: x1: ) -> bind-01(qr.x0 qr.x1 ) #0.117647058824
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.name(x0: ) -> name(r_op1_GPCR_ ) #0.00326264274062
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.agonist(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_ ) ) qr.x0 ) #1.0
+qr.TOP(x0: ) -> TOP(increase-01(r_mode(hypothesis ) r_ARG1(qc.x0 ) r_ARG0(protein-segment(r_part-of(enzyme(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_ ) ) r_name(name(r_op1_p110β_ ) ) ) ) r_name(name(r_op1_RBD_ ) ) ) ) ) ) #0.00210970464135
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

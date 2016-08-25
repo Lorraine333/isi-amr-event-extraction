@@ -1,0 +1,16 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q10 q13 )
+q2 -> r_ARG1(q3 )
+q10 -> r_ARG2(q11 )
+q13 -> r_manner(q14 )
+q3 -> add-modification-00(q4 q6 q8 )
+q11 -> mutate-01(q12 )
+q14 -> hypothesis
+q4 -> r_manner(q5 )
+q6 -> r_ARG1(q7 )
+q8 -> r_ARG0(q9 )
+q12 -> r_value_V12_
+q5 -> phosphorylate-01
+q7 -> phosphorylate-01
+q9 -> protein

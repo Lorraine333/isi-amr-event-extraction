@@ -1,0 +1,39 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q11 q3 q2 )
+q1 -> bind-01(q11 q2 q3 )
+q1 -> bind-01(q3 q11 q2 )
+q1 -> bind-01(q3 q2 q11 )
+q1 -> bind-01(q2 q11 q3 )
+q1 -> bind-01(q2 q3 q11 )
+q11 -> r_ARG1(q12 )
+q3 -> r_ARG2(q4 )
+q2 -> r_polarity_-
+q12 -> macro-molecular-complex(q21 q13 )
+q12 -> macro-molecular-complex(q13 q21 )
+q4 -> protein(q8 q5 )
+q4 -> protein(q5 q8 )
+q21 -> r_part(q22 )
+q13 -> r_part(q14 )
+q8 -> r_name(q9 )
+q5 -> r_xref(q6 )
+q22 -> protein(q26 q23 )
+q22 -> protein(q23 q26 )
+q14 -> protein(q18 q15 )
+q14 -> protein(q15 q18 )
+q9 -> name(q10 )
+q6 -> xref(q7 )
+q26 -> r_name(q27 )
+q23 -> r_xref(q24 )
+q18 -> r_name(q19 )
+q15 -> r_xref(q16 )
+q10 -> r_op1_p110α_
+q7 -> r_value_UNIPROT_
+q27 -> name(q28 )
+q24 -> xref(q25 )
+q19 -> name(q20 )
+q16 -> xref(q17 )
+q28 -> r_op1_RAC1_
+q25 -> r_value_UNIPROT_
+q20 -> r_op1_CDC42_
+q17 -> r_value_UNIPROT_

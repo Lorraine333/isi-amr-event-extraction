@@ -1,0 +1,22 @@
+qr
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qr.r_op2(x0: ) -> r_part(qc.x0 ) #0.0929203539823
+qr.TOP(lead-03(r_ARG0(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(r_ARG0-of(activity-06 ) qr.x0 qr.x1 ) #0.0501474926254
+qr.r_ARG0-of(x0: ) -> r_ARG0-of(qc.x0 ) #0.483870967742
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qr.r_part-of(x0: ) -> r_part(qc.x0 ) #0.0769230769231
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.or(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.0625
+qr.r_op1_Akt_ -> r_op1_Akt_ #0.8
+qc.activity-06(x0: ) -> activity-06 #0.75
+qc.transfect-01(x0: r_ARG2(and(x1: x2: x3: ) ) r_ARG1-of(subunit(r_mod(enzyme(x4: x5: x6: ) ) x7: ) ) ) -> macro-molecular-complex(qr.x2 qr.x4 qr.x7 ) #1.0
+qc.name(x0: ) -> name(r_op1_Luc_ ) #0.00734094616639
+qr.r_op2(x0: ) -> r_ARG0(qc.x0 ) #0.309734513274
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_value_UNIPROT_AKT1_HUMAN_ #0.936170212766
+qc.name(x0: ) -> name(r_op1_Mkp3_ ) #0.00978792822186
+qc.xref(x0: ) -> xref(r_value_UNIPROT_DUS6_HUMAN_ ) #0.00907029478458
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

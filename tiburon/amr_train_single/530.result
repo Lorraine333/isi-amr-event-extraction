@@ -1,0 +1,21 @@
+q38
+q38 -> TOP(q39) # 1.000000
+q51 -> r_name(q64) # 1.000000
+q54 -> r_name(q63) # 1.000000
+q65 -> r_manner(q69) # 1.000000
+q68 -> r_op1_DIRAS_ # 1.000000
+q67 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q40 -> r_ARG1(q50) # 1.000000
+q49 -> enzyme(q51) # 1.000000
+q69 -> phosphorylate-01 # 1.000000
+q53 -> r_xref(q62) # 1.000000
+q61 -> add-modification-00(q65) # 1.000000
+q63 -> name(q66) # 1.000000
+q42 -> r_polarity_- # 1.000000
+q41 -> r_ARG0(q49) # 1.000000
+q62 -> xref(q67) # 1.000000
+q39 -> increase-01(q40 q41 q42) # 1.000000
+q66 -> r_op1_p110β_ # 1.000000
+q50 -> protein(q52 q53 q54) # 1.000000
+q52 -> r_ARG1-of(q61) # 1.000000
+q64 -> name(q68) # 1.000000

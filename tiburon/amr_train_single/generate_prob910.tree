@@ -1,0 +1,1 @@
+TOP(decrease-01(r_manner(pathway(r_name(name(r_op1_PI3K/Akt_)))) r_ARG1(increase-01(r_ARG0(phosphorylate-01) r_ARG1(amino-acid(r_name(name(r_op1_MKP3_)) r_manner(smr-empty) r_mod_740_)))))) # 0.001889

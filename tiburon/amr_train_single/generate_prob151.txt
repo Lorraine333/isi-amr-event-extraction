@@ -1,0 +1,1 @@
+(x0 / translocate-01 :op1 (x1 / xref :value "UNIPROT"RAC1"HUMAN" ) )

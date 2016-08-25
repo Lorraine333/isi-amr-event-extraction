@@ -1,0 +1,1 @@
+(x0 / enzyme :manner(x1 / phosphorylate-01)  :name(x2 / name :op1 "AKT" )  :manner(x3 / smr-empty) )

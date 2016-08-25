@@ -1,0 +1,25 @@
+q0
+q0 -> TOP(q1 )
+q1 -> translocate-01(q2 q7 q20 )
+q2 -> r_ARG1(q3 )
+q7 -> r_ARG1(q8 )
+q20 -> r_manner(q21 )
+q3 -> cell(q4 )
+q8 -> protein-segment(q9 q12 )
+q21 -> describe-01(q22 )
+q4 -> r_name(q5 )
+q9 -> r_name(q10 )
+q12 -> r_part-of(q13 )
+q22 -> r_ARG0(q23 )
+q5 -> name(q6 )
+q10 -> name(q11 )
+q13 -> gene(q14 q17 )
+q23 -> smr-empty
+q6 -> r_op1_E2_
+q11 -> r_polarity_-
+q14 -> r_name(q15 )
+q17 -> r_name(q18 )
+q15 -> name(q16 )
+q18 -> name(q19 )
+q16 -> r_value_GO_
+q19 -> r_UNK

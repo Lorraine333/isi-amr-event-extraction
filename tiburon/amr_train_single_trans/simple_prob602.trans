@@ -1,0 +1,14 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qr.r_ARG0(mouse(r_mod(x0: ) ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.show-01(r_ARG1(enzyme(x0: r_xref(x1: ) ) ) x2: r_ARG1(signal-07(r_ARG1(reduce-01(x3: ) ) ) ) ) -> add-modification-00(qr.x1 qr.x2 qr.x3 ) #1.0
+qr.TOP(x0: ) -> TOP(increase-01(r_ARG1(qc.x0 ) ) ) #0.00210970464135
+qr.r_op1_PI3K_ -> r_op1_PI3K_ #1.0
+qc.r_value_UNIPROT_BID_HUMAN_ -> phosphorylate-01 #0.4
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG1(activity-06(r_ARG0(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.enzyme(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 ) #0.00884955752212
+qc.dm -> protein #0.111111111111
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

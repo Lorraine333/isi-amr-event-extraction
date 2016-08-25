@@ -1,0 +1,1 @@
+TOP(and(r_op2(possible-01(r_ARG1(bind-01(r_ARG0(mutate-01) r_mod(still) r_ARG2(protein(r_name(name(r_op1_SRC-3_)))) r_condition(present-02(r_ARG1(enzyme(r_name(name(r_op1_E2_)))))))))) r_ARG1-of(describe-01(r_ARG1(and(r_op1(lane(r_mod_5_)) r_op2(lane(r_mod_6_)) r_op2(in-a-row(r_mod_7_))))))))

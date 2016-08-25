@@ -1,0 +1,1 @@
+TOP(require-01(r_ARG1(be-located-at-91(r_ARG2(nucleus(r_xref(xref(r_value_GO_0005634_)))) r_ARG1(protein(r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)))))) r_polarity_-_ r_ARG0(phosphorylate-01(r_ARG2-of(induce-01(r_ARG0(enzyme(r_name(name(r_op1_E2_)))))) r_ARG1(protein(r_name(name(r_op1_SRC-3_))))))))

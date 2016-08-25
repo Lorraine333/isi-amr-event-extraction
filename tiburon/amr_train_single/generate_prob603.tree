@@ -1,0 +1,1 @@
+TOP(translocate-01(r_ARG1(cell(r_name(name(r_op1_E2_)))) r_ARG1(protein-segment(r_name(name(r_polarity_-)) r_part-of(gene(r_name(name(r_value_GO_)) r_name(name(r_UNK)))))) r_manner(describe-01(r_ARG0(smr-empty))))) # 0.000054

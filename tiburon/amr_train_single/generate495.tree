@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(increase-01(r_ARG0(protein-segment(r_name(name(r_op1_RBD_)))))) r_ARG0(protein-segment(r_ARG1-of(mutate-01) r_name(name(r_op1_RBD_)))) r_polarity_-)) # 1.314034E-12

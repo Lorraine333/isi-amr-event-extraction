@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein)  :ARG1(x2 / bind-01 :ARG1(x3 / enzyme :name(x4 / name :op1 "DIRAS" ) )  :ARG2(x5 / protein :name(x6 / name :op1 "p110α" )  :xref(x7 / xref :value "UNIPROT"PK3CA"HUMAN" ) ) )  :polarity"- )

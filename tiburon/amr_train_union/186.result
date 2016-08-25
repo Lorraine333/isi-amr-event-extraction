@@ -1,0 +1,27 @@
+q836
+q836 -> TOP(q837) # 1.000000
+q911 -> protein(q917 q918) # 1.000000
+q915 -> phosphorylate-01 # 1.000000
+q869 -> macro-molecular-complex # 1.000000
+q916 -> name(q922) # 1.000000
+q1100 -> r_op1_SRC-3_ # 1.000000
+q895 -> r_name(q916) # 1.000000
+q909 -> xref(q1031) # 1.000000
+q917 -> r_name(q1097) # 1.000000
+q859 -> r_location(q869) # 1.000000
+q1031 -> r_value_CHEBI_50114_ # 1.000000
+q896 -> r_xref(q909) # 1.000000
+q1201 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q901 -> r_ARG1(q911) # 1.000000
+q912 -> protein # 1.000000
+q899 -> r_manner(q915) # 1.000000
+q857 -> r_ARG0(q879) # 1.000000
+q1095 -> xref(q1201) # 1.000000
+q900 -> r_ARG0(q912) # 1.000000
+q879 -> molecular-physical-entity(q895 q896) # 1.000000
+q922 -> r_op1_estrogen_ # 1.000000
+q837 -> increase-01(q857 q858 q859) # 1.000000
+q870 -> add-modification-00(q899 q900 q901) # 1.000000
+q1097 -> name(q1100) # 1.000000
+q858 -> r_ARG1(q870) # 1.000000
+q918 -> r_xref(q1095) # 1.000000

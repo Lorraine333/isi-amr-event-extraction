@@ -1,0 +1,22 @@
+q21
+q21 -> TOP(q22) # 1.000000
+q54 -> r_op1_MKP3_ # 1.000000
+q46 -> r_name(q50) # 1.000000
+q42 -> r_xref(q53) # 1.000000
+q25 -> r_ARG1(q40) # 1.000000
+q55 -> r_value_UNIPROT_DUS6_HUMAN_ # 1.000000
+q39 -> nucleus # 1.000000
+q50 -> name(q54) # 1.000000
+q47 -> r_xref(q51) # 1.000000
+q52 -> name(q56) # 1.000000
+q53 -> xref(q57) # 1.000000
+q57 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q23 -> r_ARG0(q41) # 1.000000
+q43 -> r_name(q52) # 1.000000
+q40 -> enzyme(q42 q43) # 1.000000
+q51 -> xref(q55) # 1.000000
+q41 -> enzyme(q46 q47) # 1.000000
+q56 -> r_op1_Erk1/2_ # 1.000000
+q26 -> r_polarity_- # 1.000000
+q22 -> translocate-01(q23 q24 q25 q26) # 1.000000
+q24 -> r_ARG2(q39) # 1.000000

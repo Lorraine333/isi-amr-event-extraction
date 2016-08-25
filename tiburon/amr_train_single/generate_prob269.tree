@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(molecular-physical-entity(r_ARG0(protein(r_manner(phosphorylate-01))) r_ARG0(amino-acid(r_name(name(r_op1_ERα_)) r_manner(phosphorylate-01) r_mod_740_)))) r_ARG0(add-modification-00(r_manner(smr-empty) r_manner(phosphorylate-01))))) # 0.000079

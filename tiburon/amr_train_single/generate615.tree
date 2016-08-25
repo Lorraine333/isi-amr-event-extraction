@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(and(r_op1(protein(r_name(name(r_op1_RAC1_)) r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_)))) r_op2(protein(r_name(name(r_op1_CDC42_)) r_xref(xref(r_value_UNIPROT_CDC42_HUMAN_)))))) r_ARG1(protein-segment(r_name(name(r_op1_RBD_)) r_part-of(enzyme(r_ARG0-of(activity-06) r_name(name(r_op1_p110β_)) r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)))))))) # 1.160095E-12

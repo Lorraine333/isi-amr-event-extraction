@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / small-molecule :name(x2 / name :op1 "EHT1864" ) )  :ARG1(x3 / small-molecule :name(x4 / name :op1 "insulin" )  :xref(x5 / xref :value "CHEBI"5931" ) ) )

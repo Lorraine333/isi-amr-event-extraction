@@ -1,0 +1,1 @@
+(x0 / and :ARG0(x1 / protein :name(x2 / name :op1 "p110" )  :xref(x3 / xref :polarity"- ) )  :ARG0(x4 / enzyme) )

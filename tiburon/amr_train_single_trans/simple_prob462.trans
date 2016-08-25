@@ -1,0 +1,19 @@
+qr
+qc.be-located-at-91(x0: r_ARG2(instead-of-91(x1: ) ) ) -> add-modification-00(qr.x0 qr.x1 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.enzyme(x0: x1: ) -> protein-family(qr.x0 ) #0.0442477876106
+qc.name(x0: ) -> name(r_op1_p110β_ ) #0.036704730832
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_CDC42_ -> r_op1_CDC42_ #0.983606557377
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.and(x0: r_op2(protein(x1: x2: ) ) ) -> protein(qr.x0 qr.x1 ) #1.0
+qc.protein(x0: x1: ) -> enzyme(qr.x0 ) #0.00840336134454
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.activate-01(r_ARG0(member(r_ARG1-of(include-91(x0: ) ) ) ) x1: ) -> bind-01(qr.x0 qr.x1 ) #1.0
+qr.r_op1(x0: ) -> r_part-of(qc.x0 ) #0.121693121693
+qr.TOP(contrast-01(r_ARG2(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_ARG2(bind-01(r_ARG1(x0: ) ) ) -> r_ARG2(qc.x0 ) #1.0
+qc.isoform(x0: x1: ) -> enzyme(qr.x0 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qc.name(x0: ) -> name(r_op1_RHO_ ) #0.00163132137031

@@ -1,0 +1,1 @@
+TOP(or(r_op2(or(r_op1(cell(r_ARG3-of(express-03(r_ARG2(protein(r_name(name(r_op1_FLAG_)) r_xref(xref(r_value_UNIPROT_AL5AP_HUMAN_)))))) r_name(name(r_op1_p110α/p85_)))) r_op2(small-molecule(r_name(name(r_op1_p110β/p85_)) r_mod(wild-type))))) r_op3(enzyme(r_name(name(r_op1_RBD_)) r_ARG2-of(mutate-01(r_mod(double))))) r_ARG1-of(dm)))

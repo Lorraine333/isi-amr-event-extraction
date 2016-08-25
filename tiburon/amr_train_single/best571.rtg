@@ -1,0 +1,55 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q35 q49 )
+q2 -> r_ARG1(q3 )
+q35 -> r_ARG1(q36 )
+q49 -> r_ARG1-of(q50 )
+q3 -> coexpress-00(q4 q22 )
+q36 -> enzyme(q37 q43 q46 )
+q50 -> describe-01(q51 )
+q4 -> r_ARG1(q5 )
+q22 -> r_ARG1-of(q23 )
+q37 -> r_ARG1-of(q38 )
+q43 -> r_xref(q44 )
+q46 -> r_name(q47 )
+q51 -> r_ARG0(q52 )
+q5 -> or(q6 q14 )
+q23 -> describe-01(q24 )
+q38 -> add-modification-00(q39 q41 )
+q44 -> xref(q45 )
+q47 -> name(q48 )
+q52 -> figure(q53 )
+q6 -> r_op1(q7 )
+q14 -> r_op2(q15 )
+q24 -> r_ARG1(q25 )
+q39 -> r_ARG0(q40 )
+q41 -> r_manner(q42 )
+q45 -> r_value_UNIPROT_
+q48 -> r_op2_3_
+q53 -> r_mod_2_I_
+q7 -> protein(q8 q11 )
+q15 -> protein(q16 q19 )
+q25 -> and(q26 q29 )
+q40 -> protein
+q42 -> phosphorylate-01
+q8 -> r_name(q9 )
+q11 -> r_xref(q12 )
+q16 -> r_name(q17 )
+q19 -> r_xref(q20 )
+q26 -> r_op1(q27 )
+q29 -> r_op2(q30 )
+q9 -> name(q10 )
+q12 -> xref(q13 )
+q17 -> name(q18 )
+q20 -> xref(q21 )
+q27 -> xref(q28 )
+q30 -> lane(q31 )
+q10 -> r_op1_RAC1_
+q13 -> r_value_UNIPROT_
+q18 -> r_UNK
+q21 -> r_value_UNIPROT_
+q28 -> r_value_UNIPROT_
+q31 -> r_mod(q32 )
+q32 -> value-interval(q33 q34 )
+q33 -> r_op1_4_
+q34 -> r_op2_6_

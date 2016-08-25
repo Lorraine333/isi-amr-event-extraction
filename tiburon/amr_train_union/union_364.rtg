@@ -1,0 +1,25 @@
+q0
+q0 -> TOP(q2) # 1.000000
+q0 -> TOP(q5) # 1.000000
+q11 -> name(q13) # 1.000000
+q9 -> r_ARG1(q11) # 1.000000
+q9 -> r_ARG0(q11) # 1.000000
+q9 -> r_ARG2(q11) # 1.000000
+q9 -> r_part-of(q11) # 1.000000
+q9 -> r_manner(q11) # 1.000000
+q9 -> r_location(q11) # 1.000000
+q9 -> r_name(q11) # 1.000000
+q9 -> r_part(q11) # 1.000000
+q9 -> r_xref(q11) # 1.000000
+q9 -> r_ARG0-of(q11) # 1.000000
+q9 -> r_op1(q11) # 1.000000
+q9 -> r_ARG2(macro-molecular-complex(r_part(protein(r_xref(xref(r_value_UNIPROT_)) r_name(name(r_op1_Δp85_)))) r_part(q11))) # 1.000000
+q9 -> r_ARG2(enzyme(r_mod(protein-family(r_name(name(q12)))))) # 1.000000
+q9 -> r_ARG1-of(q11) # 1.000000
+q13 -> r_op1_E2_ # 1.000000
+q13 -> r_op1_ER_ # 1.000000
+q12 -> r_location(q5) # 1.000000
+q2 -> protein(r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)) q9) # 1.000000
+q2 -> small-molecule(q9) # 1.000000
+q5 -> smr-empty # 1.000000
+q5 -> cell # 1.000000

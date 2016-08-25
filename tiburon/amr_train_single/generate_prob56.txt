@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein :name(x2 / name :op1 "ErbB3" )  :xref(x3 / xref :value "UNIPROT"ERBB3"HUMAN" ) )  :ARG1(x4 / increase-01 :ARG0(x5 / protein :name(x6 / name :op1 "EGF" )  :xref(x7 / xref :value "UNIPROT"EGF"HUMAN" ) )  :ARG1(x8 / muti-index-card :op1 "Akt"  :value "UNIPROT"AKT1"HUMAN" ) )  :ARG1(x9 / cell) )

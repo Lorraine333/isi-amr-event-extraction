@@ -1,0 +1,1 @@
+(x0 / protein :manner(x1 / wild-type)  :xref(x2 / xref :value "UNIPROT"ESR1"HUMAN" )  :name(x3 / name :op1 "ERα" ) )

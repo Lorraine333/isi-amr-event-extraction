@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(pathway(r_name(name(r_op1_MEK/ERK_)))) r_ARG0(increase-01(r_ARG1(complex-with-00(r_ARG1(smr-empty) r_ARG1(enzyme(r_name(name(r_op1_RAF_)))))) r_ARG0(protein))))) # 0.001739

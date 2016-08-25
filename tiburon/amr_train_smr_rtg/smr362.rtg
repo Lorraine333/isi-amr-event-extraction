@@ -1,0 +1,48 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q13 q3 q2 )
+q1 -> increase-01(q13 q2 q3 )
+q1 -> increase-01(q3 q13 q2 )
+q1 -> increase-01(q3 q2 q13 )
+q1 -> increase-01(q2 q13 q3 )
+q1 -> increase-01(q2 q3 q13 )
+q13 -> r_ARG1(q14 )
+q3 -> r_ARG0(q4 )
+q2 -> r_polarity_-
+q14 -> add-modification-00(q29 q17 q15 )
+q14 -> add-modification-00(q29 q15 q17 )
+q14 -> add-modification-00(q17 q29 q15 )
+q14 -> add-modification-00(q17 q15 q29 )
+q14 -> add-modification-00(q15 q29 q17 )
+q14 -> add-modification-00(q15 q17 q29 )
+q4 -> small-molecule(q10 q5 )
+q4 -> small-molecule(q5 q10 )
+q29 -> r_manner(q30 )
+q17 -> r_ARG1(q18 )
+q15 -> r_ARG0(q16 )
+q10 -> r_name(q11 )
+q5 -> r_xref(q6 )
+q30 -> phosphorylate-01
+q18 -> protein(q27 q22 q19 )
+q18 -> protein(q27 q19 q22 )
+q18 -> protein(q22 q27 q19 )
+q18 -> protein(q22 q19 q27 )
+q18 -> protein(q19 q27 q22 )
+q18 -> protein(q19 q22 q27 )
+q16 -> protein
+q11 -> name(q12 )
+q6 -> value(q7 )
+q27 -> r_ARG2-of(q28 )
+q22 -> r_xref(q23 )
+q19 -> r_name(q20 )
+q12 -> r_op1_E2_
+q7 -> r_name(q8 )
+q28 -> mutate-01
+q23 -> value(q24 )
+q20 -> name(q21 )
+q8 -> name(q9 )
+q24 -> r_name(q25 )
+q21 -> r_op1_SRC-3-AAA_
+q9 -> r_op1_PUBCHEM_5757_
+q25 -> name(q26 )
+q26 -> r_op1_UNIPROT_SRC-3-AAA_HUMAN_

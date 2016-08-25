@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_manner(phosphorylate-01) r_name(name(r_op1_Ras_)) r_manner(phosphorylate-01))) r_ARG1(nucleic-acid(r_manner(encode-01(r_ARG1(protein))) r_name(name(r_op1_mRNA_)))))) # 0.000059

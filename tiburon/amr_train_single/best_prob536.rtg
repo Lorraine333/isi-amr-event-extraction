@@ -1,0 +1,14 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q10 q12 )
+q2 -> r_ARG1(q3 )
+q10 -> r_ARG0(q11 )
+q12 -> r_polarity_-
+q3 -> protein(q4 q7 )
+q11 -> protein
+q4 -> r_name(q5 )
+q7 -> r_xref(q8 )
+q5 -> name(q6 )
+q8 -> xref(q9 )
+q6 -> r_op1_DIRAS1_
+q9 -> r_value_UNIPROT_DIRA1_HUMAN_

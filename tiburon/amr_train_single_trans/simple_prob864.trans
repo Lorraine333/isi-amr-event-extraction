@@ -1,0 +1,3 @@
+qr
+qc.mutagenesis -> smr-empty #1.0
+qr.TOP(introduce-02(x0: r_ARG0(protein-segment(r_ARG1-of(direct-01(r_ARG2(x1: ) ) ) ) ) ) ) -> TOP(qc.x1 ) #1.0

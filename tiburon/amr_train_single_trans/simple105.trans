@@ -1,0 +1,9 @@
+qr
+qr.r_ARG1(x0: ) -> r_ARG1(enzyme(r_ARG0-of(qc.x0 ) ) )
+qc.UNK -> protein
+qc.UNK -> activity-06
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.we -> molecular-physical-entity
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.employ-02(x0: x1: r_purpose(show-01(x2: ) ) ) -> increase-01(r_ARG0(increase-01(qr.x0 r_ARG1(complex-with-00(r_ARG2(protein-family(r_name(name(r_op1_RAF_ ) ) ) ) qr.x1 ) ) ) ) qr.x2 )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )

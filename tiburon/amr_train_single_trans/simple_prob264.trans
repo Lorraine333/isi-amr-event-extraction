@@ -1,0 +1,20 @@
+qr
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 ) #0.234513274336
+qr.r_op1_HEK293T_ -> r_op1_4HT_ #0.166666666667
+qc.r_unit(x0: ) -> xref(qr.x0 ) #0.5
+qr.temporal-quantity(x0: x1: ) -> r_xref(qc.x1 ) #0.666666666667
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.induce-01(x0: r_ARG1(and(r_op1(select-01(r_ARG1(and(x1: x2: ) ) ) ) x3: x4: ) ) x5: ) -> add-modification-00(qr.x1 qr.x3 qr.x5 ) #1.0
+qc.protein(x0: ) -> protein #0.260355029586
+qc.perform-02(r_purpose(investigate-01(x0: ) ) r_ARG1(treat-04(x1: r_ARG1(small-molecule(x2: r_ARG1-of(mean-01(r_ARG2(x3: ) ) ) ) ) ) ) r_location(cell-line(x4: ) ) ) -> increase-01(qr.x0 r_ARG0(small-molecule(qr.x3 qr.x4 ) ) ) #0.5
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qc.phosphorylate-01(x0: ) -> phosphorylate-01 #0.606060606061
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG2(x0: ) -> r_manner(qc.x0 ) #0.0619834710744
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.hour -> r_value_PUBCHEM_449459_ #0.25
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

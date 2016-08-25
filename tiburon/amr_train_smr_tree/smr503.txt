@@ -1,0 +1,1 @@
+(x0 / bind-01 :mod e(x1 / hypothesis)  :ARG2(x2 / protein :name(x3 / name :op1 "p110β" )  :xref(x4 / xref :value "UNIPROT"PK3CB"HUMAN" ) )  :ARG1(x5 / protein-family :name(x6 / name :op1 "GTPases" ) ) )

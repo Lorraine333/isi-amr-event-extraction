@@ -1,0 +1,29 @@
+q37
+q37 -> TOP(q38) # 1.000000
+q75 -> r_value_CHEBI_37550_ # 1.000000
+q46 -> r_xref(q55) # 1.000000
+q43 -> cell-line(q45 q46) # 1.000000
+q54 -> name(q57) # 1.000000
+q69 -> xref(q75) # 1.000000
+q50 -> r_ARG1(q56) # 1.000000
+q40 -> r_ARG1(q44) # 1.000000
+q65 -> r_xref(q70) # 1.000000
+q58 -> r_xref(q69) # 1.000000
+q64 -> r_name(q68) # 1.000000
+q76 -> r_op1_AKT_ # 1.000000
+q71 -> name(q72) # 1.000000
+q56 -> enzyme(q64 q65) # 1.000000
+q53 -> small-molecule(q58 q59) # 1.000000
+q55 -> xref(q62) # 1.000000
+q79 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q59 -> r_name(q71) # 1.000000
+q70 -> xref(q79) # 1.000000
+q49 -> r_ARG0(q53) # 1.000000
+q44 -> add-modification-00(q49 q50) # 1.000000
+q45 -> r_name(q54) # 1.000000
+q72 -> r_op1_S1P_ # 1.000000
+q62 -> r_value_RRID_CVCL_4240_ # 1.000000
+q38 -> decrease-01(q39 q40) # 1.000000
+q57 -> r_op1_MEF_ # 1.000000
+q68 -> name(q76) # 1.000000
+q39 -> r_location(q43) # 1.000000

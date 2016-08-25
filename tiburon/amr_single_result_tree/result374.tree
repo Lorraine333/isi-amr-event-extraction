@@ -1,0 +1,11 @@
+Tree info for input tree amr374.tree:
+	12 nodes
+	3 yield length
+Transducer info for input tree transducer simple374.trans:
+	2 states
+	12 rules
+RTG info for forward application of tree:
+	12 states
+	12 rules
+	5 unique terminal symbols
+	1 derivations

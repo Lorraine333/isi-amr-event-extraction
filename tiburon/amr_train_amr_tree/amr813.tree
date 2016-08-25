@@ -1,0 +1,1 @@
+TOP(and(r_op1(top) r_op2(small-molecule(r_name(name(r_UNK)) r_xref(xref(r_UNK)))) r_op2(and(r_op1(UNK) r_op2(immunohistochemistry(r_ARG2(enzyme(r_name(name(r_UNK)) r_xref(xref(r_UNK)))) r_ARG1-of(describe-01(r_location(bottom))) r_ARG1-of(red-02(r_name(name(r_op1_Sirius_))))))))))

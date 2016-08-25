@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / macro-molecular-complex :ARG0-of(x2 / activity-06)  :part(x3 / enzyme :name(x4 / name :op1 "Mkp3" )  :xref(x5 / xref :value "UNIPORT"MK03"HUMAN" ) )  :part(x6 / protein :name(x7 / name :op1 "Mkp3" ) ) )  :polarity"-  :ARG0(x8 / enzyme :ARG1-of(x9 / mutate-01)  :name(x10 / name :op1 "Ras" ) ) )

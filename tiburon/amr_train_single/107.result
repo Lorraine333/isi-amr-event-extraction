@@ -1,0 +1,29 @@
+q28
+q28 -> TOP(q29) # 1.000000
+q54 -> r_xref(q60) # 1.000000
+q49 -> r_name(q59) # 1.000000
+q65 -> r_op1_CRAF_ # 1.000000
+q44 -> r_ARG1(q48) # 1.000000
+q31 -> r_ARG1(q35) # 1.000000
+q48 -> enzyme(q49 q50) # 1.000000
+q37 -> r_ARG1(q41) # 1.000000
+q47 -> enzyme(q53 q54) # 1.000000
+q41 -> small-molecule # 1.000000
+q60 -> xref(q64) # 1.000000
+q57 -> xref(q61) # 1.000000
+q30 -> r_ARG0(q34) # 1.000000
+q62 -> r_op1_CRAF_ # 1.000000
+q50 -> r_xref(q57) # 1.000000
+q63 -> r_op1_CRAF_ # 1.000000
+q59 -> name(q63) # 1.000000
+q59 -> name(q62) # 1.000000
+q38 -> r_ARG2(q42) # 1.000000
+q53 -> r_name(q58) # 1.000000
+q64 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q35 -> protein # 1.000000
+q34 -> bind-01(q37 q38) # 1.000000
+q29 -> decrease-01(q30 q31) # 1.000000
+q58 -> name(q65) # 1.000000
+q43 -> r_ARG2(q47) # 1.000000
+q61 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q42 -> complex-with-00(q43 q44) # 1.000000

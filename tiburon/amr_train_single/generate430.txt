@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / enzyme :name(x2 / name :op1 "Raf" ) )  :ARG1(x3 / add-modification-00 :manner(x4 / phosphorylate-01)  :location(x5 / enzyme :name(x6 / name :op1 "Raf" ) ) ) )

@@ -1,0 +1,3 @@
+qr
+qr.aim-01 -> r_op1_RAC_ #0.5
+qr.TOP(x0: ) -> TOP(increase-01(r_ARG1(protein(r_xref(xref(r_value_UNIPROT_ ) ) r_name(name(r_op1_p110β_ ) ) ) ) r_ARG0(protein(r_xref(xref(r_value_UNIPROT_ ) ) r_name(name(qr.x0 ) ) ) ) ) ) #0.0042194092827

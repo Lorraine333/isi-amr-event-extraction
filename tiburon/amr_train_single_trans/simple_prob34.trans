@@ -1,0 +1,27 @@
+qr
+qc.and(x0: r_op2(enzyme(r_name(x1: ) r_xref(x2: ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_op1_EGF_ -> r_op1_EGF_ #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.r_op1_Akt_ -> phosphorylate-01 #0.666666666667
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_op1_p85_ -> r_op1_p85_ #1.0
+qc.site(x0: x1: r_location(protein(x2: x3: ) ) ) -> protein(r_ARG1-of(bind-01(qr.x0 ) ) qr.x2 qr.x3 ) #1.0
+qr.r_domain(x0: ) -> r_ARG0(qc.x0 ) #1.0
+qr.r_value_UNIPROT_EGF_HUMAN_ -> r_UNK #0.03125
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qr.r_op1_Gab1_ -> r_op1_Gab1_ #1.0
+qc.r_value_UNIPROT_AKT1_HUMAN_ -> protein #0.25
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.canonical(x0: ) -> protein-family(qr.x0 ) #1.0
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_mod(x0: ) -> r_ARG2(qc.x0 ) #0.0650406504065
+qc.name(x0: ) -> name(r_op1_PI3K_ ) #0.0114192495922
+qc.essential(x0: r_purpose(activate-01(x1: r_ARG2-of(respond-01(r_ARG1(stimulate-01(x2: ) ) ) ) ) ) ) -> increase-01(r_ARG1(increase-01(qr.x0 qr.x1 ) ) qr.x2 ) #1.0
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_ #1.0
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.xref(x0: ) -> r_ARG0(qc.x0 ) #0.372093023256
+qc.kinase(x0: ) -> macro-molecular-complex(qr.x0 ) #0.6

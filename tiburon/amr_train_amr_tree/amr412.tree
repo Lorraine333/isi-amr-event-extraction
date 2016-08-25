@@ -1,0 +1,1 @@
+TOP(and(r_op1(phosphorylate-01) r_op2(assay-01(r_ARG1(express-03(r_ARG2(protein(r_ARG0-of(indicate-01))))) r_ARG0(immunoblot-01)))))

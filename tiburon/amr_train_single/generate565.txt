@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :manner(x2 / phosphorylate-01)  :ARG1(x3 / protein :name(x4 / name :op1 "p110β" )  :xref(x5 / xref :value "UNIPROT"PK3CB"HUMAN" ) ) )  :ARG0(x6 / protein :name(x7 / name :op1 "RAC1" )  :xref(x8 / xref :value "UNIPROT"PK3CB"HUMAN" ) ) )

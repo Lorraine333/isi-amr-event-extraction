@@ -1,0 +1,3 @@
+qr
+qr.TOP(transfect-01(x0: r_ARG2(and(x1: r_op2(stimulate-01(x2: x3: r_duration(temporal-quantity(x4: r_unit(x5: ) ) ) ) ) ) ) ) ) -> TOP(qc.x5 )
+qc.minute -> smr-empty

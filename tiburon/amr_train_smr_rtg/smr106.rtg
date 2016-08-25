@@ -1,0 +1,28 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q14 q2 )
+q1 -> increase-01(q2 q14 )
+q14 -> r_ARG1(q15 )
+q2 -> r_ARG0(q3 )
+q15 -> enzyme(q19 q16 )
+q15 -> enzyme(q16 q19 )
+q3 -> bind-01(q12 q4 )
+q3 -> bind-01(q4 q12 )
+q19 -> r_name(q20 )
+q16 -> r_xref(q17 )
+q12 -> r_ARG1(q13 )
+q4 -> r_ARG2(q5 )
+q20 -> name(q21 )
+q17 -> xref(q18 )
+q13 -> small-molecule
+q5 -> protein-segment(q8 q6 )
+q5 -> protein-segment(q6 q8 )
+q21 -> r_op1_ERK_
+q18 -> r_value_UNIPROT_MK01_HUMAN_
+q8 -> r_name(q9 )
+q6 -> r_part-of(q7 )
+q9 -> name(q11 q10 )
+q9 -> name(q10 q11 )
+q7 -> enzyme
+q11 -> r_op2_site_
+q10 -> r_op1_ATP-binding_

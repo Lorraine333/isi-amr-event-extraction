@@ -1,0 +1,3 @@
+qr
+qc.immunoblot-01 -> smr-empty #0.8
+qr.TOP(stimulate-01(x0: x1: x2: r_time(before(r_op1(harvest-01(r_ARG2(x3: ) ) ) ) ) ) ) -> TOP(qc.x3 ) #1.0

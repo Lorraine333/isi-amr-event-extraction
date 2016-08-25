@@ -1,0 +1,1 @@
+(x0 / bind-01 :location(x1 / cell-line :name(x2 / name :op1 "COS7" )  :xref(x3 / xref :mod "2"I" ) )  :ARG1(x4 / protein :name(x5 / name :op1 "p110" )  :xref(x6 / xref :polarity"- ) )  :ARG2(x7 / amino-acid :name(x8 / name :op1 "FLAG" )  :manner(x9 / smr-empty)  :mod "740" ) )

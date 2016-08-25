@@ -1,0 +1,19 @@
+qr
+qc.r_op1_pMkp3_ -> activity-06 #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RASH_HUMAN_ ) #0.0124716553288
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.mutate-01(x0: ) -> mutate-01(r_value_V12_ ) #0.173913043478
+qc.enzyme(x0: x1: x2: ) -> enzyme(r_ARG0-of(activity-06 ) qr.x0 qr.x1 qr.x2 ) #0.010101010101
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(transient-02(r_ARG1(cotransfect-01(r_ARG2(x0: ) ) ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qc.r_name(x0: ) -> protein(qr.x0 ) #0.2
+qr.r_op1_−1597/−10_ -> r_op1_NIH3T3_ #0.428571428571
+qr.enzyme(x0: ) -> r_ARG1(qc.x0 ) #0.5
+qr.name(x0: ) -> r_ARG0-of(qc.x0 ) #0.0526315789474
+qc.activate-01(r_ARG1(and(x0: r_op2(x1: ) ) ) x2: x3: ) -> increase-01(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.into(x0: ) -> cell-line(r_xref(xref(r_value_NIH3T3_CVCL_0594_ ) ) qr.x0 ) #0.5
+qr.r_ARG1-of(x0: ) -> r_location(qc.x0 ) #0.0588235294118
+qc.name(x0: ) -> name(r_op1_H-Ras_ ) #0.00326264274062
+qr.r_ARG2-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.4
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

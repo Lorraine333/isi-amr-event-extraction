@@ -1,0 +1,18 @@
+qr
+qr.r_UNK -> r_op1_p110b_ #0.0689655172414
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.name(x0: ) -> name(r_op1_GTPγ_ ) #0.00326264274062
+qc.contrast-01(r_ARG1(load-01(x0: ) ) x1: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.enzyme(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_ ) ) r_ARG0-of(activity-06 ) qr.x0 ) #0.0153846153846
+qr.r_op2(x0: ) -> r_ARG2(qc.x0 ) #0.0663716814159
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0952380952381
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_RAC1_HUMAN_ -> r_value_UNIPROT_RAC1_HUMAN_ #0.96875
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_UNIPROT_GCA_DICDI_ ) #0.00453514739229
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.or(r_op1(protein(x0: x1: ) ) x2: ) -> protein(qr.x0 qr.x1 r_ARG1-of(bind-01(qr.x2 ) ) ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

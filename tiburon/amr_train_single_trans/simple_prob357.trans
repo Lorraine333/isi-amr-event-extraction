@@ -1,0 +1,12 @@
+qr
+qc.protein-family(x0: ) -> protein-family(qr.x0 ) #0.631578947368
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.contain-01(x0: r_ARG1(domain(x1: x2: r_ARG0-of(mediate-01(x3: ) ) ) ) ) -> bind-01(qr.x0 qr.x3 ) #1.0
+qc.protein(x0: ) -> protein #0.260355029586
+qc.bind-01(x0: x1: x2: ) -> protein-segment(qr.x1 ) #0.111111111111
+qr.r_op1_SRC_ -> r_op1_SRC_ #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG2(x0: ) -> r_part-of(qc.x0 ) #0.0743801652893
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG0(member(r_ARG1-of(include-91(r_ARG2(x0: ) ) ) ) ) -> r_ARG0(qc.x0 ) #1.0

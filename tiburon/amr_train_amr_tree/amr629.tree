@@ -1,0 +1,1 @@
+TOP(and(r_op1(enzyme(r_name(name(r_op1_p110β-RBD_)) r_xref(xref(r_value_UNIPROT_BID_HUMAN_)))) r_op2(enzyme(r_name(name(r_op1_mef_)) r_xref(xref(r_value_UNIPROT_ELF4_HUMAN_)))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_i_))))))

@@ -1,0 +1,22 @@
+qr
+qc.protein(x0: x1: ) -> protein
+qc.exhibit-01(x0: r_ARG1(phosphorylate-01(x1: x2: r_ARG1(enzyme(x3: r_xref(x4: ) ) ) r_ARG1-of(enhance-01(x5: ) ) ) ) ) -> add-modification-00(r_ARG1(amino-acid(qr.x0 qr.x3 ) ) qr.x4 qr.x5 )
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 )
+qr.significant-02 -> r_polarity_-
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_op1_EGF_ -> r_op1_EGF_
+qr.xref(x0: ) -> r_manner(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_ARG0(x0: ) -> r_part-of(qc.x0 )
+qr.r_value_UNIPROT_ERBB3_HUMAN_ -> r_value_UNIPROT_ERBB3_HUMAN_
+qr.r_ARG0(treat-04(r_ARG2(x0: ) ) ) -> r_ARG0(qc.x0 )
+qr.r_op1_tyrosine_ -> r_op1_tyrosine_
+qr.r_op1_ErbB3_ -> r_op1_ErbB3_
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_EGF_HUMAN_ )
+qc.contrast-01(x0: r_ARG2(enhance-01(x1: r_ARG1-of(x2: ) x3: ) ) ) -> increase-01(qr.x0 qr.x2 qr.x3 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.r_value_UNIPROT_TYRO_HUMAN_ -> phosphorylate-01
+qc.small-molecule(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

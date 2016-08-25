@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / enzyme :xref(x2 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x3 / name :op1 "E2" ) )  :ARG1(x4 / phosphorylate-01)  :location(x5 / smr-empty) )

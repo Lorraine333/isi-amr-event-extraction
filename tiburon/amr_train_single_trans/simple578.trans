@@ -1,0 +1,24 @@
+qr
+qr.r_op1_RAC1_ -> r_op1_RAC1_
+qr.r_ARG2(x0: ) -> r_part(qc.x0 )
+qr.r_op1_CDC42_ -> r_op1_CDC42_
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(qc.x0 )
+qc.cooperate-01(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )
+qr.r_UNK -> r_UNK
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 )
+qc.figure(x0: ) -> figure(qr.x0 )
+qc.elevate-01(x0: r_ARG1-of(do-02(x1: x2: r_ARG2(or(x3: x4: ) ) ) ) x5: r_ARG1-of(describe-01(r_ARG0(figure(x6: ) ) ) ) x7: ) -> increase-01(qr.x2 qr.x3 qr.x6 qr.x7 )
+qr.r_ARG1(x0: ) -> r_part(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ )
+qc.describe-01(x0: ) -> describe-01(qr.x0 )
+qr.r_mod_s2_ -> r_polarity_-
+qc.enzyme(x0: x1: ) -> protein(qr.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x1 qr.x2 )
+qr.r_op1_p110α_ -> r_op1_p110α_
+qr.r_name(x0: ) -> r_name(qc.x0 )

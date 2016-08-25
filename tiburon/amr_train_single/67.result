@@ -1,0 +1,36 @@
+q51
+q51 -> TOP(q52) # 1.000000
+q69 -> add-modification-00(q76 q77 q78) # 1.000000
+q69 -> add-modification-00(q77 q76 q78) # 1.000000
+q97 -> r_op1_estradiol_ # 1.000000
+q76 -> r_ARG1(q85) # 1.000000
+q89 -> name(q97) # 1.000000
+q68 -> xref(q82) # 1.000000
+q57 -> increase-01(q59 q60) # 1.000000
+q82 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q58 -> protein(q63 q64) # 1.000000
+q72 -> r_xref(q87) # 1.000000
+q53 -> r_ARG1(q57) # 1.000000
+q85 -> protein(q93 q94) # 1.000000
+q78 -> r_manner(q88) # 1.000000
+q59 -> r_ARG0(q70) # 1.000000
+q71 -> name(q84) # 1.000000
+q73 -> r_name(q89) # 1.000000
+q94 -> r_name(q103) # 1.000000
+q105 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q92 -> r_value_PUBCHEM_5757_ # 1.000000
+q103 -> name(q106) # 1.000000
+q84 -> r_op1_ER_ # 1.000000
+q77 -> r_ARG0(q86) # 1.000000
+q63 -> r_name(q71) # 1.000000
+q102 -> xref(q105) # 1.000000
+q87 -> xref(q92) # 1.000000
+q54 -> r_ARG0(q58) # 1.000000
+q64 -> r_xref(q68) # 1.000000
+q60 -> r_ARG1(q69) # 1.000000
+q93 -> r_xref(q102) # 1.000000
+q88 -> phosphorylate-01 # 1.000000
+q52 -> increase-01(q53 q54) # 1.000000
+q106 -> r_op1_SRC-3_ # 1.000000
+q86 -> protein # 1.000000
+q70 -> small-molecule(q72 q73) # 1.000000

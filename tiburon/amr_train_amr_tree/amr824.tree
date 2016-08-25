@@ -1,0 +1,1 @@
+TOP(and(r_op1(express-03(r_ARG2(and(r_op1(enzyme(r_name(name(r_op1_erk2_)) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)))) r_op2(enzyme(r_name(name(r_op1_Gγ_)) r_xref(xref(r_value_UNIPROT_G_CSF_HUMAN_DNA_)))) r_op2_1_ r_op3(protein(r_name(name(r_op1_Myr_)))))))) r_op2(enzyme(r_name(name(r_op1_p110β__)) r_xref(xref(r_value_UNIPROT_EXOS6_HUMAN_))))))

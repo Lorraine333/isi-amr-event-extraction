@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / molecular-physical-entity :name(x2 / name :op1 "estradiol" )  :xref(x3 / xref :value "CHEBI"50114" ) )  :ARG1(x4 / protein :xref(x5 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x6 / name :op1 "SRC-3" ) )  :ARG1-of(x7 / increase-01 :ARG0(x8 / protein :name(x9 / name :op1 "ER" )  :xref(x10 / xref :value "UNIPROT"ESR1"HUMAN" ) ) ) )

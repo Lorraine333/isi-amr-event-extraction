@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(enzyme(r_name(name(r_op1_RAS_)) r_xref(xref(r_value_UNIPROT_RASA1_HUMAN_)))) r_ARG2(and(r_op2(activate-01(r_ARG1(isoform(r_quant(multiple) r_mod(enzyme(r_name(name(r_op1_PI3K_)) r_xref(xref(r_value_UNIPROT_ELAF_HUMAN_))))))))))))

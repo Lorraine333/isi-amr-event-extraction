@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / macro-molecular-complex :part(x2 / protein :name(x3 / name :UNK )  :xref(x4 / xref :value "UNIPROT" ) )  :part(x5 / protein :name(x6 / name :op1 "p85" )  :xref(x7 / xref :value "UNIPROT" ) ) )  :polarity"- )

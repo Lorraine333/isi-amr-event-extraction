@@ -1,0 +1,1 @@
+TOP(transfect-01(r_ARG1(cell(r_ARG1-of(immortalize-03) r_mod(wild-type) r_name(name(r_op1_mef_)))) r_ARG2(or(r_ARG1-of(scramble-02) r_op1(duplex) r_op2(individual(r_ARG1-of(specific-02(r_ARG2(gene))) r_ARG0-of(oligonucleotide(r_name(name(r_op1_siRNA_)) r_ARG0-of(target-01(r_ARG1(enzyme(r_name(name(r_op1_Dock180_)) r_xref(xref(r_value_UNIPROT_DOCK1_HUMAN_))))))))))))))

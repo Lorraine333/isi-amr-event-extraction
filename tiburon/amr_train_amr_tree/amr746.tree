@@ -1,0 +1,1 @@
+TOP(lipid(r_op2(assay-01(r_ARG1(kinase))) r_ARG1-of(sample-01(r_ARG2(mean-01(r_ARG1(protein(r_name(name(r_UNK)) r_xref(xref(r_UNK)))) r_ARG2(small-molecule(r_name(name(r_op1_SD_)) r_xref(xref(r_value_PUBCHEM_3039_))))))))))

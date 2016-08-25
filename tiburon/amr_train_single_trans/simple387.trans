@@ -1,0 +1,3 @@
+qr
+qc.exemplify-01 -> smr-empty
+qr.TOP(contain-01(x0: x1: r_location(region(x2: x3: x4: r_mod(and(x5: x6: r_ARG0-of(x7: ) ) ) ) ) ) ) -> TOP(qc.x7 )

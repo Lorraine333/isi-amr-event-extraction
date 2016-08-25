@@ -1,0 +1,29 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q10 q2 )
+q1 -> increase-01(q2 q10 )
+q10 -> r_ARG1(q11 )
+q2 -> r_location(q3 )
+q11 -> protein(q18 q15 q12 )
+q11 -> protein(q18 q12 q15 )
+q11 -> protein(q15 q18 q12 )
+q11 -> protein(q15 q12 q18 )
+q11 -> protein(q12 q18 q15 )
+q11 -> protein(q12 q15 q18 )
+q3 -> cell-line(q7 q4 )
+q3 -> cell-line(q4 q7 )
+q18 -> r_ARG1-of(q19 )
+q15 -> r_name(q16 )
+q12 -> r_xref(q13 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q19 -> mutate-01(q20 )
+q16 -> name(q17 )
+q13 -> xref(q14 )
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q20 -> r_value_D486N_
+q17 -> r_op1_CRAF_
+q14 -> r_UNK
+q9 -> r_UNK
+q6 -> r_op1_293H_

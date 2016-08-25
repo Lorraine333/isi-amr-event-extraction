@@ -1,0 +1,22 @@
+q0
+q0 -> TOP(q1 )
+q1 -> bind-01(q10 q2 )
+q1 -> bind-01(q2 q10 )
+q10 -> r_ARG2(q11 )
+q2 -> r_ARG1(q3 )
+q11 -> protein(q15 q12 )
+q11 -> protein(q12 q15 )
+q3 -> protein(q7 q4 )
+q3 -> protein(q4 q7 )
+q15 -> r_xref(q16 )
+q12 -> r_name(q13 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q16 -> xref(q17 )
+q13 -> name(q14 )
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q17 -> r_value_UNIPROT_
+q14 -> r_op1_CDC42_
+q9 -> r_value_UNIPROT_
+q6 -> r_op1_RAC_

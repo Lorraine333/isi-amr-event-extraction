@@ -1,0 +1,1 @@
+(x0 / small-molecule :mod (x1 / wild-type)  :name(x2 / name :op1 "SRC-3" ) )

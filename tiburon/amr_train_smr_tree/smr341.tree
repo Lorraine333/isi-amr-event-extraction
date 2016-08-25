@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(bind-01(r_ARG1(protein) r_ARG0(amino-acid(r_part-of(protein-segment(r_part-of(protein-family(r_name(name(r_op1_ERα_)))))) r_name(name(r_op1_L539_)))))) r_ARG0(small-molecule(r_name(name(r_op1_E2_)) r_xref(value(r_name(name(r_op1_PUBCHEM_5757_))))))))

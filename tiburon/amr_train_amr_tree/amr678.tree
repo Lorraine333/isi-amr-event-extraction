@@ -1,0 +1,1 @@
+TOP(reach-01(r_ARG1-of(resemble-01(r_ARG2(this))) r_ARG0(activate-01(r_ARG1(enzyme(r_name(name(r_op1_RAC_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_)))) r_mod(rapid(r_degree(UNK))) r_condition(stimulate-01(r_ARG1(enzyme(r_name(name(r_op1_LPA_)) r_xref(xref(r_value_UNIPROT_APOA_HUMAN_)))))))) r_ARG1(UNK) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_4f_))))))

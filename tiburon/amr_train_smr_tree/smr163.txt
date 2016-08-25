@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG0(x2 / enzyme :ARG0-of(x3 / activity-06)  :name(x4 / name :op1 "Ras" ) )  :ARG1(x5 / gene :name(x6 / name :op1 "MKP3" )  :xref(x7 / xref :value "HGNC"895" ) ) )  :ARG0(x8 / pathway :name(x9 / name :op1 "PI3K"AKt" ) ) )

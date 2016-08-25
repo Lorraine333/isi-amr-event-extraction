@@ -1,0 +1,20 @@
+qr
+qr.name(x0: ) -> r_ARG0(qc.x0 ) #0.0921052631579
+qr.r_op2(x0: ) -> r_part(qc.x0 ) #0.0929203539823
+qc.name(x0: ) -> name(r_op1_Mkp3_ ) #0.00978792822186
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_UNIPROT_DUS6_HUMAN_ ) #0.00907029478458
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.r_op1_rlf-caax_ -> protein #1.0
+qc.and(r_op1(transfect-01(x0: r_ARG2(activity-06(r_ARG0(and(x1: x2: ) ) ) ) ) ) x3: r_op3(enzyme(r_name(x4: ) ) ) ) -> increase-01(qr.x1 r_ARG1(add-modification-00(r_manner(phosphorylate-01 ) r_ARG1(macro-molecular-complex(qr.x2 qr.x3 ) ) qr.x4 ) ) ) #0.666666666667
+qc.r_value_UNIPROT_RASA1_HUMAN_ -> activity-06 #0.3
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qc.name(x0: ) -> name(r_op1_Luc_ ) #0.00734094616639
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x0 qr.x2 ) #0.0707070707071
+qr.xref(x0: ) -> r_ARG0-of(qc.x0 ) #0.0581395348837
+qc.enzyme(x0: x1: r_xref(x2: ) ) -> enzyme(qr.x0 qr.x1 qr.x2 ) #1.0
+qc.name(x0: ) -> name(r_op1_Ras_ ) #0.00652528548124
+qc.mutate-01(x0: ) -> mutate-01(r_value_V12_ ) #0.173913043478
+qc.protein(x0: x1: ) -> protein(qr.x0 ) #0.047619047619
+qr.r_ARG2-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.4
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

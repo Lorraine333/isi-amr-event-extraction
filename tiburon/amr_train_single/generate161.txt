@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG2(x1 / protein-segment :name(x2 / name :op1 "N-terminus" )  :part-of(x3 / protein :name(x4 / name :op1 "Elmo1" )  :xref(x5 / xref :value "UNIPORT"ELMO1"HUMAN" ) ) )  :ARG1(x6 / macro-molecular-complex :name(x7 / name :op1 "Gβγ" ) ) )

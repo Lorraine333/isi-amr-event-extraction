@@ -1,0 +1,18 @@
+qr
+qc.lipid(r_op1(enzyme(x0: x1: ) ) x2: ) -> protein(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.TOP(contrast-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG0(x0: ) -> r_manner(qc.x0 ) #0.0161290322581
+qc.protein(x0: ) -> enzyme(qr.x0 ) #0.00591715976331
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qc.activity-06(x0: ) -> add-modification-00(qr.x0 ) #0.125
+qr.r_op1_DIRAS_ -> r_op1_DIRAS_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qc.kinase -> phosphorylate-01 #0.5
+qr.r_op2(x0: ) -> r_ARG1-of(qc.x0 ) #0.00884955752212
+qc.fail-01(x0: r_ARG2(stimulate-01(x1: ) ) r_manner(x2: ) ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.in-vitro -> r_polarity_- #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

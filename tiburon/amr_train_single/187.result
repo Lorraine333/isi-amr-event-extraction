@@ -1,0 +1,20 @@
+q22
+q22 -> TOP(q23) # 1.000000
+q41 -> xref(q48) # 1.000000
+q42 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q39 -> xref(q42) # 1.000000
+q35 -> r_xref(q41) # 1.000000
+q30 -> r_xref(q39) # 1.000000
+q40 -> name(q43) # 1.000000
+q25 -> r_ARG1(q29) # 1.000000
+q38 -> name(q44 q45) # 1.000000
+q48 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q44 -> r_op1_estrogen_ # 1.000000
+q45 -> r_op2_receptor_ # 1.000000
+q29 -> protein(q34 q35) # 1.000000
+q31 -> r_name(q40) # 1.000000
+q28 -> protein(q30 q31) # 1.000000
+q24 -> r_ARG0(q28) # 1.000000
+q34 -> r_name(q38) # 1.000000
+q43 -> r_op1_SRC-3_ # 1.000000
+q23 -> add-modification-00(q24 q25) # 1.000000

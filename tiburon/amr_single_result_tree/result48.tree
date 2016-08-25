@@ -1,0 +1,11 @@
+Tree info for input tree amr48.tree:
+	54 nodes
+	10 yield length
+Transducer info for input tree transducer simple48.trans:
+	2 states
+	24 rules
+RTG info for forward application of tree:
+	30 states
+	36 rules
+	10 unique terminal symbols
+	36 derivations

@@ -1,0 +1,19 @@
+qr
+qc.subunit(r_mod(protein(x0: x1: ) ) r_part-of(kinase(x2: ) ) ) -> protein-family(qr.x0 r_part-of(macro-molecular-complex(qr.x1 qr.x2 ) ) ) #1.0
+qr.r_op1_p85_ -> r_op1_p85_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.TOP(have-concession-91(r_ARG1(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.name(x0: ) -> mutate-01(qr.x0 ) #0.00407830342577
+qr.r_name(x0: ) -> r_ARG1-of(qc.x0 ) #0.00287769784173
+qr.r_op1_472_ -> r_op1_Gab1_ #0.333333333333
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qc.fail-01(x0: r_ARG2(associate-01(x1: ) ) ) -> bind-01(qr.x0 qr.x1 r_polarity_- ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_Gab1F446_ -> r_value_F446/472/589_ #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.name(x0: ) -> name(r_op1_PI3K_ ) #0.0114192495922
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ ) #0.015873015873
+qc.slash(r_op1(enzyme(x0: x1: ) ) r_op2(enzyme(x2: ) ) x3: ) -> protein(qr.x0 qr.x1 qr.x2 ) #1.0

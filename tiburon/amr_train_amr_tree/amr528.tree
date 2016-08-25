@@ -1,0 +1,1 @@
+TOP(contrast-01(r_ARG2(fail-01(r_ARG1(protein(r_name(name(r_op1_DIRAS_)))) r_ARG2(stimulate-01(r_ARG1(lipid(r_op1(enzyme(r_name(name(r_op1_p110β_)) r_xref(xref(r_value_UNIPROT_EXOS6_HUMAN_)))) r_op2(activity-06(r_ARG0(kinase))))))) r_manner(in-vitro))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_2_))))))

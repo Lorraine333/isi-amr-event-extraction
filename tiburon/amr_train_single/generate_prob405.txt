@@ -1,0 +1,1 @@
+(x0 / protein :ARG0(x1 / protein) )

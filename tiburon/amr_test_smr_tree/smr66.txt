@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG0(x1 / protein :ARG1-of(x2 / mutate-01)  :xref(x3 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x4 / name :op1 "SRC-3" ) )  :ARG1(x5 / cell-line :name(x6 / name :op1 "HEK" )  :xref(x7 / xref :value "HEK"CVCL"0063" ) ) )

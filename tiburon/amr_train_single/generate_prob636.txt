@@ -1,0 +1,1 @@
+(x0 / enzyme :xref(x1 / xref :value "UNIPROT"PK3CB"HUMAN" )  :name(x2 / name :op1 "LPA" ) )

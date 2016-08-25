@@ -1,0 +1,22 @@
+qr
+qr.r_op1_Ras/Raf/MEK/Erk_ -> r_op1_Ras/Raf/MEK/Erk_ #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.TOP(demonstrate-01(x0: r_ARG1(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG0(x0: ) -> r_part(qc.x0 ) #0.0290322580645
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.name(x0: ) -> name(r_op1_Akt_ ) #0.00244698205546
+qr.r_ARG1(x0: ) -> r_part(qc.x0 ) #0.0165413533835
+qc.xref(x0: ) -> xref(r_value_UNIPROT_P85A_HUMAN_ ) #0.015873015873
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_PI3K_ -> r_op1_PI3K_ #1.0
+qc.enzyme(x0: ) -> enzyme(r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_ ) ) qr.x0 ) #0.0153846153846
+qc.enzyme(x0: ) -> pathway(qr.x0 ) #0.0153846153846
+qr.r_op1_MKP3_ -> r_op1_MKP3_ #0.944444444444
+qc.activate-01(r_ARG0(downregulate-01(x0: x1: ) ) x2: ) -> decrease-01(qr.x0 r_ARG0(increase-01(qr.x1 r_ARG1(add-modification-00(r_manner(phosphorylate-01 ) qr.x2 r_ARG0(protein ) ) ) ) ) ) #1.0
+qc.regulate-01(x0: r_ARG1(transcribe-01(x1: ) ) ) -> macro-molecular-complex(qr.x0 qr.x1 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.gene(x0: x1: ) -> gene(qr.x0 qr.x1 ) #0.142857142857
+qr.r_ARG1(signal-07(r_ARG0(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.xref(x0: ) -> xref(r_value_HGNC_17007_ ) #0.00113378684807
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

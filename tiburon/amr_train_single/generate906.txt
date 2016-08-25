@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :ARG1(x2 / enzyme :xref(x3 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x4 / name :op1 "Erk1"2" ) )  :ARG0(x5 / protein) )  :ARG0(x6 / enzyme :ARG1-of(x7 / add-modification-00 :manner(x8 / phosphorylate-01) )  :name(x9 / name :op1 "Ras" ) ) )

@@ -1,0 +1,5 @@
+q0
+q0 -> TOP(q1 )
+q1 -> muti-index-card(q2 q3 )
+q2 -> r_op1_RAC_
+q3 -> r_value_UNIPROT_AKT1_HUMAN_

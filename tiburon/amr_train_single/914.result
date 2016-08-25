@@ -1,0 +1,12 @@
+q12
+q12 -> TOP(q13) # 1.000000
+q22 -> r_op1_Ras_ # 1.000000
+q20 -> name(q22) # 1.000000
+q13 -> increase-01(q14) # 1.000000
+q21 -> add-modification-00(q23) # 1.000000
+q16 -> r_name(q20) # 1.000000
+q23 -> r_manner(q24) # 1.000000
+q14 -> r_ARG1(q15) # 1.000000
+q15 -> enzyme(q16 q17) # 1.000000
+q17 -> r_ARG1-of(q21) # 1.000000
+q24 -> phosphorylate-01 # 1.000000

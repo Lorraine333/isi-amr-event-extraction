@@ -1,0 +1,19 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.temporal-quantity(x0: r_unit(x1: ) ) -> name(qr.x0 qr.x1 ) #1.0
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 ) #0.234513274336
+qc.describe-01(x0: ) -> add-modification-00(r_manner(phosphorylate-01 ) r_ARG1(enzyme(r_name(name(r_op1_Ras_ ) ) ) ) qr.x0 ) #0.0666666666667
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0952380952381
+qc.and(x0: x1: ) -> increase-01(r_mode(hypothesis ) qr.x0 qr.x1 ) #0.0294117647059
+qr.r_ARG1-of(x0: ) -> r_ARG0(qc.x0 ) #0.105882352941
+qr.minute -> r_UNK #1.0
+qr.r_quant_30_ -> r_UNK #1.0
+qc.name(x0: ) -> name(r_op1_Erk1/2_ ) #0.00652528548124
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_duration(x0: ) -> r_name(qc.x0 ) #0.5
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.xref(x0: ) -> xref(r_value_UNIPROT_MK01_HUMAN_ ) #0.0260770975057
+qr.r_ARG0(figure(x0: ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.r_mod_1_ -> protein #0.142857142857
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.stimulate-01(x0: x1: ) -> increase-01(qr.x0 r_ARG0(molecular-physical-entity(qr.x1 ) ) ) #1.0

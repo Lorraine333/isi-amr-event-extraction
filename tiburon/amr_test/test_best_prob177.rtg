@@ -1,0 +1,9 @@
+q0
+q0 -> TOP(q1 )
+q1 -> cell-line(q2 q5 )
+q2 -> r_xref(q3 )
+q5 -> r_name(q6 )
+q3 -> xref(q4 )
+q6 -> name(q7 )
+q4 -> r_value_NIH3T3_CVCL_0594_
+q7 -> r_op1_NIH3T3_

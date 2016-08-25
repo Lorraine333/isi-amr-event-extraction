@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / protein)  :ARG0(x2 / phosphorylate-01) )

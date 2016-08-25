@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / enzyme :ARG0-of(x2 / activity-06)  :name(x3 / name :op1 "p110" )  :ARG1-of(x4 / mutate-01 :value "CAAX" ) )  :ARG1(x5 / macro-molecular-complex :part(x6 / enzyme :name(x7 / name :op1 "Mkp3" )  :xref(x8 / xref :value "UNIPROT"DUS6"HUMAN" ) )  :ARG0-of(x9 / activity-06)  :part(x10 / protein :name(x11 / name :op1 "Luc" ) ) ) )

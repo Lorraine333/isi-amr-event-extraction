@@ -1,0 +1,27 @@
+q29
+q29 -> TOP(q30) # 1.000000
+q51 -> name(q54) # 1.000000
+q33 -> r_ARG1(q41) # 1.000000
+q52 -> protein(q56 q57 q58) # 1.000000
+q67 -> r_op1_alanine_ # 1.000000
+q43 -> r_xref(q50) # 1.000000
+q50 -> xref(q65) # 1.000000
+q73 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q40 -> molecular-physical-entity(q42 q43) # 1.000000
+q68 -> name(q71) # 1.000000
+q47 -> r_name(q53) # 1.000000
+q42 -> r_name(q51) # 1.000000
+q69 -> mutate-01 # 1.000000
+q65 -> r_value_CHEBI_50114_ # 1.000000
+q71 -> r_op1_SRC-3_ # 1.000000
+q54 -> r_op1_E2_ # 1.000000
+q57 -> r_xref(q70) # 1.000000
+q58 -> r_ARG2-of(q69) # 1.000000
+q53 -> name(q67) # 1.000000
+q41 -> amino-acid(q46 q47) # 1.000000
+q32 -> r_polarity_- # 1.000000
+q30 -> translocate-01(q31 q32 q33) # 1.000000
+q56 -> r_name(q68) # 1.000000
+q31 -> r_ARG0(q40) # 1.000000
+q70 -> xref(q73) # 1.000000
+q46 -> r_part-of(q52) # 1.000000

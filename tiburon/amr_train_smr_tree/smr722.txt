@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :manner(x1 / activate-01 :ARG0(x2 / and :op1 (x3 / enzyme :name(x4 / name :op1 "RAC" ) )  :op2 (x5 / protein :name(x6 / name :op1 "CDC42" ) ) )  :ARG1(x7 / enzyme :name(x8 / name :op1 "p110β" ) ) ) )

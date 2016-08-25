@@ -1,0 +1,1 @@
+(x0 / increase-01 :location(x1 / cell)  :ARG0(x2 / small-molecule :name(x3 / name :UNK )  :xref(x4 / xref :UNK ) )  :polarity"-  :ARG1(x5 / add-modification-00 :ARG1(x6 / protein :xref(x7 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x8 / name :op1 "SRC-3" ) )  :manner(x9 / phosphorylate-01)  :ARG0(x10 / protein) ) )

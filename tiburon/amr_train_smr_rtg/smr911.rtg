@@ -1,0 +1,53 @@
+q0
+q0 -> TOP(q1 )
+q1 -> decrease-01(q36 q2 )
+q1 -> decrease-01(q2 q36 )
+q36 -> r_ARG1(q37 )
+q2 -> r_ARG0(q3 )
+q37 -> pathway(q38 )
+q3 -> increase-01(q18 q4 )
+q3 -> increase-01(q4 q18 )
+q38 -> r_name(q39 )
+q18 -> r_ARG0(q19 )
+q4 -> r_ARG1(q5 )
+q39 -> name(q40 )
+q19 -> macro-molecular-complex(q28 q20 )
+q19 -> macro-molecular-complex(q20 q28 )
+q5 -> add-modification-00(q16 q8 q6 )
+q5 -> add-modification-00(q16 q6 q8 )
+q5 -> add-modification-00(q8 q16 q6 )
+q5 -> add-modification-00(q8 q6 q16 )
+q5 -> add-modification-00(q6 q16 q8 )
+q5 -> add-modification-00(q6 q8 q16 )
+q40 -> r_op1_Ras/Raf/MEK/Erk_
+q28 -> r_part(q29 )
+q20 -> r_part(q21 )
+q16 -> r_manner(q17 )
+q8 -> r_ARG1(q9 )
+q6 -> r_ARG0(q7 )
+q29 -> enzyme(q33 q30 )
+q29 -> enzyme(q30 q33 )
+q21 -> enzyme(q25 q22 )
+q21 -> enzyme(q22 q25 )
+q17 -> phosphorylate-01
+q9 -> gene(q13 q10 )
+q9 -> gene(q10 q13 )
+q7 -> protein
+q33 -> r_name(q34 )
+q30 -> r_xref(q31 )
+q25 -> r_xref(q26 )
+q22 -> r_name(q23 )
+q13 -> r_name(q14 )
+q10 -> r_xref(q11 )
+q34 -> name(q35 )
+q31 -> xref(q32 )
+q26 -> xref(q27 )
+q23 -> name(q24 )
+q14 -> name(q15 )
+q11 -> xref(q12 )
+q35 -> r_op1_PI3K_
+q32 -> r_value_UNIPROT_P85A_HUMAN_
+q27 -> r_value_UNIPROT_AKT1_HUMAN_
+q24 -> r_op1_Akt_
+q15 -> r_op1_MKP3_
+q12 -> r_value_HGNC_17007_

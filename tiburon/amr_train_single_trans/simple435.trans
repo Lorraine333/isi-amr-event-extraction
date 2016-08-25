@@ -1,0 +1,11 @@
+qr
+qr.TOP(and(r_op1(x0: ) x1: ) ) -> TOP(qc.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_op1_p110α_ -> r_op1_p110α_
+qc.protein-family(x0: ) -> protein(qr.x0 )
+qr.r_op1_RAS_ -> r_op1_RAS_
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.activate-01(x0: x1: x2: x3: x4: ) -> increase-01(qr.x0 qr.x4 )
+qc.isoform(x0: ) -> enzyme(qr.x0 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )

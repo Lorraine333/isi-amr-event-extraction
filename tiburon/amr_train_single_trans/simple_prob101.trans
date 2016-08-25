@@ -1,0 +1,24 @@
+qr
+qc.r_value_UNIPROT_ELF4_HUMAN_ -> protein #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(and(x0: r_op2(x1: ) ) ) -> r_ARG1(qc.x1 ) #1.0
+qr.r_op1_PLX_ -> r_op1_PLX_ #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.phosphorylate-01(x0: x1: r_ARG2(enzyme(x2: x3: r_xref(x4: ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x4 ) #1.0
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_24180719_ ) #0.00340136054422
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.pronounced-02 -> phosphorylate-01 #1.0
+qc.protein(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.0420168067227
+qr.r_op1_ERK_ -> r_op1_ERK_ #1.0
+qc.enzyme(x0: x1: x2: x3: ) -> cell-line(qr.x2 qr.x3 ) #0.0555555555556
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_op2(x0: ) -> r_location(qc.x0 ) #0.0176991150442
+qr.xref(x0: ) -> r_ARG0(qc.x0 ) #0.372093023256
+qc.name(x0: ) -> name(r_op1_MEF_ ) #0.031810766721
+qr.r_ARG1-of(x0: ) -> r_manner(qc.x0 ) #0.235294117647
+qc.xref(x0: ) -> xref(r_value_MEF-1_CVCL_4240_ ) #0.0102040816327
+qc.xref(x0: ) -> xref(r_value_UNIPORT_PLK1_HUMAN_ ) #0.00113378684807
+qc.induce-01(x0: r_ARG2(and(x1: x2: ) ) ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0

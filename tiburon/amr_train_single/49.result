@@ -1,0 +1,36 @@
+q44
+q44 -> TOP(q45) # 1.000000
+q48 -> r_ARG1(q58) # 1.000000
+q75 -> protein(q78 q79) # 1.000000
+q76 -> xref(q90) # 1.000000
+q56 -> cell-line(q64 q65) # 1.000000
+q79 -> r_xref(q94) # 1.000000
+q86 -> r_name(q95) # 1.000000
+q65 -> r_xref(q77) # 1.000000
+q58 -> increase-01(q68 q69) # 1.000000
+q72 -> name(q83) # 1.000000
+q77 -> xref(q82) # 1.000000
+q69 -> r_ARG1(q73) # 1.000000
+q85 -> r_ARG0-of(q92) # 1.000000
+q61 -> r_xref(q76) # 1.000000
+q95 -> name(q100) # 1.000000
+q82 -> r_value_MEF-1_CVCL_4240_ # 1.000000
+q74 -> name(q89) # 1.000000
+q90 -> r_value_UNIPROT_ERBB3_HUMAN_ # 1.000000
+q100 -> r_op1_PI-3/Akt_ # 1.000000
+q93 -> name(q96) # 1.000000
+q47 -> r_location(q56) # 1.000000
+q73 -> pathway(q85 q86) # 1.000000
+q46 -> r_ARG0(q57) # 1.000000
+q96 -> r_op1_EGF_ # 1.000000
+q83 -> r_op1_ErbB3_ # 1.000000
+q57 -> protein(q60 q61) # 1.000000
+q98 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q92 -> activity-06 # 1.000000
+q89 -> r_op1_MEF_ # 1.000000
+q64 -> r_name(q74) # 1.000000
+q45 -> increase-01(q46 q47 q48) # 1.000000
+q68 -> r_ARG0(q75) # 1.000000
+q60 -> r_name(q72) # 1.000000
+q78 -> r_name(q93) # 1.000000
+q94 -> xref(q98) # 1.000000

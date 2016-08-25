@@ -1,0 +1,19 @@
+q21
+q21 -> TOP(q22) # 1.000000
+q40 -> name(q44) # 1.000000
+q34 -> r_name(q40) # 1.000000
+q24 -> r_ARG0(q28) # 1.000000
+q41 -> r_op1_MKP3_ # 1.000000
+q43 -> r_value_UNIPROT_DUS6_HUMAN_ # 1.000000
+q33 -> r_xref(q39) # 1.000000
+q30 -> r_xref(q38) # 1.000000
+q28 -> protein(q33 q34) # 1.000000
+q27 -> enzyme(q29 q30) # 1.000000
+q42 -> r_value_UNIPROT_FGF8_HUMAN_ # 1.000000
+q38 -> xref(q43) # 1.000000
+q29 -> r_name(q37) # 1.000000
+q22 -> increase-01(q23 q24) # 1.000000
+q37 -> name(q41) # 1.000000
+q23 -> r_ARG1(q27) # 1.000000
+q39 -> xref(q42) # 1.000000
+q44 -> r_op1_FGF8_ # 1.000000

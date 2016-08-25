@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / enzyme :name(x2 / name :op1 "ERK" )  :xref(x3 / xref :value "UNIPROT"MK01"HUMAN" ) )  :ARG0(x4 / bind-01 :ARG1(x5 / small-molecule)  :ARG2(x6 / protein-segment :name(x7 / name :op2 "site"  :op1 "ATP-binding" )  :part-of(x8 / enzyme) ) ) )

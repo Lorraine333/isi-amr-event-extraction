@@ -1,0 +1,36 @@
+q769
+q769 -> TOP(q770) # 1.000000
+q782 -> r_ARG0(q793) # 1.000000
+q781 -> r_ARG1(q787) # 1.000000
+q781 -> r_ARG1(q786) # 1.000000
+q1680 -> phosphorylate-01 # 1.000000
+q856 -> name(q1299) # 1.000000
+q1425 -> r_op1_Erk1/2_ # 1.000000
+q866 -> xref(q988) # 1.000000
+q866 -> xref(q1046) # 1.000000
+q818 -> r_xref(q882) # 1.000000
+q1681 -> phosphorylate-01 # 1.000000
+q829 -> r_name(q861) # 1.000000
+q865 -> add-modification-00(q1508) # 1.000000
+q795 -> r_name(q856) # 1.000000
+q1299 -> r_op1_FGF2_ # 1.000000
+q1160 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q988 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q846 -> r_ARG1-of(q875) # 1.000000
+q1405 -> r_op1_Erk1/2_ # 1.000000
+q1046 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q793 -> protein(q795 q796) # 1.000000
+q787 -> enzyme(q846 q848 q829) # 1.000000
+q828 -> r_ARG1-of(q865) # 1.000000
+q848 -> r_xref(q874) # 1.000000
+q796 -> r_xref(q866) # 1.000000
+q1508 -> r_manner(q1680) # 1.000000
+q1513 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q1402 -> r_manner(q1681) # 1.000000
+q874 -> xref(q1160) # 1.000000
+q875 -> add-modification-00(q1402) # 1.000000
+q861 -> name(q1405) # 1.000000
+q861 -> name(q1425) # 1.000000
+q770 -> increase-01(q781 q782) # 1.000000
+q882 -> xref(q1513) # 1.000000
+q786 -> enzyme(q828 q829 q818) # 1.000000

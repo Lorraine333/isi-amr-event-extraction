@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG1(bind-01(r_ARG1(small-molecule) r_ARG2(complex-with-00(r_ARG2(enzyme(r_name(name(r_op1_CRAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))) r_ARG1(enzyme(r_name(name(r_op1_CRAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))))))) r_ARG1(protein))) # 1.021301E-10

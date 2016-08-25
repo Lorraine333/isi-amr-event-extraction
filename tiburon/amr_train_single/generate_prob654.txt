@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / muti-index-card :op1 "AKT"  :value "UNIPROT"AKT1"HUMAN" )  :ARG0(x2 / protein-sement :ARG1(x3 / small-molecule :name(x4 / name :op1 "LPA" )  :xref(x5 / xref :value "UNIPROT"NCOA3"HUMAN" ) )  :name(x6 / name :op1 "RBD" ) ) )

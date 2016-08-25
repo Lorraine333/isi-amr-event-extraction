@@ -1,0 +1,11 @@
+Tree info for input tree amr152.tree:
+	75 nodes
+	16 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	39 states
+	672 rules
+	208 unique terminal symbols
+	185254435435730021842 derivations

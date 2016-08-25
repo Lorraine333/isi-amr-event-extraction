@@ -1,0 +1,1 @@
+TOP(translocate-01(r_ARG1(cell(r_name(name(r_op1_ES_)))) r_ARG1(protein-segment(r_name(name(r_op1_exon_6_)) r_part-of(gene(r_name(xref(r_value_GO_)) r_name(xref(r_op1_murine_)))))) r_ARG1-of(describe-01(r_ARG0(figure(r_mod_S4_A_)))))) # 3.414397E-10

@@ -1,0 +1,62 @@
+q748
+q748 -> TOP(q749) # 1.000000
+q1042 -> r_op1_CDC42_ # 1.000000
+q849 -> name(q1370) # 1.000000
+q1128 -> r_op1_p110β_ # 1.000000
+q835 -> name(q940) # 1.000000
+q1324 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q753 -> r_ARG0(q779) # 1.000000
+q1299 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q819 -> xref(q1818) # 1.000000
+q788 -> r_xref(q825) # 1.000000
+q766 -> r_ARG1(q774) # 1.000000
+q812 -> r_xref(q819) # 1.000000
+q821 -> xref(q852) # 1.000000
+q808 -> r_xref(q844) # 1.000000
+q765 -> r_manner(q777) # 1.000000
+q807 -> r_name(q828) # 1.000000
+q1543 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q1021 -> r_op1_CDC42_ # 1.000000
+q1818 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q764 -> r_ARG0(q770) # 1.000000
+q833 -> name(q1128) # 1.000000
+q787 -> r_name(q835) # 1.000000
+q749 -> add-modification-00(q752 q753 q754) # 1.000000
+q749 -> add-modification-00(q752 q755 q756) # 1.000000
+q749 -> add-modification-00(q764 q765 q754) # 1.000000
+q749 -> add-modification-00(q766 q765 q756) # 1.000000
+q828 -> name(q1021) # 1.000000
+q828 -> name(q1042) # 1.000000
+q940 -> r_op1_CDC42_ # 1.000000
+q830 -> name(q1735) # 1.000000
+q755 -> r_ARG1(q771) # 1.000000
+q834 -> name(q1614) # 1.000000
+q802 -> r_xref(q821) # 1.000000
+q842 -> xref(q1543) # 1.000000
+q1496 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q777 -> phosphorylate-01 # 1.000000
+q844 -> xref(q1299) # 1.000000
+q844 -> xref(q1324) # 1.000000
+q794 -> r_xref(q842) # 1.000000
+q771 -> enzyme(q801 q802) # 1.000000
+q782 -> r_xref(q846) # 1.000000
+q770 -> protein(q787 q788) # 1.000000
+q774 -> enzyme(q793 q794) # 1.000000
+q825 -> xref(q1255) # 1.000000
+q756 -> r_ARG0(q773) # 1.000000
+q752 -> r_manner(q776) # 1.000000
+q769 -> enzyme(q811 q812) # 1.000000
+q1735 -> r_op1_CDC42_ # 1.000000
+q781 -> r_name(q830) # 1.000000
+q1370 -> r_op1_p110β_ # 1.000000
+q776 -> phosphorylate-01 # 1.000000
+q1614 -> r_op1_p110β_ # 1.000000
+q846 -> xref(q1496) # 1.000000
+q1255 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q773 -> protein(q781 q782) # 1.000000
+q811 -> r_name(q849) # 1.000000
+q793 -> r_name(q833) # 1.000000
+q852 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q779 -> protein(q807 q808) # 1.000000
+q754 -> r_ARG1(q769) # 1.000000
+q801 -> r_name(q834) # 1.000000

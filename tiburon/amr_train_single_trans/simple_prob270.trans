@@ -1,0 +1,26 @@
+qr
+qc.name(x0: ) -> name(r_op1_tamoxifen_ ) #0.00652528548124
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 ) #0.234513274336
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op1(x0: ) -> r_ARG0(qc.x0 ) #0.275132275132
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.notice-01(x0: x1: r_ARG1(induce-01(r_ARG2(phosphorylate-01(x2: x3: ) ) ) ) ) -> increase-01(qr.x0 qr.x2 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_value_PUBCHEM_2733526_ -> r_value_PUBCHEM_2733526_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.name(x0: ) -> name(r_op1_ERα_ ) #0.0236541598695
+qc.and(x0: x1: r_op3(peptide(r_ARG1-of(describe-01(x2: ) ) r_ARG1-of(resemble-01(x3: r_ARG2(enzyme(r_name(x4: ) ) ) ) ) ) ) ) -> increase-01(qr.x0 r_ARG1(add-modification-00(qr.x1 qr.x2 qr.x4 ) ) r_polarity_- ) #1.0
+qc.name(x0: ) -> name(r_op1_serine_ ) #0.0163132137031
+qr.r_op1_4HT_ -> r_op1_SRC-3_ #0.666666666667
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.protein(x0: r_location(and(r_op1(x1: ) r_op2(enzyme(x2: ) ) ) ) x3: ) -> amino-acid(qr.x0 qr.x1 r_part-of(protein(qr.x2 qr.x3 ) ) ) #1.0
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qr.figure -> r_mod_505_ #0.444444444444
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_ ) ) qr.x0 ) #0.0355029585799
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qc.figure -> protein #0.846153846154
+qc.r_op1_E2_ -> phosphorylate-01 #0.769230769231

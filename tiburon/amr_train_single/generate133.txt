@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :name(x2 / name :op1 "RAC1" )  :xref(x3 / xref :value "UNIPROT"RAC1"HUMAN" )  :part-of(x4 / protein-family :name(x5 / name :op1 "RHO" ) ) )  :ARG2(x6 / protein-segment :part-of(x7 / enzyme :name(x8 / name :op1 "p110β" )  :xref(x9 / xref :value "UNIPROT"PK3CB"HUMAN" ) )  :name(x10 / name :op1 "RBD" ) ) )

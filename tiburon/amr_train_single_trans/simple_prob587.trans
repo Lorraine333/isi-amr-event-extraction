@@ -1,0 +1,24 @@
+qr
+qr.r_op1_RAC1_ -> r_op1_RAC1_ #1.0
+qc.protein(r_name(x0: ) r_xref(x1: ) ) -> add-modification-00(qr.x0 qr.x1 ) #1.0
+qr.cell -> r_polarity_- #1.0
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.211764705882
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.or(r_op1(enzyme(x0: x1: x2: ) ) x3: ) -> protein(qr.x1 qr.x2 qr.x3 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.or(r_op1(stimulate-01(x0: x1: x2: x3: x4: x5: ) ) r_op2(x6: ) ) -> increase-01(qr.x1 qr.x3 qr.x5 qr.x6 ) #1.0
+qr.r_op1_p110β_ -> r_op1_p110β_ #0.984848484848
+qc.r_op1_CDC42_ -> phosphorylate-01 #1.0
+qc.figure(x0: ) -> figure(qr.x0 ) #0.384615384615
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qr.r_mod_3_ -> r_mod_3_B_ #0.2
+qc.describe-01(x0: ) -> describe-01(qr.x0 ) #0.733333333333
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.TOP(resemble-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qr.xref(x0: ) -> r_ARG0(qc.x0 ) #0.372093023256
+qc.r_value_UNIPROT_CDC42_HUMAN_ -> protein #0.125
+qr.r_op2(x0: ) -> r_ARG1-of(qc.x0 ) #0.00884955752212

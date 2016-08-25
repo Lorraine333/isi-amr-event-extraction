@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / protein-family :ARG1(x2 / nucleus)  :name(x3 / name :op1 "ERα" ) )  :polarity"-  :ARG0(x4 / phosphorylate-01) )

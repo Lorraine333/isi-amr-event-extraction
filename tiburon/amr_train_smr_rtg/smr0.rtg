@@ -1,0 +1,61 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q32 q10 q2 )
+q1 -> increase-01(q32 q2 q10 )
+q1 -> increase-01(q10 q32 q2 )
+q1 -> increase-01(q10 q2 q32 )
+q1 -> increase-01(q2 q32 q10 )
+q1 -> increase-01(q2 q10 q32 )
+q32 -> r_ARG0(q33 )
+q10 -> r_ARG1(q11 )
+q2 -> r_location(q3 )
+q33 -> protein(q40 q37 q34 )
+q33 -> protein(q40 q34 q37 )
+q33 -> protein(q37 q40 q34 )
+q33 -> protein(q37 q34 q40 )
+q33 -> protein(q34 q40 q37 )
+q33 -> protein(q34 q37 q40 )
+q11 -> increase-01(q24 q12 )
+q11 -> increase-01(q12 q24 )
+q3 -> cell-line(q7 q4 )
+q3 -> cell-line(q4 q7 )
+q40 -> r_mod(q41 )
+q37 -> r_name(q38 )
+q34 -> r_xref(q35 )
+q24 -> r_ARG0(q25 )
+q12 -> r_ARG1(q13 )
+q7 -> r_xref(q8 )
+q4 -> r_name(q5 )
+q41 -> wild-type
+q38 -> name(q39 )
+q35 -> xref(q36 )
+q25 -> protein(q29 q26 )
+q25 -> protein(q26 q29 )
+q13 -> macro-molecular-complex(q20 q17 q14 )
+q13 -> macro-molecular-complex(q20 q14 q17 )
+q13 -> macro-molecular-complex(q17 q20 q14 )
+q13 -> macro-molecular-complex(q17 q14 q20 )
+q13 -> macro-molecular-complex(q14 q20 q17 )
+q13 -> macro-molecular-complex(q14 q17 q20 )
+q8 -> xref(q9 )
+q5 -> name(q6 )
+q39 -> r_op1_Gab1_
+q36 -> r_value_UNIPROT_GAB1_HUMAN_
+q29 -> r_name(q30 )
+q26 -> r_xref(q27 )
+q20 -> r_ARG1-of(q21 )
+q17 -> r_name(q18 )
+q14 -> r_xref(q15 )
+q9 -> r_value_MEF-1_CVCL_4240_
+q6 -> r_op1_MEF_
+q30 -> name(q31 )
+q27 -> xref(q28 )
+q21 -> add-modification-00(q22 )
+q18 -> name(q19 )
+q15 -> xref(q16 )
+q31 -> r_op1_EGF_
+q28 -> r_value_UNIPROT_EGF_HUMAN_
+q22 -> r_manner(q23 )
+q19 -> r_op1_PI3K_
+q16 -> r_value_UNIPROT_P85A_HUMAN_
+q23 -> phosphorylate-01

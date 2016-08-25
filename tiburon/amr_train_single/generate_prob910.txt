@@ -1,0 +1,1 @@
+(x0 / decrease-01 :manner(x1 / pathway :name(x2 / name :op1 "PI3K"Akt" ) )  :ARG1(x3 / increase-01 :ARG0(x4 / phosphorylate-01)  :ARG1(x5 / amino-acid :name(x6 / name :op1 "MKP3" )  :manner(x7 / smr-empty)  :mod "740" ) ) )

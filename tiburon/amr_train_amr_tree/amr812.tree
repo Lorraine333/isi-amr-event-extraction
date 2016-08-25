@@ -1,0 +1,1 @@
+TOP(represent-01(r_ARG1(area(r_mod(lung) r_source(mouse(r_mod(wild-type) r_mod(enzyme(r_mod(homozygous) r_name(name(r_op1_p110β-RBD_)) r_xref(xref(r_value_UNIPROT_BID_HUMAN_)))) r_mod(dm) r_ARG1-of(after(r_quant(temporal-quantity(r_quant_14_ r_unit(day))) r_op1(treat-04(r_ARG2(small-molecule(r_name(name(r_op1_intratracheal_ r_op2_bleomycin_)))) r_ARG1-of(UNK)))))))))))

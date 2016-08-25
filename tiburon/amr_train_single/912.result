@@ -1,0 +1,37 @@
+q43
+q43 -> TOP(q44) # 1.000000
+q47 -> r_ARG0(q56) # 1.000000
+q57 -> r_xref(q77) # 1.000000
+q46 -> r_ARG1(q55) # 1.000000
+q58 -> r_name(q72) # 1.000000
+q98 -> xref(q102) # 1.000000
+q86 -> r_value_PUBCHEM_54671203_ # 1.000000
+q103 -> r_op1_H-Ras_ # 1.000000
+q72 -> name(q83) # 1.000000
+q63 -> r_manner(q78) # 1.000000
+q102 -> r_value_UNIPROT_RASH_HUMAN_ # 1.000000
+q74 -> enzyme(q87 q88 q89) # 1.000000
+q64 -> r_ARG1(q74) # 1.000000
+q84 -> r_value_NIH3T3_CVCL_0594_ # 1.000000
+q59 -> r_name(q73) # 1.000000
+q101 -> r_value_G12R_ # 1.000000
+q87 -> r_ARG2-of(q97) # 1.000000
+q89 -> r_xref(q98) # 1.000000
+q97 -> mutate-01(q101) # 1.000000
+q65 -> r_ARG0(q79) # 1.000000
+q56 -> small-molecule(q59 q60) # 1.000000
+q76 -> xref(q86) # 1.000000
+q81 -> r_op1_doxycycline_ # 1.000000
+q100 -> name(q103) # 1.000000
+q77 -> xref(q84) # 1.000000
+q54 -> cell-line(q57 q58) # 1.000000
+q54 -> cell-line(q58 q57) # 1.000000
+q78 -> phosphorylate-01 # 1.000000
+q45 -> r_location(q54) # 1.000000
+q73 -> name(q81) # 1.000000
+q88 -> r_name(q100) # 1.000000
+q83 -> r_op1_NIH3T3_ # 1.000000
+q44 -> increase-01(q45 q46 q47) # 1.000000
+q79 -> protein # 1.000000
+q55 -> add-modification-00(q63 q64 q65) # 1.000000
+q60 -> r_xref(q76) # 1.000000

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / smr-empty)  :ARG1(x2 / hypothesis)  :ARG0(x3 / enzyme :ARG1-of(x4 / add-modification-00 :ARG1-of(x5 / activity-06) )  :name(x6 / xref :op1 "Ras" ) ) )

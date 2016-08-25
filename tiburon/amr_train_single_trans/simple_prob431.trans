@@ -1,0 +1,10 @@
+qr
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_CRAF_ -> r_op1_CRAF_ #1.0
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.wild-type -> wild-type #0.741935483871
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.or(x0: x1: x2: ) -> increase-01(qr.x1 ) #0.5
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x0 qr.x1 ) #0.111111111111
+qr.TOP(overexpress-01(r_ARG0(x0: ) x1: x2: ) ) -> TOP(qc.x0 ) #1.0
+qr.r_mod(x0: ) -> r_mod(qc.x0 ) #0.268292682927

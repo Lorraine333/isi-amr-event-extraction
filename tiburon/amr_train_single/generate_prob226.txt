@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG1(x1 / and :ARG0(x2 / name :op1 "E2" )  :ARG0(x3 / protein) )  :manner(x4 / phosphorylate-01) )

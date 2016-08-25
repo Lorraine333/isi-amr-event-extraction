@@ -1,0 +1,1 @@
+TOP(possible-01(r_ARG1(activate-01(r_ARG1(pathway(r_ARG0-of(modify-01(r_ARG1(enzyme(r_name(name(r_op1_Protein_)) r_xref(xref(r_value_UNIPROT_S45A3_HUMAN_)))))))) r_ARG0(stimulus(r_mod(various) r_ARG2-of(include-01(r_ARG1(and(r_op1(hormone) r_op2(growth-factor)))))))))))

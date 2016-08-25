@@ -1,0 +1,18 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.that -> protein #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_ARG1(x0: ) -> r_manner(qc.x0 ) #0.0165413533835
+qc.level -> phosphorylate-01 #1.0
+qc.r_unit(x0: ) -> name(qr.x0 ) #0.5
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_quant_12_ -> r_value_UNIPROT_FGF2_HUMAN_ #1.0
+qc.resemble-01(x0: x1: r_location(cell(r_ARG1-of(treat-04(x2: x3: ) ) ) ) ) -> increase-01(r_ARG1(add-modification-00(qr.x0 qr.x1 qr.x2 ) ) qr.x3 ) #1.0
+qc.small-molecule(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0693069306931
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.hour -> r_op1_FGF2_ #0.25
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.xref(x0: ) -> xref(r_value_UNIPROT_MK01_HUMAN_ ) #0.0260770975057
+qc.name(x0: ) -> name(r_op1_Erk1/2_ ) #0.00652528548124
+qc.temporal-quantity(x0: x1: ) -> protein(r_xref(xref(qr.x0 ) ) r_name(qc.x1 ) ) #1.0
+qr.r_duration(x0: ) -> r_ARG0(qc.x0 ) #0.5

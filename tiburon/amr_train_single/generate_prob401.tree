@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(protein(r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)) r_name(name(r_value_CC_)) r_ARG1-of(mutate-01))) r_ARG1(protein(r_manner(phosphorylate-01))))) # 0.008792

@@ -1,0 +1,19 @@
+qr
+qr.r_ARG1(x0: ) -> r_manner(qc.x0 ) #0.0165413533835
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.phosphorylate-01(r_purpose(test-01(x0: r_ARG1(role(x1: r_topic(phosphorylate-01(x2: ) ) ) ) ) ) x3: x4: r_ARG1-of(use-01(x5: r_ARG2(determine-01(r_ARG1(require-01(x6: x7: ) ) ) ) ) ) ) -> increase-01(qr.x0 qr.x1 r_ARG1(add-modification-00(qr.x2 qr.x3 qr.x7 ) ) ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.protein(x0: ) -> protein #0.260355029586
+qr.r_degree(x0: ) -> r_mode(qc.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qr.r_poss(x0: ) -> r_ARG0(qc.x0 ) #1.0
+qc.phosphorylate-01(x0: ) -> phosphorylate-01 #0.606060606061
+qc.further -> hypothesis #1.0
+qc.name(x0: x1: ) -> name(qr.x1 ) #0.238095238095
+qc.protein(x0: ) -> protein-segment(qr.x0 ) #0.00591715976331
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op2_1_ -> r_op1_AF-1_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

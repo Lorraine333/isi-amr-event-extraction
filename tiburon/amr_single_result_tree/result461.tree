@@ -1,0 +1,11 @@
+Tree info for input tree amr461.tree:
+	53 nodes
+	9 yield length
+Transducer info for input tree transducer simple461.trans:
+	2 states
+	18 rules
+RTG info for forward application of tree:
+	22 states
+	32 rules
+	3 unique terminal symbols
+	576 derivations

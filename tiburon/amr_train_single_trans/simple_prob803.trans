@@ -1,0 +1,7 @@
+qr
+qr.r_mod(way(x0: ) ) -> r_mod(qc.x0 ) #1.0
+qc.r_quant_1_ -> wild-type #1.0
+qc.name(x0: ) -> name(r_op1_MEF_ ) #0.031810766721
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.small-molecule(x0: x1: ) -> cell-line(qr.x0 r_xref(xref(r_value_Wt_MEF_CVCL_L690_ ) ) qr.x1 ) #0.019801980198
+qr.TOP(x0: ) -> TOP(translocate-01(r_ARG2(protein(r_xref(xref(r_value_UNIPROT_PGFRB_HUMAN_ ) ) r_name(name(r_op1_PDGF_ ) ) ) ) r_ARG1(qc.x0 ) ) ) #0.00210970464135

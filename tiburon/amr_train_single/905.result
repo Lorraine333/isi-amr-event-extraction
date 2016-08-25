@@ -1,0 +1,34 @@
+q44
+q44 -> TOP(q45) # 1.000000
+q86 -> r_ARG0(q94) # 1.000000
+q71 -> add-modification-00(q84 q85 q86) # 1.000000
+q74 -> phosphorylate-01 # 1.000000
+q76 -> r_ARG1(q95) # 1.000000
+q84 -> r_manner(q97) # 1.000000
+q108 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q98 -> protein # 1.000000
+q50 -> r_polarity_- # 1.000000
+q95 -> enzyme(q99) # 1.000000
+q46 -> r_manner(q74) # 1.000000
+q99 -> r_name(q104) # 1.000000
+q47 -> r_ARG1(q71) # 1.000000
+q106 -> name(q109 q110) # 1.000000
+q48 -> r_location(q72) # 1.000000
+q72 -> cell # 1.000000
+q73 -> add-modification-00(q75 q76 q77) # 1.000000
+q109 -> r_op2_MAPK_ # 1.000000
+q104 -> name(q107) # 1.000000
+q97 -> phosphorylate-01 # 1.000000
+q75 -> r_manner(q93) # 1.000000
+q100 -> r_name(q106) # 1.000000
+q110 -> r_op1_Erk_ # 1.000000
+q49 -> r_ARG0(q73) # 1.000000
+q105 -> xref(q108) # 1.000000
+q85 -> r_ARG1(q96) # 1.000000
+q96 -> enzyme(q100 q101) # 1.000000
+q101 -> r_xref(q105) # 1.000000
+q107 -> r_op1_Ras_ # 1.000000
+q94 -> protein # 1.000000
+q45 -> add-modification-00(q46 q47 q48 q49 q50) # 1.000000
+q93 -> phosphorylate-01 # 1.000000
+q77 -> r_ARG0(q98) # 1.000000

@@ -1,0 +1,14 @@
+qr
+qr.r_ARG1(interact-01(r_ARG0(x0: ) x1: ) ) -> r_ARG1(qc.x0 )
+qr.r_op1_p110δ_ -> r_op1_p110δ_
+qr.r_op2(x0: ) -> r_ARG2(qc.x0 )
+qc.enzyme(x0: x1: ) -> protein(qr.x0 )
+qc.r_value_UNIPROT_EXOS6_HUMAN_ -> isoform
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_op1_RAS_ -> r_op1_RAS_
+qc.name(x0: ) -> name(r_op2_PI3K_ qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.enzyme(x0: r_xref(x1: ) ) -> enzyme(qr.x0 qr.x1 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.xref(x0: ) -> r_mod(qc.x0 )
+qc.resemble-01(r_ARG1(isoform(r_op1(and(x0: x1: ) ) x2: ) ) r_ARG1-of(possible-01(x3: x4: ) ) ) -> bind-01(qr.x1 qr.x4 )

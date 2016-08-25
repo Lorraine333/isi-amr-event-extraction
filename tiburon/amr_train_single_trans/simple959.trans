@@ -1,0 +1,20 @@
+qr
+qc.block-01(x0: x1: r_ARG0-of(lead-03(x2: x3: r_ARG0-of(suggest-01(r_ARG1(exist-01(r_ARG1(mechanism(r_mod(x4: ) ) ) ) ) ) ) ) ) ) -> increase-01(qr.x0 qr.x1 qr.x4 )
+qr.r_UNK -> r_UNK
+qc.xref(x0: ) -> xref(qr.x0 )
+qc.protein(x0: x1: ) -> enzyme(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 )
+qr.r_value_PUBCHEM_54671203_ -> r_value_PUBCHEM_54671203_
+qr.UNK -> r_polarity_-
+qr.r_mod_2_ -> r_UNK
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 r_xref(xref(qr.x1 ) ) )
+qr.r_op1_MKP3_ -> r_op1_MKP3_
+qr.r_op1_doxycycline_ -> r_op1_doxycycline_
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_value_UNIPROT_DUS6_HUMAN_ -> r_value_UNIPROT_DUS6_HUMAN_
+qr.r_xref(x0: ) -> r_xref(qc.x0 )
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qc.accumulate-01(r_ARG2-of(induce-01(x0: ) ) x1: ) -> increase-01(qr.x0 qr.x1 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 )

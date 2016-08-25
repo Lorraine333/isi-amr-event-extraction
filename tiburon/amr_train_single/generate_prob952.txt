@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :manner(x1 / phosphorylate-01)  :ARG1(x2 / amino-acid :name(x3 / name :op1 "MKP3" )  :manner(x4 / smr-empty)  :mod "740" )  :ARG1(x5 / protein) )

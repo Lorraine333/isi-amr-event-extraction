@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG0(mutate-01(r_ARG1(protein-segment(r_name(name(r_op1_RBD_)) r_part-of(protein(r_xref(xref(r_value_UNIPROT_PK3CA_HUMAN_)) r_name(name(r_op1_p110α_)))))))) r_ARG1(bind-01(r_ARG1(protein-family(r_name(name(r_op1_Ras_))))))))

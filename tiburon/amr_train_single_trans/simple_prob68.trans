@@ -1,0 +1,13 @@
+qr
+qc.transfect-01(x0: x1: ) -> add-modification-00(qr.x0 qr.x1 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.cell-line(x0: ) -> cell-line(r_xref(xref(r_value_HEK_CVCL_0063_ ) ) qr.x0 ) #0.0769230769231
+qc.or(x0: x1: r_op1(protein(x2: ) ) x3: r_op2(and(r_op1(or(x4: r_op1(absent-01(r_ARG1(protein(x5: x6: ) ) ) ) ) ) ) ) ) -> protein(qr.x2 qr.x6 ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.name(x0: ) -> name(r_op1_HEK_ ) #0.00163132137031
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

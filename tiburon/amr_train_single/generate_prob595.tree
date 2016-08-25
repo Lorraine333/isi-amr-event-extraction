@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(macro-molecular-complex(r_ARG2(smr-empty) r_ARG0(protein(r_xref(xref(r_value_UNIPROT_)) r_name(name(r_op1_RAC1_)))))) r_ARG1(small-molecule(r_ARG1(enzyme(r_name(name(r_op1_Δp85_)) r_xref(xref(r_value_UNIPROT_CDC42_HUMAN_)))) r_manner(protein(r_xref(xref(r_value_UNIPROT_)) r_name(name(r_op1_RAC1_)))))) r_manner(describe-01(r_ARG0(name(r_UNK)))))) # 2.19597E-7

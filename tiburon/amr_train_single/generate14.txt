@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :ARG1(x2 / amino-acid :part-of(x3 / protein)  :name(x4 / name :op1 "tyrosine" ) )  :manner(x5 / phosphorylate-01)  :ARG0(x6 / protein) )  :polarity"-  :ARG0(x7 / protein :name(x8 / name :op1 "EGF" )  :xref(x9 / xref :value "UNIPROT"EGF"HUMAN" ) ) )

@@ -1,0 +1,228 @@
+#11
+Tree info for input tree amr11.tree:
+	43 nodes
+	10 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	1 states
+	0 rules
+	0 unique terminal symbols
+	0 derivations
+#13
+Tree info for input tree amr13.tree:
+	53 nodes
+	12 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	40 states
+	871 rules
+	208 unique terminal symbols
+	148235484255323088594297600 derivations
+#35
+Tree info for input tree amr35.tree:
+	48 nodes
+	9 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	52 states
+	1079 rules
+	217 unique terminal symbols
+	39395429010937935531330007680000 derivations
+#41
+Tree info for input tree amr41.tree:
+	66 nodes
+	12 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	59 states
+	1048 rules
+	227 unique terminal symbols
+	1223952834073233580345068807100267872 derivations
+#46
+Tree info for input tree amr46.tree:
+	54 nodes
+	10 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	59 states
+	1133 rules
+	218 unique terminal symbols
+	111307954378901888029692549992328000 derivations
+#57
+Tree info for input tree amr57.tree:
+	49 nodes
+	9 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	35 states
+	689 rules
+	213 unique terminal symbols
+	2290478626778162555259360 derivations
+#66
+Tree info for input tree amr66.tree:
+	34 nodes
+	6 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	34 states
+	736 rules
+	213 unique terminal symbols
+	4233724200860963167821396 derivations
+#69
+Tree info for input tree amr69.tree:
+	51 nodes
+	9 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	46 states
+	865 rules
+	224 unique terminal symbols
+	634189111894005937125788585155260 derivations
+#87
+Tree info for input tree amr87.tree:
+	72 nodes
+	21 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	42 states
+	506 rules
+	205 unique terminal symbols
+	4386755355834516498000 derivations
+#99
+Tree info for input tree amr99.tree:
+	58 nodes
+	14 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	71 states
+	1341 rules
+	216 unique terminal symbols
+	225498870940701368943532436834269242479811401676522 derivations
+#100
+Tree info for input tree amr100.tree:
+	58 nodes
+	14 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	71 states
+	1341 rules
+	216 unique terminal symbols
+	225498870940701368943532436834269242479811401676522 derivations
+#110
+Tree info for input tree amr110.tree:
+	29 nodes
+	6 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	8 states
+	46 rules
+	17 unique terminal symbols
+	12342 derivations
+#117
+Tree info for input tree amr117.tree:
+	35 nodes
+	6 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	25 states
+	485 rules
+	205 unique terminal symbols
+	148535165872574607672 derivations
+#137
+Tree info for input tree amr137.tree:
+	40 nodes
+	9 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	37 states
+	798 rules
+	207 unique terminal symbols
+	13213053191651096308957872 derivations
+#154
+Tree info for input tree amr154.tree:
+	41 nodes
+	9 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	55 states
+	973 rules
+	216 unique terminal symbols
+	3577207435774574806309877398 derivations
+#162
+Tree info for input tree amr162.tree:
+	40 nodes
+	10 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	1 states
+	0 rules
+	0 unique terminal symbols
+	0 derivations
+#164
+Tree info for input tree amr164.tree:
+	61 nodes
+	12 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	23 states
+	539 rules
+	208 unique terminal symbols
+	363999266279288640 derivations
+#177
+Tree info for input tree amr177.tree:
+	44 nodes
+	10 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	34 states
+	488 rules
+	209 unique terminal symbols
+	84150794166472810884 derivations
+#179
+Tree info for input tree amr179.tree:
+	39 nodes
+	8 yield length
+Transducer info for input tree transducer union.trans:
+	2 states
+	2928 rules
+RTG info for forward application of tree:
+	36 states
+	695 rules
+	209 unique terminal symbols
+	23860595169019995724800 derivations

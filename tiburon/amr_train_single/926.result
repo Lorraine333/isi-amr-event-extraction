@@ -1,0 +1,25 @@
+q29
+q29 -> TOP(q30) # 1.000000
+q33 -> r_ARG0(q43) # 1.000000
+q32 -> r_ARG1(q42) # 1.000000
+q65 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q60 -> name(q64) # 1.000000
+q66 -> r_value_PUBCHEM_54671203_ # 1.000000
+q43 -> small-molecule(q45 q46) # 1.000000
+q62 -> name(q67) # 1.000000
+q46 -> r_xref(q59) # 1.000000
+q64 -> r_op1_doxycycline_ # 1.000000
+q40 -> nucleus # 1.000000
+q51 -> r_name(q62) # 1.000000
+q58 -> xref(q65) # 1.000000
+q63 -> r_manner(q68) # 1.000000
+q67 -> r_op1_Erk1/2_ # 1.000000
+q59 -> xref(q66) # 1.000000
+q31 -> r_ARG2(q40) # 1.000000
+q49 -> r_ARG1-of(q61) # 1.000000
+q42 -> enzyme(q49 q50 q51) # 1.000000
+q68 -> phosphorylate-01 # 1.000000
+q61 -> add-modification-00(q63) # 1.000000
+q30 -> translocate-01(q31 q32 q33) # 1.000000
+q50 -> r_xref(q58) # 1.000000
+q45 -> r_name(q60) # 1.000000

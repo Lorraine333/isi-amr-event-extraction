@@ -1,0 +1,8875 @@
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :mod w
+{
+w is-a wild-type
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "EGF"
+}
+p4 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "PI3K"
+}
+m2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:P85A_HUMAN"
+}
+m2 has-a :ARG1-of a
+{
+a is-a add-modification-00
+a has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "MEF"
+}
+c has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Gab1"
+}
+p2 has-a :mod w2
+{
+w2 is-a wild-type
+}
+p2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "EGF"
+}
+p3 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i5 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Akt"
+}
+e2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e2 has-a :ARG1-of a2
+{
+a2 is-a add-modification-00
+a2 has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+}
+}
+i4 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "MEF"
+}
+c2 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a2 has-a :ARG1 a3
+{
+a3 is-a amino-acid
+a3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "tyrosine"
+}
+a3 has-a :part-of p
+{
+p is-a protein
+p has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Gab1"
+}
+p has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a2 has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEF"
+}
+c has-a :mod w
+{
+w is-a wild-type
+}
+c has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "Wt MEF:CVCL_L690"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p6
+{
+p6 is-a protein
+p6 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "EGF"
+}
+p6 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a4
+{
+a4 is-a add-modification-00
+a4 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a4 has-a :ARG1 a5
+{
+a5 is-a amino-acid
+a5 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "tyrosine"
+}
+a5 has-a :part-of p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Gab1"
+}
+p9 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a4 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+i3 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "MEF"
+}
+c2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p
+{
+p is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gab1"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+a has-a :location c2
+{
+c2 is-a cell
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Gab1"
+}
+p2 has-a :mod e
+{
+e is-a endogenous
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+a has-a :location c
+{
+c is-a cell-line
+c has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEF"
+}
+c has-a :mod w
+{
+w is-a wild-type
+}
+c has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "Wt MEF:CVCL_L690"
+}
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a has-a :ARG1 a3
+{
+a3 is-a amino-acid
+a3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a3 has-a :part-of e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "EGFR"
+}
+e has-a :mod e2
+{
+e2 is-a endogenous
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGFR_HUMAN"
+}
+}
+}
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "NRG"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NRG1_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :ARG1 a3
+{
+a3 is-a amino-acid
+a3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "tyrosine"
+}
+a3 has-a :part-of e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "ErbB3"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :polarity -
+i3 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p6
+{
+p6 is-a protein
+}
+a2 has-a :ARG1 a4
+{
+a4 is-a amino-acid
+a4 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "tyrosine"
+}
+a4 has-a :part-of e
+{
+e is-a enzyme
+e has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "ErbB3"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a2 has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "NRG"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NRG1_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ErbB3"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a has-a :manner p
+{
+p is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :polarity -
+i4 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "ErbB3"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "EGF"
+}
+p has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i5 has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "PI3K"
+}
+m2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:P85A_HUMAN"
+}
+m2 has-a :ARG1-of a
+{
+a is-a add-modification-00
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "NRG"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NRG1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 e3
+{
+e3 is-a enzyme
+e3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "ErbB3"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i3 has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "PI3K"
+}
+m3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:P85A_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Gab1"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p5
+{
+p5 is-a protein
+p5 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "EGF"
+}
+p5 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p6
+{
+p6 is-a protein
+}
+a3 has-a :ARG1 a4
+{
+a4 is-a amino-acid
+a4 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "tyrosine"
+}
+a4 has-a :part-of p7
+{
+p7 is-a protein
+p7 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Gab1"
+}
+p7 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "F446/472/589"
+}
+p7 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+a3 has-a :manner p12
+{
+p12 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p8
+{
+p8 is-a protein
+p8 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Gab1"
+}
+p8 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+b has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "Shp2"
+}
+e has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:PTN11_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p10
+{
+p10 is-a protein
+p10 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Gab1"
+}
+p10 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p10 has-a :ARG1-of m5
+{
+m5 is-a mutate-01
+m5 has-a :value "F446/472/589"
+}
+}
+b2 has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "Shp2"
+}
+e2 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:PTN11_HUMAN"
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :polarity -
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p has-a :ARG1-of m
+{
+m is-a mutate-01
+m has-a :value "F446/472/589"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein-family
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p85"
+}
+p3 has-a :part-of m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+m2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:P85A_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 a
+{
+a is-a amino-acid
+a has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gab1"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+a has-a :ARG1-of a2
+{
+a2 is-a add-modification-00
+a2 has-a :manner p2
+{
+p2 is-a phosphorylate-01
+}
+}
+}
+i3 has-a :ARG1 m
+{
+m is-a macro-molecular-complex
+m has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "PI3K"
+}
+m has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:P85A_HUMAN"
+}
+m has-a :ARG1-of a3
+{
+a3 is-a add-modification-00
+a3 has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p has-a :mod w
+{
+w is-a wild-type
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "EGF"
+}
+p2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 m
+{
+m is-a macro-molecular-complex
+m has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "PI3K"
+}
+m has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:P85A_HUMAN"
+}
+m has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "MEF"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a2 has-a :ARG1 p4
+{
+p4 is-a pathway
+p4 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI-3K/Akt"
+}
+}
+a2 has-a :manner p
+{
+p is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gab1"
+}
+p4 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p5
+{
+p5 is-a protein
+p5 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "EGF"
+}
+p5 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i5 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Akt"
+}
+e2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+}
+i4 has-a :location c2
+{
+c2 is-a cell
+}
+}
+**************************************************
+{
+i6 is-a increase-01
+i6 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein-family
+p has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "p85"
+}
+p has-a :part-of m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "PI3K"
+}
+}
+}
+b has-a :ARG2 a
+{
+a is-a amino-acid
+a has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "tyrosine"
+}
+a has-a :part-of p6
+{
+p6 is-a protein
+p6 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "Gab1"
+}
+p6 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+}
+i6 has-a :ARG1 i7
+{
+i7 is-a increase-01
+i7 has-a :ARG0 p7
+{
+p7 is-a protein
+p7 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "EGF"
+}
+p7 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i7 has-a :ARG1 m3
+}
+}
+**************************************************
+{
+i8 is-a increase-01
+i8 has-a :ARG0 b2
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p8
+{
+p8 is-a protein-family
+p8 has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "p85"
+}
+p8 has-a :part-of m4
+{
+m4 is-a macro-molecular-complex
+m4 has-a :name n13
+{
+n13 is-a name
+n13 has-a :op1 "PI3K"
+}
+}
+}
+b2 has-a :ARG2 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n14
+{
+n14 is-a name
+n14 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p9
+{
+p9 is-a protein
+p9 has-a :name n15
+{
+n15 is-a name
+n15 has-a :op1 "Gab1"
+}
+p9 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+}
+}
+i8 has-a :ARG1 i9
+{
+i9 is-a increase-01
+i9 has-a :ARG0 p10
+{
+p10 is-a protein
+p10 has-a :name n16
+{
+n16 is-a name
+n16 has-a :op1 "EGF"
+}
+p10 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i9 has-a :ARG1 m4
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Gab1"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p2 has-a :ARG1-of b
+{
+b is-a bind-01
+b has-a :ARG2 p5
+{
+p5 is-a protein-family
+p5 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "p85"
+}
+}
+}
+}
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p7
+{
+p7 is-a protein
+}
+a has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+a has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "EGF"
+}
+p3 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPORT:EGF_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Gab1"
+}
+p4 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p4 has-a :ARG1-of b2
+{
+b2 is-a bind-01
+b2 has-a :ARG2 p8
+{
+p8 is-a protein-family
+p8 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "p85"
+}
+}
+}
+}
+i5 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p10
+{
+p10 is-a protein
+}
+a2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Akt"
+}
+e2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+a2 has-a :manner p9
+{
+p9 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gab1"
+}
+p3 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "EGF"
+}
+p4 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i5 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Akt"
+}
+e2 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+s is-a smr-empty
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p has-a :ARG2-of m
+{
+m is-a mutate-01
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a has-a :ARG1 p3
+{
+p3 is-a pathway
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI-3K/Akt"
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+b has-a :ARG2 e3
+{
+e3 is-a enzyme
+e3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Shp2"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:PTN11_HUMAN"
+}
+}
+}
+d has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+a has-a :manner p2
+{
+p2 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 c2
+{
+c2 is-a complex-with-00
+c2 has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gab1"
+}
+p3 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+c2 has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Shp2"
+}
+e has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:PTN11_HUMAN"
+}
+}
+}
+d2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p6
+{
+p6 is-a protein
+}
+a2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Akt"
+}
+e2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+a2 has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "Gab1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:GAB1_HUMAN"
+}
+p has-a :ARG2-of m2
+{
+m2 is-a mutate-01
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+a has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEF"
+}
+c has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Gab1"
+}
+p3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "EGF"
+}
+p4 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i5 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Akt"
+}
+e2 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+a2 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+}
+i4 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "MEF"
+}
+c2 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "Shp2"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PTN11_HUMAN"
+}
+}
+d has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p3
+{
+p3 is-a pathway
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+}
+a has-a :manner p
+{
+p is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p5
+{
+p5 is-a protein
+p5 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "ErbB3"
+}
+p5 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+i2 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "PI-3"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:P85A_HUMAN"
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "MEF"
+}
+c has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a3 has-a :ARG1 a4
+{
+a4 is-a amino-acid
+a4 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "tyrosine"
+}
+a4 has-a :part-of p6
+{
+p6 is-a protein
+p6 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "ErbB3"
+}
+p6 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a3 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+i3 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Akt"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 a5
+{
+a5 is-a add-modification-00
+a5 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a5 has-a :ARG1 a7
+{
+a7 is-a amino-acid
+a7 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "tyrosine"
+}
+a7 has-a :part-of p10
+{
+p10 is-a protein
+p10 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "ErbB3"
+}
+p10 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a5 has-a :manner p12
+{
+p12 is-a phosphorylate-01
+}
+}
+i4 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n13
+{
+n13 is-a name
+n13 has-a :op1 "PI-3"
+}
+e4 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:P85A_HUMAN"
+}
+e4 has-a :ARG0-of a9
+{
+a9 is-a activity-06
+}
+}
+i4 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n15
+{
+n15 is-a name
+n15 has-a :op1 "MEF"
+}
+c2 has-a :xref x10
+{
+x10 is-a xref
+x10 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 a6
+{
+a6 is-a add-modification-00
+a6 has-a :ARG0 p9
+{
+p9 is-a protein
+}
+a6 has-a :ARG1 a8
+{
+a8 is-a amino-acid
+a8 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "tyrosine"
+}
+a8 has-a :part-of p11
+{
+p11 is-a protein
+p11 has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "erbB3"
+}
+p11 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a6 has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+i5 has-a :ARG1 e5
+{
+e5 is-a enzyme
+e5 has-a :name n14
+{
+n14 is-a name
+n14 has-a :op1 "Akt"
+}
+e5 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e5 has-a :ARG0-of a10
+{
+a10 is-a activity-06
+}
+}
+i5 has-a :location c3
+{
+c3 is-a cell-line
+c3 has-a :name n16
+{
+n16 is-a name
+n16 has-a :op1 "MEF"
+}
+c3 has-a :xref x11
+{
+x11 is-a xref
+x11 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "ErbB3"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 p3
+{
+p3 is-a pathway
+p3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "PI-3/Akt"
+}
+p3 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "MEF"
+}
+c has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Gab1"
+}
+p3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i3 has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "PI-3"
+}
+e2 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Gab1"
+}
+p4 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GAB1_HUMAN"
+}
+}
+i5 has-a :ARG1 i4
+{
+i4 is-a increase-01
+i4 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "NRG"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NRG1_HUMAN"
+}
+}
+i4 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "Pi-3"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:P85A_HUMAN"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i6 is-a increase-01
+i6 has-a :ARG0 p5
+{
+p5 is-a protein
+p5 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "ErbB3"
+}
+p5 has-a :xref x11
+{
+x11 is-a xref
+x11 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i6 has-a :ARG1 i7
+{
+i7 is-a increase-01
+i7 has-a :ARG0 p6
+{
+p6 is-a protein
+p6 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "EGF"
+}
+p6 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i7 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "PI-3"
+}
+e3 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+e3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:P85A_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+i8 is-a increase-01
+i8 has-a :ARG0 p7
+{
+p7 is-a protein
+p7 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "ErbB3"
+}
+p7 has-a :xref x10
+{
+x10 is-a xref
+x10 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i8 has-a :ARG1 i9
+{
+i9 is-a increase-01
+i9 has-a :ARG0 p8
+{
+p8 is-a protein
+p8 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "NRG"
+}
+p8 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:NRG1_HUMAN"
+}
+}
+i9 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "PI-3"
+}
+e4 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "UNIPROT:P85A_HUMAN"
+}
+e4 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ErbB3"
+}
+p4 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "EGF"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "tyrosine"
+}
+a2 has-a :part-of p5
+{
+p5 is-a protein
+p5 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ErbB3"
+}
+p5 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+}
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "ErbB3"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ERBB3_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "EGF"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:EGF_HUMAN"
+}
+}
+i3 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Akt"
+}
+e has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 c
+{
+c is-a complex-with-00
+c has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "SRC-3"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+c has-a :ARG2 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "ERα"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "E2"
+}
+s has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a has-a :ARG1 p2
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 p10
+{
+p10 is-a protein-segment
+p10 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "ligand"
+n8 has-a :op2 "binding"
+n8 has-a :op3 "domain"
+}
+p10 has-a :ARG1-of m
+{
+m is-a mutate-01
+}
+p10 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n
+{
+n is-a name
+n has-a :op1 "ERα"
+}
+p3 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+}
+d has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "E2"
+}
+s has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p5
+{
+p5 is-a protein
+p5 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p5 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 p6
+{
+p6 is-a protein-segment
+p6 has-a :part-of p7
+{
+p7 is-a protein
+p7 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "SRC-3"
+}
+p7 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+p6 has-a :ARG1-of m3
+{
+m3 is-a mutate-01
+}
+}
+d2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "E2"
+}
+s2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a2 has-a :ARG1 p7
+a2 has-a :manner p14
+{
+p14 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "ERα"
+}
+p has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+b has-a :ARG2 p9
+{
+p9 is-a protein
+p9 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "SRC-3"
+}
+p9 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+i4 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a3 has-a :ARG1 p11
+{
+p11 is-a protein
+p11 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "SRC-3"
+}
+p11 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a3 has-a :manner p12
+{
+p12 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 p10
+{
+p10 is-a protein-segment
+p10 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "ligand"
+n8 has-a :op2 "binding"
+n8 has-a :op3 "domain"
+}
+p10 has-a :ARG1-of m
+{
+m is-a mutate-01
+}
+p10 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n
+{
+n is-a name
+n has-a :op1 "ERα"
+}
+p3 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+}
+d has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "E2"
+}
+s has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p5
+{
+p5 is-a protein
+p5 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p5 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 p6
+{
+p6 is-a protein-segment
+p6 has-a :part-of p7
+{
+p7 is-a protein
+p7 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "SRC-3"
+}
+p7 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+p6 has-a :ARG1-of m3
+{
+m3 is-a mutate-01
+}
+}
+d2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "E2"
+}
+s2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a2 has-a :ARG1 p7
+a2 has-a :manner p14
+{
+p14 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "ERα"
+}
+p has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+b has-a :ARG2 p9
+{
+p9 is-a protein
+p9 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "SRC-3"
+}
+p9 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+i4 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a3 has-a :ARG1 p11
+{
+p11 is-a protein
+p11 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "SRC-3"
+}
+p11 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a3 has-a :manner p12
+{
+p12 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "ER"
+}
+p has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "estradiol"
+}
+s has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a3 has-a :ARG1 p5
+{
+p5 is-a protein
+p5 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "SRC-3"
+}
+p5 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a3 has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "SRC-3"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :ARG1 c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "HEK"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "HEK:CVCL_0063"
+}
+}
+}
+**************************************************
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p3 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+}
+p3 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a2 has-a :ARG1 c2
+{
+c2 is-a cell-line
+c2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "HEK"
+}
+c2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "HEK:CVCL_0063"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "ER"
+}
+p has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "estradiol"
+}
+s has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a3 has-a :ARG1 p5
+{
+p5 is-a protein
+p5 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "SRC-3"
+}
+p5 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a3 has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "SRC-3"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :ARG1 c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "HEK"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "HEK:CVCL_0063"
+}
+}
+}
+**************************************************
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p3 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+}
+p3 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a2 has-a :ARG1 c2
+{
+c2 is-a cell-line
+c2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "HEK"
+}
+c2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "HEK:CVCL_0063"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n
+{
+n is-a name
+n has-a :op1 "estradiol"
+}
+s has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :manner p
+{
+p is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "estradiol"
+}
+s has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "estrogen"
+n has-a :op2 "receptor"
+n has-a :op3 "α"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ESR1_HUMAN"
+}
+p2 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+a has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "estradiol"
+}
+s2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p6
+{
+p6 is-a protein
+p6 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "ERβ"
+}
+p6 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:ESR2_HUMAN"
+}
+p6 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+a3 has-a :ARG1 p7
+{
+p7 is-a protein
+p7 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "SRC-3"
+}
+p7 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a3 has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n
+{
+n is-a name
+n has-a :op1 "E2"
+}
+s has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+a has-a :manner p4
+{
+p4 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "ER"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p3
+a has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "ER"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p3
+a has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "SRC-3"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+b has-a :ARG2 p5
+{
+p5 is-a protein-segment
+p5 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "LBD"
+}
+p5 has-a :part-of p
+{
+p is-a protein
+p has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "ERα"
+}
+p has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:ESR1_HUMAN"
+}
+}
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "E2"
+}
+s has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p2
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n
+{
+n is-a name
+n has-a :op1 "E2"
+}
+s has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a2 has-a :ARG1 a3
+{
+a3 is-a amino-acid
+a3 has-a :mod 24
+a3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "tyrosine"
+}
+a3 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a2 has-a :manner p4
+{
+p4 is-a phosphorylate-00
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "E2"
+}
+s2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a4
+{
+a4 is-a add-modification-00
+a4 has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a4 has-a :ARG1 a5
+{
+a5 is-a amino-acid
+a5 has-a :mod 505
+a5 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "serine"
+}
+a5 has-a :part-of p6
+{
+p6 is-a protein
+p6 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "SRC-3"
+}
+p6 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a4 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+i3 has-a :location c2
+{
+c2 is-a cell
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 s3
+{
+s3 is-a small-molecule
+s3 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "E2"
+}
+s3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "PUBCHEM:5757"
+}
+}
+i4 has-a :ARG1 a6
+{
+a6 is-a add-modification-00
+a6 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a6 has-a :ARG1 a7
+{
+a7 is-a amino-acid
+a7 has-a :mod 543
+a7 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "serine"
+}
+a7 has-a :part-of p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "SRC-3"
+}
+p9 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a6 has-a :manner p10
+{
+p10 is-a phosphorylate-01
+}
+}
+i4 has-a :location c3
+{
+c3 is-a cell
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 s4
+{
+s4 is-a small-molecule
+s4 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "E2"
+}
+s4 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "PUBCHEM:5757"
+}
+}
+i5 has-a :ARG1 a8
+{
+a8 is-a add-modification-00
+a8 has-a :ARG0 p11
+{
+p11 is-a protein
+}
+a8 has-a :ARG1 a9
+{
+a9 is-a amino-acid
+a9 has-a :mod 857
+a9 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "serine"
+}
+a9 has-a :part-of p12
+{
+p12 is-a protein
+p12 has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "SRC-3"
+}
+p12 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a8 has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+i5 has-a :location c4
+{
+c4 is-a cell
+}
+}
+**************************************************
+{
+i6 is-a increase-01
+i6 has-a :ARG0 s5
+{
+s5 is-a small-molecule
+s5 has-a :name n13
+{
+n13 is-a name
+n13 has-a :op1 "E2"
+}
+s5 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "PUBCHEM:5757"
+}
+}
+i6 has-a :ARG1 a10
+{
+a10 is-a add-modification-00
+a10 has-a :ARG0 p14
+{
+p14 is-a protein
+}
+a10 has-a :ARG1 a11
+{
+a11 is-a amino-acid
+a11 has-a :mod 860
+a11 has-a :name n14
+{
+n14 is-a name
+n14 has-a :op1 "serine"
+}
+a11 has-a :part-of p16
+{
+p16 is-a protein
+p16 has-a :name n16
+{
+n16 is-a name
+n16 has-a :op1 "SRC-3"
+}
+p16 has-a :xref x10
+{
+x10 is-a xref
+x10 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a10 has-a :manner p15
+{
+p15 is-a phosphorylate-01
+}
+}
+i6 has-a :location c5
+{
+c5 is-a cell
+}
+}
+**************************************************
+{
+i7 is-a increase-01
+i7 has-a :ARG0 s6
+{
+s6 is-a small-molecule
+s6 has-a :name n15
+{
+n15 is-a name
+n15 has-a :op1 "E2"
+}
+s6 has-a :xref x12
+{
+x12 is-a xref
+x12 has-a :value "PUBCHEM:5757"
+}
+}
+i7 has-a :ARG1 a12
+{
+a12 is-a add-modification-00
+a12 has-a :ARG0 p17
+{
+p17 is-a protein
+}
+a12 has-a :ARG1 a13
+{
+a13 is-a amino-acid
+a13 has-a :mod 867
+a13 has-a :name n17
+{
+n17 is-a name
+n17 has-a :op1 "serine"
+}
+a13 has-a :part-of p18
+{
+p18 is-a protein
+p18 has-a :name n18
+{
+n18 is-a name
+n18 has-a :op1 "SRC-3"
+}
+p18 has-a :xref x11
+{
+x11 is-a xref
+x11 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a12 has-a :manner p19
+{
+p19 is-a phosphorylate-01
+}
+}
+i7 has-a :location c6
+{
+c6 is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n
+{
+n is-a name
+n has-a :op1 "E2"
+}
+s has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:5757"
+}
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a2 has-a :ARG1 a3
+{
+a3 is-a amino-acid
+a3 has-a :mod 24
+a3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "tyrosine"
+}
+a3 has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "SRC-3"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a2 has-a :manner p4
+{
+p4 is-a phosphorylate-00
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "E2"
+}
+s2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "PUBCHEM:5757"
+}
+}
+i3 has-a :ARG1 a4
+{
+a4 is-a add-modification-00
+a4 has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a4 has-a :ARG1 a5
+{
+a5 is-a amino-acid
+a5 has-a :mod 505
+a5 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "serine"
+}
+a5 has-a :part-of p6
+{
+p6 is-a protein
+p6 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "SRC-3"
+}
+p6 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a4 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+i3 has-a :location c2
+{
+c2 is-a cell
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 s3
+{
+s3 is-a small-molecule
+s3 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "E2"
+}
+s3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "PUBCHEM:5757"
+}
+}
+i4 has-a :ARG1 a6
+{
+a6 is-a add-modification-00
+a6 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a6 has-a :ARG1 a7
+{
+a7 is-a amino-acid
+a7 has-a :mod 543
+a7 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "serine"
+}
+a7 has-a :part-of p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "SRC-3"
+}
+p9 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a6 has-a :manner p10
+{
+p10 is-a phosphorylate-01
+}
+}
+i4 has-a :location c3
+{
+c3 is-a cell
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 s4
+{
+s4 is-a small-molecule
+s4 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "E2"
+}
+s4 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "PUBCHEM:5757"
+}
+}
+i5 has-a :ARG1 a8
+{
+a8 is-a add-modification-00
+a8 has-a :ARG0 p11
+{
+p11 is-a protein
+}
+a8 has-a :ARG1 a9
+{
+a9 is-a amino-acid
+a9 has-a :mod 857
+a9 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "serine"
+}
+a9 has-a :part-of p12
+{
+p12 is-a protein
+p12 has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "SRC-3"
+}
+p12 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a8 has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+i5 has-a :location c4
+{
+c4 is-a cell
+}
+}
+**************************************************
+{
+i6 is-a increase-01
+i6 has-a :ARG0 s5
+{
+s5 is-a small-molecule
+s5 has-a :name n13
+{
+n13 is-a name
+n13 has-a :op1 "E2"
+}
+s5 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "PUBCHEM:5757"
+}
+}
+i6 has-a :ARG1 a10
+{
+a10 is-a add-modification-00
+a10 has-a :ARG0 p14
+{
+p14 is-a protein
+}
+a10 has-a :ARG1 a11
+{
+a11 is-a amino-acid
+a11 has-a :mod 860
+a11 has-a :name n14
+{
+n14 is-a name
+n14 has-a :op1 "serine"
+}
+a11 has-a :part-of p16
+{
+p16 is-a protein
+p16 has-a :name n16
+{
+n16 is-a name
+n16 has-a :op1 "SRC-3"
+}
+p16 has-a :xref x10
+{
+x10 is-a xref
+x10 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a10 has-a :manner p15
+{
+p15 is-a phosphorylate-01
+}
+}
+i6 has-a :location c5
+{
+c5 is-a cell
+}
+}
+**************************************************
+{
+i7 is-a increase-01
+i7 has-a :ARG0 s6
+{
+s6 is-a small-molecule
+s6 has-a :name n15
+{
+n15 is-a name
+n15 has-a :op1 "E2"
+}
+s6 has-a :xref x12
+{
+x12 is-a xref
+x12 has-a :value "PUBCHEM:5757"
+}
+}
+i7 has-a :ARG1 a12
+{
+a12 is-a add-modification-00
+a12 has-a :ARG0 p17
+{
+p17 is-a protein
+}
+a12 has-a :ARG1 a13
+{
+a13 is-a amino-acid
+a13 has-a :mod 867
+a13 has-a :name n17
+{
+n17 is-a name
+n17 has-a :op1 "serine"
+}
+a13 has-a :part-of p18
+{
+p18 is-a protein
+p18 has-a :name n18
+{
+n18 is-a name
+n18 has-a :op1 "SRC-3"
+}
+p18 has-a :xref x11
+{
+x11 is-a xref
+x11 has-a :value "UNIPROT:NCOA3_HUMAN"
+}
+}
+}
+a12 has-a :manner p19
+{
+p19 is-a phosphorylate-01
+}
+}
+i7 has-a :location c6
+{
+c6 is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p
+{
+p is-a protein-family
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 p2
+{
+p2 is-a pathway
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "MEK/ERK"
+}
+p2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+m has-a :ARG0-of d2
+{
+d2 is-a decrease-01
+d2 has-a :ARG1 p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+}
+}
+}
+d has-a :ARG1 p4
+{
+p4 is-a protein-family
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+}
+d has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "PLX4720"
+}
+s has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:24180719"
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "ERK"
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+}
+b has-a :ARG2 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p6
+{
+p6 is-a protein
+}
+a has-a :ARG1 p4
+{
+p4 is-a protein-family
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RSK"
+}
+}
+a has-a :manner p
+{
+p is-a phosphorylate-01
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p5
+{
+p5 is-a protein
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p6
+{
+p6 is-a protein
+}
+a has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEK"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MP2K1_HUMAN"
+}
+}
+a has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p10
+{
+p10 is-a protein
+}
+a2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "ERK"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+a2 has-a :manner p9
+{
+p9 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 p11
+{
+p11 is-a protein
+}
+d has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p12
+{
+p12 is-a protein
+}
+a3 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "MEK"
+}
+e3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:MP2K1_HUMAN"
+}
+}
+a3 has-a :manner p13
+{
+p13 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 p14
+{
+p14 is-a protein
+}
+d2 has-a :ARG1 a4
+{
+a4 is-a add-modification-00
+a4 has-a :ARG0 p15
+{
+p15 is-a protein
+}
+a4 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "ERK"
+}
+e4 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+a4 has-a :manner p16
+{
+p16 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 s3
+{
+s3 is-a small-molecule
+s3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PLX"
+}
+s3 has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:24180719"
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p5
+{
+p5 is-a protein
+}
+a has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEK"
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MP2K1_HUMAN"
+}
+}
+a has-a :manner p6
+{
+p6 is-a phosphorylate-01
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "MEF"
+}
+c has-a :mod w
+{
+w is-a wild-type
+}
+c has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "MEF:CVCL_L690"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 s4
+{
+s4 is-a small-molecule
+s4 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "PLX"
+}
+s4 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "PUBCHEM:24180719"
+}
+}
+i4 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p11
+{
+p11 is-a protein
+}
+a3 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "MEK"
+}
+e3 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:MP2K1_HUMAN"
+}
+}
+a3 has-a :manner p12
+{
+p12 is-a phosphorylate-01
+}
+}
+i4 has-a :location c3
+{
+c3 is-a cell-line
+c3 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "MEF"
+}
+c3 has-a :xref x9
+{
+x9 is-a xref
+x9 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "PLX"
+}
+s2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "PUBCHEM:24180719"
+}
+}
+i3 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "ERK"
+}
+e2 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+a2 has-a :manner p9
+{
+p9 is-a phosphorylate-01
+}
+}
+i3 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "MEF"
+}
+c2 has-a :mod w2
+{
+w2 is-a wild-type
+}
+c2 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "MEF:CVCL_L690"
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n12
+{
+n12 is-a name
+n12 has-a :op1 "PLX"
+}
+s has-a :xref x10
+{
+x10 is-a xref
+x10 has-a :value "PUBCHEM:24180719"
+}
+}
+i5 has-a :ARG1 a4
+{
+a4 is-a add-modification-00
+a4 has-a :ARG0 p15
+{
+p15 is-a protein
+}
+a4 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n13
+{
+n13 is-a name
+n13 has-a :op1 "ERK"
+}
+e4 has-a :xref x11
+{
+x11 is-a xref
+x11 has-a :value "UNIPORT:PLK1_HUMAN"
+}
+}
+a4 has-a :manner p14
+{
+p14 is-a phosphorylate-01
+}
+}
+i5 has-a :location c4
+{
+c4 is-a cell-line
+c4 has-a :name n14
+{
+n14 is-a name
+n14 has-a :op1 "MEF"
+}
+c4 has-a :xref x12
+{
+x12 is-a xref
+x12 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 a2
+{
+a2 is-a and
+a2 has-a :op1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "CRAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+a2 has-a :op2 p
+{
+p is-a protein-family
+p has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAS"
+}
+p has-a :ARG1-of a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :manner p2
+{
+p2 is-a phosphorylate-01
+}
+}
+}
+}
+i2 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "CRAF"
+}
+e3 has-a :mod w
+{
+w is-a wild-type
+}
+e3 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "MEF"
+}
+c has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "MEF-1:CVCL_4240"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :polarity -
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :value "UNIPROT:BRAF_HUMAN"
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "BRAF"
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s2
+{
+s2 is-a small-molecule
+s2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PLX"
+}
+s2 has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:24180719"
+}
+}
+i3 has-a :ARG1 p
+{
+p is-a pathway
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "MEK/ERK"
+}
+p has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "CRAF"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+i4 has-a :ARG1 i5
+{
+i5 is-a increase-01
+i5 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "PLX"
+}
+s has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "PUBCHEM:24180719"
+}
+}
+i5 has-a :ARG1 p4
+{
+p4 is-a pathway
+p4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "MEK/ERK"
+}
+p4 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+i3 has-a :ARG1 c
+{
+c is-a complex-with-00
+c has-a :ARG1 p2
+{
+p2 is-a protein
+}
+c has-a :ARG2 p3
+{
+p3 is-a protein-family
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 s
+{
+s is-a small-molecule
+}
+b has-a :ARG2 p
+{
+p is-a protein-segment
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "ATP-binding"
+n has-a :op2 "site"
+}
+p has-a :part-of e2
+{
+e2 is-a enzyme
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MK01_HUMAN"
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 s
+{
+s is-a small-molecule
+}
+b has-a :ARG2 c
+{
+c is-a complex-with-00
+c has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n
+{
+n is-a name
+n has-a :op1 "CRAF"
+}
+e3 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+c has-a :ARG2 e4
+{
+e4 is-a enzyme
+e4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "CRAF"
+}
+e4 has-a :xref x
+}
+}
+}
+d has-a :ARG1 p
+{
+p is-a protein
+}
+}
+**************************************************
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 b2
+{
+b2 is-a bind-01
+b2 has-a :ARG1 s2
+{
+s2 is-a small-molecule
+}
+b2 has-a :ARG2 c2
+{
+c2 is-a complex-with-00
+c2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "CRAF"
+}
+e has-a :xref x
+}
+c2 has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "BRAF"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:BRAF_HUMAN"
+}
+}
+}
+}
+d2 has-a :ARG1 p2
+{
+p2 is-a protein
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+i3 has-a :ARG1 c
+{
+c is-a complex-with-00
+c has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :mod p4
+}
+c has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :mod p4
+{
+p4 is-a protein-family
+p4 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+}
+}
+}
+}
+i2 has-a :ARG1 p
+{
+p is-a pathway
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "MEK/ERK"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 c
+{
+c is-a complex-with-00
+c has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "BRAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:BRAF_HUMAN"
+}
+}
+c has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n
+{
+n is-a name
+n has-a :op1 "CRAF"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 p
+{
+p is-a protein
+p has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 e
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+a2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+a2 has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "CRAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:RAF1_HUMAN"
+}
+e has-a :mod w
+{
+w is-a wild-type
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "293H"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "HEK:CVCL_6643"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CRAF"
+}
+p2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPORT:RAF1_HUMAN"
+}
+p2 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "D486N"
+}
+}
+i3 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "293H"
+}
+c2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "HEK:CVCL_6643"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :ARG1 a2
+{
+a2 is-a amino-acid
+a2 has-a :mod 338
+a2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "serine"
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m3
+{
+m3 is-a molecular-physical-entity
+}
+d has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p3
+{
+p3 is-a protein
+}
+a has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+e2 has-a :xref x
+e2 has-a :mod w
+{
+w is-a wild-type
+}
+}
+a has-a :manner p5
+{
+p5 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 d2
+{
+d2 is-a decrease-01
+d2 has-a :ARG0 m4
+{
+m4 is-a molecular-physical-entity
+}
+d2 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RAF"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i3 has-a :ARG1 a3
+{
+a3 is-a add-modification-00
+a3 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a3 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "RAF"
+}
+e4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+e4 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+}
+}
+a3 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+b has-a :ARG2 p2
+{
+p2 is-a protein-segment
+p2 has-a :part-of e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+p2 has-a :ARG0-of a
+}
+}
+i2 has-a :ARG1 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 s
+{
+s is-a small-molecule
+s has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PLX"
+}
+s has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PUBCHEM:24180719"
+}
+}
+i3 has-a :ARG1 p
+{
+p is-a pathway
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "MEK-ERK"
+}
+p has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m2
+{
+m2 is-a molecular-physical-entity
+}
+d has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e2 has-a :xref x
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 m3
+{
+m3 is-a molecular-physical-entity
+}
+b has-a :ARG2 e3
+{
+e3 is-a enzyme
+e3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i3 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RAF"
+}
+e4 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+e4 has-a :xref x2
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 i3
+{
+i3 is-a increase-01
+i3 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "RAS"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RASH_HUMAN"
+}
+}
+}
+i4 has-a :ARG1 c
+{
+c is-a complex-with-00
+c has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "BRAF"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:BRAF_HUMAN"
+}
+}
+c has-a :ARG2 e3
+{
+e3 is-a enzyme
+e3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "BRAF"
+}
+e3 has-a :xref x4
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 i6
+{
+i6 is-a increase-01
+i6 has-a :ARG0 e4
+{
+e4 is-a enzyme
+e4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RAS"
+}
+e4 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+e4 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RASH_HUMAN"
+}
+}
+i6 has-a :ARG1 c2
+{
+c2 is-a complex-with-00
+c2 has-a :ARG1 e5
+{
+e5 is-a enzyme
+e5 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "CRAF"
+}
+e5 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+c2 has-a :ARG2 e6
+{
+e6 is-a enzyme
+e6 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "CRAF"
+}
+e6 has-a :xref x3
+}
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :ARG0 i7
+{
+i7 is-a increase-01
+i7 has-a :ARG0 e7
+{
+e7 is-a enzyme
+e7 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "RAS"
+}
+e7 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:RASH_HUMAN"
+}
+e7 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+}
+i7 has-a :ARG1 c3
+{
+c3 is-a complex-with-00
+c3 has-a :ARG1 e8
+{
+e8 is-a enzyme
+e8 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "BRAF"
+}
+e8 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:BRAF_HUMAN"
+}
+}
+c3 has-a :ARG2 e9
+{
+e9 is-a enzyme
+e9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "CRAF"
+}
+e9 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 c
+{
+c is-a complex-with-00
+c has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :mod p2
+}
+c has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :mod p2
+{
+p2 is-a protein-family
+p2 has-a :name n
+{
+n is-a name
+n has-a :op1 "RAF"
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p6
+{
+p6 is-a protein-family
+p6 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 a
+{
+a is-a add-modification-00
+a has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a has-a :ARG1 p5
+{
+p5 is-a protein-segment
+p5 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "p338"
+}
+p5 has-a :part-of e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "CRAF"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+e2 has-a :mod e
+{
+e is-a endogenous
+}
+}
+}
+a has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 s
+{
+s is-a small-molecule
+s has-a :name n
+{
+n is-a name
+n has-a :op1 "PLX"
+}
+s has-a :xref x
+{
+x is-a xref
+x has-a :value "PUBCHEM:24180719"
+}
+}
+b has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "CRAF"
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CRAF"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e2 has-a :xref x2
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MK01_HUMAN"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:MK01_HUMAN"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "CRAF"
+}
+}
+i2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+}
+i3 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "BRAF"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:BRAF_HUMAN"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 s
+{
+s is-a small-molecule
+}
+b has-a :ARG2 p
+{
+p is-a protein-segment
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "catalytic"
+n has-a :op2 "domain"
+}
+p has-a :part-of e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAF1_HUMAN"
+}
+}
+}
+}
+i2 has-a :ARG1 p4
+{
+p4 is-a pathway
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MEK/ERK"
+}
+p4 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MK01_HUMAN"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 d
+{
+d is-a decrease-01
+d has-a :ARG0 m
+{
+m is-a molecular-physical-entity
+}
+d has-a :ARG1 p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAF"
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MK01_HUMAN"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :location c
+{
+c is-a cell
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC1"
+}
+p has-a :part-of p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RHO"
+}
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+b has-a :ARG2 p2
+{
+p2 is-a protein-segment
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RBD"
+}
+p2 has-a :part-of e4
+{
+e4 is-a enzyme
+e4 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "p110β"
+}
+e4 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "CDC42"
+}
+p9 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+b2 has-a :ARG2 p10
+{
+p10 is-a protein-segment
+p10 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "RBD"
+}
+p10 has-a :part-of e3
+{
+e3 is-a enzyme
+e3 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "p110β"
+}
+e3 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RAC1"
+}
+p4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "p110β"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p6
+{
+p6 is-a protein
+p6 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "CDC42"
+}
+p6 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+i3 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "p110β"
+}
+e has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "p110β"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+b has-a :ARG2 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAC1"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110β"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+b2 has-a :ARG2 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CDC42"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAC"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+b has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110b"
+}
+e has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CDC42"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+b2 has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n
+{
+n is-a name
+n has-a :op1 "p110b"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+x4 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "RAC"
+}
+p has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+i2 has-a :ARG1 e3
+{
+e3 is-a enzyme
+e3 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "p110b"
+}
+e3 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e3 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p4
+{
+p4 is-a protein
+p4 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "CDC42"
+}
+p4 has-a :xref x7
+{
+x7 is-a xref
+x7 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+i3 has-a :ARG1 e4
+{
+e4 is-a enzyme
+e4 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "p110b"
+}
+e4 has-a :xref x8
+{
+x8 is-a xref
+x8 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e4 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+p has-a :part-of p3
+{
+p3 is-a protein-family
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RHO"
+}
+}
+}
+b has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110β"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "CDC42"
+}
+p4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+p4 has-a :part-of p2
+{
+p2 is-a protein-family
+p2 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "RHO"
+}
+}
+}
+b2 has-a :ARG2 e
+{
+e is-a enzyme
+e has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "p110β"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "p110b"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "RAC1"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110b"
+}
+e2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+b2 has-a :ARG2 p4
+{
+p4 is-a protein
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "CDC42"
+}
+p4 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "GTPase"
+}
+e has-a :part-of p
+{
+p is-a protein-family
+p has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RHO"
+}
+}
+}
+b has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "p110b"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein-segment
+p3 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "RAS-binding"
+n7 has-a :op2 "domain"
+}
+p3 has-a :part-of e3
+{
+e3 is-a enzyme
+e3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "p110b"
+}
+e3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "CDC42"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+b2 has-a :ARG2 p4
+{
+p4 is-a protein-segment
+p4 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "RAS-binding"
+n4 has-a :op2 "domain"
+}
+p4 has-a :part-of e
+{
+e is-a enzyme
+e has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "p110b"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+p has-a :ARG1-of b
+{
+b is-a bind-01
+b has-a :ARG2 e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "GTPγ"
+}
+e3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:GCA_DICDI"
+}
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110b"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CDC42"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+p3 has-a :ARG1-of b2
+{
+b2 is-a bind-01
+b2 has-a :ARG2 e4
+{
+e4 is-a enzyme
+e4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "GTPγ"
+}
+e4 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GCA_DICDI"
+}
+}
+}
+}
+i3 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110b"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+p has-a :ARG1-of b
+{
+b is-a bind-01
+b has-a :ARG2 e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "GTPγ"
+}
+e3 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:GCA_DICDI"
+}
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110b"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CDC42"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+p3 has-a :ARG1-of b2
+{
+b2 is-a bind-01
+b2 has-a :ARG2 e4
+{
+e4 is-a enzyme
+e4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "GTPγ"
+}
+e4 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPROT:GCA_DICDI"
+}
+}
+}
+}
+i3 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110b"
+}
+e2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a protein
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC1"
+}
+p has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "p110b"
+}
+e2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e2 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "CDC42"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+i3 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110b"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+x4 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 b
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a pathway
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "RAC/CDC42"
+}
+}
+b has-a :ARG2 e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110b"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "PI3K"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "PK3CA_HUMAN"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "RAC1"
+}
+p2 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:RAC1_HUMAN"
+}
+}
+i2 has-a :ARG1 e2
+{
+e2 is-a enzyme
+e2 has-a :name n
+{
+n is-a name
+n has-a :op1 "p110b"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:PK3CB_HUMAN"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "CDC42"
+}
+p3 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:CDC42_HUMAN"
+}
+}
+i3 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110b"
+}
+e has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:PK3CB_HUMAN"
+x4 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 m
+{
+m is-a macro-molecular-complex
+m has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Gβγ"
+}
+}
+b has-a :ARG2 p3
+{
+p3 is-a protein-segment
+p3 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "N-terminus"
+}
+p3 has-a :part-of p4
+{
+p4 is-a protein
+p4 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Elmo1"
+}
+p4 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:ELMO1_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :name n
+{
+n is-a name
+n has-a :op1 "Gβγ"
+}
+}
+b has-a :ARG2 p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Elmo1"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:ELMO1_HUMAN"
+}
+}
+}
+**************************************************
+{
+b2 is-a bind-01
+b2 has-a :ARG1 m2
+{
+m2 is-a macro-molecular-complex
+m2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Gβγ"
+}
+}
+b2 has-a :ARG2 p
+{
+p is-a protein-segment
+p has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "N-terminus"
+}
+p has-a :part-of p3
+{
+p3 is-a protein
+p3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Elmo1"
+}
+p3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPORT:ELMO1_HUMAN"
+}
+}
+}
+}
+**************************************************
+{
+b is-a bind-01
+b has-a :ARG1 p
+{
+p is-a protein-segment
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "N-terminus"
+}
+p has-a :part-of p2
+{
+p2 is-a protein
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Elmo1"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:ELMO1_HUMAN"
+}
+}
+}
+b has-a :ARG2 m
+{
+m is-a macro-molecular-complex
+m has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Gbg"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 p
+{
+p is-a pathway
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "PI3K/AKt"
+}
+}
+i3 has-a :ARG1 i2
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 g
+{
+g is-a gene
+g has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "MKP3"
+}
+g has-a :xref x
+{
+x is-a xref
+x has-a :value "HGNC:895"
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p
+{
+p is-a pathway
+p has-a :name n
+{
+n is-a name
+n has-a :op1 "PI3K/Akt"
+}
+}
+i2 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+}
+**************************************************
+{
+d is-a decrease-01
+d has-a :ARG0 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "MKP3"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+d has-a :ARG1 p2
+{
+p2 is-a pathway
+p2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "ERK1/2"
+}
+}
+d has-a :location c
+{
+c is-a cell-line
+c has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "NIH3T3"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "V12"
+}
+}
+i2 has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :part e2
+{
+e2 is-a enzyme
+e2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Mkp3"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m3 has-a :part p
+{
+p is-a protein
+p has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Luc"
+}
+}
+m3 has-a :ARG0-of a
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 e6
+{
+e6 is-a enzyme
+e6 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "p110"
+}
+e6 has-a :ARG1-of m4
+{
+m4 is-a mutate-01
+m4 has-a :value "CAAX"
+}
+e6 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+i3 has-a :ARG1 m5
+{
+m5 is-a macro-molecular-complex
+m5 has-a :part e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Mkp3"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m5 has-a :part p3
+{
+p3 is-a protein
+p3 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Luc"
+}
+}
+m5 has-a :ARG0-of a2
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 e4
+{
+e4 is-a enzyme
+e4 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Akt"
+}
+e4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e4 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+}
+i4 has-a :ARG1 m6
+{
+m6 is-a macro-molecular-complex
+m6 has-a :part e5
+{
+e5 is-a enzyme
+e5 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "Mkp3"
+}
+e5 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m6 has-a :part p4
+{
+p4 is-a protein
+p4 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Luc"
+}
+}
+m6 has-a :ARG0-of a3
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e2
+{
+e2 is-a enzyme
+e2 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Ras"
+}
+e2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 n8
+{
+n8 is-a nucleic-acid
+n8 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "mRNA"
+}
+n8 has-a :ARG0-of e3
+{
+e3 is-a encode-01
+e3 has-a :ARG1 e
+{
+e is-a enzyme
+e has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "MAP"
+n10 has-a :op2 "kinase"
+n10 has-a :op3 "phosphatase"
+n10 has-a :op4 "3"
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 p2
+{
+p2 is-a protein
+p2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "MKP3"
+}
+p2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "H-Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RASH_HUMAN"
+}
+e has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "V12"
+}
+}
+i2 has-a :ARG1 p
+{
+p is-a protein
+p has-a :ARG0-of a
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "NIH3T3"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :part e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Mkp3"
+}
+e2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+m3 has-a :part p2
+{
+p2 is-a protein
+p2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Luc"
+}
+}
+m3 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+i3 has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :ARG0-of a2
+}
+i3 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "NIH3T3"
+}
+c2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :polarity -
+i4 has-a :ARG0 e3
+{
+e3 is-a enzyme
+e3 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Ras"
+}
+e3 has-a :ARG1-of m4
+{
+m4 is-a mutate-01
+m4 has-a :value "N17"
+}
+}
+i4 has-a :ARG1 p4
+{
+p4 is-a protein
+p4 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "H-Ras"
+}
+p4 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+p4 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:RASH_HUMAN"
+}
+p4 has-a :ARG1-of m5
+{
+m5 is-a mutate-01
+m5 has-a :value "V12"
+}
+}
+i4 has-a :location c3
+{
+c3 is-a cell-line
+c3 has-a :xref "NIH3T3:CVCL_0594"
+c3 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "NIH3T3"
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :polarity -
+i5 has-a :ARG0 e4
+{
+e4 is-a enzyme
+e4 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Ras"
+}
+e4 has-a :ARG1-of m6
+{
+m6 is-a mutate-01
+}
+}
+i5 has-a :ARG1 m7
+{
+m7 is-a macro-molecular-complex
+m7 has-a :part e5
+{
+e5 is-a enzyme
+e5 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "Mkp3"
+}
+e5 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+m7 has-a :part p5
+{
+p5 is-a protein
+p5 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "Luc"
+}
+}
+m7 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "H-Ras"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+e has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:RASH_HUMAN"
+}
+e has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "V12"
+}
+}
+i2 has-a :ARG1 p
+{
+p is-a protein
+p has-a :ARG0-of a
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "NIH3T3"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :part e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Mkp3"
+}
+e2 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+m3 has-a :part p2
+{
+p2 is-a protein
+p2 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Luc"
+}
+}
+m3 has-a :ARG0-of a2
+{
+a2 is-a activity-06
+}
+}
+i3 has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :ARG0-of a2
+}
+i3 has-a :location c2
+{
+c2 is-a cell-line
+c2 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "NIH3T3"
+}
+c2 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :polarity -
+i4 has-a :ARG0 e3
+{
+e3 is-a enzyme
+e3 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Ras"
+}
+e3 has-a :ARG1-of m4
+{
+m4 is-a mutate-01
+m4 has-a :value "N17"
+}
+}
+i4 has-a :ARG1 p4
+{
+p4 is-a protein
+p4 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "H-Ras"
+}
+p4 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+p4 has-a :xref x5
+{
+x5 is-a xref
+x5 has-a :value "UNIPROT:RASH_HUMAN"
+}
+p4 has-a :ARG1-of m5
+{
+m5 is-a mutate-01
+m5 has-a :value "V12"
+}
+}
+i4 has-a :location c3
+{
+c3 is-a cell-line
+c3 has-a :xref "NIH3T3:CVCL_0594"
+c3 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "NIH3T3"
+}
+}
+}
+**************************************************
+{
+i5 is-a increase-01
+i5 has-a :polarity -
+i5 has-a :ARG0 e4
+{
+e4 is-a enzyme
+e4 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Ras"
+}
+e4 has-a :ARG1-of m6
+{
+m6 is-a mutate-01
+}
+}
+i5 has-a :ARG1 m7
+{
+m7 is-a macro-molecular-complex
+m7 has-a :part e5
+{
+e5 is-a enzyme
+e5 has-a :name n10
+{
+n10 is-a name
+n10 has-a :op1 "Mkp3"
+}
+e5 has-a :xref x6
+{
+x6 is-a xref
+x6 has-a :value "UNIPORT:MK03_HUMAN"
+}
+}
+m7 has-a :part p5
+{
+p5 is-a protein
+p5 has-a :name n11
+{
+n11 is-a name
+n11 has-a :op1 "Luc"
+}
+}
+m7 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 p2
+{
+p2 is-a pathway
+p2 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "Ras"
+}
+p2 has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 p3
+{
+p3 is-a protein
+p3 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "MKP3"
+}
+p3 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:MK03_HUMAN"
+}
+}
+i2 has-a :location c
+{
+c is-a cell-line
+c has-a :name n
+{
+n is-a name
+n has-a :op1 "NIH3T3"
+}
+c has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "NIH3T3:CVCL_0594"
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "Ras"
+}
+e has-a :ARG1-of m
+{
+m is-a mutate-01
+m has-a :value "V12"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a2 has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :part e4
+{
+e4 is-a enzyme
+e4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Mkp3"
+}
+e4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m3 has-a :part p6
+{
+p6 is-a protein
+p6 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Luc"
+}
+}
+}
+a2 has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 e6
+{
+e6 is-a enzyme
+e6 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110"
+}
+e6 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "CAAX"
+}
+e6 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+}
+i3 has-a :ARG1 a5
+{
+a5 is-a add-modification-00
+a5 has-a :ARG0 p
+{
+p is-a protein
+}
+a5 has-a :ARG1 m5
+{
+m5 is-a macro-molecular-complex
+m5 has-a :part e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Mkp3"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m5 has-a :part p5
+{
+p5 is-a protein
+p5 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Luc"
+}
+}
+}
+a5 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Akt"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e2 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+i4 has-a :ARG1 a6
+{
+a6 is-a add-modification-00
+a6 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a6 has-a :ARG1 m6
+{
+m6 is-a macro-molecular-complex
+m6 has-a :part e5
+{
+e5 is-a enzyme
+e5 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "Mkp3"
+}
+e5 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m6 has-a :part p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Luc"
+}
+}
+}
+}
+}
+**************************************************
+{
+i2 is-a increase-01
+i2 has-a :ARG0 e
+{
+e is-a enzyme
+e has-a :name n
+{
+n is-a name
+n has-a :op1 "Ras"
+}
+e has-a :ARG1-of m
+{
+m is-a mutate-01
+m has-a :value "V12"
+}
+e has-a :ARG0-of a
+{
+a is-a activity-06
+}
+}
+i2 has-a :ARG1 a2
+{
+a2 is-a add-modification-00
+a2 has-a :ARG0 p4
+{
+p4 is-a protein
+}
+a2 has-a :ARG1 m3
+{
+m3 is-a macro-molecular-complex
+m3 has-a :part e4
+{
+e4 is-a enzyme
+e4 has-a :name n6
+{
+n6 is-a name
+n6 has-a :op1 "Mkp3"
+}
+e4 has-a :xref x3
+{
+x3 is-a xref
+x3 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m3 has-a :part p6
+{
+p6 is-a protein
+p6 has-a :name n7
+{
+n7 is-a name
+n7 has-a :op1 "Luc"
+}
+}
+}
+a2 has-a :manner p3
+{
+p3 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i3 is-a increase-01
+i3 has-a :ARG0 e6
+{
+e6 is-a enzyme
+e6 has-a :name n2
+{
+n2 is-a name
+n2 has-a :op1 "p110"
+}
+e6 has-a :ARG1-of m2
+{
+m2 is-a mutate-01
+m2 has-a :value "CAAX"
+}
+e6 has-a :ARG0-of a3
+{
+a3 is-a activity-06
+}
+}
+i3 has-a :ARG1 a5
+{
+a5 is-a add-modification-00
+a5 has-a :ARG0 p
+{
+p is-a protein
+}
+a5 has-a :ARG1 m5
+{
+m5 is-a macro-molecular-complex
+m5 has-a :part e3
+{
+e3 is-a enzyme
+e3 has-a :name n5
+{
+n5 is-a name
+n5 has-a :op1 "Mkp3"
+}
+e3 has-a :xref x2
+{
+x2 is-a xref
+x2 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m5 has-a :part p5
+{
+p5 is-a protein
+p5 has-a :name n4
+{
+n4 is-a name
+n4 has-a :op1 "Luc"
+}
+}
+}
+a5 has-a :manner p7
+{
+p7 is-a phosphorylate-01
+}
+}
+}
+**************************************************
+{
+i4 is-a increase-01
+i4 has-a :ARG0 e2
+{
+e2 is-a enzyme
+e2 has-a :name n3
+{
+n3 is-a name
+n3 has-a :op1 "Akt"
+}
+e2 has-a :xref x
+{
+x is-a xref
+x has-a :value "UNIPROT:AKT1_HUMAN"
+}
+e2 has-a :ARG0-of a4
+{
+a4 is-a activity-06
+}
+}
+i4 has-a :ARG1 a6
+{
+a6 is-a add-modification-00
+a6 has-a :ARG0 p8
+{
+p8 is-a protein
+}
+a6 has-a :ARG1 m6
+{
+m6 is-a macro-molecular-complex
+m6 has-a :part e5
+{
+e5 is-a enzyme
+e5 has-a :name n8
+{
+n8 is-a name
+n8 has-a :op1 "Mkp3"
+}
+e5 has-a :xref x4
+{
+x4 is-a xref
+x4 has-a :value "UNIPROT:DUS6_HUMAN"
+}
+}
+m6 has-a :part p9
+{
+p9 is-a protein
+p9 has-a :name n9
+{
+n9 is-a name
+n9 has-a :op1 "Luc"
+}
+}
+}
+}
+}
+**************************************************

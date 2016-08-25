@@ -1,0 +1,32 @@
+q45
+q45 -> TOP(q46) # 1.000000
+q92 -> name(q96) # 1.000000
+q49 -> r_location(q58) # 1.000000
+q61 -> r_part(q79) # 1.000000
+q47 -> r_ARG0(q57) # 1.000000
+q91 -> xref(q93) # 1.000000
+q77 -> activity-06 # 1.000000
+q79 -> enzyme(q85 q86) # 1.000000
+q78 -> activity-06 # 1.000000
+q85 -> r_name(q92) # 1.000000
+q48 -> r_ARG1(q56) # 1.000000
+q73 -> name(q83) # 1.000000
+q89 -> r_value_NIH3T3_CVCL_0594_ # 1.000000
+q57 -> macro-molecular-complex(q60 q61 q62) # 1.000000
+q69 -> r_xref(q76) # 1.000000
+q83 -> r_op1_NIH3T3_ # 1.000000
+q62 -> r_part(q74) # 1.000000
+q86 -> r_xref(q91) # 1.000000
+q74 -> protein(q81) # 1.000000
+q70 -> r_name(q73) # 1.000000
+q76 -> xref(q89) # 1.000000
+q60 -> r_ARG0-of(q77) # 1.000000
+q96 -> r_op1_Mkp3_ # 1.000000
+q90 -> name(q95) # 1.000000
+q56 -> protein(q59) # 1.000000
+q58 -> cell-line(q69 q70) # 1.000000
+q59 -> r_ARG0-of(q78) # 1.000000
+q93 -> r_value_UNIPORT_MK03_HUMAN_ # 1.000000
+q46 -> increase-01(q47 q48 q49) # 1.000000
+q81 -> r_name(q90) # 1.000000
+q95 -> r_op1_Luc_ # 1.000000

@@ -1,0 +1,17 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CA_HUMAN_ )
+qc.r_mod_s2_ -> protein
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 )
+qr.TOP(determine-01(r_concession(point-01(r_ARG1(exchange-01(r_ARG1(x0: ) ) ) x1: ) ) x2: x3: ) ) -> TOP(qc.x0 )
+qr.r_op1_p110α_ -> r_op1_p110α_
+qc.name(x0: ) -> name(r_op1_DIRAS_ )
+qc.name(x0: ) -> name(qr.x0 )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 )
+qc.bind-01(r_ARG0(bind-01(x0: x1: ) ) x2: ) -> bind-01(qr.x0 qr.x2 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.enable-01(x0: x1: x2: r_ARG1-of(describe-01(x3: ) ) r_ARG1-of(describe-01(r_ARG0(figure(x4: ) ) ) ) ) -> increase-01(qr.x2 qr.x3 qr.x4 )
+qr.r_ARG0(figure(x0: ) ) -> r_ARG0(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qr.r_mod_a_ -> r_polarity_-
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

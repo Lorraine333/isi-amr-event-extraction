@@ -1,0 +1,1 @@
+TOP(and(r_op1(prepare-02(r_ARG1(extract-01(r_ARG1(cell))))) r_op2(amino-acid(r_name(name(r_op1_threonine_)) r_ARG3-of(phosphorylate-01) r_xref(xref(r_value_PUBCHEM_205_)))) r_op2(analyze-01(r_ARG1(immunoprecipitate-01) r_purpose(activity-06(r_ARG0(kinase(r_name(name(r_op1_PI-3_))))))))))

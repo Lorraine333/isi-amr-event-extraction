@@ -1,0 +1,13 @@
+qr
+qc.gene(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.285714285714
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.UNK -> protein #0.166666666667
+qr.r_value_UNIPROT_BRAF_HUMAN_ -> r_value_UNIPROT_BRAF_HUMAN_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.be-temporally-at-91(r_ARG1(transactivate-01(x0: x1: ) ) x2: ) -> increase-01(qr.x1 qr.x2 ) #1.0
+qr.TOP(possible-01(r_ARG1(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_BRAF_ -> r_op1_BRAF_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

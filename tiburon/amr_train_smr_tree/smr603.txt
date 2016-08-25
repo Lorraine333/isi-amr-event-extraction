@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG0(x1 / cell :name(x2 / name :op1 "ES" ) )  :ARG1(x3 / protein-segment :name(x4 / name :op1 "exon"6" )  :part-of(x5 / gene :xref(x6 / xref :value "GO" )  :name(x7 / name :op3 "cb"  :op2 "Pik3"  :op1 "murine" ) ) )  :ARG1-of(x8 / describe-01 :ARG0(x9 / figure :mod "S4"A" ) ) )

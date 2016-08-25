@@ -1,0 +1,3 @@
+qr
+qr.TOP(macro-molecular-complex(x0: x1: r_condition(incubate-01(x2: r_ARG2(and(x3: r_op2(protein(x4: r_xref(xref(x5: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x5 ) #1.0
+qc.r_value_UNIPROT_CDC42_HUMAN_ -> smr-empty #0.75

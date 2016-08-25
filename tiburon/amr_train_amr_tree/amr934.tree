@@ -1,0 +1,1 @@
+TOP(phosphorylate-01(r_ARG2(protein(r_name(name(r_op1_MKP3_)) r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_)))) r_ARG1-of(specific-02(r_ARG2(amino-acid(r_name(name(r_op1_threonine_)) r_mod(amino-acid(r_name(name(r_op1_tyrosine_)) r_mod(dual) r_xref(xref(r_value_PUBCHEM_1153_)))) r_xref(xref(r_value_PUBCHEM_205_)))))) r_ARG1(enzyme(r_name(name(r_op1_Erk1/2_)))) r_ARG0-of(UNK)))

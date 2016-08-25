@@ -1,0 +1,22 @@
+qr
+qc.interfere-01(x0: x1: x2: x3: ) -> increase-01(qr.x0 qr.x1 ) #1.0
+qc.and(r_op1(phosphorylate-01(x0: r_ARG2-of(induce-01(x1: ) ) ) ) r_op2(protein(x2: r_xref(x3: ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_op1_Dock180_ -> r_op1_Dock180_ #1.0
+qr.TOP(contrast-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG0(knock-down-02(r_ARG1(or(r_op1(dock-01(r_ARG1(x0: ) ) ) x1: ) ) ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qr.r_op1_AKT_ -> r_op1_AKT_ #1.0
+qc.protein-family(r_mod(macro-molecular-complex(x0: r_part(protein(x1: x2: ) ) ) ) x3: ) -> protein(qr.x2 qr.x3 ) #1.0
+qc.name(x0: ) -> name(r_op1_S1P_ ) #0.00570962479608
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_value_UNIPROT_AKT1_HUMAN_ #0.936170212766
+qc.xref(x0: ) -> xref(r_value_UNIPROT_DOCK1_HUMAN_ ) #0.00566893424036
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.r_value_UNIPROT_MBTP1_HUMAN_ -> phosphorylate-01 #0.833333333333
+qr.xref(x0: ) -> r_manner(qc.x0 ) #0.418604651163
+qc.xref(x0: ) -> xref(r_value_CHEBI_37550_ ) #0.0124716553288
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

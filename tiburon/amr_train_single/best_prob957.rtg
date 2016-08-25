@@ -1,0 +1,17 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q11 q15 )
+q2 -> r_ARG0(q3 )
+q11 -> r_ARG0(q12 )
+q15 -> r_polarity_-
+q3 -> small-molecule(q4 )
+q12 -> muti-index-card(q13 q14 )
+q4 -> r_ARG0-of(q5 )
+q13 -> r_op1_Akt_
+q14 -> r_value_UNIPROT_AKT1_HUMAN_
+q5 -> decrease-01(q6 )
+q6 -> r_ARG1(q7 )
+q7 -> protein-family(q8 )
+q8 -> r_name(q9 )
+q9 -> name(q10 )
+q10 -> r_op1_PI3K_

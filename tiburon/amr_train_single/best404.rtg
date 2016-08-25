@@ -1,0 +1,46 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q26 q27 )
+q2 -> r_ARG1(q3 )
+q26 -> r_polarity_-
+q27 -> r_ARG1(q28 )
+q3 -> increase-01(q4 q12 )
+q28 -> bind-01(q29 q37 )
+q4 -> r_ARG0(q5 )
+q12 -> r_ARG0(q13 )
+q29 -> r_ARG1(q30 )
+q37 -> r_ARG2(q38 )
+q5 -> small-molecule(q6 q9 )
+q13 -> add-modification-00(q14 q16 q24 )
+q30 -> protein(q31 q34 )
+q38 -> nucleic-acid(q39 q42 )
+q6 -> r_name(q7 )
+q9 -> r_xref(q10 )
+q14 -> r_manner(q15 )
+q16 -> r_ARG1(q17 )
+q24 -> r_ARG1(q25 )
+q31 -> r_name(q32 )
+q34 -> r_xref(q35 )
+q39 -> r_xref(q40 )
+q42 -> r_name(q43 )
+q7 -> name(q8 )
+q10 -> xref(q11 )
+q15 -> phosphorylate-01
+q17 -> protein(q18 q21 )
+q25 -> protein
+q32 -> name(q33 )
+q35 -> xref(q36 )
+q40 -> xref(q41 )
+q43 -> name(q44 )
+q8 -> r_op1_SRC-3_
+q11 -> r_value_PUBCHEM_5757_
+q18 -> r_name(q19 )
+q21 -> r_xref(q22 )
+q33 -> r_op1_SRC-3_
+q36 -> r_value_UNIPROT_ESR1_HUMAN_
+q41 -> r_value_UNIPROT_DNA2_HUMAN_
+q44 -> r_op1_DNA_
+q19 -> name(q20 )
+q22 -> xref(q23 )
+q20 -> r_op1_SRC-3_
+q23 -> r_value_UNIPROT_ESR1_HUMAN_

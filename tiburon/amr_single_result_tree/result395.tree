@@ -1,0 +1,11 @@
+Tree info for input tree amr395.tree:
+	62 nodes
+	14 yield length
+Transducer info for input tree transducer simple395.trans:
+	2 states
+	18 rules
+RTG info for forward application of tree:
+	21 states
+	21 rules
+	8 unique terminal symbols
+	1 derivations

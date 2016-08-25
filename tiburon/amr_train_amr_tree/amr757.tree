@@ -1,0 +1,1 @@
+TOP(and(r_op1(power(r_location(top) r_mod(differential) r_mod(UNK))) r_op2(energy(r_location(bottom) r_mod(thermal) r_ARG1-of(UNK)))))

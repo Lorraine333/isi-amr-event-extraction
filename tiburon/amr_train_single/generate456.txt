@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG1(x1 / protein :part-of(x2 / protein-family :name(x3 / name :op2 "GTPase"  :op1 "RHO" ) )  :name(x4 / name :op1 "CDC42" ) )  :ARG1(x5 / enzyme :name(x6 / name :op1 "p110β" ) ) )

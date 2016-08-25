@@ -1,0 +1,1 @@
+(x0 / translocate-01 :ARG1(x1 / amino-acid :name(x2 / name :op1 "MKP3" )  :manner(x3 / smr-empty)  :mod "740" )  :ARG2(x4 / nucleus)  :ARG1(x5 / enzyme :xref(x6 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x7 / name :op1 "Erk1"2" ) )  :polarity"- )

@@ -1,0 +1,21 @@
+qr
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_ #1.0
+qr.TOP(and(r_op1(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qr.xref(x0: ) -> r_ARG0(qc.x0 ) #0.372093023256
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.and(x0: r_op2(slash(x1: r_op2(enzyme(x2: ) ) x3: ) ) ) -> amino-acid(qr.x0 qr.x2 ) #1.0
+qc.r_value_PUBCHEM_1153_ -> protein #0.4
+qr.r_op1_Gab1_ -> r_op1_Gab1_ #1.0
+qr.r_op1_472_ -> r_op1_tyrosine_ #0.666666666667
+qc.phosphorylate-01(x0: r_mod(amino-acid(r_name(x1: ) r_xref(x2: ) ) ) r_ARG2-of(respond-01(r_ARG1(treat-04(x3: ) ) ) ) ) -> increase-01(r_ARG1(add-modification-00(qr.x0 qr.x1 qr.x2 ) ) qr.x3 ) #1.0
+qr.r_op1_EGF_ -> r_op1_EGF_ #1.0
+qr.r_op1(x0: ) -> r_part-of(qc.x0 ) #0.121693121693
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.name(x0: ) -> r_manner(qc.x0 ) #0.684210526316
+qr.r_value_UNIPROT_EGF_HUMAN_ -> r_value_UNIPROT_EGF_HUMAN_ #0.96875
+qc.r_op1_tyrosine_ -> phosphorylate-01 #1.0

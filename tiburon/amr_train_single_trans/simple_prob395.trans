@@ -1,0 +1,19 @@
+qr
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_op1_ERα_ -> r_op1_ERα_ #0.976744186047
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.mutate-01(r_ARG1(enzyme(r_name(name(x0: ) ) ) ) ) -> mutate-01(qr.x0 ) #1.0
+qc.appear-02(r_ARG1(effective-04(x0: x1: r_ARG1(support-01(x2: ) ) x3: ) ) r_concession(mutate-01(r_mod(disease(x4: r_name(name(x5: x6: ) ) ) ) ) ) ) -> increase-01(qr.x2 qr.x3 qr.x6 ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_compared-to(x0: ) -> r_ARG0(qc.x0 ) #0.5
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.phosphorylate-01(x0: ) -> add-modification-00(r_manner(phosphorylate-01 ) qr.x0 r_ARG0(protein ) ) #0.272727272727
+qr.r_op2_cancer_ -> r_polarity_- #0.5
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_op2(x0: ) -> r_ARG2-of(qc.x0 ) #0.00884955752212
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.or(r_op1(be-located-at-91(r_ARG1(enzyme(x0: x1: x2: ) ) x3: ) ) x4: ) -> protein(qr.x1 qr.x2 qr.x4 ) #1.0
+qr.r_op1_EG_ -> r_value_CC_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

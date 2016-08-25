@@ -1,0 +1,11 @@
+Tree info for input tree amr59.tree:
+	22 nodes
+	5 yield length
+Transducer info for input tree transducer simple59.trans:
+	2 states
+	13 rules
+RTG info for forward application of tree:
+	18 states
+	18 rules
+	7 unique terminal symbols
+	1 derivations

@@ -1,0 +1,40 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q22 q2 )
+q1 -> increase-01(q2 q22 )
+q22 -> r_ARG0(q23 )
+q2 -> r_ARG1(q3 )
+q23 -> protein(q27 q24 )
+q23 -> protein(q24 q27 )
+q3 -> add-modification-00(q20 q12 q4 )
+q3 -> add-modification-00(q20 q4 q12 )
+q3 -> add-modification-00(q12 q20 q4 )
+q3 -> add-modification-00(q12 q4 q20 )
+q3 -> add-modification-00(q4 q20 q12 )
+q3 -> add-modification-00(q4 q12 q20 )
+q27 -> r_name(q28 )
+q24 -> r_xref(q25 )
+q20 -> r_manner(q21 )
+q12 -> r_ARG1(q13 )
+q4 -> r_ARG0(q5 )
+q28 -> name(q29 )
+q25 -> xref(q26 )
+q21 -> phosphorylate-01
+q13 -> enzyme(q17 q14 )
+q13 -> enzyme(q14 q17 )
+q5 -> small-molecule(q9 q6 )
+q5 -> small-molecule(q6 q9 )
+q29 -> r_op1_CDC42_
+q26 -> r_value_UNIPROT_CDC42_HUMAN_
+q17 -> r_name(q18 )
+q14 -> r_xref(q15 )
+q9 -> r_xref(q10 )
+q6 -> r_name(q7 )
+q18 -> name(q19 )
+q15 -> xref(q16 )
+q10 -> xref(q11 )
+q7 -> name(q8 )
+q19 -> r_op1_ERK_
+q16 -> r_value_UNIPROT_MK01_HUMAN_
+q11 -> r_value_CHEBI_37550_
+q8 -> r_op1_S1P_

@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein-family :ARG1-of(x2 / protein) )  :ARG1(x3 / phosphorylate-01)  :op1 "RBD" )

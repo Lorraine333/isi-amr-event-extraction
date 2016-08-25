@@ -1,0 +1,3 @@
+qr
+qr.TOP(probe-01(x0: x1: r_ARG1(bind-01(x2: r_ARG1-of(x3: ) ) ) ) ) -> TOP(qc.x3 )
+qc.specific-02 -> smr-empty

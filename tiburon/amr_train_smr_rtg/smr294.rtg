@@ -1,0 +1,61 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q10 q2 )
+q1 -> increase-01(q2 q10 )
+q10 -> r_ARG1(q11 )
+q2 -> r_ARG0(q3 )
+q11 -> increase-01(q21 q13 q12 )
+q11 -> increase-01(q21 q12 q13 )
+q11 -> increase-01(q13 q21 q12 )
+q11 -> increase-01(q13 q12 q21 )
+q11 -> increase-01(q12 q21 q13 )
+q11 -> increase-01(q12 q13 q21 )
+q3 -> protein(q7 q4 )
+q3 -> protein(q4 q7 )
+q21 -> r_ARG1(q22 )
+q13 -> r_ARG0(q14 )
+q12 -> r_polarity_-
+q7 -> r_name(q8 )
+q4 -> r_xref(q5 )
+q22 -> add-modification-00(q39 q25 q23 )
+q22 -> add-modification-00(q39 q23 q25 )
+q22 -> add-modification-00(q25 q39 q23 )
+q22 -> add-modification-00(q25 q23 q39 )
+q22 -> add-modification-00(q23 q39 q25 )
+q22 -> add-modification-00(q23 q25 q39 )
+q14 -> small-molecule(q18 q15 )
+q14 -> small-molecule(q15 q18 )
+q8 -> name(q9 )
+q5 -> xref(q6 )
+q39 -> r_manner(q40 )
+q25 -> r_ARG1(q26 )
+q23 -> r_ARG0(q24 )
+q18 -> r_name(q19 )
+q15 -> r_xref(q16 )
+q9 -> r_op1_ERβ_
+q6 -> r_value_UNIPROT_ESR2_HUMAN_
+q40 -> phosphorylate-01
+q26 -> amino-acid(q38 q35 q27 )
+q26 -> amino-acid(q38 q27 q35 )
+q26 -> amino-acid(q35 q38 q27 )
+q26 -> amino-acid(q35 q27 q38 )
+q26 -> amino-acid(q27 q38 q35 )
+q26 -> amino-acid(q27 q35 q38 )
+q24 -> protein
+q19 -> name(q20 )
+q16 -> xref(q17 )
+q38 -> r_mod_505_
+q35 -> r_name(q36 )
+q27 -> r_part-of(q28 )
+q20 -> r_op1_tamoxifen_
+q17 -> r_value_PUBCHEM_2733526_
+q36 -> name(q37 )
+q28 -> protein(q32 q29 )
+q28 -> protein(q29 q32 )
+q37 -> r_op1_serine_
+q32 -> r_name(q33 )
+q29 -> r_xref(q30 )
+q33 -> name(q34 )
+q30 -> xref(q31 )
+q34 -> r_op1_SRC-3_
+q31 -> r_value_UNIPROT_NCOA3_HUMAN_

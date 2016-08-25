@@ -1,0 +1,24 @@
+qr
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x0 qr.x1 qr.x2 ) #0.121212121212
+qr.r_op1_EGF_ -> r_op1_EGF_ #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_ARG1(activity-06(r_ARG0(x0: ) ) ) -> r_ARG1(qc.x0 ) #1.0
+qc.rescue-01(r_ARG0(express-03(x0: x1: ) ) x2: ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_ARG1(x0: ) -> r_location(qc.x0 ) #0.018045112782
+qr.r_op1_Gab1_ -> r_op1_Gab1_ #1.0
+qr.r_mod(x0: ) -> r_mod(qc.x0 ) #0.268292682927
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.name(x0: ) -> name(r_op1_PI3K_ ) #0.0114192495922
+qc.wild-type -> wild-type #0.741935483871
+qc.protein(x0: x1: x2: ) -> cell-line(qr.x0 qr.x2 ) #0.0689655172414
+qr.r_value_UNIPROT_GAB1_HUMAN_ -> r_value_UNIPROT_GAB1_HUMAN_ #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.name(x0: ) -> name(r_op1_MEF_ ) #0.031810766721
+qc.xref(x0: ) -> xref(r_value_MEF-1_CVCL_4240_ ) #0.0102040816327
+qc.kinase(r_ARG1-of(induce-01(x0: ) ) x1: ) -> increase-01(qr.x0 r_ARG1(macro-molecular-complex(r_ARG0-of(activity-06 ) r_xref(xref(r_value_UNIPROT_P85A_HUMAN_ ) ) qr.x1 ) ) ) #1.0
+qr.r_value_UNIPROT_EGF_HUMAN_ -> r_value_UNIPROT_EGF_HUMAN_ #0.96875

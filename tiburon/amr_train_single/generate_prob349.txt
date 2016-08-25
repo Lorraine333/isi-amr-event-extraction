@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / add-modification-00 :ARG1(x2 / amino-acid :name(x3 / name :op1 "ERα" )  :manner(x4 / phosphorylate-01)  :mod "740" )  :manner(x5 / phosphorylate-01)  :ARG1(x6 / cell-line :xref(x7 / xref :value "NIH3T3"CVCL"0594" )  :name(x8 / name :op1 "SRC-3" ) ) )  :ARG1(x9 / protein :manner(x10 / phosphorylate-01) )  :polarity"- )

@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / small-molecule :name(x2 / name :op1 "GTP" )  :xref(x3 / xref :value "PUBCHEM"6830" ) )  :op1 (x4 / xref :value "UNIPROT"RAC1"HUMAN" ) )

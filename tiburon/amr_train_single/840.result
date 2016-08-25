@@ -1,0 +1,34 @@
+q47
+q47 -> TOP(q48) # 1.000000
+q51 -> r_ARG2(q59) # 1.000000
+q60 -> enzyme(q65 q66 q67) # 1.000000
+q86 -> r_xref(q105) # 1.000000
+q84 -> name(q99) # 1.000000
+q76 -> protein(q86 q87) # 1.000000
+q49 -> r_mode(q58) # 1.000000
+q66 -> r_name(q84) # 1.000000
+q107 -> name(q116) # 1.000000
+q65 -> r_ARG2-of(q78) # 1.000000
+q90 -> r_value_UNIPROT_DIRA1_HUMAN_ # 1.000000
+q93 -> r_xref(q111) # 1.000000
+q99 -> r_op1_DIRAS1_ # 1.000000
+q115 -> r_value_UNIPROT_PK3CA_HUMAN_ # 1.000000
+q105 -> xref(q120) # 1.000000
+q67 -> r_xref(q80) # 1.000000
+q87 -> r_name(q107) # 1.000000
+q80 -> xref(q90) # 1.000000
+q109 -> name(q119) # 1.000000
+q50 -> r_ARG1(q60) # 1.000000
+q116 -> r_op1_p85_ # 1.000000
+q58 -> hypothesis # 1.000000
+q78 -> mutate-01(q96) # 1.000000
+q92 -> r_name(q109) # 1.000000
+q82 -> enzyme(q92 q93) # 1.000000
+q59 -> macro-molecular-complex(q61 q62) # 1.000000
+q61 -> r_part(q76) # 1.000000
+q111 -> xref(q115) # 1.000000
+q96 -> r_value_I37D_ # 1.000000
+q120 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q48 -> bind-01(q49 q50 q51) # 1.000000
+q119 -> r_op1_p110α_ # 1.000000
+q62 -> r_part(q82) # 1.000000

@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / cell)  :ARG1(x2 / muti-index-card :op1 "PI3K"  :polarity"- ) )

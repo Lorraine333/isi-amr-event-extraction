@@ -1,0 +1,29 @@
+q33
+q33 -> TOP(q34) # 1.000000
+q36 -> r_ARG1(q40) # 1.000000
+q64 -> r_name(q73) # 1.000000
+q73 -> name(q91) # 1.000000
+q54 -> name(q68) # 1.000000
+q86 -> r_value_UNIPROT_DOCK1_HUMAN_ # 1.000000
+q77 -> xref(q84) # 1.000000
+q40 -> protein(q45 q46) # 1.000000
+q46 -> r_xref(q51) # 1.000000
+q49 -> protein(q69 q70) # 1.000000
+q69 -> r_name(q75) # 1.000000
+q80 -> xref(q86) # 1.000000
+q52 -> protein(q64 q65) # 1.000000
+q65 -> r_xref(q77) # 1.000000
+q92 -> r_op1_Dock180_ # 1.000000
+q75 -> name(q92) # 1.000000
+q39 -> macro-molecular-complex(q41 q42) # 1.000000
+q70 -> r_xref(q80) # 1.000000
+q35 -> r_ARG0(q39) # 1.000000
+q68 -> r_op1_RAC_ # 1.000000
+q51 -> xref(q63) # 1.000000
+q91 -> r_op1_Elmo1_ # 1.000000
+q42 -> r_part(q52) # 1.000000
+q63 -> r_value_UNIPROT_RAC1_HUMAN_ # 1.000000
+q34 -> increase-01(q35 q36) # 1.000000
+q84 -> r_value_UNIPROT_ELMO1_HUMAN_ # 1.000000
+q45 -> r_name(q54) # 1.000000
+q41 -> r_part(q49) # 1.000000

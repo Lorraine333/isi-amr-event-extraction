@@ -1,0 +1,1 @@
+(x0 / increase-01 :manner(x1 / cell)  :ARG2(x2 / decrease-01 :ARG0(x3 / protein)  :ARG1(x4 / cell-line) )  :ARG1(x5 / smr-empty) )

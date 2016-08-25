@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG2(protein-segment(r_name(name(r_op1_N-terminus_)) r_part-of(protein(r_name(name(r_op1_Elmo1_)) r_xref(xref(r_value_UNIPORT_ELMO1_HUMAN_)))))) r_ARG1(macro-molecular-complex(r_name(name(r_op1_Gβγ_))))))

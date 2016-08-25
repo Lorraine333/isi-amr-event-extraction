@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / protein-segment :part-of(x2 / protein :manner(x3 / phosphorylate-01) ) )  :ARG0(x4 / phosphorylate-01) )

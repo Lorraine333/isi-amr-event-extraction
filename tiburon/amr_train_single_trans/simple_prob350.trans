@@ -1,0 +1,17 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.r_mod_4_ -> protein #0.285714285714
+qc.row(x0: r_ARG1-of(induce-01(x1: x2: ) ) x3: ) -> increase-01(qr.x0 qr.x2 qr.x3 ) #1.0
+qr.TOP(contrast-01(x0: r_ARG2(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qc.protein(x0: ) -> protein(r_xref(value(r_name(name(r_op1_UNIPROT_SRC-3_HUMAN_ ) ) ) ) qr.x0 ) #0.0355029585799
+qc.phosphorylate-01(x0: x1: r_ARG1-of(compare-01(x2: r_ARG2(x3: ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.UNK -> protein #0.166666666667
+qr.r_mod_1_ -> r_polarity_- #0.136363636364
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG0(mutate-01(x0: r_ARG1-of(x1: ) ) ) -> r_ARG0(qc.x1 ) #1.0
+qc.UNK -> phosphorylate-01 #0.138888888889
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.lane(x0: ) -> r_ARG0(qc.x0 ) #0.125

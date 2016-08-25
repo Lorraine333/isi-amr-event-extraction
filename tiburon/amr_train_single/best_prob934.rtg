@@ -1,0 +1,22 @@
+q0
+q0 -> TOP(q1 )
+q1 -> translocate-01(q2 q10 q12 q20 )
+q2 -> r_ARG1(q3 )
+q10 -> r_ARG2(q11 )
+q12 -> r_ARG1(q13 )
+q20 -> r_polarity_-
+q3 -> amino-acid(q4 q7 q9 )
+q11 -> nucleus
+q13 -> enzyme(q14 q17 )
+q4 -> r_name(q5 )
+q7 -> r_manner(q8 )
+q9 -> r_mod_740_
+q14 -> r_xref(q15 )
+q17 -> r_name(q18 )
+q5 -> name(q6 )
+q8 -> smr-empty
+q15 -> xref(q16 )
+q18 -> name(q19 )
+q6 -> r_op1_MKP3_
+q16 -> r_value_UNIPROT_MK01_HUMAN_
+q19 -> r_op1_Erk1/2_

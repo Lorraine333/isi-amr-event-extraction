@@ -1,0 +1,22 @@
+qr
+qc.protein-segment(x0: x1: x2: ) -> protein-segment(qr.x1 qr.x2 ) #0.142857142857
+qr.r_part-of(x0: ) -> r_part-of(qc.x0 ) #0.807692307692
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_ERα_ -> r_op1_ERα_ #0.976744186047
+qc.require-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.888888888889
+qc.name(x0: ) -> name(r_op2_groove_ r_op1_coactivator-binding_ ) #0.000815660685155
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.enzyme(x0: ) -> small-molecule(r_xref(xref(r_value_PUBCHEM_5757_ ) ) qr.x0 ) #0.0769230769231
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 ) #0.174193548387
+qc.phosphorylate-01(r_ARG2-of(induce-01(x0: ) ) x1: ) -> increase-01(qr.x0 r_ARG1(add-modification-00(r_manner(phosphorylate-01 ) qr.x1 r_ARG0(protein ) ) ) ) #0.823529411765

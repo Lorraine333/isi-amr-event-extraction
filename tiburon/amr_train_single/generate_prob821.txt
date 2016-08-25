@@ -1,0 +1,1 @@
+(x0 / add-modification-00 :ARG0-of(x1 / activity-06)  :ARG1(x2 / muti-index-card :op1 "HRAS"  :value "UNIPROT"RASH"HUMAN" )  :ARG2(x3 / enzyme :name(x4 / name :op1 "KRAS" )  :xref(x5 / xref :value "UNIPROT"RASK"HUMAN" ) ) )

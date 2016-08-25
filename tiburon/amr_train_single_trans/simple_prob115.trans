@@ -1,0 +1,18 @@
+qr
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qr.r_op1_RAF_ -> r_op1_RAF_ #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.r_mod_3_ -> protein #0.428571428571
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qc.phosphorylate-01(x0: ) -> phosphorylate-01 #0.606060606061
+qc.enzyme(x0: x1: ) -> enzyme(r_mod(wild-type ) qr.x0 qr.x1 ) #0.00589970501475
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_value_UNIPROT_RAF1_HUMAN_ -> r_value_UNIPROT_RAF1_HUMAN_ #0.952380952381
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG0(figure(x0: ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.state(r_ARG1-of(describe-01(x0: r_ARG1(induce-01(r_ARG0(inhibit-01(x1: ) ) x2: ) ) ) ) x3: ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.die-01(x0: x1: ) -> increase-01(qr.x0 r_ARG0(decrease-01(qr.x1 r_ARG0(molecular-physical-entity ) ) ) ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

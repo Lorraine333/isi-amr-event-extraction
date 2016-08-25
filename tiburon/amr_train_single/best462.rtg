@@ -1,0 +1,25 @@
+q0
+q0 -> TOP(q1 )
+q1 -> add-modification-00(q2 q7 )
+q2 -> r_ARG1(q3 )
+q7 -> r_ARG1(q8 )
+q3 -> enzyme(q4 )
+q8 -> bind-01(q9 q14 )
+q4 -> r_name(q5 )
+q9 -> r_ARG2(q10 )
+q14 -> r_ARG1(q15 )
+q5 -> name(q6 )
+q10 -> enzyme(q11 )
+q15 -> protein(q16 q21 )
+q6 -> r_op1_p110β_
+q11 -> r_name(q12 )
+q16 -> r_part-of(q17 )
+q21 -> r_name(q22 )
+q12 -> name(q13 )
+q17 -> protein-family(q18 )
+q22 -> name(q23 )
+q13 -> r_op1_p110β_
+q18 -> r_name(q19 )
+q23 -> r_op1_CDC42_
+q19 -> name(q20 )
+q20 -> r_op1_p110β_

@@ -1,0 +1,27 @@
+qr
+qr.r_ARG2(x0: ) -> r_location(qc.x0 ) #0.0619834710744
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.elevate-01 -> phosphorylate-01 #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.enzyme(x0: x1: x2: ) -> enzyme(qr.x1 qr.x2 ) #0.212121212121
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.TOP(and(r_op2(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x0 qr.x1 ) #0.010101010101
+qc.level(x0: x1: x2: r_name(x3: ) ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qr.r_value_V12_ -> r_value_V12_ #1.0
+qr.r_quant-of(x0: ) -> r_ARG1(qc.x0 ) #0.666666666667
+qc.mutate-01(x0: ) -> mutate-01(qr.x0 ) #0.478260869565
+qc.and(r_op1(enzyme(x0: x1: x2: ) ) r_op2(enzyme(x3: x4: x5: ) ) ) -> cell-line(qr.x2 qr.x4 ) #1.0
+qr.r_value_UNIPROT_AKT1_HUMAN_ -> r_value_UNIPROT_AKT1_HUMAN_ #0.936170212766
+qc.fail-01(r_ARG1(express-03(x0: ) ) x1: r_ARG1-of(cause-01(x2: ) ) x3: ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.name(x0: ) -> r_ARG0(qc.x0 ) #0.0921052631579
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_AKT_ -> r_op1_AKT_ #1.0
+qr.r_op1_HRAS_ -> r_op1_HRAS_ #1.0
+qr.r_ARG2-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.4
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.xref(x0: ) -> xref(r_value_RRID_CVCL_4240_ ) #0.00907029478458
+qc.name(x0: ) -> name(r_op1_MEF_ ) #0.031810766721
+qr.r_ARG1-of(x0: ) -> r_manner(qc.x0 ) #0.235294117647
+qc.r_op1_mef_ -> protein #0.5

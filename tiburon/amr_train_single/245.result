@@ -1,0 +1,31 @@
+q39
+q39 -> TOP(q40) # 1.000000
+q86 -> xref(q88) # 1.000000
+q83 -> r_xref(q86) # 1.000000
+q70 -> r_name(q78) # 1.000000
+q49 -> r_ARG0(q63) # 1.000000
+q47 -> r_ARG1(q61) # 1.000000
+q45 -> small-molecule(q56 q57) # 1.000000
+q87 -> name(q89) # 1.000000
+q57 -> r_xref(q60) # 1.000000
+q71 -> r_part-of(q79) # 1.000000
+q89 -> r_op1_SRC-3_ # 1.000000
+q46 -> add-modification-00(q47 q48 q49) # 1.000000
+q82 -> r_name(q87) # 1.000000
+q48 -> r_manner(q62) # 1.000000
+q42 -> r_ARG1(q46) # 1.000000
+q80 -> r_op1_threonine_ # 1.000000
+q56 -> r_name(q64) # 1.000000
+q66 -> r_value_PUBCHEM_5757_ # 1.000000
+q60 -> xref(q66) # 1.000000
+q78 -> name(q80) # 1.000000
+q61 -> amino-acid(q69 q70 q71) # 1.000000
+q41 -> r_ARG0(q45) # 1.000000
+q69 -> r_mod_24_ # 1.000000
+q62 -> phosphorylate-01 # 1.000000
+q88 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q67 -> r_op1_E2_ # 1.000000
+q40 -> increase-01(q41 q42) # 1.000000
+q79 -> protein(q82 q83) # 1.000000
+q64 -> name(q67) # 1.000000
+q63 -> protein # 1.000000

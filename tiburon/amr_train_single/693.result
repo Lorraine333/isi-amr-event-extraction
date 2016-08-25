@@ -1,0 +1,8 @@
+q4
+q4 -> TOP(q5) # 1.000000
+q8 -> r_UNK # 1.000000
+q9 -> r_UNK # 1.000000
+q7 -> r_UNK # 1.000000
+q5 -> muti-index-card(q6 q7) # 1.000000
+q5 -> muti-index-card(q8 q9) # 1.000000
+q6 -> r_UNK # 1.000000

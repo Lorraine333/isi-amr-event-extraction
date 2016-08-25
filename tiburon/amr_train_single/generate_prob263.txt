@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein)  :polarity"-  :ARG1(x2 / phosphorylate-01) )

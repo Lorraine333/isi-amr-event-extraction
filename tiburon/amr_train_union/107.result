@@ -1,0 +1,56 @@
+q821
+q821 -> TOP(q822) # 1.000000
+q822 -> decrease-01(q834 q835) # 1.000000
+q835 -> r_ARG1(q838) # 1.000000
+q922 -> xref(q1069) # 1.000000
+q922 -> xref(q1042) # 1.000000
+q852 -> small-molecule # 1.000000
+q1252 -> r_op1_CRAF_ # 1.000000
+q917 -> name(q966) # 1.000000
+q1113 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q887 -> r_name(q931) # 1.000000
+q1140 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q1209 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q920 -> xref(q1182) # 1.000000
+q920 -> xref(q1209) # 1.000000
+q907 -> r_name(q929) # 1.000000
+q858 -> complex-with-00(q860 q861) # 1.000000
+q858 -> complex-with-00(q862 q863) # 1.000000
+q879 -> r_name(q917) # 1.000000
+q1355 -> r_op1_CRAF_ # 1.000000
+q863 -> r_ARG2(q878) # 1.000000
+q847 -> r_ARG2(q858) # 1.000000
+q877 -> enzyme(q907 q908) # 1.000000
+q1280 -> r_op1_CRAF_ # 1.000000
+q861 -> r_ARG1(q865) # 1.000000
+q900 -> r_xref(q920) # 1.000000
+q864 -> enzyme(q879 q880) # 1.000000
+q878 -> enzyme(q899 q900) # 1.000000
+q1560 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q927 -> xref(q1560) # 1.000000
+q927 -> xref(q1587) # 1.000000
+q1069 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q880 -> r_xref(q922) # 1.000000
+q860 -> r_ARG2(q877) # 1.000000
+q1182 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q838 -> protein # 1.000000
+q925 -> xref(q1113) # 1.000000
+q925 -> xref(q1140) # 1.000000
+q929 -> name(q1485) # 1.000000
+q888 -> r_xref(q925) # 1.000000
+q1587 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q966 -> r_op1_CRAF_ # 1.000000
+q1383 -> r_op1_CRAF_ # 1.000000
+q834 -> r_ARG0(q845) # 1.000000
+q931 -> name(q1280) # 1.000000
+q931 -> name(q1252) # 1.000000
+q908 -> r_xref(q927) # 1.000000
+q899 -> r_name(q933) # 1.000000
+q1485 -> r_op1_CRAF_ # 1.000000
+q862 -> r_ARG1(q864) # 1.000000
+q1042 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q865 -> enzyme(q887 q888) # 1.000000
+q933 -> name(q1383) # 1.000000
+q933 -> name(q1355) # 1.000000
+q845 -> bind-01(q846 q847) # 1.000000
+q846 -> r_ARG1(q852) # 1.000000

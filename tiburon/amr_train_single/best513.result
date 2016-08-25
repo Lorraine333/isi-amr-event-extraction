@@ -1,0 +1,20 @@
+q19
+q19 -> TOP(q20) # 1.000000
+q36 -> r_name(q42) # 1.000000
+q45 -> r_op1_MRAS_ # 1.000000
+q42 -> name(q46) # 1.000000
+q40 -> xref(q47) # 1.000000
+q43 -> name(q45) # 1.000000
+q23 -> r_polarity_- # 1.000000
+q22 -> r_ARG1(q31) # 1.000000
+q33 -> r_name(q43) # 1.000000
+q31 -> protein(q36 q37) # 1.000000
+q41 -> xref(q44) # 1.000000
+q47 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q32 -> r_xref(q41) # 1.000000
+q46 -> r_op1_p110β_ # 1.000000
+q37 -> r_xref(q40) # 1.000000
+q44 -> r_value_UNIPROT_RASM_HUMAN_ # 1.000000
+q21 -> r_ARG2(q30) # 1.000000
+q30 -> enzyme(q32 q33) # 1.000000
+q20 -> bind-01(q21 q22 q23) # 1.000000

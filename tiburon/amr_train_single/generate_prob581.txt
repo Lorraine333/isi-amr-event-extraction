@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )  :ARG1(x2 / protein :name(x3 / name :op1 "p110β" )  :xref(x4 / xref :polarity"- ) ) )

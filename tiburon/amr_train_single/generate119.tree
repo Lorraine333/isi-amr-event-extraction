@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_name(name(r_op1_RAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))) r_ARG1(bind-01(r_ARG2(enzyme(r_name(name(r_op1_RAF_)) r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)))) r_ARG1(molecular-physical-entity))))) # 0.000021

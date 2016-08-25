@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / small-molecule :name(x2 / name :UNK )  :UNK )  :ARG1(x3 / increase-01 :ARG0(x4 / small-molecule :name(x5 / name :op1 "doxycycline" )  :xref(x6 / xref :value "PUBCHEM"54671203" ) )  :ARG1(x7 / enzyme :name(x8 / name :op1 "MKP3" )  :xref(x9 / xref :value "UNIPROT"DUS6"HUMAN" ) ) )  :polarity"- )

@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(enzyme(r_name(name(r_op1_KRAS_)) r_xref(xref(r_value_UNIPROT_PK3CA_HUMAN_)))) r_ARG1(protein(r_xref(xref(r_value_UNIPROT_PK3CA_HUMAN_)) r_name(name(r_op1_p110α_)) r_ARG1-of(add-modification-00(r_manner(phosphorylate-01))))))) # 5.746213E-10

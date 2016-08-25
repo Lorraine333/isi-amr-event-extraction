@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / molecular-physical-entity :name(x2 / name :op1 "E2" )  :xref(x3 / xref :value "CHEBI"50114" ) )  :ARG1(x4 / translocate-01 :ARG1(x5 / amino-acid :name(x6 / name :op1 "alanine" )  :part-of(x7 / protein :ARG2-of(x8 / mutate-01)  :xref(x9 / xref :value "UNIPROT"NCOA3"HUMAN" )  :name(x10 / name :op1 "SRC-3" ) ) ) ) )

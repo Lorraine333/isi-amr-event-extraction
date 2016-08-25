@@ -1,0 +1,1 @@
+TOP(add-modification-00(r_ARG0(protein(r_name(name(r_op1_GPCR_)))) r_ARG1(enzyme(r_name(name(r_op1_p110β_)) r_ARG1-of(bind-01(r_direction(downstream) r_ARG2(protein(r_name(name(r_op1_GPCR_)))))))))) # 7.855874E-12

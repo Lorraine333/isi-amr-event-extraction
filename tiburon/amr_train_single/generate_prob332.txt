@@ -1,0 +1,1 @@
+(x0 / increase-01 :mod e(x1 / hypothesis)  :ARG0(x2 / protein :manner(x3 / smr-empty) )  :ARG1(x4 / add-modification-00 :ARG1(x5 / protein :manner(x6 / phosphorylate-01) )  :ARG1(x7 / amino-acid :name(x8 / name :op1 "ERα" )  :manner(x9 / phosphorylate-01)  :mod "740" )  :ARG1(x10 / phosphorylate-01) ) )

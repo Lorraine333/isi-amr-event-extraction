@@ -1,0 +1,11 @@
+Tree info for input tree amr583.tree:
+	2 nodes
+	1 yield length
+Transducer info for input tree transducer simple583.trans:
+	1 states
+	2 rules
+RTG info for forward application of tree:
+	2 states
+	2 rules
+	3 unique terminal symbols
+	1 derivations

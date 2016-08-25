@@ -1,0 +1,37 @@
+q781
+q781 -> TOP(q782) # 1.000000
+q794 -> r_ARG1(q814) # 1.000000
+q847 -> enzyme(q862 q863) # 1.000000
+q863 -> r_xref(q1048) # 1.000000
+q1156 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q814 -> add-modification-00(q816 q817 q818) # 1.000000
+q816 -> r_ARG0(q834) # 1.000000
+q834 -> protein # 1.000000
+q793 -> r_ARG0(q803) # 1.000000
+q920 -> r_op1_RAF_ # 1.000000
+q845 -> name(q870) # 1.000000
+q845 -> name(q920) # 1.000000
+q859 -> xref(q1005) # 1.000000
+q859 -> xref(q978) # 1.000000
+q817 -> r_manner(q832) # 1.000000
+q818 -> r_ARG1(q831) # 1.000000
+q1053 -> r_op1_RAF_ # 1.000000
+q1183 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q836 -> r_ARG1(q847) # 1.000000
+q862 -> r_name(q1051) # 1.000000
+q833 -> decrease-01(q836) # 1.000000
+q1103 -> r_op1_RAF_ # 1.000000
+q803 -> molecular-physical-entity(q825) # 1.000000
+q1051 -> name(q1053) # 1.000000
+q1051 -> name(q1103) # 1.000000
+q831 -> enzyme(q837 q838) # 1.000000
+q832 -> phosphorylate-01 # 1.000000
+q978 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q870 -> r_op1_RAF_ # 1.000000
+q1048 -> xref(q1183) # 1.000000
+q1048 -> xref(q1156) # 1.000000
+q782 -> increase-01(q793 q794) # 1.000000
+q837 -> r_name(q845) # 1.000000
+q838 -> r_xref(q859) # 1.000000
+q1005 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q825 -> r_ARG0-of(q833) # 1.000000

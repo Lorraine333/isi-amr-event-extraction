@@ -1,0 +1,47 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q23 q2 )
+q1 -> increase-01(q2 q23 )
+q23 -> r_ARG0(q24 )
+q2 -> r_ARG1(q3 )
+q24 -> enzyme(q31 q28 q25 )
+q24 -> enzyme(q31 q25 q28 )
+q24 -> enzyme(q28 q31 q25 )
+q24 -> enzyme(q28 q25 q31 )
+q24 -> enzyme(q25 q31 q28 )
+q24 -> enzyme(q25 q28 q31 )
+q3 -> add-modification-00(q21 q6 q4 )
+q3 -> add-modification-00(q21 q4 q6 )
+q3 -> add-modification-00(q6 q21 q4 )
+q3 -> add-modification-00(q6 q4 q21 )
+q3 -> add-modification-00(q4 q21 q6 )
+q3 -> add-modification-00(q4 q6 q21 )
+q31 -> r_ARG0-of(q32 )
+q28 -> r_name(q29 )
+q25 -> r_ARG1-of(q26 )
+q21 -> r_manner(q22 )
+q6 -> r_ARG1(q7 )
+q4 -> r_ARG0(q5 )
+q32 -> activity-06
+q29 -> name(q30 )
+q26 -> mutate-01(q27 )
+q22 -> phosphorylate-01
+q7 -> macro-molecular-complex(q13 q8 )
+q7 -> macro-molecular-complex(q8 q13 )
+q5 -> protein
+q30 -> r_op1_Ras_
+q27 -> r_value_V12_
+q13 -> r_part(q14 )
+q8 -> r_part(q9 )
+q14 -> enzyme(q18 q15 )
+q14 -> enzyme(q15 q18 )
+q9 -> protein(q10 )
+q18 -> r_name(q19 )
+q15 -> r_xref(q16 )
+q10 -> r_name(q11 )
+q19 -> name(q20 )
+q16 -> xref(q17 )
+q11 -> name(q12 )
+q20 -> r_op1_Mkp3_
+q17 -> r_value_UNIPROT_DUS6_HUMAN_
+q12 -> r_op1_Luc_

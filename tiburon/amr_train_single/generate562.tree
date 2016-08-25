@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein(r_name(name(r_op1_CDC42_)) r_xref(xref(r_value_UNIPROT_CDC42_HUMAN_)))) r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(protein(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)) r_name(name(r_op1_p110β_)))))))) # 0.001594

@@ -1,0 +1,25 @@
+qr
+qr.r_op2(x0: ) -> r_xref(qc.x0 ) #0.0132743362832
+qc.name(x0: ) -> name(r_op1_tyrosine_ ) #0.00570962479608
+qc.xref(x0: ) -> xref(r_value_UNIPROT_NCOA3_HUMAN_ ) #0.114512471655
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_E2_ -> r_op1_E2_ #0.946428571429
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.phosphorylate-01(x0: r_location(protein-segment(x1: x2: r_ARG1-of(mean-01(x3: ) ) ) ) ) -> add-modification-00(qr.x0 qr.x1 qr.x3 ) #1.0
+qc.figure(x0: ) -> xref(qr.x0 ) #0.115384615385
+qr.r_mod(x0: ) -> r_manner(qc.x0 ) #0.284552845528
+qr.r_mod_24_ -> r_mod_24_ #1.0
+qc.all -> phosphorylate-00 #0.25
+qc.protein(x0: ) -> protein #0.260355029586
+qc.cell(x0: ) -> cell #0.666666666667
+qr.r_ARG2(x0: ) -> r_ARG1(qc.x0 ) #0.239669421488
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_mod_1b_ -> r_value_PUBCHEM_5757_ #0.666666666667
+qr.r_op2(x0: ) -> r_part-of(qc.x0 ) #0.128318584071
+qc.and(r_op1(amino-acid(x0: x1: x2: ) ) x3: x4: x5: x6: r_op2(amino-acid(x7: x8: x9: ) ) ) -> amino-acid(qr.x0 qr.x6 qr.x8 ) #1.0
+qc.amino-acid(x0: x1: x2: ) -> protein(qr.x1 qr.x2 ) #0.527272727273
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.induce-01(r_ARG1-of(show-01(r_ARG0(and(x0: x1: ) ) ) ) r_ARG1(protein(x2: ) ) x3: x4: ) -> increase-01(r_ARG0(small-molecule(qr.x1 qr.x2 ) ) qr.x3 qr.x4 ) #1.0
+qc.name(x0: ) -> name(r_op1_SRC-3_ ) #0.0676998368679
+qr.r_location(x0: ) -> r_location(qc.x0 ) #0.695652173913
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195

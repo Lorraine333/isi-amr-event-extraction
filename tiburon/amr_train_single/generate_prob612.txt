@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein-segment :name(x2 / name :op1 "CDC42" ) )  :ARG1(x3 / smr-empty)  :manner(x4 / hypothesis) )

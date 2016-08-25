@@ -1,0 +1,41 @@
+q55
+q55 -> TOP(q56) # 1.000000
+q121 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q56 -> increase-01(q57 q58 q59) # 1.000000
+q116 -> xref(q123) # 1.000000
+q73 -> r_ARG0(q88) # 1.000000
+q89 -> macro-molecular-complex(q93 q94 q95) # 1.000000
+q123 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q90 -> xref(q103) # 1.000000
+q94 -> r_xref(q116) # 1.000000
+q124 -> r_op1_PI3K_ # 1.000000
+q66 -> protein(q77 q78 q79) # 1.000000
+q77 -> r_mod(q91) # 1.000000
+q68 -> increase-01(q73 q74) # 1.000000
+q107 -> r_value_UNIPROT_GAB1_HUMAN_ # 1.000000
+q119 -> name(q126) # 1.000000
+q109 -> r_name(q119) # 1.000000
+q70 -> r_xref(q90) # 1.000000
+q113 -> r_op1_Gab1_ # 1.000000
+q57 -> r_ARG0(q66) # 1.000000
+q87 -> name(q113) # 1.000000
+q120 -> activity-06 # 1.000000
+q117 -> name(q124) # 1.000000
+q78 -> r_name(q87) # 1.000000
+q103 -> r_value_MEF-1_CVCL_4240_ # 1.000000
+q91 -> wild-type # 1.000000
+q95 -> r_name(q117) # 1.000000
+q126 -> r_op1_EGF_ # 1.000000
+q93 -> r_ARG0-of(q120) # 1.000000
+q92 -> xref(q107) # 1.000000
+q106 -> r_op1_MEF_ # 1.000000
+q88 -> protein(q109 q110) # 1.000000
+q74 -> r_ARG1(q89) # 1.000000
+q118 -> xref(q121) # 1.000000
+q59 -> r_ARG1(q68) # 1.000000
+q79 -> r_xref(q92) # 1.000000
+q58 -> r_location(q67) # 1.000000
+q86 -> name(q106) # 1.000000
+q69 -> r_name(q86) # 1.000000
+q110 -> r_xref(q118) # 1.000000
+q67 -> cell-line(q69 q70) # 1.000000

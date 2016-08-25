@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / mutate-01 :op1 "RBD" )  :polarity"-  :ARG0(x2 / protein-segment :name(x3 / name :op1 "RBD" )  :ARG1-of(x4 / hypothesis) ) )

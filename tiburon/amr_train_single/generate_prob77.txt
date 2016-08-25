@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / small-molecule :ARG0(x2 / name :value "PUBCHEM"5757" )  :name(x3 / name :op1 "E2" ) )  :ARG1(x4 / phosphorylate-01)  :location(x5 / cell) )

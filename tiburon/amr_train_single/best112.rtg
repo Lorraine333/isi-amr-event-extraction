@@ -1,0 +1,21 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q12 )
+q2 -> r_ARG1(q3 )
+q12 -> r_location(q13 )
+q3 -> enzyme(q4 q6 q9 )
+q13 -> cell-line(q14 q17 )
+q4 -> r_mod(q5 )
+q6 -> r_name(q7 )
+q9 -> r_xref(q10 )
+q14 -> r_xref(q15 )
+q17 -> r_name(q18 )
+q5 -> wild-type
+q7 -> name(q8 )
+q10 -> xref(q11 )
+q15 -> xref(q16 )
+q18 -> name(q19 )
+q8 -> r_op1_CRAF_
+q11 -> r_UNK
+q16 -> r_UNK
+q19 -> r_op1_293H_

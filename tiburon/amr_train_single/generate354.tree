@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(protein-segment(r_part-of(protein-family(r_name(name(r_op1_ERα_)))))) r_ARG1(increase-01(r_ARG0(add-modification-00(r_manner(phosphorylate-01) r_ARG0(protein) r_ARG1(protein-family(r_name(name(r_op1_ERα_)))))) r_ARG1(protein-family(r_name(name(r_op1_SRC-3_)))))))) # 4.588618E-9

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / add-modification-00 :ARG0(x2 / protein)  :manner(x3 / phosphorylate-01)  :ARG1(x4 / amino-acid :name(x5 / name :op1 "tyrosine" )  :part-of(x6 / protein :name(x7 / name :op1 "ErbB3" )  :xref(x8 / xref :value "UNIPROT"ERBB3"HUMAN" ) ) ) )  :ARG1(x9 / muti-index-card :op1 "Akt"  :value "UNIPROT"AKT1"HUMAN" )  :location(x10 / cell) )

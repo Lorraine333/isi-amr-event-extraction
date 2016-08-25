@@ -1,0 +1,36 @@
+q701
+q701 -> TOP(q702) # 1.000000
+q1132 -> r_op1_ErbB3_ # 1.000000
+q956 -> r_op1_tyrosine_ # 1.000000
+q1063 -> name(q1132) # 1.000000
+q738 -> name(q920) # 1.000000
+q738 -> name(q845) # 1.000000
+q920 -> r_op1_EGF_ # 1.000000
+q1110 -> r_value_UNIPROT_ERBB3_HUMAN_ # 1.000000
+q950 -> name(q956) # 1.000000
+q950 -> name(q979) # 1.000000
+q718 -> add-modification-00(q724 q725 q726) # 1.000000
+q845 -> r_op1_EGF_ # 1.000000
+q813 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q720 -> r_name(q738) # 1.000000
+q736 -> xref(q768) # 1.000000
+q736 -> xref(q813) # 1.000000
+q839 -> r_name(q950) # 1.000000
+q717 -> protein(q720 q721) # 1.000000
+q758 -> amino-acid(q839 q840) # 1.000000
+q724 -> r_ARG0(q743) # 1.000000
+q1060 -> xref(q1110) # 1.000000
+q840 -> r_part-of(q948) # 1.000000
+q713 -> r_ARG1(q718) # 1.000000
+q714 -> r_ARG0(q717) # 1.000000
+q952 -> r_xref(q1060) # 1.000000
+q948 -> protein(q952 q953) # 1.000000
+q721 -> r_xref(q736) # 1.000000
+q743 -> protein # 1.000000
+q726 -> r_ARG1(q758) # 1.000000
+q733 -> phosphorylate-01 # 1.000000
+q725 -> r_manner(q733) # 1.000000
+q979 -> r_op1_tyrosine_ # 1.000000
+q702 -> increase-01(q713 q714) # 1.000000
+q953 -> r_name(q1063) # 1.000000
+q768 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000

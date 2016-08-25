@@ -1,0 +1,17 @@
+q0
+q0 -> TOP(q1 )
+q1 -> add-modification-00(q2 q4 q8 )
+q2 -> r_ARG0-of(q3 )
+q4 -> r_ARG1(q5 )
+q8 -> r_ARG2(q9 )
+q3 -> activity-06
+q5 -> muti-index-card(q6 q7 )
+q9 -> enzyme(q10 q13 )
+q6 -> r_op1_HRAS_
+q7 -> r_value_UNIPROT_RASH_HUMAN_
+q10 -> r_name(q11 )
+q13 -> r_xref(q14 )
+q11 -> name(q12 )
+q14 -> xref(q15 )
+q12 -> r_op1_KRAS_
+q15 -> r_value_UNIPROT_RASK_HUMAN_

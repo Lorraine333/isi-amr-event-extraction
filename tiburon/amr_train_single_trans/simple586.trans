@@ -1,0 +1,15 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ )
+qr.r_op1_p85_ -> r_op1_p85_
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_mod_3_ -> r_polarity_-
+qr.TOP(contrast-01(x0: r_ARG2(x1: ) ) ) -> TOP(qc.x1 )
+qr.r_part(x0: ) -> r_part(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_op1_p110β-RBD_ -> r_UNK
+qc.show-01(x0: x1: r_ARG1-of(describe-01(r_ARG0(figure(x2: ) ) ) ) ) -> bind-01(qr.x0 qr.x2 )
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x0 qr.x2 )
+qc.macro-molecular-complex(x0: x1: ) -> macro-molecular-complex(qr.x0 qr.x1 )
+qr.r_ARG0(x0: ) -> r_ARG1(qc.x0 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

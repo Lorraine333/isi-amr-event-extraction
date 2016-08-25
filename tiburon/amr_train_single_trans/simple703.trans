@@ -1,0 +1,3 @@
+qr
+qr.TOP(assay-01(r_ARG1(activate-01(r_ARG1(enzyme(x0: r_xref(xref(x1: ) ) ) ) ) ) ) ) -> TOP(qc.x1 )
+qc.r_value_UNIPROT_AKT1_HUMAN_ -> smr-empty

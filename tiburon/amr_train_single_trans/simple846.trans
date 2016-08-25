@@ -1,0 +1,3 @@
+qr
+qc.wild-type -> smr-empty
+qr.TOP(slash(x0: r_op2(enzyme(x1: r_mod(x2: ) ) ) ) ) -> TOP(qc.x2 )

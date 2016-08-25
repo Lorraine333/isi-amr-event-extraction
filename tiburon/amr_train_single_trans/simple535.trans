@@ -1,0 +1,18 @@
+qr
+qc.name(x0: ) -> name(r_op1_p110β_ )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_ARG0(x0: ) -> r_ARG2-of(qc.x0 )
+qr.r_op1_DIRAS1_ -> r_op1_DIRAS1_
+qc.show-01(r_ARG1(and(x0: r_op2(protein(x1: x2: ) ) ) ) x3: ) -> enzyme(qr.x1 qr.x2 qr.x3 )
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 )
+qr.TOP(relevant-01(x0: r_ARG2(x1: ) ) ) -> TOP(qc.x1 )
+qc.mutate-01(x0: ) -> mutate-01(qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.r_value_I37D_ -> r_value_I37D_
+qc.cause-01(x0: r_ARG1(show-01(x1: r_ARG1(attenuate-01(x2: ) ) x3: ) ) r_ARG1(bind-01(x4: ) ) ) -> bind-01(qr.x2 qr.x4 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_value_UNIPROT_DIRA1_HUMAN_ -> r_value_UNIPROT_DIRA1_HUMAN_
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

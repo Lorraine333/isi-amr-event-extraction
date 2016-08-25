@@ -1,0 +1,1 @@
+(x0 / coexpress-01 :ARG1(x1 / muti-index-card :op1 "DIRAS2"  :value "UNIPROT"DIRA2"HUMAN" )  :ARG1(x2 / protein :manner(x3 / smr-empty) )  :location(x4 / cell) )

@@ -1,0 +1,3 @@
+qr
+qr.TOP(receive-01(x0: x1: r_ARG1-of(small-molecule(x2: r_name(name(x3: ) ) ) ) ) ) -> TOP(qc.x3 ) #1.0
+qc.r_op1_ANOVA_ -> smr-empty #1.0

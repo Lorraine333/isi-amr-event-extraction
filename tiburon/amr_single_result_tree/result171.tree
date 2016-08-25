@@ -1,0 +1,11 @@
+Tree info for input tree amr171.tree:
+	31 nodes
+	6 yield length
+Transducer info for input tree transducer simple171.trans:
+	2 states
+	18 rules
+RTG info for forward application of tree:
+	19 states
+	20 rules
+	6 unique terminal symbols
+	2 derivations

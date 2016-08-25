@@ -1,0 +1,1 @@
+(x0 / bind-01 :location(x1 / fibroblast)  :ARG2(x2 / enzyme :name(x3 / name :op1 "PI3K" ) )  :ARG0(x4 / protein :ARG1-of(x5 / bind-01 :ARG2(x6 / enzyme :name(x7 / name :op1 "p110β" ) ) )  :name(x8 / name :op1 "RAC" )  :ARG1-of(x9 / add-modification-00) )  :ARG1(x10 / protein :name(x11 / name :op1 "p110β" ) ) )

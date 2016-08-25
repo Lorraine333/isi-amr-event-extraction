@@ -1,0 +1,1 @@
+TOP(and(r_op1(enzyme(r_ARG1-of(purify-01) r_ARG1-of(recombine-01) r_name(name(r_op1_p85/p110β_)) r_mod(wild-type))) r_op2(enzyme(r_name(name(r_op1_p85/p110β-RBD_)) r_ARG1-of(dm)))))

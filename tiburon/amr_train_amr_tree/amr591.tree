@@ -1,0 +1,1 @@
+TOP(residue(r_mod(that) r_ARG0(person(r_quant_17_ r_ARG0-of(mutate-01(r_ARG1(enzyme(r_name(name(r_op1_14_)))))) r_name(name(r_op1_RBD_)))) r_ARG0-of(affect-01(r_ARG1(bind-01(r_ARG2(and(r_op1(enzyme(r_name(name(r_op1_gtpase_)) r_xref(xref(r_value_UNIPROT_RAN_HUMAN_)))) r_op2(affect-01(r_polarity_-_ r_ARG1(UNK)))))))))))

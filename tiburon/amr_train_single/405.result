@@ -1,0 +1,48 @@
+q62
+q62 -> TOP(q63) # 1.000000
+q131 -> r_value_UNIPROT_DNA2_HUMAN_ # 1.000000
+q132 -> r_name(q139) # 1.000000
+q63 -> increase-01(q64 q65 q66) # 1.000000
+q91 -> r_xref(q112) # 1.000000
+q64 -> r_ARG1(q73) # 1.000000
+q90 -> r_name(q119) # 1.000000
+q81 -> r_ARG2(q84) # 1.000000
+q114 -> phosphorylate-01 # 1.000000
+q98 -> r_xref(q120) # 1.000000
+q145 -> r_op1_SRC-3_ # 1.000000
+q120 -> xref(q131) # 1.000000
+q121 -> name(q137) # 1.000000
+q86 -> protein(q90 q91) # 1.000000
+q99 -> r_name(q121) # 1.000000
+q117 -> xref(q123) # 1.000000
+q117 -> xref(q124) # 1.000000
+q139 -> name(q145) # 1.000000
+q88 -> protein(q94 q95) # 1.000000
+q133 -> r_xref(q140) # 1.000000
+q116 -> name(q125) # 1.000000
+q66 -> r_ARG0(q74) # 1.000000
+q124 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q84 -> nucleic-acid(q98 q99) # 1.000000
+q89 -> add-modification-00(q102 q103 q104) # 1.000000
+q80 -> r_ARG1(q88) # 1.000000
+q141 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q137 -> r_op1_DNA_ # 1.000000
+q130 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q127 -> r_op1_ER_ # 1.000000
+q115 -> protein(q132 q133) # 1.000000
+q125 -> r_op1_ER_ # 1.000000
+q76 -> r_ARG0(q86) # 1.000000
+q123 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q74 -> bind-01(q80 q81) # 1.000000
+q95 -> r_xref(q117) # 1.000000
+q103 -> r_ARG1(q115) # 1.000000
+q73 -> increase-01(q76 q77) # 1.000000
+q104 -> r_ARG0(q113) # 1.000000
+q77 -> r_ARG1(q89) # 1.000000
+q94 -> r_name(q116) # 1.000000
+q112 -> xref(q130) # 1.000000
+q119 -> name(q127) # 1.000000
+q102 -> r_manner(q114) # 1.000000
+q113 -> protein # 1.000000
+q65 -> r_polarity_- # 1.000000
+q140 -> xref(q141) # 1.000000

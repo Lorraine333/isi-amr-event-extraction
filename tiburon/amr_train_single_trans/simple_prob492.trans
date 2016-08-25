@@ -1,0 +1,16 @@
+qr
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_274122_ ) #0.00226757369615
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qc.enzyme(x0: x1: x2: x3: ) -> small-molecule(qr.x2 qr.x3 ) #0.111111111111
+qc.enzyme(x0: x1: x2: ) -> protein-segment(qr.x0 r_part-of(protein(r_name(qc.x1 ) qr.x2 ) ) ) #0.010101010101
+qc.r_ARG1-of(x0: ) -> name(qr.x0 ) #0.666666666667
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.dm -> r_op1_p110β_ #1.0
+qr.r_op1_Gβγ_ -> r_op1_Gβγ_ #1.0
+qr.TOP(and(r_op2(x0: ) ) ) -> TOP(qc.x0 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG0(or(r_op1(add-02(r_ARG1(subunit(r_mod(x0: ) x1: ) ) ) ) x2: ) ) -> r_ARG0(qc.x0 ) #1.0
+qc.name(x0: ) -> name(r_op1_RBD_ ) #0.00244698205546
+qc.stimulate-01(x0: x1: x2: x3: x4: ) -> increase-01(qr.x0 qr.x2 ) #0.666666666667

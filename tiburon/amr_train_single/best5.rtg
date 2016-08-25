@@ -1,0 +1,38 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q10 q29 )
+q2 -> r_location(q3 )
+q10 -> r_ARG1(q11 )
+q29 -> r_ARG0(q30 )
+q3 -> cell-line(q4 q7 )
+q11 -> add-modification-00(q12 q14 q27 )
+q30 -> protein(q31 q34 )
+q4 -> r_name(q5 )
+q7 -> r_xref(q8 )
+q12 -> r_ARG0(q13 )
+q14 -> r_ARG1(q15 )
+q27 -> r_manner(q28 )
+q31 -> r_name(q32 )
+q34 -> r_xref(q35 )
+q5 -> name(q6 )
+q8 -> xref(q9 )
+q13 -> protein
+q15 -> amino-acid(q16 q24 )
+q28 -> phosphorylate-01
+q32 -> name(q33 )
+q35 -> xref(q36 )
+q6 -> r_op1_MEF_
+q9 -> r_value_MEF-1_CVCL_4240_
+q16 -> r_part-of(q17 )
+q24 -> r_name(q25 )
+q33 -> r_op1_EGF_
+q36 -> r_value_UNIPROT_EGF_HUMAN_
+q17 -> protein(q18 q21 )
+q25 -> name(q26 )
+q18 -> r_name(q19 )
+q21 -> r_xref(q22 )
+q26 -> r_op1_tyrosine_
+q19 -> name(q20 )
+q22 -> xref(q23 )
+q20 -> r_op1_Gab1_
+q23 -> r_value_UNIPROT_GAB1_HUMAN_

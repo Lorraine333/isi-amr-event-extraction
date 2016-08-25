@@ -1,0 +1,28 @@
+q32
+q32 -> TOP(q33) # 1.000000
+q54 -> xref(q79) # 1.000000
+q50 -> r_xref(q54) # 1.000000
+q35 -> r_ARG0(q39) # 1.000000
+q82 -> r_op1_Erk1/2_ # 1.000000
+q42 -> r_ARG0(q57) # 1.000000
+q83 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q53 -> enzyme(q58 q59) # 1.000000
+q40 -> r_manner(q56) # 1.000000
+q38 -> add-modification-00(q40 q41 q42) # 1.000000
+q58 -> r_name(q80) # 1.000000
+q79 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q63 -> r_op2_growth_ # 1.000000
+q39 -> protein(q49 q50) # 1.000000
+q34 -> r_ARG1(q38) # 1.000000
+q62 -> r_op1_fibroblast_ # 1.000000
+q81 -> xref(q83) # 1.000000
+q65 -> r_op4_2_ # 1.000000
+q64 -> r_op3_factor_ # 1.000000
+q56 -> phosphorylate-01 # 1.000000
+q59 -> r_xref(q81) # 1.000000
+q49 -> r_name(q55) # 1.000000
+q33 -> increase-01(q34 q35) # 1.000000
+q55 -> name(q62 q63 q64 q65) # 1.000000
+q80 -> name(q82) # 1.000000
+q41 -> r_ARG1(q53) # 1.000000
+q57 -> protein # 1.000000

@@ -1,0 +1,17 @@
+q20
+q20 -> TOP(q21) # 1.000000
+q26 -> r_ARG0(q35) # 1.000000
+q42 -> r_op1_Erk1/2_ # 1.000000
+q33 -> phosphorylate-01 # 1.000000
+q40 -> xref(q43) # 1.000000
+q23 -> add-modification-00(q24 q25 q26) # 1.000000
+q21 -> decrease-01(q22) # 1.000000
+q36 -> r_name(q41) # 1.000000
+q37 -> r_xref(q40) # 1.000000
+q22 -> r_ARG1(q23) # 1.000000
+q34 -> enzyme(q36 q37) # 1.000000
+q24 -> r_ARG1(q34) # 1.000000
+q41 -> name(q42) # 1.000000
+q43 -> r_value_UNIPROT_MK01_HUMAN_ # 1.000000
+q35 -> protein # 1.000000
+q25 -> r_manner(q33) # 1.000000

@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / protein :name(x2 / name :op1 "RAS" ) )  :ARG2(x3 / protein :mod (x4 / isoform)  :name(x5 / name :op1 "PI3K" ) ) )

@@ -1,0 +1,1758 @@
+q0
+q0 -> TOP(q2) # 1.000000
+q0 -> TOP(q4) # 1.000000
+q11 -> r_manner(q22) # 1.000000
+q11 -> r_ARG1-of(q22) # 1.000000
+q11 -> r_ARG1-of(add-modification-00(r_manner(q22))) # 1.000000
+q11 -> r_ARG0(q22) # 1.000000
+q11 -> r_ARG1(q22) # 1.000000
+q11 -> r_ARG0-of(q22) # 1.000000
+q11 -> r_location(q22) # 1.000000
+q11 -> r_name(q22) # 1.000000
+q11 -> r_part-of(q22) # 1.000000
+q11 -> r_ARG2-of(q22) # 1.000000
+q11 -> r_xref(q22) # 1.000000
+q11 -> r_ARG1-of(add-modification-00(r_manner(phosphorylate-01) r_ARG0(q22))) # 1.000000
+q11 -> r_ARG1-of(increase-01(r_ARG0(q22))) # 1.000000
+q73 -> phosphorylate-01 # 1.000000
+q73 -> activity-06 # 1.000000
+q73 -> protein # 1.000000
+q62 -> enzyme(q96 q97) # 1.000000
+q62 -> protein(q96 q97) # 1.000000
+q62 -> enzyme(q96) # 1.000000
+q62 -> small-molecule(q96 q97) # 1.000000
+q62 -> protein(q96) # 1.000000
+q62 -> enzyme(r_ARG0-of(activity-06) q96 q97) # 1.000000
+q62 -> protein-family(q96) # 1.000000
+q62 -> cell-line(q96 q97) # 1.000000
+q62 -> macro-molecular-complex(q96) # 1.000000
+q62 -> molecular-physical-entity(q96 q97) # 1.000000
+q62 -> macro-molecular-complex(q96 q97) # 1.000000
+q62 -> enzyme(q96 r_ARG1-of(q98)) # 1.000000
+q62 -> cell-line(q96) # 1.000000
+q62 -> pathway(q96) # 1.000000
+q62 -> enzyme(r_mod(wild-type) q96 q97) # 1.000000
+q62 -> enzyme(q96 q99) # 1.000000
+q62 -> enzyme(r_ARG2-of(mutate-01(r_value_D33I_)) q96 q97) # 1.000000
+q62 -> enzyme(r_ARG2-of(mutate-01(r_value_I37D_)) q96 q97) # 1.000000
+q62 -> protein(r_ARG2-of(mutate-01(r_UNK)) q96 q97) # 1.000000
+q62 -> enzyme(r_ARG1-of(mutate-01) q96 q97) # 1.000000
+q62 -> protein(q96 q99) # 1.000000
+q62 -> muti-index-card(q100 q101) # 1.000000
+q62 -> enzyme(r_ARG2-of(mutate-01(r_mod_-/-_)) q96 q97) # 1.000000
+q62 -> enzyme(r_ARG1-of(add-modification-00(q96)) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)) q97) # 1.000000
+q62 -> cell-line(r_mod(wild-type) q96 q97) # 1.000000
+q62 -> describe-01(q97) # 1.000000
+q62 -> enzyme(r_ARG1-of(add-modification-00(r_manner(phosphorylate-01) r_ARG0(protein))) q96 q97) # 1.000000
+q62 -> value(q96) # 1.000000
+q62 -> potein(q96 q97) # 1.000000
+q62 -> gene(q96 q97) # 1.000000
+q62 -> enzyme(r_ARG2-of(mutate-01) q96 q97) # 1.000000
+q62 -> enzyme(q96 r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)) q97) # 1.000000
+q93 -> phosphorylate-01 # 1.000000
+q36 -> r_name(q66) # 1.000000
+q36 -> r_xref(q66) # 1.000000
+q36 -> r_ARG2-of(q66) # 1.000000
+q36 -> r_ARG1-of(q66) # 1.000000
+q44 -> r_name(q71) # 1.000000
+q44 -> r_xref(q71) # 1.000000
+q44 -> r_ARG2-of(q71) # 1.000000
+q44 -> r_ARG1-of(q71) # 1.000000
+q64 -> mutate-01(r_value_CAAX_) # 1.000000
+q64 -> smr-empty # 1.000000
+q64 -> mutate-01(r_value_V12_) # 1.000000
+q64 -> isoform # 1.000000
+q38 -> r_manner(q68) # 1.000000
+q38 -> r_ARG1-of(q68) # 1.000000
+q38 -> r_ARG0-of(q68) # 1.000000
+q38 -> r_ARG2-of(q68) # 1.000000
+q14 -> smr-empty # 1.000000
+q53 -> name(q77) # 1.000000
+q53 -> xref(q77) # 1.000000
+q53 -> mutate-01(q77) # 1.000000
+q71 -> name(r_op1_SRC-3_) # 1.000000
+q71 -> name(r_op1_p110β_) # 1.000000
+q71 -> name(r_op1_MEF_) # 1.000000
+q71 -> name(r_op1_ERα_) # 1.000000
+q71 -> name(r_op1_E2_) # 1.000000
+q71 -> name(r_op1_serine_) # 1.000000
+q71 -> name(r_op1_ER_) # 1.000000
+q71 -> name(r_op1_ERβ_) # 1.000000
+q71 -> name(r_op1_PI3K_) # 1.000000
+q71 -> name(r_op1_Mkp3_) # 1.000000
+q71 -> name(r_op1_ERK_) # 1.000000
+q71 -> name(r_op1_RAC1_) # 1.000000
+q71 -> name(r_op1_Ral_) # 1.000000
+q71 -> name(r_op1_Luc_) # 1.000000
+q71 -> name(r_op1_p85_) # 1.000000
+q71 -> name(r_op1_Ras_) # 1.000000
+q71 -> name(r_op1_tamoxifen_) # 1.000000
+q71 -> name(r_op1_AKT_) # 1.000000
+q71 -> name(r_op1_p110α_) # 1.000000
+q71 -> name(r_op1_Erk1/2_) # 1.000000
+q71 -> name(r_op1_CDC42_) # 1.000000
+q71 -> name(r_op1_S1P_) # 1.000000
+q71 -> name(r_op1_tyrosine_) # 1.000000
+q71 -> name(r_op1_alanine_) # 1.000000
+q71 -> name(r_op1_RAS_) # 1.000000
+q71 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q71 -> name(r_op1_estradiol_) # 1.000000
+q71 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q71 -> name(r_op1_CRAF_) # 1.000000
+q71 -> name(r_op1_H-Ras_) # 1.000000
+q71 -> name(r_op1_AF-1_) # 1.000000
+q71 -> name(r_op1_GTPγ_) # 1.000000
+q71 -> name(r_op1_GTP_) # 1.000000
+q71 -> name(r_op1_GPCR_) # 1.000000
+q71 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q71 -> name(r_op1_LPA_) # 1.000000
+q71 -> name(r_op1_Elmo1_) # 1.000000
+q71 -> name(r_op1_DIRAS_) # 1.000000
+q71 -> name(r_op1_ICI_) # 1.000000
+q71 -> name(r_op1_COS7_) # 1.000000
+q71 -> name(r_op1_MEK_) # 1.000000
+q71 -> name(r_op1_GTPases_) # 1.000000
+q71 -> name(r_op1_PDGF_) # 1.000000
+q71 -> name(r_op1_AF-2_) # 1.000000
+q71 -> name(r_op1_Gβγ_) # 1.000000
+q71 -> name(r_op1_RBD_) # 1.000000
+q71 -> name(r_op1_insulin_) # 1.000000
+q71 -> name(r_op1_Akt_) # 1.000000
+q71 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q71 -> name(r_op1_HEK_) # 1.000000
+q71 -> name(r_op1_p110b_) # 1.000000
+q71 -> name(r_op1_RAF_) # 1.000000
+q71 -> name(r_op1_SERM_) # 1.000000
+q71 -> name(r_op1_doxycycline_) # 1.000000
+q71 -> name(r_op1_L539_) # 1.000000
+q71 -> name(r_op1_PDGFR_) # 1.000000
+q71 -> name(r_op1_BRAF_) # 1.000000
+q71 -> name(r_op1_NIH3T3_) # 1.000000
+q71 -> name(r_op1_RHO_) # 1.000000
+q71 -> name(r_op1_RAC_) # 1.000000
+q71 -> name(r_op1_N-terminus_) # 1.000000
+q71 -> name(r_op1_MKP3_) # 1.000000
+q71 -> name(r_op1_p110γ_) # 1.000000
+q71 -> name(r_op1_HRAS_) # 1.000000
+q71 -> name(r_op1_SRC_) # 1.000000
+q71 -> name(r_op1_ErbB3_) # 1.000000
+q71 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q71 -> name(r_op1_GTPase_) # 1.000000
+q71 -> name(r_op1_RHOG_) # 1.000000
+q71 -> name(r_op1_PIP_3_) # 1.000000
+q71 -> name(r_op1_Shp2_) # 1.000000
+q71 -> name(r_op1_Raf_) # 1.000000
+q71 -> name(r_op1_SRC_3_) # 1.000000
+q71 -> name(r_op1_GST_) # 1.000000
+q71 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q71 -> name(r_op1_RRAS1_) # 1.000000
+q71 -> name(r_op1_RRAS2_) # 1.000000
+q71 -> name(r_op1_EGF_) # 1.000000
+q71 -> name(r_op1_erbB3_) # 1.000000
+q71 -> name(r_op1_GPCRs_) # 1.000000
+q71 -> name(r_op1_MEK/ERK_) # 1.000000
+q71 -> name(r_op1_Gab1_) # 1.000000
+q71 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q71 -> name(r_op1_RBD-DM_) # 1.000000
+q71 -> name(r_op1_ERAS_) # 1.000000
+q71 -> name(r_op1_threonine_) # 1.000000
+q71 -> name(r_op1_PR-B_) # 1.000000
+q71 -> name(r_op1_Gβ1_) # 1.000000
+q71 -> name(r_op1_p110_) # 1.000000
+q71 -> name(r_op1_RAC/CDC42_) # 1.000000
+q71 -> name(r_op1_progesterone_) # 1.000000
+q71 -> name(r_op1_Pi-3_) # 1.000000
+q71 -> name(r_op1_RHOA_) # 1.000000
+q71 -> name(r_op1_LBD_) # 1.000000
+q71 -> name(r_op1_lysate_) # 1.000000
+q71 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q71 -> name(r_op1_LY294002_) # 1.000000
+q71 -> name(r_op1_KRAS_) # 1.000000
+q71 -> name(r_op1_PI3K/AKt_) # 1.000000
+q71 -> name(r_op1_Gγ2_) # 1.000000
+q71 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q71 -> name(r_op1_MRAS_) # 1.000000
+q71 -> name(r_op1_ERK1/2_) # 1.000000
+q71 -> name(r_op1_DIRAS1_) # 1.000000
+q71 -> name(r_op1_catC_) # 1.000000
+q37 -> r_xref(q67) # 1.000000
+q37 -> r_xref(value(r_name(q67))) # 1.000000
+q37 -> r_name(q67) # 1.000000
+q37 -> r_ARG0(q67) # 1.000000
+q37 -> r_xref # 1.000000
+q110 -> phosphorylate-01 # 1.000000
+q110 -> smr-empty # 1.000000
+q110 -> protein # 1.000000
+q30 -> r_ARG0(q58) # 1.000000
+q30 -> r_ARG1(q58) # 1.000000
+q30 -> r_part-of(q58) # 1.000000
+q30 -> r_part(q58) # 1.000000
+q30 -> r_op2(q58) # 1.000000
+q30 -> r_ARG2(q58) # 1.000000
+q30 -> r_name(q58) # 1.000000
+q30 -> r_location(q58) # 1.000000
+q30 -> r_xref(q58) # 1.000000
+q30 -> r_ARG2-of(q58) # 1.000000
+q30 -> r_ARG1-of(q58) # 1.000000
+q30 -> r_manner(q58) # 1.000000
+q30 -> r_op1(q58) # 1.000000
+q65 -> protein-segment(q34) # 1.000000
+q65 -> protein-segment(r_part-of(protein-family(q34))) # 1.000000
+q65 -> protein-segment(q34 r_name(name(r_op1_LXXLL_))) # 1.000000
+q35 -> r_location(q65) # 1.000000
+q35 -> r_ARG1(q65) # 1.000000
+q35 -> r_ARG0(q65) # 1.000000
+q20 -> protein(q44 q45) # 1.000000
+q20 -> enzyme(q44 q45) # 1.000000
+q20 -> protein # 1.000000
+q20 -> protein(q44) # 1.000000
+q20 -> small-molecule(q44 q45) # 1.000000
+q20 -> protein-family(q44) # 1.000000
+q20 -> molecular-physical-entity(q44 q45) # 1.000000
+q20 -> protein(r_ARG2-of(mutate-01(r_value_143C_)) q44 q45) # 1.000000
+q20 -> enzyme(q44) # 1.000000
+q20 -> amino-acid(q44 q46 r_mod_740_) # 1.000000
+q20 -> molecular-physical-entity(q44) # 1.000000
+q20 -> protein(r_ARG1-of(add-modification-00(r_manner(knock-down-02))) q44 q45) # 1.000000
+q20 -> cell-line(q44 q45) # 1.000000
+q20 -> value(q44) # 1.000000
+q20 -> describe-01(q45) # 1.000000
+q20 -> gene(q44 q45) # 1.000000
+q20 -> enzyme(q44 r_xref(q48)) # 1.000000
+q20 -> potein(q44 q45) # 1.000000
+q20 -> protein(r_ARG1-of(mutate-01(r_value_F446/472/589_)) q44 q45) # 1.000000
+q20 -> macro-molecular-complex(q44) # 1.000000
+q20 -> protein-segment(q44) # 1.000000
+q20 -> enzyme(r_ARG0-of(activity-06) q44 q45) # 1.000000
+q20 -> pathway(q44) # 1.000000
+q109 -> name(q116) # 1.000000
+q109 -> name(r_op1_SRC-3_) # 1.000000
+q109 -> name(r_op1_p110β_) # 1.000000
+q109 -> name(r_op1_MEF_) # 1.000000
+q109 -> name(r_op1_ERα_) # 1.000000
+q109 -> name(r_op1_E2_) # 1.000000
+q109 -> xref(q116) # 1.000000
+q109 -> name(r_op1_serine_) # 1.000000
+q109 -> name(r_op1_ER_) # 1.000000
+q109 -> name(r_op1_ERβ_) # 1.000000
+q109 -> name(r_op1_PI3K_) # 1.000000
+q109 -> name(r_op1_Mkp3_) # 1.000000
+q109 -> name(r_op1_ERK_) # 1.000000
+q109 -> name(r_op1_RAC1_) # 1.000000
+q109 -> name(r_op1_Ral_) # 1.000000
+q109 -> name(r_op1_Luc_) # 1.000000
+q109 -> name(r_op1_p85_) # 1.000000
+q109 -> name(r_op1_Ras_) # 1.000000
+q109 -> name(r_op1_tamoxifen_) # 1.000000
+q109 -> name(r_op1_AKT_) # 1.000000
+q109 -> name(r_op1_p110α_) # 1.000000
+q109 -> name(r_op1_Erk1/2_) # 1.000000
+q109 -> name(r_op1_CDC42_) # 1.000000
+q109 -> name(r_op2_isoform_ q116) # 1.000000
+q109 -> name(r_op1_S1P_) # 1.000000
+q109 -> name(r_op1_tyrosine_) # 1.000000
+q109 -> name(r_op1_alanine_) # 1.000000
+q109 -> name(r_op1_RAS_) # 1.000000
+q109 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q109 -> name(r_op1_estradiol_) # 1.000000
+q109 -> mutate-01(q116) # 1.000000
+q109 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q109 -> name(r_op1_CRAF_) # 1.000000
+q109 -> name(r_op1_H-Ras_) # 1.000000
+q109 -> name(r_op1_AF-1_) # 1.000000
+q109 -> name(r_op1_GTPγ_) # 1.000000
+q109 -> name(r_op1_GTP_) # 1.000000
+q109 -> name(r_op2_domain_ q116) # 1.000000
+q109 -> name(r_op1_GPCR_) # 1.000000
+q109 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q109 -> name(r_op1_LPA_) # 1.000000
+q109 -> name(r_op1_Elmo1_) # 1.000000
+q109 -> name(r_op1_DIRAS_) # 1.000000
+q109 -> name(r_op1_ICI_) # 1.000000
+q109 -> name(r_op1_COS7_) # 1.000000
+q109 -> name(r_op1_MEK_) # 1.000000
+q109 -> name(r_op1_GTPases_) # 1.000000
+q109 -> name(r_op1_PDGF_) # 1.000000
+q109 -> name(r_op1_AF-2_) # 1.000000
+q109 -> name(r_op1_Gβγ_) # 1.000000
+q109 -> name(r_op1_RBD_) # 1.000000
+q109 -> name(r_op1_insulin_) # 1.000000
+q109 -> name(r_op1_Akt_) # 1.000000
+q109 -> name(r_op2_receptor_ q116) # 1.000000
+q109 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q109 -> name(r_op1_HEK_) # 1.000000
+q109 -> name(r_op1_p110b_) # 1.000000
+q109 -> name(r_op1_RAF_) # 1.000000
+q109 -> name(r_op1_SERM_) # 1.000000
+q109 -> name(r_op1_doxycycline_) # 1.000000
+q109 -> name(r_op1_L539_) # 1.000000
+q109 -> name(r_op1_PDGFR_) # 1.000000
+q109 -> name(r_op1_BRAF_) # 1.000000
+q109 -> name(r_op1_NIH3T3_) # 1.000000
+q109 -> name(r_op1_RHO_) # 1.000000
+q109 -> name(r_op1_RAC_) # 1.000000
+q109 -> name(r_op1_N-terminus_) # 1.000000
+q109 -> name(q116 r_op1_PIP_) # 1.000000
+q109 -> name(r_op1_MKP3_) # 1.000000
+q109 -> name(r_op1_p110γ_) # 1.000000
+q109 -> name(r_op1_HRAS_) # 1.000000
+q109 -> name(r_op1_SRC_) # 1.000000
+q109 -> name(q116 r_op1_ICI_) # 1.000000
+q109 -> name(r_op1_ErbB3_) # 1.000000
+q109 -> name(r_op1(q111)) # 1.000000
+q109 -> name(r_op2_MAPK_ q116) # 1.000000
+q109 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q109 -> name(r_op1_GTPase_) # 1.000000
+q109 -> name(r_op1_RHOG_) # 1.000000
+q109 -> name(r_op1_PIP_3_) # 1.000000
+q109 -> name(r_op1_Shp2_) # 1.000000
+q109 -> name(r_op1_Raf_) # 1.000000
+q109 -> name(r_op1_SRC_3_) # 1.000000
+q109 -> name(r_op1_GST_) # 1.000000
+q109 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q109 -> name(r_op1_RRAS1_) # 1.000000
+q109 -> name(r_op1_RRAS2_) # 1.000000
+q109 -> name(r_op1_EGF_) # 1.000000
+q109 -> name(r_op3_cb_ r_op2_Pik3_ q116) # 1.000000
+q109 -> name(r_op1_erbB3_) # 1.000000
+q109 -> name(r_op2_GTPase_ q116) # 1.000000
+q109 -> name(r_op1_GPCRs_) # 1.000000
+q109 -> name(r_op1_MEK/ERK_) # 1.000000
+q109 -> name(r_op1_Gab1_) # 1.000000
+q109 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q109 -> name(r_op1_RBD-DM_) # 1.000000
+q109 -> name(r_op1_ERAS_) # 1.000000
+q109 -> name(r_UNK r_op1(q111)) # 1.000000
+q109 -> name(r_op1_threonine_) # 1.000000
+q109 -> name(r_op1_PR-B_) # 1.000000
+q109 -> name(r_op1_Gβ1_) # 1.000000
+q109 -> name(r_op1_p110_) # 1.000000
+q109 -> name(r_op1_RAC/CDC42_) # 1.000000
+q109 -> name(r_op1_progesterone_) # 1.000000
+q109 -> name(r_op1_Pi-3_) # 1.000000
+q109 -> name(r_op1_RHOA_) # 1.000000
+q109 -> name(q116 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q109 -> name(r_op1_LBD_) # 1.000000
+q109 -> name(r_op1_lysate_) # 1.000000
+q109 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q109 -> name(r_op1_LY294002_) # 1.000000
+q109 -> name(r_op1_KRAS_) # 1.000000
+q109 -> name(r_op1_PI3K/AKt_) # 1.000000
+q109 -> name(r_op1_Gγ2_) # 1.000000
+q109 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q109 -> name(r_op2_PI3K_ q116) # 1.000000
+q109 -> name(r_op1_MRAS_) # 1.000000
+q109 -> name(r_op1_ERK1/2_) # 1.000000
+q109 -> name(r_op1_DIRAS1_) # 1.000000
+q109 -> name(r_op1_catC_) # 1.000000
+q7 -> r_UNK # 1.000000
+q7 -> r_polarity_- # 1.000000
+q22 -> phosphorylate-01 # 1.000000
+q34 -> r_name(q61) # 1.000000
+q34 -> r_xref(q61) # 1.000000
+q34 -> r_ARG2-of(q61) # 1.000000
+q34 -> r_ARG1-of(q61) # 1.000000
+q115 -> name(q100) # 1.000000
+q115 -> name(r_op1_SRC-3_) # 1.000000
+q115 -> name(r_op1_p110β_) # 1.000000
+q115 -> name(r_op1_MEF_) # 1.000000
+q115 -> name(r_op1_ERα_) # 1.000000
+q115 -> name(r_op1_E2_) # 1.000000
+q115 -> xref(q100) # 1.000000
+q115 -> name(r_op1_serine_) # 1.000000
+q115 -> name(r_op1_ER_) # 1.000000
+q115 -> name(r_op1_ERβ_) # 1.000000
+q115 -> name(r_op1_PI3K_) # 1.000000
+q115 -> name(r_op1_Mkp3_) # 1.000000
+q115 -> name(r_op1_ERK_) # 1.000000
+q115 -> name(r_op1_RAC1_) # 1.000000
+q115 -> name(r_op1_Ral_) # 1.000000
+q115 -> name(r_op1_Luc_) # 1.000000
+q115 -> name(r_op1_p85_) # 1.000000
+q115 -> name(r_op1_Ras_) # 1.000000
+q115 -> name(r_op1_tamoxifen_) # 1.000000
+q115 -> name(r_op1_AKT_) # 1.000000
+q115 -> name(r_op1_p110α_) # 1.000000
+q115 -> name(r_op1_Erk1/2_) # 1.000000
+q115 -> name(r_op1_CDC42_) # 1.000000
+q115 -> name(r_op2_isoform_ q100) # 1.000000
+q115 -> name(r_op1_S1P_) # 1.000000
+q115 -> name(r_op1_tyrosine_) # 1.000000
+q115 -> name(r_op1_alanine_) # 1.000000
+q115 -> name(r_op1_RAS_) # 1.000000
+q115 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q115 -> name(r_op1_estradiol_) # 1.000000
+q115 -> mutate-01(q100) # 1.000000
+q115 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q115 -> name(r_op1_CRAF_) # 1.000000
+q115 -> name(r_op1_H-Ras_) # 1.000000
+q115 -> name(r_op1_AF-1_) # 1.000000
+q115 -> name(r_op1_GTPγ_) # 1.000000
+q115 -> name(r_op1_GTP_) # 1.000000
+q115 -> name(r_op2_domain_ q100) # 1.000000
+q115 -> name(r_op1_GPCR_) # 1.000000
+q115 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q115 -> name(r_op1_LPA_) # 1.000000
+q115 -> name(r_op1_Elmo1_) # 1.000000
+q115 -> name(r_op1_DIRAS_) # 1.000000
+q115 -> name(r_op1_ICI_) # 1.000000
+q115 -> name(r_op1_COS7_) # 1.000000
+q115 -> name(r_op1_MEK_) # 1.000000
+q115 -> name(r_op1_GTPases_) # 1.000000
+q115 -> name(r_op1_PDGF_) # 1.000000
+q115 -> name(r_op1_AF-2_) # 1.000000
+q115 -> name(r_op1_Gβγ_) # 1.000000
+q115 -> name(r_op1_RBD_) # 1.000000
+q115 -> name(r_op1_insulin_) # 1.000000
+q115 -> name(r_op1_Akt_) # 1.000000
+q115 -> name(r_op2_receptor_ q100) # 1.000000
+q115 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q115 -> name(r_op1_HEK_) # 1.000000
+q115 -> name(r_op1_p110b_) # 1.000000
+q115 -> name(r_op1_RAF_) # 1.000000
+q115 -> name(r_op1_SERM_) # 1.000000
+q115 -> name(r_op1_doxycycline_) # 1.000000
+q115 -> name(r_op1_L539_) # 1.000000
+q115 -> name(r_op1_PDGFR_) # 1.000000
+q115 -> name(r_op1_BRAF_) # 1.000000
+q115 -> name(r_op1_NIH3T3_) # 1.000000
+q115 -> name(r_op1_RHO_) # 1.000000
+q115 -> name(r_op1_RAC_) # 1.000000
+q115 -> name(r_op1_N-terminus_) # 1.000000
+q115 -> name(q100 r_op1_PIP_) # 1.000000
+q115 -> name(r_op1_MKP3_) # 1.000000
+q115 -> name(r_op1_p110γ_) # 1.000000
+q115 -> name(r_op1_HRAS_) # 1.000000
+q115 -> name(r_op1_SRC_) # 1.000000
+q115 -> name(q100 r_op1_ICI_) # 1.000000
+q115 -> name(r_op1_ErbB3_) # 1.000000
+q115 -> name(r_op2_MAPK_ q100) # 1.000000
+q115 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q115 -> name(r_op1_GTPase_) # 1.000000
+q115 -> name(r_op1_RHOG_) # 1.000000
+q115 -> name(r_op1_PIP_3_) # 1.000000
+q115 -> name(r_op1_Shp2_) # 1.000000
+q115 -> name(r_op1_Raf_) # 1.000000
+q115 -> name(r_op1_SRC_3_) # 1.000000
+q115 -> name(r_op1_GST_) # 1.000000
+q115 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q115 -> name(r_op1_RRAS1_) # 1.000000
+q115 -> name(r_op1_RRAS2_) # 1.000000
+q115 -> name(r_op1_EGF_) # 1.000000
+q115 -> name(r_op3_cb_ r_op2_Pik3_ q100) # 1.000000
+q115 -> name(r_op1_erbB3_) # 1.000000
+q115 -> name(r_op2_GTPase_ q100) # 1.000000
+q115 -> name(r_op1_GPCRs_) # 1.000000
+q115 -> name(r_op1_MEK/ERK_) # 1.000000
+q115 -> name(r_op1_Gab1_) # 1.000000
+q115 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q115 -> name(r_op1_RBD-DM_) # 1.000000
+q115 -> name(r_op1_ERAS_) # 1.000000
+q115 -> name(r_op1_threonine_) # 1.000000
+q115 -> name(r_op1_PR-B_) # 1.000000
+q115 -> name(r_op1_Gβ1_) # 1.000000
+q115 -> name(r_op1_p110_) # 1.000000
+q115 -> name(r_op1_RAC/CDC42_) # 1.000000
+q115 -> name(r_op1_progesterone_) # 1.000000
+q115 -> name(r_op1_Pi-3_) # 1.000000
+q115 -> name(r_op1_RHOA_) # 1.000000
+q115 -> name(q100 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q115 -> name(r_op1_LBD_) # 1.000000
+q115 -> name(r_op1_lysate_) # 1.000000
+q115 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q115 -> name(r_op1_LY294002_) # 1.000000
+q115 -> name(r_op1_KRAS_) # 1.000000
+q115 -> name(r_op1_PI3K/AKt_) # 1.000000
+q115 -> name(r_op1_Gγ2_) # 1.000000
+q115 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q115 -> name(r_op2_PI3K_ q100) # 1.000000
+q115 -> name(r_op1_MRAS_) # 1.000000
+q115 -> name(r_op1_ERK1/2_) # 1.000000
+q115 -> name(r_op1_DIRAS1_) # 1.000000
+q115 -> name(r_op1_catC_) # 1.000000
+q6 -> r_ARG1(q17) # 1.000000
+q6 -> r_ARG0(q17) # 1.000000
+q6 -> r_part-of(q17) # 1.000000
+q6 -> r_ARG2(q17) # 1.000000
+q6 -> r_xref(q17) # 1.000000
+q6 -> r_location(q17) # 1.000000
+q6 -> r_part(q17) # 1.000000
+q6 -> r_manner(q17) # 1.000000
+q6 -> r_op2(q17) # 1.000000
+q6 -> r_mode(q17) # 1.000000
+q6 -> r_mod(q17) # 1.000000
+q6 -> r_ARG1(increase-01(r_ARG0(q17))) # 1.000000
+q6 -> r_ARG1-of(q17) # 1.000000
+q6 -> r_ARG1(amino-acid(r_part-of(q17) r_name(name(r_op1_tyrosine_)))) # 1.000000
+q6 -> r_ARG1(enzyme(r_mod(q17))) # 1.000000
+q6 -> r_ARG1(macro-molecular-complex(r_part(molecular-physical-entity(r_xref(xref(r_UNK)) r_name(name(r_op1_GTPγS_)))) r_part(q17))) # 1.000000
+q6 -> r_op1(q17) # 1.000000
+q6 -> r_ARG1(enzyme(r_ARG0-of(q17))) # 1.000000
+q6 -> r_ARG0-of(q17) # 1.000000
+q96 -> r_name(q115) # 1.000000
+q96 -> r_xref(q115) # 1.000000
+q96 -> r_ARG2-of(q115) # 1.000000
+q96 -> r_ARG1-of(q115) # 1.000000
+q91 -> add-modification-00(q89) # 1.000000
+q91 -> cell(q89) # 1.000000
+q106 -> r_UNK # 1.000000
+q99 -> r_manner(q64) # 1.000000
+q99 -> r_ARG0(q64) # 1.000000
+q99 -> r_ARG1-of(q64) # 1.000000
+q99 -> r_ARG0-of(q64) # 1.000000
+q99 -> r_ARG2-of(q64) # 1.000000
+q99 -> r_mod(q64) # 1.000000
+q99 -> r_mode(q64) # 1.000000
+q99 -> r_value_505_ # 1.000000
+q49 -> r_manner(q76) # 1.000000
+q49 -> r_ARG1-of(q76) # 1.000000
+q49 -> r_ARG1-of(add-modification-00(r_manner(q76))) # 1.000000
+q49 -> r_ARG0(q76) # 1.000000
+q49 -> r_ARG1(q76) # 1.000000
+q49 -> r_ARG0-of(q76) # 1.000000
+q49 -> r_location(q76) # 1.000000
+q49 -> r_name(q76) # 1.000000
+q49 -> r_part-of(q76) # 1.000000
+q49 -> r_ARG1-of(describe-01(r_ARG0(figure(q77)))) # 1.000000
+q49 -> r_ARG2-of(q76) # 1.000000
+q49 -> r_xref(q76) # 1.000000
+q49 -> r_ARG1-of(add-modification-00(r_manner(phosphorylate-01) r_ARG0(q76))) # 1.000000
+q49 -> r_ARG1-of(increase-01(r_ARG0(q76))) # 1.000000
+q86 -> add-modification-00(q84) # 1.000000
+q86 -> cell(q84) # 1.000000
+q39 -> r_manner(q69) # 1.000000
+q39 -> r_ARG0(q69) # 1.000000
+q39 -> r_ARG1-of(q69) # 1.000000
+q39 -> r_ARG0-of(q69) # 1.000000
+q39 -> r_ARG2-of(q69) # 1.000000
+q39 -> r_mod(q69) # 1.000000
+q39 -> r_mode(q69) # 1.000000
+q39 -> r_value_505_ # 1.000000
+q75 -> xref(q7) # 1.000000
+q75 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q75 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q75 -> xref(r_value_CHEBI_50114_) # 1.000000
+q75 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q75 -> name(q7) # 1.000000
+q75 -> xref(r_value_CHEBI_74330_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q75 -> xref(r_value_CHEBI_37550_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q75 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q75 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q75 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q75 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q75 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q75 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q75 -> figure(q7) # 1.000000
+q75 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q75 -> xref(r_value_CHEBI_5931_) # 1.000000
+q75 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q75 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q75 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q75 -> xref(r_ARG0-of(activity-06) q7) # 1.000000
+q75 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q75 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q75 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q75 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q75 -> xref(r_value_MEF-1_) # 1.000000
+q75 -> name(r_op3_domain_ r_op2_binding_ q7) # 1.000000
+q75 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q75 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q75 -> xref(r_value_HGNC_17007_) # 1.000000
+q75 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q75 -> xref(r_value_HGNC_895_) # 1.000000
+q75 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q75 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q75 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q75 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q83 -> r_xref(q57) # 1.000000
+q83 -> r_xref(value(r_name(q57))) # 1.000000
+q83 -> r_name(q57) # 1.000000
+q83 -> r_ARG0(q57) # 1.000000
+q83 -> r_xref # 1.000000
+q59 -> name(q92) # 1.000000
+q59 -> name(r_op1_SRC-3_) # 1.000000
+q59 -> name(r_op1_p110β_) # 1.000000
+q59 -> name(r_op1_MEF_) # 1.000000
+q59 -> name(r_op1_ERα_) # 1.000000
+q59 -> name(r_op1_E2_) # 1.000000
+q59 -> xref(q92) # 1.000000
+q59 -> name(r_op1_serine_) # 1.000000
+q59 -> name(r_op1_ER_) # 1.000000
+q59 -> name(r_op1_ERβ_) # 1.000000
+q59 -> name(r_op1_PI3K_) # 1.000000
+q59 -> name(r_op1_Mkp3_) # 1.000000
+q59 -> name(r_op1_ERK_) # 1.000000
+q59 -> name(r_op1_RAC1_) # 1.000000
+q59 -> name(r_op1_Ral_) # 1.000000
+q59 -> name(r_op1_Luc_) # 1.000000
+q59 -> name(r_op1_p85_) # 1.000000
+q59 -> name(r_op1_Ras_) # 1.000000
+q59 -> name(r_op1_tamoxifen_) # 1.000000
+q59 -> name(r_op1_AKT_) # 1.000000
+q59 -> name(r_op1_p110α_) # 1.000000
+q59 -> name(r_op1_Erk1/2_) # 1.000000
+q59 -> name(r_op1_CDC42_) # 1.000000
+q59 -> name(r_op2_isoform_ q92) # 1.000000
+q59 -> name(r_op1_S1P_) # 1.000000
+q59 -> name(r_op1_tyrosine_) # 1.000000
+q59 -> name(r_op1_alanine_) # 1.000000
+q59 -> name(r_op1_RAS_) # 1.000000
+q59 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q59 -> name(r_op1_estradiol_) # 1.000000
+q59 -> mutate-01(q92) # 1.000000
+q59 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q59 -> name(r_op1_CRAF_) # 1.000000
+q59 -> name(r_op1_H-Ras_) # 1.000000
+q59 -> name(r_op1_AF-1_) # 1.000000
+q59 -> name(r_op1_GTPγ_) # 1.000000
+q59 -> name(r_op1_GTP_) # 1.000000
+q59 -> name(r_op2_domain_ q92) # 1.000000
+q59 -> name(r_op1_GPCR_) # 1.000000
+q59 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q59 -> name(r_op1_LPA_) # 1.000000
+q59 -> name(r_op1_Elmo1_) # 1.000000
+q59 -> name(r_op1_DIRAS_) # 1.000000
+q59 -> name(r_op1_ICI_) # 1.000000
+q59 -> name(r_op1_COS7_) # 1.000000
+q59 -> name(r_op1_MEK_) # 1.000000
+q59 -> name(r_op1_GTPases_) # 1.000000
+q59 -> name(r_op1_PDGF_) # 1.000000
+q59 -> name(r_op1_AF-2_) # 1.000000
+q59 -> name(r_op1_Gβγ_) # 1.000000
+q59 -> name(r_op1_RBD_) # 1.000000
+q59 -> name(r_op1_insulin_) # 1.000000
+q59 -> name(r_op1_Akt_) # 1.000000
+q59 -> name(r_op2_receptor_ q92) # 1.000000
+q59 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q59 -> name(r_op1_HEK_) # 1.000000
+q59 -> name(r_op1_p110b_) # 1.000000
+q59 -> name(r_op1_RAF_) # 1.000000
+q59 -> name(r_op1_SERM_) # 1.000000
+q59 -> name(r_op1_doxycycline_) # 1.000000
+q59 -> name(r_op1_L539_) # 1.000000
+q59 -> name(r_op1_PDGFR_) # 1.000000
+q59 -> name(r_op1_BRAF_) # 1.000000
+q59 -> name(r_op1_NIH3T3_) # 1.000000
+q59 -> name(r_op1_RHO_) # 1.000000
+q59 -> name(r_op1_RAC_) # 1.000000
+q59 -> name(r_op1_N-terminus_) # 1.000000
+q59 -> name(q92 r_op1_PIP_) # 1.000000
+q59 -> name(r_op1_MKP3_) # 1.000000
+q59 -> name(r_op1_p110γ_) # 1.000000
+q59 -> name(r_op1_HRAS_) # 1.000000
+q59 -> name(r_op1_SRC_) # 1.000000
+q59 -> name(q92 r_op1_ICI_) # 1.000000
+q59 -> name(r_op1_ErbB3_) # 1.000000
+q59 -> name(r_op1(q93)) # 1.000000
+q59 -> name(r_op2_MAPK_ q92) # 1.000000
+q59 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q59 -> name(r_op1_GTPase_) # 1.000000
+q59 -> name(r_op1_RHOG_) # 1.000000
+q59 -> name(r_op1_PIP_3_) # 1.000000
+q59 -> name(r_op1_Shp2_) # 1.000000
+q59 -> name(r_op1_Raf_) # 1.000000
+q59 -> name(r_op1_SRC_3_) # 1.000000
+q59 -> name(r_op1_GST_) # 1.000000
+q59 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q59 -> name(r_op1_RRAS1_) # 1.000000
+q59 -> name(r_op1_RRAS2_) # 1.000000
+q59 -> name(r_op1_EGF_) # 1.000000
+q59 -> name(r_op3_cb_ r_op2_Pik3_ q92) # 1.000000
+q59 -> name(r_op1_erbB3_) # 1.000000
+q59 -> name(r_op2_GTPase_ q92) # 1.000000
+q59 -> name(r_op1_GPCRs_) # 1.000000
+q59 -> name(r_op1_MEK/ERK_) # 1.000000
+q59 -> name(r_op1_Gab1_) # 1.000000
+q59 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q59 -> name(r_op1_RBD-DM_) # 1.000000
+q59 -> name(r_op1_ERAS_) # 1.000000
+q59 -> name(r_UNK r_op1(q93)) # 1.000000
+q59 -> name(r_op1_threonine_) # 1.000000
+q59 -> name(r_op1_PR-B_) # 1.000000
+q59 -> name(r_op1_Gβ1_) # 1.000000
+q59 -> name(r_op1_p110_) # 1.000000
+q59 -> name(r_op1_RAC/CDC42_) # 1.000000
+q59 -> name(r_op1_progesterone_) # 1.000000
+q59 -> name(r_op1_Pi-3_) # 1.000000
+q59 -> name(r_op1_RHOA_) # 1.000000
+q59 -> name(q92 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q59 -> name(r_op1_LBD_) # 1.000000
+q59 -> name(r_op1_lysate_) # 1.000000
+q59 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q59 -> name(r_op1_LY294002_) # 1.000000
+q59 -> name(r_op1_KRAS_) # 1.000000
+q59 -> name(r_op1_PI3K/AKt_) # 1.000000
+q59 -> name(r_op1_Gγ2_) # 1.000000
+q59 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q59 -> name(r_op2_PI3K_ q92) # 1.000000
+q59 -> name(r_op1_MRAS_) # 1.000000
+q59 -> name(r_op1_ERK1/2_) # 1.000000
+q59 -> name(r_op1_DIRAS1_) # 1.000000
+q59 -> name(r_op1_catC_) # 1.000000
+q56 -> protein(q82 q83) # 1.000000
+q56 -> enzyme(q82 q83) # 1.000000
+q56 -> protein # 1.000000
+q56 -> protein(q82) # 1.000000
+q56 -> small-molecule(q82 q83) # 1.000000
+q56 -> protein-family(q82) # 1.000000
+q56 -> molecular-physical-entity(q82 q83) # 1.000000
+q56 -> protein(r_ARG2-of(mutate-01(r_value_143C_)) q82 q83) # 1.000000
+q56 -> enzyme(q82) # 1.000000
+q56 -> amino-acid(q82 q84 r_mod_740_) # 1.000000
+q56 -> molecular-physical-entity(q82) # 1.000000
+q56 -> protein(r_ARG1-of(add-modification-00(r_manner(knock-down-02))) q82 q83) # 1.000000
+q56 -> cell-line(q82 q83) # 1.000000
+q56 -> value(q82) # 1.000000
+q56 -> describe-01(q83) # 1.000000
+q56 -> add-modification-00(q85 q84) # 1.000000
+q56 -> gene(q82 q83) # 1.000000
+q56 -> enzyme(q82 r_xref(q86)) # 1.000000
+q56 -> potein(q82 q83) # 1.000000
+q56 -> protein(r_ARG1-of(mutate-01(r_value_F446/472/589_)) q82 q83) # 1.000000
+q56 -> macro-molecular-complex(q82) # 1.000000
+q56 -> protein-segment(q82) # 1.000000
+q56 -> enzyme(r_ARG0-of(activity-06) q82 q83) # 1.000000
+q56 -> pathway(q82) # 1.000000
+q10 -> r_location(q24) # 1.000000
+q10 -> r_ARG1(q24) # 1.000000
+q10 -> r_ARG0(q24) # 1.000000
+q10 -> r_ARG3(q24) # 1.000000
+q10 -> r_ARG2(q24) # 1.000000
+q10 -> r_part-of(q24) # 1.000000
+q10 -> r_location(q25) # 1.000000
+q25 -> add-modification-00(q52) # 1.000000
+q25 -> cell(q52) # 1.000000
+q9 -> r_ARG1(q19) # 1.000000
+q9 -> r_ARG2(q19) # 1.000000
+q9 -> r_ARG1-of(q19) # 1.000000
+q9 -> r_part-of(q19) # 1.000000
+q9 -> r_part(q19) # 1.000000
+q112 -> xref(q117) # 1.000000
+q112 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q112 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q112 -> xref(r_value_CHEBI_50114_) # 1.000000
+q112 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q112 -> name(q117) # 1.000000
+q112 -> xref(r_value_CHEBI_74330_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q112 -> xref(r_value_CHEBI_37550_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q112 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q112 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q112 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q112 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q112 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q112 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q112 -> figure(q117) # 1.000000
+q112 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q112 -> xref(r_value_CHEBI_5931_) # 1.000000
+q112 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q112 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q112 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q112 -> xref(r_ARG0-of(activity-06) q117) # 1.000000
+q112 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q112 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q112 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q112 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q112 -> xref(r_value_MEF-1_) # 1.000000
+q112 -> name(r_op3_domain_ r_op2_binding_ q117) # 1.000000
+q112 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q112 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q112 -> xref(r_value_HGNC_17007_) # 1.000000
+q112 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q112 -> xref(r_value_HGNC_895_) # 1.000000
+q112 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q112 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q112 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q112 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q89 -> r_manner(q113) # 1.000000
+q89 -> r_ARG0(q113) # 1.000000
+q89 -> r_ARG1-of(q113) # 1.000000
+q89 -> r_ARG0-of(q113) # 1.000000
+q89 -> r_ARG2-of(q113) # 1.000000
+q89 -> r_mod(q113) # 1.000000
+q89 -> r_mode(q113) # 1.000000
+q89 -> r_value_505_ # 1.000000
+q92 -> r_op1_CDC42_ # 1.000000
+q92 -> r_UNK # 1.000000
+q58 -> protein(q31 q88) # 1.000000
+q58 -> enzyme(q31 q88) # 1.000000
+q58 -> protein # 1.000000
+q58 -> protein(q31) # 1.000000
+q58 -> small-molecule(q31 q88) # 1.000000
+q58 -> protein-family(q31) # 1.000000
+q58 -> molecular-physical-entity(q31 q88) # 1.000000
+q58 -> protein(r_ARG2-of(mutate-01(r_value_143C_)) q31 q88) # 1.000000
+q58 -> enzyme(q31) # 1.000000
+q58 -> amino-acid(q31 q89 r_mod_740_) # 1.000000
+q58 -> molecular-physical-entity(q31) # 1.000000
+q58 -> protein(r_ARG1-of(add-modification-00(r_manner(knock-down-02))) q31 q88) # 1.000000
+q58 -> cell-line(q31 q88) # 1.000000
+q58 -> value(q31) # 1.000000
+q58 -> describe-01(q88) # 1.000000
+q58 -> add-modification-00(q90 q89) # 1.000000
+q58 -> gene(q31 q88) # 1.000000
+q58 -> enzyme(q31 r_xref(q91)) # 1.000000
+q58 -> potein(q31 q88) # 1.000000
+q58 -> protein(r_ARG1-of(mutate-01(r_value_F446/472/589_)) q31 q88) # 1.000000
+q58 -> macro-molecular-complex(q31) # 1.000000
+q58 -> protein-segment(q31) # 1.000000
+q58 -> enzyme(r_ARG0-of(activity-06) q31 q88) # 1.000000
+q58 -> pathway(q31) # 1.000000
+q97 -> r_xref(q114) # 1.000000
+q97 -> r_xref(value(r_name(q114))) # 1.000000
+q97 -> r_name(q114) # 1.000000
+q97 -> r_ARG0(q114) # 1.000000
+q97 -> r_xref # 1.000000
+q66 -> name(q102) # 1.000000
+q66 -> name(r_op1_SRC-3_) # 1.000000
+q66 -> name(r_op1_p110β_) # 1.000000
+q66 -> name(r_op1_MEF_) # 1.000000
+q66 -> name(r_op1_ERα_) # 1.000000
+q66 -> name(r_op1_E2_) # 1.000000
+q66 -> xref(q102) # 1.000000
+q66 -> name(r_op1_serine_) # 1.000000
+q66 -> name(r_op1_ER_) # 1.000000
+q66 -> name(r_op1_ERβ_) # 1.000000
+q66 -> name(r_op1_PI3K_) # 1.000000
+q66 -> name(r_op1_Mkp3_) # 1.000000
+q66 -> name(r_op1_ERK_) # 1.000000
+q66 -> name(r_op1_RAC1_) # 1.000000
+q66 -> name(r_op1_Ral_) # 1.000000
+q66 -> name(r_op1_Luc_) # 1.000000
+q66 -> name(r_op1_p85_) # 1.000000
+q66 -> name(r_op1_Ras_) # 1.000000
+q66 -> name(r_op1_tamoxifen_) # 1.000000
+q66 -> name(r_op1_AKT_) # 1.000000
+q66 -> name(r_op1_p110α_) # 1.000000
+q66 -> name(r_op1_Erk1/2_) # 1.000000
+q66 -> name(r_op1_CDC42_) # 1.000000
+q66 -> name(r_op2_isoform_ q102) # 1.000000
+q66 -> name(r_op1_S1P_) # 1.000000
+q66 -> name(r_op1_tyrosine_) # 1.000000
+q66 -> name(r_op1_alanine_) # 1.000000
+q66 -> name(r_op1_RAS_) # 1.000000
+q66 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q66 -> name(r_op1_estradiol_) # 1.000000
+q66 -> mutate-01(q102) # 1.000000
+q66 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q66 -> name(r_op1_CRAF_) # 1.000000
+q66 -> name(r_op1_H-Ras_) # 1.000000
+q66 -> name(r_op1_AF-1_) # 1.000000
+q66 -> name(r_op1_GTPγ_) # 1.000000
+q66 -> name(r_op1_GTP_) # 1.000000
+q66 -> name(r_op2_domain_ q102) # 1.000000
+q66 -> name(r_op1_GPCR_) # 1.000000
+q66 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q66 -> name(r_op1_LPA_) # 1.000000
+q66 -> name(r_op1_Elmo1_) # 1.000000
+q66 -> name(r_op1_DIRAS_) # 1.000000
+q66 -> name(r_op1_ICI_) # 1.000000
+q66 -> name(r_op1_COS7_) # 1.000000
+q66 -> name(r_op1_MEK_) # 1.000000
+q66 -> name(r_op1_GTPases_) # 1.000000
+q66 -> name(r_op1_PDGF_) # 1.000000
+q66 -> name(r_op1_AF-2_) # 1.000000
+q66 -> name(r_op1_Gβγ_) # 1.000000
+q66 -> name(r_op1_RBD_) # 1.000000
+q66 -> name(r_op1_insulin_) # 1.000000
+q66 -> name(r_op1_Akt_) # 1.000000
+q66 -> name(r_op2_receptor_ q102) # 1.000000
+q66 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q66 -> name(r_op1_HEK_) # 1.000000
+q66 -> name(r_op1_p110b_) # 1.000000
+q66 -> name(r_op1_RAF_) # 1.000000
+q66 -> name(r_op1_SERM_) # 1.000000
+q66 -> name(r_op1_doxycycline_) # 1.000000
+q66 -> name(r_op1_L539_) # 1.000000
+q66 -> name(r_op1_PDGFR_) # 1.000000
+q66 -> name(r_op1_BRAF_) # 1.000000
+q66 -> name(r_op1_NIH3T3_) # 1.000000
+q66 -> name(r_op1_RHO_) # 1.000000
+q66 -> name(r_op1_RAC_) # 1.000000
+q66 -> name(r_op1_N-terminus_) # 1.000000
+q66 -> name(q102 r_op1_PIP_) # 1.000000
+q66 -> name(r_op1_MKP3_) # 1.000000
+q66 -> name(r_op1_p110γ_) # 1.000000
+q66 -> name(r_op1_HRAS_) # 1.000000
+q66 -> name(r_op1_SRC_) # 1.000000
+q66 -> name(q102 r_op1_ICI_) # 1.000000
+q66 -> name(r_op1_ErbB3_) # 1.000000
+q66 -> name(r_op2_MAPK_ q102) # 1.000000
+q66 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q66 -> name(r_op1_GTPase_) # 1.000000
+q66 -> name(r_op1_RHOG_) # 1.000000
+q66 -> name(r_op1_PIP_3_) # 1.000000
+q66 -> name(r_op1_Shp2_) # 1.000000
+q66 -> name(r_op1_Raf_) # 1.000000
+q66 -> name(r_op1_SRC_3_) # 1.000000
+q66 -> name(r_op1_GST_) # 1.000000
+q66 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q66 -> name(r_op1_RRAS1_) # 1.000000
+q66 -> name(r_op1_RRAS2_) # 1.000000
+q66 -> name(r_op1_EGF_) # 1.000000
+q66 -> name(r_op3_cb_ r_op2_Pik3_ q102) # 1.000000
+q66 -> name(r_op1_erbB3_) # 1.000000
+q66 -> name(r_op2_GTPase_ q102) # 1.000000
+q66 -> name(r_op1_GPCRs_) # 1.000000
+q66 -> name(r_op1_MEK/ERK_) # 1.000000
+q66 -> name(r_op1_Gab1_) # 1.000000
+q66 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q66 -> name(r_op1_RBD-DM_) # 1.000000
+q66 -> name(r_op1_ERAS_) # 1.000000
+q66 -> name(r_op1_threonine_) # 1.000000
+q66 -> name(r_op1_PR-B_) # 1.000000
+q66 -> name(r_op1_Gβ1_) # 1.000000
+q66 -> name(r_op1_p110_) # 1.000000
+q66 -> name(r_op1_RAC/CDC42_) # 1.000000
+q66 -> name(r_op1_progesterone_) # 1.000000
+q66 -> name(r_op1_Pi-3_) # 1.000000
+q66 -> name(r_op1_RHOA_) # 1.000000
+q66 -> name(q102 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q66 -> name(r_op1_LBD_) # 1.000000
+q66 -> name(r_op1_lysate_) # 1.000000
+q66 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q66 -> name(r_op1_LY294002_) # 1.000000
+q66 -> name(r_op1_KRAS_) # 1.000000
+q66 -> name(r_op1_PI3K/AKt_) # 1.000000
+q66 -> name(r_op1_Gγ2_) # 1.000000
+q66 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q66 -> name(r_op2_PI3K_ q102) # 1.000000
+q66 -> name(r_op1_MRAS_) # 1.000000
+q66 -> name(r_op1_ERK1/2_) # 1.000000
+q66 -> name(r_op1_DIRAS1_) # 1.000000
+q66 -> name(r_op1_catC_) # 1.000000
+q100 -> r_op1_p110β_ # 1.000000
+q100 -> r_op2_3_ # 1.000000
+q102 -> r_op1_AKT_ # 1.000000
+q101 -> r_polarity_- # 1.000000
+q17 -> protein-segment(q33 q34) # 1.000000
+q17 -> add-modification-00(q33 q35 r_ARG0(protein)) # 1.000000
+q17 -> macro-molecular-complex(q33) # 1.000000
+q17 -> add-modification-00(q33 q35) # 1.000000
+q17 -> decrease-01(q33 q35) # 1.000000
+q17 -> add-modification-00(r_manner(phosphorylate-01) q33 q35) # 1.000000
+q31 -> r_name(q59) # 1.000000
+q31 -> r_xref(q59) # 1.000000
+q31 -> r_ARG2-of(q59) # 1.000000
+q31 -> r_ARG1-of(q59) # 1.000000
+q117 -> r_value_UNIPROT_CDC42_HUMAN_ # 1.000000
+q24 -> enzyme(q49 q50) # 1.000000
+q24 -> protein(q51 q49 q50) # 1.000000
+q24 -> enzyme(q51 q49) # 1.000000
+q24 -> protein(q49 q50) # 1.000000
+q24 -> enzyme(q51 q50) # 1.000000
+q24 -> enzyme(q51 q49 q50) # 1.000000
+q24 -> enzyme(q51 q49 q52) # 1.000000
+q24 -> molecular-physical-entity(q49 q50) # 1.000000
+q24 -> cell-line(q49 q50) # 1.000000
+q24 -> cell-line(q51 q49 q50) # 1.000000
+q24 -> enzyme(q49) # 1.000000
+q24 -> protein(r_xref(q53) q50) # 1.000000
+q24 -> protein(q51 q50) # 1.000000
+q24 -> cell(q51 q49 q50) # 1.000000
+q24 -> protein-segment(q51) # 1.000000
+q24 -> small-molecule(q51 q50) # 1.000000
+q24 -> protein-segment(q51 r_part-of(protein(r_name(q53) q50))) # 1.000000
+q24 -> protein(q51 q49) # 1.000000
+q24 -> enzyme(q51) # 1.000000
+q24 -> protein(r_ARG0-of(activity-06) q51 q49 q50) # 1.000000
+q24 -> enzyme(r_ARG1-of(add-modification-00(q51 r_ARG0(protein))) q49 q50) # 1.000000
+q24 -> enzyme(r_ARG0-of(activity-06) q51 q49 q50) # 1.000000
+q24 -> add-modification-00(q51 r_ARG1(amino-acid(r_part-of(protein(q49 q50)))) r_ARG0(protein)) # 1.000000
+q24 -> enzyme(q49 r_ARG1-of(q25)) # 1.000000
+q61 -> name(q94) # 1.000000
+q61 -> name(r_op1_SRC-3_) # 1.000000
+q61 -> name(r_op1_p110β_) # 1.000000
+q61 -> name(r_op1_MEF_) # 1.000000
+q61 -> name(r_op1_ERα_) # 1.000000
+q61 -> name(r_op1_E2_) # 1.000000
+q61 -> xref(q94) # 1.000000
+q61 -> name(r_op1_serine_) # 1.000000
+q61 -> name(r_op1_ER_) # 1.000000
+q61 -> name(r_op1_ERβ_) # 1.000000
+q61 -> name(r_op1_PI3K_) # 1.000000
+q61 -> name(r_op1_Mkp3_) # 1.000000
+q61 -> name(r_op1_ERK_) # 1.000000
+q61 -> name(r_op1_RAC1_) # 1.000000
+q61 -> name(r_op1_Ral_) # 1.000000
+q61 -> name(r_op1_Luc_) # 1.000000
+q61 -> name(r_op1_p85_) # 1.000000
+q61 -> name(r_op1_Ras_) # 1.000000
+q61 -> name(r_op1_tamoxifen_) # 1.000000
+q61 -> name(r_op1_AKT_) # 1.000000
+q61 -> name(r_op1_p110α_) # 1.000000
+q61 -> name(r_op1_Erk1/2_) # 1.000000
+q61 -> name(r_op1_CDC42_) # 1.000000
+q61 -> name(r_op2_isoform_ q94) # 1.000000
+q61 -> name(r_op1_S1P_) # 1.000000
+q61 -> name(r_op1_tyrosine_) # 1.000000
+q61 -> name(r_op1_alanine_) # 1.000000
+q61 -> name(r_op1_RAS_) # 1.000000
+q61 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q61 -> name(r_op1_estradiol_) # 1.000000
+q61 -> mutate-01(q94) # 1.000000
+q61 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q61 -> name(r_op1_CRAF_) # 1.000000
+q61 -> name(r_op1_H-Ras_) # 1.000000
+q61 -> name(r_op1_AF-1_) # 1.000000
+q61 -> name(r_op1_GTPγ_) # 1.000000
+q61 -> name(r_op1_GTP_) # 1.000000
+q61 -> name(r_op2_domain_ q94) # 1.000000
+q61 -> name(r_op1_GPCR_) # 1.000000
+q61 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q61 -> name(r_op1_LPA_) # 1.000000
+q61 -> name(r_op1_Elmo1_) # 1.000000
+q61 -> name(r_op1_DIRAS_) # 1.000000
+q61 -> name(r_op1_ICI_) # 1.000000
+q61 -> name(r_op1_COS7_) # 1.000000
+q61 -> name(r_op1_MEK_) # 1.000000
+q61 -> name(r_op1_GTPases_) # 1.000000
+q61 -> name(r_op1_PDGF_) # 1.000000
+q61 -> name(r_op1_AF-2_) # 1.000000
+q61 -> name(r_op1_Gβγ_) # 1.000000
+q61 -> name(r_op1_RBD_) # 1.000000
+q61 -> name(r_op1_insulin_) # 1.000000
+q61 -> name(r_op1_Akt_) # 1.000000
+q61 -> name(r_op2_receptor_ q94) # 1.000000
+q61 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q61 -> name(r_op1_HEK_) # 1.000000
+q61 -> name(r_op1_p110b_) # 1.000000
+q61 -> name(r_op1_RAF_) # 1.000000
+q61 -> name(r_op1_SERM_) # 1.000000
+q61 -> name(r_op1_doxycycline_) # 1.000000
+q61 -> name(r_op1_L539_) # 1.000000
+q61 -> name(r_op1_PDGFR_) # 1.000000
+q61 -> name(r_op1_BRAF_) # 1.000000
+q61 -> name(r_op1_NIH3T3_) # 1.000000
+q61 -> name(r_op1_RHO_) # 1.000000
+q61 -> name(r_op1_RAC_) # 1.000000
+q61 -> name(r_op1_N-terminus_) # 1.000000
+q61 -> name(q94 r_op1_PIP_) # 1.000000
+q61 -> name(r_op1_MKP3_) # 1.000000
+q61 -> name(r_op1_p110γ_) # 1.000000
+q61 -> name(r_op1_HRAS_) # 1.000000
+q61 -> name(r_op1_SRC_) # 1.000000
+q61 -> name(q94 r_op1_ICI_) # 1.000000
+q61 -> name(r_op1_ErbB3_) # 1.000000
+q61 -> name(r_op1(q95)) # 1.000000
+q61 -> name(r_op2_MAPK_ q94) # 1.000000
+q61 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q61 -> name(r_op1_GTPase_) # 1.000000
+q61 -> name(r_op1_RHOG_) # 1.000000
+q61 -> name(r_op1_PIP_3_) # 1.000000
+q61 -> name(r_op1_Shp2_) # 1.000000
+q61 -> name(r_op1_Raf_) # 1.000000
+q61 -> name(r_op1_SRC_3_) # 1.000000
+q61 -> name(r_op1_GST_) # 1.000000
+q61 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q61 -> name(r_op1_RRAS1_) # 1.000000
+q61 -> name(r_op1_RRAS2_) # 1.000000
+q61 -> name(r_op1_EGF_) # 1.000000
+q61 -> name(r_op3_cb_ r_op2_Pik3_ q94) # 1.000000
+q61 -> name(r_op1_erbB3_) # 1.000000
+q61 -> name(r_op2_GTPase_ q94) # 1.000000
+q61 -> name(r_op1_GPCRs_) # 1.000000
+q61 -> name(r_op1_MEK/ERK_) # 1.000000
+q61 -> name(r_op1_Gab1_) # 1.000000
+q61 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q61 -> name(r_op1_RBD-DM_) # 1.000000
+q61 -> name(r_op1_ERAS_) # 1.000000
+q61 -> name(r_UNK r_op1(q95)) # 1.000000
+q61 -> name(r_op1_threonine_) # 1.000000
+q61 -> name(r_op1_PR-B_) # 1.000000
+q61 -> name(r_op1_Gβ1_) # 1.000000
+q61 -> name(r_op1_p110_) # 1.000000
+q61 -> name(r_op1_RAC/CDC42_) # 1.000000
+q61 -> name(r_op1_progesterone_) # 1.000000
+q61 -> name(r_op1_Pi-3_) # 1.000000
+q61 -> name(r_op1_RHOA_) # 1.000000
+q61 -> name(q94 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q61 -> name(r_op1_LBD_) # 1.000000
+q61 -> name(r_op1_lysate_) # 1.000000
+q61 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q61 -> name(r_op1_LY294002_) # 1.000000
+q61 -> name(r_op1_KRAS_) # 1.000000
+q61 -> name(r_op1_PI3K/AKt_) # 1.000000
+q61 -> name(r_op1_Gγ2_) # 1.000000
+q61 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q61 -> name(r_op2_PI3K_ q94) # 1.000000
+q61 -> name(r_op1_MRAS_) # 1.000000
+q61 -> name(r_op1_ERK1/2_) # 1.000000
+q61 -> name(r_op1_DIRAS1_) # 1.000000
+q61 -> name(r_op1_catC_) # 1.000000
+q2 -> increase-01(q5 q6) # 1.000000
+q2 -> decrease-01(q7 r_ARG1(add-modification-00(q8 q9)) q5 r_location(cell(q6))) # 1.000000
+q19 -> enzyme(q36 q37) # 1.000000
+q19 -> protein(q38 q36 q37) # 1.000000
+q19 -> enzyme(q38 q36) # 1.000000
+q19 -> protein(q36 q37) # 1.000000
+q19 -> enzyme(q38 q37) # 1.000000
+q19 -> enzyme(q38 q36 q37) # 1.000000
+q19 -> enzyme(q38 q36 q39) # 1.000000
+q19 -> molecular-physical-entity(q36 q37) # 1.000000
+q19 -> cell-line(q36 q37) # 1.000000
+q19 -> cell-line(q38 q36 q37) # 1.000000
+q19 -> enzyme(q36) # 1.000000
+q19 -> protein(q38 q37) # 1.000000
+q19 -> cell(q38 q36 q37) # 1.000000
+q19 -> protein-segment(q38) # 1.000000
+q19 -> small-molecule(q38 q37) # 1.000000
+q19 -> protein(q38 q36) # 1.000000
+q19 -> enzyme(q38) # 1.000000
+q19 -> protein(r_ARG0-of(activity-06) q38 q36 q37) # 1.000000
+q19 -> enzyme(r_ARG1-of(add-modification-00(q38 r_ARG0(protein))) q36 q37) # 1.000000
+q19 -> enzyme(r_ARG0-of(activity-06) q38 q36 q37) # 1.000000
+q19 -> add-modification-00(q38 r_ARG1(amino-acid(r_part-of(protein(q36 q37)))) r_ARG0(protein)) # 1.000000
+q19 -> enzyme(q36 r_ARG1-of(q43)) # 1.000000
+q68 -> phosphorylate-01 # 1.000000
+q68 -> activity-06 # 1.000000
+q114 -> xref(q101) # 1.000000
+q114 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q114 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q114 -> xref(r_value_CHEBI_50114_) # 1.000000
+q114 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q114 -> name(q101) # 1.000000
+q114 -> xref(r_value_CHEBI_74330_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q114 -> xref(r_value_CHEBI_37550_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q114 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q114 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q114 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q114 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q114 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q114 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q114 -> figure(q101) # 1.000000
+q114 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q114 -> xref(r_value_CHEBI_5931_) # 1.000000
+q114 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q114 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q114 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q114 -> xref(r_ARG0-of(activity-06) q101) # 1.000000
+q114 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q114 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q114 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q114 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q114 -> xref(r_value_MEF-1_) # 1.000000
+q114 -> name(r_op3_domain_ r_op2_binding_ q101) # 1.000000
+q114 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q114 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q114 -> xref(r_value_HGNC_17007_) # 1.000000
+q114 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q114 -> xref(r_value_HGNC_895_) # 1.000000
+q114 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q114 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q114 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q114 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q82 -> r_name(q109) # 1.000000
+q82 -> r_xref(q109) # 1.000000
+q82 -> r_ARG2-of(q109) # 1.000000
+q82 -> r_ARG1-of(q109) # 1.000000
+q98 -> add-modification-00(q99) # 1.000000
+q98 -> cell(q99) # 1.000000
+q72 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q72 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q72 -> xref(r_value_CHEBI_50114_) # 1.000000
+q72 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q72 -> xref(r_value_CHEBI_74330_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q72 -> xref(r_value_CHEBI_37550_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q72 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q72 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q72 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q72 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q72 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q72 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q72 -> xref(r_value_CHEBI_5931_) # 1.000000
+q72 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q72 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q72 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q72 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q72 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q72 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q72 -> xref(r_value_MEF-1_) # 1.000000
+q72 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q72 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q72 -> xref(r_value_HGNC_17007_) # 1.000000
+q72 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q72 -> xref(r_value_HGNC_895_) # 1.000000
+q72 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q72 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q72 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q72 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q95 -> hypothesis # 1.000000
+q95 -> mutate-01 # 1.000000
+q95 -> phosphorylate-01 # 1.000000
+q63 -> r_ARG1-of(q98) # 1.000000
+q57 -> xref(q87) # 1.000000
+q57 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q57 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q57 -> xref(r_value_CHEBI_50114_) # 1.000000
+q57 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q57 -> name(q87) # 1.000000
+q57 -> xref(r_value_CHEBI_74330_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q57 -> xref(r_value_CHEBI_37550_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q57 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q57 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q57 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q57 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q57 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q57 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q57 -> figure(q87) # 1.000000
+q57 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q57 -> xref(r_value_CHEBI_5931_) # 1.000000
+q57 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q57 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q57 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q57 -> xref(r_ARG0-of(activity-06) q87) # 1.000000
+q57 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q57 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q57 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q57 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q57 -> xref(r_value_MEF-1_) # 1.000000
+q57 -> name(r_op3_domain_ r_op2_binding_ q87) # 1.000000
+q57 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q57 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q57 -> xref(r_value_HGNC_17007_) # 1.000000
+q57 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q57 -> xref(r_value_HGNC_895_) # 1.000000
+q57 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q57 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q57 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q57 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q76 -> smr-empty # 1.000000
+q76 -> protein # 1.000000
+q76 -> phosphorylate-01 # 1.000000
+q116 -> r_op1_RAC1_ # 1.000000
+q84 -> r_manner(q110) # 1.000000
+q84 -> r_ARG0(q110) # 1.000000
+q84 -> r_ARG1-of(q110) # 1.000000
+q84 -> r_ARG0-of(q110) # 1.000000
+q84 -> r_ARG2-of(q110) # 1.000000
+q84 -> r_mod(q110) # 1.000000
+q84 -> r_mode(q110) # 1.000000
+q84 -> r_value_505_ # 1.000000
+q15 -> and(q29 q30) # 1.000000
+q15 -> increase-01(q29 q30) # 1.000000
+q15 -> bind-01(q29 q30) # 1.000000
+q15 -> complex-with-00(q29 q30) # 1.000000
+q15 -> macro-molecular-complex(r_ARG0-of(activity-06) q29 q30) # 1.000000
+q15 -> macro-molecular-complex(q29 q30) # 1.000000
+q15 -> increase-01(r_mode(hypothesis) q29 q30) # 1.000000
+q15 -> enzyme(q29 q30) # 1.000000
+q15 -> protein(q29 q31) # 1.000000
+q15 -> translocate-01(q30) # 1.000000
+q15 -> molecular-physical-entity(q30) # 1.000000
+q15 -> decrease-01(q30) # 1.000000
+q46 -> r_manner(q73) # 1.000000
+q46 -> r_ARG0(q73) # 1.000000
+q46 -> r_ARG1-of(q73) # 1.000000
+q46 -> r_ARG0-of(q73) # 1.000000
+q46 -> r_ARG2-of(q73) # 1.000000
+q46 -> r_mod(q73) # 1.000000
+q46 -> r_mode(q73) # 1.000000
+q46 -> r_value_505_ # 1.000000
+q103 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q103 -> r_UNK # 1.000000
+q94 -> r_op1_RBD_ # 1.000000
+q94 -> r_polarity_- # 1.000000
+q94 -> r_value_UNIPROT_ # 1.000000
+q43 -> add-modification-00(q39) # 1.000000
+q43 -> cell(q39) # 1.000000
+q111 -> phosphorylate-01 # 1.000000
+q51 -> r_name(q78) # 1.000000
+q51 -> r_xref(q78) # 1.000000
+q51 -> r_ARG2-of(q78) # 1.000000
+q51 -> r_ARG1-of(q78) # 1.000000
+q77 -> r_op1_p110β_ # 1.000000
+q87 -> r_value_UNIPROT_RAC1_HUMAN_ # 1.000000
+q87 -> r_UNK # 1.000000
+q90 -> r_manner(q93) # 1.000000
+q90 -> r_mode(q93) # 1.000000
+q90 -> r_ARG0(q93) # 1.000000
+q90 -> r_ARG0-of(q93) # 1.000000
+q90 -> r_mod(q93) # 1.000000
+q90 -> r_ARG1-of(q93) # 1.000000
+q90 -> r_location(q93) # 1.000000
+q90 -> r_ARG2-of(q93) # 1.000000
+q50 -> r_xref(q75) # 1.000000
+q50 -> r_xref(value(r_name(q75))) # 1.000000
+q50 -> r_name(q75) # 1.000000
+q50 -> r_ARG0(q75) # 1.000000
+q50 -> r_xref # 1.000000
+q85 -> r_manner(q111) # 1.000000
+q85 -> r_mode(q111) # 1.000000
+q85 -> r_ARG0(q111) # 1.000000
+q85 -> r_ARG0-of(q111) # 1.000000
+q85 -> r_mod(q111) # 1.000000
+q85 -> r_ARG1-of(q111) # 1.000000
+q85 -> r_location(q111) # 1.000000
+q85 -> r_ARG2-of(q111) # 1.000000
+q45 -> r_xref(q72) # 1.000000
+q45 -> r_xref(value(r_name(q72))) # 1.000000
+q45 -> r_name(q72) # 1.000000
+q45 -> r_ARG0(q72) # 1.000000
+q45 -> r_xref # 1.000000
+q48 -> add-modification-00(q46) # 1.000000
+q48 -> cell(q46) # 1.000000
+q5 -> r_ARG0(q14) # 1.000000
+q5 -> r_ARG0(q15) # 1.000000
+q79 -> phosphorylate-01 # 1.000000
+q79 -> smr-empty # 1.000000
+q79 -> wild-type # 1.000000
+q79 -> phosphorylate-00 # 1.000000
+q88 -> r_xref(q112) # 1.000000
+q88 -> r_xref(value(r_name(q112))) # 1.000000
+q88 -> r_name(q112) # 1.000000
+q88 -> r_ARG0(q112) # 1.000000
+q88 -> r_xref # 1.000000
+q33 -> r_ARG1(q62) # 1.000000
+q33 -> r_ARG0(q62) # 1.000000
+q33 -> r_part-of(q62) # 1.000000
+q33 -> r_ARG2(q62) # 1.000000
+q33 -> r_xref(q62) # 1.000000
+q33 -> r_location(q62) # 1.000000
+q33 -> r_part(q62) # 1.000000
+q33 -> r_manner(q62) # 1.000000
+q33 -> r_ARG1(cell-line(r_xref(xref(r_value_RRID_CVCL_4240_)) q63)) # 1.000000
+q33 -> r_ARG1(protein(r_name(name(q63)))) # 1.000000
+q33 -> r_op2(q62) # 1.000000
+q33 -> r_ARG1(q64) # 1.000000
+q33 -> r_mode(q62) # 1.000000
+q33 -> r_ARG1(protein(r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_)) r_name(name(q63)))) # 1.000000
+q33 -> r_ARG1(enzyme(r_xref(xref(r_value_UNIPROT_MK01_HUMAN_)) q63)) # 1.000000
+q33 -> r_mod(q62) # 1.000000
+q33 -> r_ARG1(increase-01(r_ARG0(q62))) # 1.000000
+q33 -> r_ARG1-of(q62) # 1.000000
+q33 -> r_ARG1(amino-acid(r_part-of(q62) r_name(name(r_op1_tyrosine_)))) # 1.000000
+q33 -> r_ARG1(enzyme(r_mod(q62))) # 1.000000
+q33 -> r_ARG1(macro-molecular-complex(r_part(molecular-physical-entity(r_xref(xref(r_UNK)) r_name(name(r_op1_GTPγS_)))) r_part(q62))) # 1.000000
+q33 -> r_op1(q62) # 1.000000
+q33 -> r_ARG1(protein(r_ARG2-of(mutate-01) r_xref(value(r_name(name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_)))) r_name(name(q63)))) # 1.000000
+q33 -> r_ARG1(enzyme(r_ARG0-of(q62))) # 1.000000
+q33 -> r_ARG0-of(q62) # 1.000000
+q69 -> smr-empty # 1.000000
+q69 -> protein # 1.000000
+q69 -> UNK # 1.000000
+q69 -> hypothesis # 1.000000
+q69 -> add-modification-00 # 1.000000
+q69 -> phosphorylate-01 # 1.000000
+q67 -> xref(q103) # 1.000000
+q67 -> xref(r_value_UNIPROT_NCOA3_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PK3CB_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_5757_) # 1.000000
+q67 -> xref(r_value_UNIPROT_MK01_HUMAN_) # 1.000000
+q67 -> xref(r_value_CHEBI_50114_) # 1.000000
+q67 -> xref(r_value_UNIPROT_ESR2_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PK3CA_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RAC1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_ESR1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_P85A_HUMAN_) # 1.000000
+q67 -> name(q103) # 1.000000
+q67 -> xref(r_value_CHEBI_74330_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RASH_HUMAN_) # 1.000000
+q67 -> xref(r_value_CHEBI_37550_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_104741_) # 1.000000
+q67 -> xref(r_value_MEF-1_CVCL_4240_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_5035_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_449459_) # 1.000000
+q67 -> xref(r_value_UNIPROT_DUS6_HUMAN_) # 1.000000
+q67 -> xref(r_value_RRID_CVCL_4240_) # 1.000000
+q67 -> xref(r_value_UNIPROT_AKT1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPORT_MK03_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_DOCK1_HUMAN_) # 1.000000
+q67 -> xref(r_value_COS7_CVCL_0224_) # 1.000000
+q67 -> xref(r_value_UNIPROT_CDC42_HUMAN_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_2733526_) # 1.000000
+q67 -> figure(q103) # 1.000000
+q67 -> xref(r_value_UNIPROT_RAF1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_GCA_DICDI_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_6830_) # 1.000000
+q67 -> xref(r_value_CHEBI_5931_) # 1.000000
+q67 -> xref(r_value_Wt_MEF_CVCL_L690_) # 1.000000
+q67 -> xref(r_value_RRID_CVCL_M515_) # 1.000000
+q67 -> xref(r_value_UNIPROT_ELMO1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_Q25284_LOLFO_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RRAS2_HUMAN_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_5497152_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RASM_HUMAN_) # 1.000000
+q67 -> xref(r_ARG0-of(activity-06) q103) # 1.000000
+q67 -> xref(r_value_UNIPROT_PDGFB_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_MP2K1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RASE_HUMAN_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_24180719_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PGFRB_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPORT_ELMO1_HUMAN_) # 1.000000
+q67 -> xref(r_value_NIH3T3_CVCL_0594_) # 1.000000
+q67 -> xref(r_value_UNIPROT_EGF_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_BRAF_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_ERBB3_HUMAN_) # 1.000000
+q67 -> xref(r_value_PUBCHEM_274122_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RAC_HUMAN_) # 1.000000
+q67 -> xref(r_value_MEF-1_) # 1.000000
+q67 -> name(r_op3_domain_ r_op2_binding_ q103) # 1.000000
+q67 -> xref(r_value_UNIRPOT_DOCK1_HUMAN_) # 1.000000
+q67 -> xref(r_value_PK3CA_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_GAB1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PRGR_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_ELK1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_KS6A1_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RASK_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_FGF2_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PTN11_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RHOA_HUMAN_) # 1.000000
+q67 -> xref(r_value_HGNC_17007_) # 1.000000
+q67 -> xref(r_value_UNIPROT_RHOG_HUMAN_) # 1.000000
+q67 -> xref(r_value_HGNC_895_) # 1.000000
+q67 -> xref(r_value_UNIRPOT_PK3CB_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPROT_DIRA1_HUMAN_) # 1.000000
+q67 -> xref(r_value_HEK_CVCL_0063_) # 1.000000
+q67 -> xref(r_value_UNIPROT_PK3CG_HUMAN_) # 1.000000
+q67 -> xref(r_value_UNIPORT_PLK1_HUMAN_) # 1.000000
+q4 -> decrease-01(q10 r_ARG1(add-modification-00(q8 q11 q9)) q5) # 1.000000
+q8 -> r_ARG1(q20) # 1.000000
+q8 -> r_ARG0(q20) # 1.000000
+q8 -> r_part-of(q20) # 1.000000
+q8 -> r_ARG2(q20) # 1.000000
+q8 -> r_xref(q20) # 1.000000
+q8 -> r_location(q20) # 1.000000
+q8 -> r_part(q20) # 1.000000
+q8 -> r_manner(q20) # 1.000000
+q8 -> r_op2(q20) # 1.000000
+q8 -> r_mode(q20) # 1.000000
+q8 -> r_mod(q20) # 1.000000
+q8 -> r_ARG1(increase-01(r_ARG0(q20))) # 1.000000
+q8 -> r_ARG1-of(q20) # 1.000000
+q8 -> r_ARG1(amino-acid(r_part-of(q20) r_name(name(r_op1_tyrosine_)))) # 1.000000
+q8 -> r_ARG1(enzyme(r_mod(q20))) # 1.000000
+q8 -> r_ARG1(macro-molecular-complex(r_part(molecular-physical-entity(r_xref(xref(r_UNK)) r_name(name(r_op1_GTPγS_)))) r_part(q20))) # 1.000000
+q8 -> r_op1(q20) # 1.000000
+q8 -> r_ARG1(enzyme(r_ARG0-of(q20))) # 1.000000
+q8 -> r_ARG0-of(q20) # 1.000000
+q113 -> smr-empty # 1.000000
+q113 -> phosphorylate-01 # 1.000000
+q113 -> protein # 1.000000
+q29 -> r_ARG0(q56) # 1.000000
+q29 -> r_ARG1(q56) # 1.000000
+q29 -> r_part-of(q56) # 1.000000
+q29 -> r_op1(q56) # 1.000000
+q29 -> r_ARG2(q56) # 1.000000
+q29 -> r_part(q56) # 1.000000
+q29 -> r_location(q56) # 1.000000
+q29 -> r_xref(q56) # 1.000000
+q29 -> r_name(q56) # 1.000000
+q29 -> r_op1(q57) # 1.000000
+q29 -> r_manner(q56) # 1.000000
+q29 -> r_op2(q56) # 1.000000
+q29 -> r_ARG1-of(q56) # 1.000000
+q29 -> r_mode(q56) # 1.000000
+q78 -> name(q106) # 1.000000
+q78 -> name(r_op1_SRC-3_) # 1.000000
+q78 -> name(r_op1_p110β_) # 1.000000
+q78 -> name(r_op1_MEF_) # 1.000000
+q78 -> name(r_op1_ERα_) # 1.000000
+q78 -> name(r_op1_E2_) # 1.000000
+q78 -> xref(q106) # 1.000000
+q78 -> name(r_op1_serine_) # 1.000000
+q78 -> name(r_op1_ER_) # 1.000000
+q78 -> name(r_op1_ERβ_) # 1.000000
+q78 -> name(r_op1_PI3K_) # 1.000000
+q78 -> name(r_op1_Mkp3_) # 1.000000
+q78 -> name(r_op1_ERK_) # 1.000000
+q78 -> name(r_op1_RAC1_) # 1.000000
+q78 -> name(r_op1_Ral_) # 1.000000
+q78 -> name(r_op1_Luc_) # 1.000000
+q78 -> name(r_op1_p85_) # 1.000000
+q78 -> name(r_op1_Ras_) # 1.000000
+q78 -> name(r_op1_tamoxifen_) # 1.000000
+q78 -> name(r_op1_AKT_) # 1.000000
+q78 -> name(r_op1_p110α_) # 1.000000
+q78 -> name(r_op1_Erk1/2_) # 1.000000
+q78 -> name(r_op1_CDC42_) # 1.000000
+q78 -> name(r_op2_isoform_ q106) # 1.000000
+q78 -> name(r_op1_S1P_) # 1.000000
+q78 -> name(r_op1_tyrosine_) # 1.000000
+q78 -> name(r_op1_alanine_) # 1.000000
+q78 -> name(r_op1_RAS_) # 1.000000
+q78 -> name(r_op1_UNIPROT_SRC-3_HUMAN_) # 1.000000
+q78 -> name(r_op1_estradiol_) # 1.000000
+q78 -> mutate-01(q106) # 1.000000
+q78 -> name(r_op2_isoform_ r_op1_non-β_) # 1.000000
+q78 -> name(r_op1_CRAF_) # 1.000000
+q78 -> name(r_op1_H-Ras_) # 1.000000
+q78 -> name(r_op1_AF-1_) # 1.000000
+q78 -> name(r_op1_GTPγ_) # 1.000000
+q78 -> name(r_op1_GTP_) # 1.000000
+q78 -> name(r_op2_domain_ q106) # 1.000000
+q78 -> name(r_op1_GPCR_) # 1.000000
+q78 -> name(r_op1_PUBCHEM_5757_) # 1.000000
+q78 -> name(r_op1_LPA_) # 1.000000
+q78 -> name(r_op1_Elmo1_) # 1.000000
+q78 -> name(r_op1_DIRAS_) # 1.000000
+q78 -> name(r_op1_ICI_) # 1.000000
+q78 -> name(r_op1_COS7_) # 1.000000
+q78 -> name(r_op1_MEK_) # 1.000000
+q78 -> name(r_op1_GTPases_) # 1.000000
+q78 -> name(r_op1_PDGF_) # 1.000000
+q78 -> name(r_op1_AF-2_) # 1.000000
+q78 -> name(r_op1_Gβγ_) # 1.000000
+q78 -> name(r_op1_RBD_) # 1.000000
+q78 -> name(r_op1_insulin_) # 1.000000
+q78 -> name(r_op1_Akt_) # 1.000000
+q78 -> name(r_op2_receptor_ q106) # 1.000000
+q78 -> name(r_op3_domain_ r_op2_binding_ r_op1_ligand_) # 1.000000
+q78 -> name(r_op1_HEK_) # 1.000000
+q78 -> name(r_op1_p110b_) # 1.000000
+q78 -> name(r_op1_RAF_) # 1.000000
+q78 -> name(r_op1_SERM_) # 1.000000
+q78 -> name(r_op1_doxycycline_) # 1.000000
+q78 -> name(r_op1_L539_) # 1.000000
+q78 -> name(r_op1_PDGFR_) # 1.000000
+q78 -> name(r_op1_BRAF_) # 1.000000
+q78 -> name(r_op1_NIH3T3_) # 1.000000
+q78 -> name(r_op1_RHO_) # 1.000000
+q78 -> name(r_op1_RAC_) # 1.000000
+q78 -> name(r_op1_N-terminus_) # 1.000000
+q78 -> name(q106 r_op1_PIP_) # 1.000000
+q78 -> name(r_op1_MKP3_) # 1.000000
+q78 -> name(r_op1_p110γ_) # 1.000000
+q78 -> name(r_op1_HRAS_) # 1.000000
+q78 -> name(r_op1_SRC_) # 1.000000
+q78 -> name(q106 r_op1_ICI_) # 1.000000
+q78 -> name(r_op1_ErbB3_) # 1.000000
+q78 -> name(r_op2_MAPK_ q106) # 1.000000
+q78 -> name(r_op2_site_ r_op1_ATP-binding_) # 1.000000
+q78 -> name(r_op1_GTPase_) # 1.000000
+q78 -> name(r_op1_RHOG_) # 1.000000
+q78 -> name(r_op1_PIP_3_) # 1.000000
+q78 -> name(r_op1_Shp2_) # 1.000000
+q78 -> name(r_op1_Raf_) # 1.000000
+q78 -> name(r_op1_SRC_3_) # 1.000000
+q78 -> name(r_op1_GST_) # 1.000000
+q78 -> name(r_op1_UNIPROT_catC_HUMAN_) # 1.000000
+q78 -> name(r_op1_RRAS1_) # 1.000000
+q78 -> name(r_op1_RRAS2_) # 1.000000
+q78 -> name(r_op1_EGF_) # 1.000000
+q78 -> name(r_op3_cb_ r_op2_Pik3_ q106) # 1.000000
+q78 -> name(r_op1_erbB3_) # 1.000000
+q78 -> name(r_op2_GTPase_ q106) # 1.000000
+q78 -> name(r_op1_GPCRs_) # 1.000000
+q78 -> name(r_op1_MEK/ERK_) # 1.000000
+q78 -> name(r_op1_Gab1_) # 1.000000
+q78 -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_) # 1.000000
+q78 -> name(r_op1_RBD-DM_) # 1.000000
+q78 -> name(r_op1_ERAS_) # 1.000000
+q78 -> name(r_op1_threonine_) # 1.000000
+q78 -> name(r_op1_PR-B_) # 1.000000
+q78 -> name(r_op1_Gβ1_) # 1.000000
+q78 -> name(r_op1_p110_) # 1.000000
+q78 -> name(r_op1_RAC/CDC42_) # 1.000000
+q78 -> name(r_op1_progesterone_) # 1.000000
+q78 -> name(r_op1_Pi-3_) # 1.000000
+q78 -> name(r_op1_RHOA_) # 1.000000
+q78 -> name(q106 r_op3_factor_ r_op2_growth_ r_op1_fibroblast_) # 1.000000
+q78 -> name(r_op1_LBD_) # 1.000000
+q78 -> name(r_op1_lysate_) # 1.000000
+q78 -> name(r_op1_SRC-3-AAA_) # 1.000000
+q78 -> name(r_op1_LY294002_) # 1.000000
+q78 -> name(r_op1_KRAS_) # 1.000000
+q78 -> name(r_op1_PI3K/AKt_) # 1.000000
+q78 -> name(r_op1_Gγ2_) # 1.000000
+q78 -> name(r_op2_groove_ r_op1_coactivator-binding_) # 1.000000
+q78 -> name(r_op2_PI3K_ q106) # 1.000000
+q78 -> name(r_op1_MRAS_) # 1.000000
+q78 -> name(r_op1_ERK1/2_) # 1.000000
+q78 -> name(r_op1_DIRAS1_) # 1.000000
+q78 -> name(r_op1_catC_) # 1.000000
+q52 -> r_manner(q79) # 1.000000
+q52 -> r_ARG0(q79) # 1.000000
+q52 -> r_ARG1-of(q79) # 1.000000
+q52 -> r_ARG0-of(q79) # 1.000000
+q52 -> r_ARG2-of(q79) # 1.000000
+q52 -> r_mod(q79) # 1.000000
+q52 -> r_mode(q79) # 1.000000
+q52 -> r_value_505_ # 1.000000

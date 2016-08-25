@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_CDC42_HUMAN_ -> smr-empty #0.75
+qr.TOP(protein(x0: r_ARG0-of(target-01(x1: r_ARG0(slash(x2: r_op2(enzyme(x3: r_xref(xref(x4: ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x4 ) #1.0

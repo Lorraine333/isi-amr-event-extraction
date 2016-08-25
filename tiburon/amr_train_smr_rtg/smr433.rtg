@@ -1,0 +1,22 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q7 q2 )
+q1 -> increase-01(q2 q7 )
+q7 -> r_ARG1(q8 )
+q2 -> r_ARG0(q3 )
+q8 -> macro-molecular-complex(q14 q9 )
+q8 -> macro-molecular-complex(q9 q14 )
+q3 -> enzyme(q4 )
+q14 -> r_part(q15 )
+q9 -> r_part(q10 )
+q4 -> r_name(q5 )
+q15 -> enzyme(q16 )
+q10 -> enzyme(q11 )
+q5 -> name(q6 )
+q16 -> r_name(q17 )
+q11 -> r_name(q12 )
+q6 -> r_op1_RAF_
+q17 -> name(q18 )
+q12 -> name(q13 )
+q18 -> r_op1_ERK_
+q13 -> r_op1_MEK_

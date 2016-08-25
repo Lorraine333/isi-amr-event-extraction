@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / molecular-physical-entity :xref(x2 / add-modification-00 :mod "505" )  :name(x3 / name :op1 "E2" ) )  :ARG1(x4 / phosphorylate-01)  :location(x5 / cell) )

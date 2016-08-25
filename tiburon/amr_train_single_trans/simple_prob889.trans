@@ -1,0 +1,3 @@
+qr
+qr.TOP(stimulate-01(x0: x1: x2: r_duration(temporal-quantity(x3: r_unit(x4: ) ) ) ) ) -> TOP(qc.x4 ) #1.0
+qc.minute -> smr-empty #1.0

@@ -1,0 +1,36 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q12 )
+q2 -> r_ARG0(q3 )
+q12 -> r_ARG1(q13 )
+q3 -> enzyme(q4 q7 q10 )
+q13 -> add-modification-00(q14 q16 q33 )
+q4 -> r_name(q5 )
+q7 -> r_ARG1-of(q8 )
+q10 -> r_ARG0-of(q11 )
+q14 -> r_manner(q15 )
+q16 -> r_ARG1(q17 )
+q33 -> r_ARG0(q34 )
+q5 -> name(q6 )
+q8 -> mutate-01(q9 )
+q11 -> activity-06
+q15 -> phosphorylate-01
+q17 -> macro-molecular-complex(q18 q28 )
+q34 -> protein
+q6 -> r_op1_Mkp3_
+q9 -> r_value_V12_
+q18 -> r_part(q19 )
+q28 -> r_part(q29 )
+q19 -> enzyme(q20 q23 q26 )
+q29 -> protein(q30 )
+q20 -> r_name(q21 )
+q23 -> r_ARG1-of(q24 )
+q26 -> r_ARG0-of(q27 )
+q30 -> r_name(q31 )
+q21 -> name(q22 )
+q24 -> mutate-01(q25 )
+q27 -> activity-06
+q31 -> name(q32 )
+q22 -> r_op1_Mkp3_
+q25 -> r_value_V12_
+q32 -> r_op1_Mkp3_

@@ -1,0 +1,11 @@
+Tree info for input tree amr865.tree:
+	60 nodes
+	12 yield length
+Transducer info for input tree transducer simple865.trans:
+	2 states
+	2 rules
+RTG info for forward application of tree:
+	2 states
+	2 rules
+	1 unique terminal symbols
+	1 derivations

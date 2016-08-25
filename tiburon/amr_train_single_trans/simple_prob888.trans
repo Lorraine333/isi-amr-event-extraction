@@ -1,0 +1,3 @@
+qr
+qc.r_value_UNIPROT_CDC42_HUMAN_ -> smr-empty #0.75
+qr.TOP(transfect-01(x0: r_ARG2(or(x1: x2: r_op2(individual(x3: r_ARG0-of(oligonucleotide(x4: r_ARG0-of(target-01(r_ARG1(or(x5: r_op2(protein(x6: r_xref(xref(x7: ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) -> TOP(qc.x7 ) #1.0

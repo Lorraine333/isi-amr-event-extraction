@@ -1,0 +1,30 @@
+q56
+q56 -> TOP(q57) # 1.000000
+q65 -> r_name(q76) # 1.000000
+q95 -> r_op1_RAS_ # 1.000000
+q59 -> r_ARG0(q63) # 1.000000
+q82 -> r_manner(q98) # 1.000000
+q68 -> r_part(q77) # 1.000000
+q106 -> r_UNK # 1.000000
+q87 -> r_xref(q97) # 1.000000
+q101 -> name(q106) # 1.000000
+q63 -> macro-molecular-complex(q68 q69) # 1.000000
+q76 -> name(q95) # 1.000000
+q64 -> r_ARG1-of(q75) # 1.000000
+q97 -> xref(q107) # 1.000000
+q105 -> r_op1_p85_ # 1.000000
+q88 -> r_name(q99) # 1.000000
+q107 -> r_value_UNIPROT_P85A_HUMAN_ # 1.000000
+q69 -> r_part(q72) # 1.000000
+q98 -> phosphorylate-01 # 1.000000
+q103 -> xref(q112) # 1.000000
+q58 -> r_ARG1(q62) # 1.000000
+q92 -> r_name(q101) # 1.000000
+q99 -> name(q105) # 1.000000
+q91 -> r_xref(q103) # 1.000000
+q112 -> r_UNK # 1.000000
+q62 -> protein(q64 q65) # 1.000000
+q77 -> protein(q87 q88) # 1.000000
+q57 -> decrease-01(q58 q59) # 1.000000
+q75 -> add-modification-00(q82) # 1.000000
+q72 -> protein(q91 q92) # 1.000000

@@ -1,0 +1,1774 @@
+0(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :mod (w / wild-type)
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p4 / protein :name (n4 / name :op1 "EGF")
+                        :xref (x4 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n2 / name :op1 "PI3K")
+                        :xref (x2 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG1-of (a / add-modification-00
+                              :manner (p5 / phosphorylate-01))))
+            :location (c / cell-line :name (n5 / name :op1 "MEF")
+                  :xref (x5 / xref :value "MEF-1:CVCL_4240")))
+
+1(i4 / increase-01
+            :ARG0 (p2 / protein :name (n6 / name :op1 "Gab1")
+                  :mod (w2 / wild-type)
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p3 / protein :name (n7 / name :op1 "EGF")
+                        :xref (x7 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n3 / name :op1 "Akt")
+                        :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                        :ARG1-of (a2 / add-modification-00
+                              :manner (p6 / phosphorylate-01))))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :xref (x8 / xref :value "MEF-1:CVCL_4240"))))
+
+
+2(s / smr-empty)
+
+3(s / smr-empty)
+
+4(i2 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a3 / amino-acid :name (n2 / name :op1 "tyrosine")
+                        :part-of (p / protein :name (n3 / name :op1 "Gab1")
+                              :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p3 / phosphorylate-01))
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "Wt MEF:CVCL_L690")))
+
+5(i3 / increase-01
+            :ARG0 (p6 / protein :name (n7 / name :op1 "EGF")
+                  :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a5 / amino-acid :name (n8 / name :op1 "tyrosine")
+                        :part-of (p9 / protein :name (n9 / name :op1 "Gab1")
+                              :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p7 / phosphorylate-01))
+            :location (c2 / cell-line :name (n5 / name :op1 "MEF")
+                  :xref (x4 / xref :value "MEF-1:CVCL_4240"))))
+
+
+6(s / smr-empty)
+
+7(s / smr-empty)
+
+8(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+            :manner (p4 / phosphorylate-01)
+            :location (c2 / cell)))
+
+9(s / smr-empty)
+
+10(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p2 / protein :name (n2 / name :op1 "Gab1")
+                        :mod (e / endogenous)
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+            :manner (p3 / phosphorylate-01)
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "Wt MEF:CVCL_L690"))))
+
+11(s / smr-empty)
+
+12(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (a3 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (e / enzyme :name (n / name :op1 "EGFR")
+                        :mod (e2 / endogenous)
+                        :xref (x2 / xref :value "UNIPROT:EGFR_HUMAN")))
+            :manner (p3 / phosphorylate-01)))
+
+13(i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+                  :xref (x2 / xref :value "UNIPROT:NRG1_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p3 / protein)
+                  :ARG1 (a3 / amino-acid :name (n4 / name :op1 "tyrosine")
+                        :part-of (e2 / enzyme :name (n3 / name :op1 "ErbB3")
+                              :xref (x / xref :value "UNIPROT:ERBB3_HUMAN")))
+                  :manner (p4 / phosphorylate-01)))
+
+14(i3 / increase-01 :polarity -
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                        :part-of (e / enzyme :name (n6 / name :op1 "ErbB3")
+                              :xref (x4 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                  :manner (p5 / phosphorylate-01))))
+
+
+15(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+            :xref (x / xref :value "UNIPROT:NRG1_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (e2 / enzyme :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p / phosphorylate-01)))
+
+16(i4 / increase-01 :polarity -
+            :ARG0 (e / enzyme :name (n / name :op1 "ErbB3")
+                  :xref (x4 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p / protein :name (n5 / name :op1 "EGF")
+                        :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n6 / name :op1 "PI3K")
+                        :xref (x6 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG1-of (a / add-modification-00
+                              :manner (p3 / phosphorylate-01)))))
+
+17(i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "NRG")
+                  :xref (x / xref :value "UNIPROT:NRG1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (e3 / enzyme :name (n3 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN"))
+                  :ARG1 (m3 / macro-molecular-complex :name (n4 / name :op1 "PI3K")
+                        :xref (x3 / xref :value "UNIPROT:P85A_HUMAN")))))
+
+
+18(s / smr-empty)
+
+19(s / smr-empty)
+
+20(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                        :part-of (p3 / protein :name (n2 / name :op1 "Gab1")
+                              :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p4 / phosphorylate-01)))
+
+21(i3 / increase-01
+            :ARG0 (p5 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                        :part-of (p7 / protein :name (n6 / name :op1 "Gab1")
+                              :ARG1-of (m2 / mutate-01 :value "F446/472/589")
+                              :xref (x7 / xref :value "UNIPROT:GAB1_HUMAN")))
+                  :manner (p12 / phosphorylate-01)))
+
+22(b / bind-01
+            :ARG1 (p8 / protein :name (n7 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG2 (e / enzyme :name (n8 / name :op1 "Shp2")
+                  :xref (x5 / xref :value "UNIPROT:PTN11_HUMAN")))
+
+23(b2 / bind-01
+            :ARG1 (p10 / protein :name (n9 / name :op1 "Gab1")
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN")
+                  :ARG1-of (m5 / mutate-01 :value "F446/472/589"))
+            :ARG2 (e2 / enzyme :name (n10 / name :op1 "Shp2")
+                  :xref (x8 / xref :value "UNIPROT:PTN11_HUMAN"))))
+
+
+24(b / bind-01 :polarity -
+      :ARG1 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :ARG1-of (m / mutate-01 :value "F446/472/589"))
+      :ARG2 (p3 / protein-family :name (n2 / name :op1 "p85")
+            :part-of (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K")
+                  :xref (x2 / xref :value "UNIPROT:P85A_HUMAN"))))
+
+25(s / smr-empty)
+
+26(s / smr-empty)
+
+27(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (a / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x3 / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG1-of (a2 / add-modification-00
+                        :manner (p2 / phosphorylate-01)))
+            :ARG1 (m / macro-molecular-complex :name (n2 / name :op1 "PI3K")
+                  :xref (x2 / xref :value "UNIPROT:P85A_HUMAN")
+                  :ARG1-of (a3 / add-modification-00
+                        :manner (p4 / phosphorylate-01)))))
+
+28(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :mod (w / wild-type))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n3 / name :op1 "EGF")
+                  :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (m / macro-molecular-complex :name (n4 / name :op1 "PI3K")
+                  :xref (x4 / xref :value "UNIPROT:P85A_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell-line :name (n2 / name :op1 "MEF")
+            :xref (x2 / xref :value "MEF-1:CVCL_4240")))
+
+29(i2 / increase-01
+      :ARG0 (p2 / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p3 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (p4 / pathway :name (n3 / name :op1 "PI-3K/Akt"))
+                  :manner (p / phosphorylate-01))))
+
+30(i2 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p3 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K")))
+            :location (c / cell))
+
+31(i4 / increase-01
+            :ARG0 (p4 / protein :name (n4 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p5 / protein :name (n5 / name :op1 "EGF")
+                        :xref (x5 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                        :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN")))
+            :location (c2 / cell))
+
+32(i6 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein-family :name (n7 / name :op1 "p85")
+                        :part-of (m3 / macro-molecular-complex :name (n8 / name :op1 "PI3K")))
+                  :ARG2 (a / amino-acid :name (n9 / name :op1 "tyrosine")
+                        :part-of (p6 / protein :name (n10 / name :op1 "Gab1")
+                              :xref (x7 / xref :value "UNIPROT:GAB1_HUMAN"))))
+            :ARG1 (i7 / increase-01
+                  :ARG0 (p7 / protein :name (n11 / name :op1 "EGF")
+                        :xref (x3 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 m3))
+
+33(i8 / increase-01
+            :ARG0 (b2 / bind-01
+                  :ARG1 (p8 / protein-family :name (n12 / name :op1 "p85")
+                        :part-of (m4 / macro-molecular-complex :name (n13 / name :op1 "PI3K")))
+                  :ARG2 (a2 / amino-acid :name (n14 / name :op1 "tyrosine")
+                        :part-of (p9 / protein :name (n15 / name :op1 "Gab1")
+                              :xref (x8 / xref :value "UNIPROT:GAB1_HUMAN"))))
+            :ARG1 (i9 / increase-01
+                  :ARG0 (p10 / protein :name (n16 / name :op1 "EGF")
+                        :xref (x9 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 m4)))
+
+
+34(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "EGF")
+                  :xref (x / xref :value "UNIPORT:EGF_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "Gab1")
+                        :xref (x2 / xref :value "UNIPROT:GAB1_HUMAN")
+                        :ARG1-of (b / bind-01
+                              :ARG2 (p5 / protein-family :name (n9 / name :op1 "p85"))))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p7 / protein)
+                        :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p6 / phosphorylate-01))))
+
+35(i4 / increase-01
+            :ARG0 (p3 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x4 / xref :value "UNIPORT:EGF_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n5 / name :op1 "Gab1")
+                        :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN")
+                        :ARG1-of (b2 / bind-01
+                              :ARG2 (p8 / protein-family :name (n7 / name :op1 "p85"))))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p10 / protein)
+                        :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                              :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p9 / phosphorylate-01)))))
+
+
+36(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))))
+
+37(i4 / increase-01
+            :ARG0 (p3 / protein :name (n4 / name :op1 "Gab1")
+                  :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n6 / name :op1 "EGF")
+                        :xref (x6 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n5 / name :op1 "Akt")
+                        :xref (x5 / xref :value "UNIPROT:AKT1_HUMAN")))))
+
+
+38(s / smr-empty)
+
+39(i2 / increase-01
+      :ARG0 (p / protein :name (n / name :op1 "Gab1")
+            :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+            :ARG2-of (m / mutate-01))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (p3 / pathway :name (n3 / name :op1 "PI-3K/Akt"))
+                  :manner (p4 / phosphorylate-01))))
+
+40(d / decrease-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein :name (n / name :op1 "Gab1")
+                        :xref (x / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG2 (e3 / enzyme :name (n2 / name :op1 "Shp2")
+                        :xref (x2 / xref :value "UNIPROT:PTN11_HUMAN")))
+            :ARG1 (i2 / increase-01
+                  :ARG0 p
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p5 / protein)
+                        :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p2 / phosphorylate-01))))
+
+41(d2 / decrease-01
+            :ARG0 (c2 / complex-with-00
+                  :ARG1 (p3 / protein :name (n4 / name :op1 "Gab1")
+                        :xref (x4 / xref :value "UNIPROT:GAB1_HUMAN"))
+                  :ARG2 (e / enzyme :name (n5 / name :op1 "Shp2")
+                        :xref (x5 / xref :value "UNIPROT:PTN11_HUMAN")))
+            :ARG1 (i3 / increase-01
+                  :ARG0 p3
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p6 / protein)
+                        :ARG1 (e2 / enzyme :name (n6 / name :op1 "Akt")
+                              :xref (x6 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p4 / phosphorylate-01)))))
+
+
+42(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "Gab1")
+                  :xref (x / xref :value "UNIPROT:GAB1_HUMAN")
+                  :ARG2-of (m2 / mutate-01))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                        :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p5 / protein)
+                        :ARG1 (m3 / macro-molecular-complex :name (n3 / name :op1 "PI3K"))
+                        :manner (p6 / phosphorylate-01)))
+            :location (c / cell-line :name (n4 / name :op1 "MEF")
+                  :xref (x4 / xref :value "MEF-1:CVCL_4240")))
+
+43(i4 / increase-01
+            :ARG0 (p3 / protein :name (n5 / name :op1 "Gab1")
+                  :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (p4 / protein :name (n6 / name :op1 "EGF")
+                        :xref (x6 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 (e2 / enzyme :name (n7 / name :op1 "Akt")
+                              :xref (x7 / xref :value "UNIPROT:AKT1_HUMAN"))
+                        :manner (p7 / phosphorylate-01)))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :xref (x8 / xref :value "MEF-1:CVCL_4240"))))
+
+
+44(d / decrease-01
+      :ARG0 (e / enzyme :name (n / name :op1 "Shp2")
+            :xref (x / xref :value "UNIPROT:PTN11_HUMAN"))
+      :ARG1 (i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 (p3 / pathway :name (n3 / name :op1 "PI3K"))
+                  :manner (p / phosphorylate-01))))
+
+45(i2 / increase-01
+                  :ARG0 (a / add-modification-00
+                        :ARG0 (p2 / protein)
+                        :ARG1 (a2 / amino-acid :name (n2 / name :op1 "tyrosine")
+                              :part-of (p5 / protein :name (n3 / name :op1 "ErbB3")
+                                    :xref (x / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p3 / phosphorylate-01))
+                  :ARG1 (e3 / enzyme :name (n4 / name :op1 "PI-3")
+                        :xref (x2 / xref :value "UNIPROT:P85A_HUMAN"))
+                  :location (c / cell-line :name (n8 / name :op1 "MEF")
+                        :xref (x5 / xref :value "MEF-1:CVCL_4240")))
+
+46(i3 / increase-01
+                  :ARG0 (a3 / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (a4 / amino-acid :name (n5 / name :op1 "tyrosine")
+                              :part-of (p6 / protein :name (n6 / name :op1 "ErbB3")
+                                    :xref (x3 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p7 / phosphorylate-01))
+                  :ARG1 (e2 / enzyme :name (n7 / name :op1 "Akt")
+                        :xref (x4 / xref :value "UNIPROT:AKT1_HUMAN"))))
+
+47(i4 / increase-01
+                  :ARG0 (a5 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 (a7 / amino-acid :name (n9 / name :op1 "tyrosine")
+                              :part-of (p10 / protein :name (n11 / name :op1 "ErbB3")
+                                    :xref (x6 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p12 / phosphorylate-01))
+                  :ARG1 (e4 / enzyme :name (n13 / name :op1 "PI-3")
+                        :xref (x8 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a9 / activity-06))
+                  :location (c2 / cell-line :name (n15 / name :op1 "MEF")
+                        :xref (x10 / xref :value "MEF-1:CVCL_4240")))
+
+48(i5 / increase-01
+                  :ARG0 (a6 / add-modification-00
+                        :ARG0 (p9 / protein)
+                        :ARG1 (a8 / amino-acid :name (n10 / name :op1 "tyrosine")
+                              :part-of (p11 / protein :name (n12 / name :op1 "erbB3")
+                                    :xref (x7 / xref :value "UNIPROT:ERBB3_HUMAN")))
+                        :manner (p13 / phosphorylate-01))
+                  :ARG1 (e5 / enzyme :name (n14 / name :op1 "Akt")
+                        :xref (x9 / xref :value "UNIPROT:AKT1_HUMAN")
+                        :ARG0-of (a10 / activity-06))
+                  :location (c3 / cell-line :name (n16 / name :op1 "MEF")
+                        :xref (x11 / xref :value "MEF-1:CVCL_4240")))))
+
+
+49(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "ErbB3")
+            :xref (x / xref :value "UNIPROT:ERBB3_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n4 / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (p3 / pathway :name (n5 / name :op1 "PI-3/Akt")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell-line :name (n3 / name :op1 "MEF")
+            :xref (x3 / xref :value "MEF-1:CVCL_4240")))
+
+50(i3 / increase-01
+            :ARG0 (p3 / protein :name (n5 / name :op1 "Gab1")
+                  :xref (x5 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i2 / increase-01
+                  :ARG0 (p / protein :name (n2 / name :op1 "EGF")
+                        :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e2 / enzyme :name (n4 / name :op1 "PI-3")
+                        :ARG0-of (a2 / activity-06))))
+
+51(i5 / increase-01
+            :ARG0 (p4 / protein :name (n6 / name :op1 "Gab1")
+                  :xref (x6 / xref :value "UNIPROT:GAB1_HUMAN"))
+            :ARG1 (i4 / increase-01
+                  :ARG0 (p2 / protein :name (n3 / name :op1 "NRG")
+                        :xref (x2 / xref :value "UNIPROT:NRG1_HUMAN"))
+                  :ARG1 (e / enzyme :name (n / name :op1 "Pi-3")
+                        :xref (x4 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a / activity-06))))
+
+52(i6 / increase-01
+            :ARG0 (p5 / protein :name (n7 / name :op1 "ErbB3")
+                  :xref (x11 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i7 / increase-01
+                  :ARG0 (p6 / protein :name (n8 / name :op1 "EGF")
+                        :xref (x7 / xref :value "UNIPROT:EGF_HUMAN"))
+                  :ARG1 (e3 / enzyme :name (n9 / name :op1 "PI-3")
+                        :ARG0-of (a3 / activity-06)
+                        :xref (x3 / xref :value "UNIPROT:P85A_HUMAN"))))
+
+53(i8 / increase-01
+            :ARG0 (p7 / protein :name (n10 / name :op1 "ErbB3")
+                  :xref (x10 / xref :value "UNIPROT:ERBB3_HUMAN"))
+            :ARG1 (i9 / increase-01
+                  :ARG0 (p8 / protein :name (n11 / name :op1 "NRG")
+                        :xref (x8 / xref :value "UNIPROT:NRG1_HUMAN"))
+                  :ARG1 (e4 / enzyme :name (n12 / name :op1 "PI-3")
+                        :xref (x9 / xref :value "UNIPROT:P85A_HUMAN")
+                        :ARG0-of (a4 / activity-06)))))
+
+
+54(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p4 / protein :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p5 / phosphorylate-01))
+      :location (c / cell))
+
+55(i2 / increase-01
+      :ARG0 (p2 / protein :name (n2 / name :op1 "EGF")
+            :xref (x / xref :value "UNIPROT:EGF_HUMAN"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (a2 / amino-acid :name (n3 / name :op1 "tyrosine")
+                  :part-of (p5 / protein :name (n4 / name :op1 "ErbB3")
+                        :xref (x2 / xref :value "UNIPROT:ERBB3_HUMAN")))
+            :manner (p3 / phosphorylate-01)))
+
+56(i2 / increase-01
+      :ARG0 (p / protein :name (n2 / name :op1 "ErbB3")
+            :xref (x / xref :value "UNIPROT:ERBB3_HUMAN"))
+      :ARG1 (i3 / increase-01
+            :ARG0 (p2 / protein :name (n / name :op1 "EGF")
+                  :xref (x2 / xref :value "UNIPROT:EGF_HUMAN"))
+            :ARG1 (e / enzyme :name (n3 / name :op1 "Akt")
+                  :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a / activity-06)))
+      :location (c / cell))
+
+57(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (p2 / protein :name (n / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG2 (p3 / protein :name (n2 / name :op1 "ERα")
+                  :xref (x2 / xref :value "UNIPROT:ESR1_HUMAN")))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n3 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 p2
+                  :manner (p4 / phosphorylate-01))))
+
+58(d / decrease-01
+            :ARG0 (p10 / protein-segment :name (n8 / name :op1 "ligand" :op2 "binding" :op3 "domain")
+                  :ARG1-of (m / mutate-01)
+                  :part-of (p3 / protein :name (n / name :op1 "ERα")
+                        :xref (x / xref :value "UNIPROT:ESR1_HUMAN")))
+            :ARG1 (i2 / increase-01
+                  :ARG0 (s / small-molecule :name (n2 / name :op1 "E2")
+                        :xref (x2 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p13 / phosphorylate-01))))
+
+59(d2 / decrease-01
+            :ARG0 (p6 / protein-segment
+                  :part-of (p7 / protein :name (n4 / name :op1 "SRC-3")
+                        :xref (x5 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :ARG1-of (m3 / mutate-01))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s2 / small-molecule :name (n5 / name :op1 "E2")
+                        :xref (x4 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 p7
+                        :manner (p14 / phosphorylate-01))))
+
+60(i4 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein :name (n6 / name :op1 "ERα")
+                        :xref (x6 / xref :value "UNIPROT:ESR1_HUMAN"))
+                  :ARG2 (p9 / protein :name (n7 / name :op1 "SRC-3")
+                        :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN")))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (p11 / protein :name (n9 / name :op1 "SRC-3")
+                        :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p12 / phosphorylate-01))))
+
+
+61(d / decrease-01
+            :ARG0 (p10 / protein-segment :name (n8 / name :op1 "ligand" :op2 "binding" :op3 "domain")
+                  :ARG1-of (m / mutate-01)
+                  :part-of (p3 / protein :name (n / name :op1 "ERα")
+                        :xref (x / xref :value "UNIPROT:ESR1_HUMAN")))
+            :ARG1 (i2 / increase-01
+                  :ARG0 (s / small-molecule :name (n2 / name :op1 "E2")
+                        :xref (x2 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p13 / phosphorylate-01))))
+
+62(d2 / decrease-01
+            :ARG0 (p6 / protein-segment
+                  :part-of (p7 / protein :name (n4 / name :op1 "SRC-3")
+                        :xref (x5 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :ARG1-of (m3 / mutate-01))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s2 / small-molecule :name (n5 / name :op1 "E2")
+                        :xref (x4 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p8 / protein)
+                        :ARG1 p7
+                        :manner (p14 / phosphorylate-01))))
+
+63(i4 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (p / protein :name (n6 / name :op1 "ERα")
+                        :xref (x6 / xref :value "UNIPROT:ESR1_HUMAN"))
+                  :ARG2 (p9 / protein :name (n7 / name :op1 "SRC-3")
+                        :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN")))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (p11 / protein :name (n9 / name :op1 "SRC-3")
+                        :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p12 / phosphorylate-01))))
+
+
+64(i2 / increase-01
+            :ARG0 (p / protein :name (n5 / name :op1 "ER")
+                  :xref (x4 / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s / small-molecule :name (n6 / name :op1 "estradiol")
+                        :xref (x5 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a3 / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n7 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p6 / phosphorylate-01))))
+
+65(a / add-modification-00
+            :ARG0 (p2 / protein :name (n / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c / cell-line :name (n2 / name :op1 "HEK")
+                  :xref (x2 / xref :value "HEK:CVCL_0063")))
+
+66(a2 / add-modification-00
+            :ARG0 (p3 / protein :name (n3 / name :op1 "SRC-3")
+                  :ARG1-of (m2 / mutate-01)
+                  :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c2 / cell-line :name (n4 / name :op1 "HEK")
+                  :xref (x3 / xref :value "HEK:CVCL_0063"))))
+
+
+67(i2 / increase-01
+            :ARG0 (p / protein :name (n5 / name :op1 "ER")
+                  :xref (x4 / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s / small-molecule :name (n6 / name :op1 "estradiol")
+                        :xref (x5 / xref :value "PUBCHEM:5757"))
+                  :ARG1 (a3 / add-modification-00
+                        :ARG0 (p4 / protein)
+                        :ARG1 (p5 / protein :name (n7 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                        :manner (p6 / phosphorylate-01))))
+
+68(a / add-modification-00
+            :ARG0 (p2 / protein :name (n / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c / cell-line :name (n2 / name :op1 "HEK")
+                  :xref (x2 / xref :value "HEK:CVCL_0063")))
+
+69(a2 / add-modification-00
+            :ARG0 (p3 / protein :name (n3 / name :op1 "SRC-3")
+                  :ARG1-of (m2 / mutate-01)
+                  :xref (x7 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG1 (c2 / cell-line :name (n4 / name :op1 "HEK")
+                  :xref (x3 / xref :value "HEK:CVCL_0063"))))
+
+
+70(i2 / increase-01
+      :ARG0 (s / small-molecule :name (n / name :op1 "estradiol")
+            :xref (x2 / xref :value "PUBCHEM:5757"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :manner (p / phosphorylate-01)))
+
+71(i2 / increase-01
+            :ARG0 (s / small-molecule :name (n2 / name :op1 "estradiol")
+                  :xref (x2 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p2 / protein :name (n / name :op1 "estrogen" :op2 "receptor" :op3 "α")
+                        :xref (x / xref :value "UNIPROT:ESR1_HUMAN")
+                        :ARG0-of (a2 / activity-06))
+                  :ARG1 (p3 / protein :name (n3 / name :op1 "SRC-3")
+                        :xref (x3 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p4 / phosphorylate-01)))
+
+72(i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n4 / name :op1 "estradiol")
+                  :xref (x4 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p6 / protein :name (n5 / name :op1 "ERβ")
+                        :xref (x5 / xref :value "UNIPROT:ESR2_HUMAN")
+                        :ARG0-of (a4 / activity-06))
+                  :ARG1 (p7 / protein :name (n6 / name :op1 "SRC-3")
+                        :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN"))
+                  :manner (p5 / phosphorylate-01))))
+
+
+73(i2 / increase-01
+      :ARG0 (s / small-molecule :name (n / name :op1 "E2")
+            :xref (x / xref :value "PUBCHEM:5757"))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :manner (p4 / phosphorylate-01)))
+
+74(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p2 / protein :name (n / name :op1 "ER")
+                  :xref (x / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG2 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 p3
+            :manner (p5 / phosphorylate-01)))
+
+75(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p2 / protein :name (n / name :op1 "ER")
+                  :xref (x / xref :value "UNIPROT:ESR1_HUMAN"))
+            :ARG2 (p3 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 p3
+            :manner (p5 / phosphorylate-01)))
+
+76(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "SRC-3")
+                  :xref (x / xref :value "UNIPROT:NCOA3_HUMAN"))
+            :ARG2 (p5 / protein-segment :name (n5 / name :op1 "LBD")
+                  :part-of (p / protein :name (n3 / name :op1 "ERα")
+                        :xref (x2 / xref :value "UNIPROT:ESR1_HUMAN"))))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n4 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 p2)))
+
+77(i2 / increase-01
+            :ARG0 (s / small-molecule :name (n / name :op1 "E2")
+                  :xref (x / xref :value "PUBCHEM:5757"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (a3 / amino-acid :mod 24 :name (n2 / name :op1 "tyrosine")
+                        :part-of (p3 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p4 / phosphorylate-00))
+            :location (c / cell))
+
+78(i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n4 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a5 / amino-acid :mod 505 :name (n5 / name :op1 "serine")
+                        :part-of (p6 / protein :name (n6 / name :op1 "SRC-3")
+                              :xref (x4 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p7 / phosphorylate-01))
+            :location (c2 / cell))
+
+79(i4 / increase-01
+            :ARG0 (s3 / small-molecule :name (n7 / name :op1 "E2")
+                  :xref (x5 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a7 / amino-acid :mod 543 :name (n8 / name :op1 "serine")
+                        :part-of (p9 / protein :name (n9 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p10 / phosphorylate-01))
+            :location (c3 / cell))
+
+80(i5 / increase-01
+            :ARG0 (s4 / small-molecule :name (n10 / name :op1 "E2")
+                  :xref (x7 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a8 / add-modification-00
+                  :ARG0 (p11 / protein)
+                  :ARG1 (a9 / amino-acid :mod 857 :name (n11 / name :op1 "serine")
+                        :part-of (p12 / protein :name (n12 / name :op1 "SRC-3")
+                              :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p13 / phosphorylate-01))
+            :location (c4 / cell))
+
+81(i6 / increase-01
+            :ARG0 (s5 / small-molecule :name (n13 / name :op1 "E2")
+                  :xref (x9 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a10 / add-modification-00
+                  :ARG0 (p14 / protein)
+                  :ARG1 (a11 / amino-acid :mod 860 :name (n14 / name :op1 "serine")
+                        :part-of (p16 / protein :name (n16 / name :op1 "SRC-3")
+                              :xref (x10 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p15 / phosphorylate-01))
+            :location (c5 / cell))
+
+82(i7 / increase-01
+            :ARG0 (s6 / small-molecule :name (n15 / name :op1 "E2")
+                  :xref (x12 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a12 / add-modification-00
+                  :ARG0 (p17 / protein)
+                  :ARG1 (a13 / amino-acid :mod 867 :name (n17 / name :op1 "serine")
+                        :part-of (p18 / protein :name (n18 / name :op1 "SRC-3")
+                              :xref (x11 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p19 / phosphorylate-01))
+            :location (c6 / cell)))
+
+
+83(i2 / increase-01
+            :ARG0 (s / small-molecule :name (n / name :op1 "E2")
+                  :xref (x / xref :value "PUBCHEM:5757"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p2 / protein)
+                  :ARG1 (a3 / amino-acid :mod 24 :name (n2 / name :op1 "tyrosine")
+                        :part-of (p3 / protein :name (n3 / name :op1 "SRC-3")
+                              :xref (x2 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p4 / phosphorylate-00))
+            :location (c / cell))
+
+84(i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n4 / name :op1 "E2")
+                  :xref (x3 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a5 / amino-acid :mod 505 :name (n5 / name :op1 "serine")
+                        :part-of (p6 / protein :name (n6 / name :op1 "SRC-3")
+                              :xref (x4 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p7 / phosphorylate-01))
+            :location (c2 / cell))
+
+85(i4 / increase-01
+            :ARG0 (s3 / small-molecule :name (n7 / name :op1 "E2")
+                  :xref (x5 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a7 / amino-acid :mod 543 :name (n8 / name :op1 "serine")
+                        :part-of (p9 / protein :name (n9 / name :op1 "SRC-3")
+                              :xref (x6 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p10 / phosphorylate-01))
+            :location (c3 / cell))
+
+86(i5 / increase-01
+            :ARG0 (s4 / small-molecule :name (n10 / name :op1 "E2")
+                  :xref (x7 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a8 / add-modification-00
+                  :ARG0 (p11 / protein)
+                  :ARG1 (a9 / amino-acid :mod 857 :name (n11 / name :op1 "serine")
+                        :part-of (p12 / protein :name (n12 / name :op1 "SRC-3")
+                              :xref (x8 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p13 / phosphorylate-01))
+            :location (c4 / cell))
+
+87(i6 / increase-01
+            :ARG0 (s5 / small-molecule :name (n13 / name :op1 "E2")
+                  :xref (x9 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a10 / add-modification-00
+                  :ARG0 (p14 / protein)
+                  :ARG1 (a11 / amino-acid :mod 860 :name (n14 / name :op1 "serine")
+                        :part-of (p16 / protein :name (n16 / name :op1 "SRC-3")
+                              :xref (x10 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p15 / phosphorylate-01))
+            :location (c5 / cell))
+
+88(i7 / increase-01
+            :ARG0 (s6 / small-molecule :name (n15 / name :op1 "E2")
+                  :xref (x12 / xref :value "PUBCHEM:5757"))
+            :ARG1 (a12 / add-modification-00
+                  :ARG0 (p17 / protein)
+                  :ARG1 (a13 / amino-acid :mod 867 :name (n17 / name :op1 "serine")
+                        :part-of (p18 / protein :name (n18 / name :op1 "SRC-3")
+                              :xref (x11 / xref :value "UNIPROT:NCOA3_HUMAN")))
+                  :manner (p19 / phosphorylate-01))
+            :location (c6 / cell)))
+
+
+89(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p / protein-family :name (n / name :op1 "RAF")))
+      :ARG1 (p2 / pathway :name (n2 / name :op1 "MEK/ERK")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+90(d / decrease-01
+      :ARG0 (m / molecular-physical-entity
+            :ARG0-of (d2 / decrease-01
+                  :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF"))))
+      :ARG1 (p4 / protein-family :name (n4 / name :op1 "ERK"))
+      :location (c / cell))
+
+91(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN"))
+      :location (c / cell))
+
+92(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN"))
+      :location (c / cell))
+
+93(b / bind-01
+      :ARG1 (i2 / increase-01
+            :ARG0 (s / small-molecule :name (n2 / name :op1 "PLX4720")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG1 (e / enzyme :name (n3 / name :op1 "ERK")
+                  :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")))
+      :ARG2 (i3 / increase-01
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p6 / protein)
+                  :ARG1 (p4 / protein-family :name (n4 / name :op1 "RSK"))
+                  :manner (p / phosphorylate-01))))
+
+94(i2 / increase-01
+                  :ARG0 (p5 / protein)
+                  :ARG1 (a / add-modification-00
+                        :ARG0 (p6 / protein)
+                        :ARG1 (e / enzyme :name (n4 / name :op1 "MEK")
+                              :xref (x / xref :value "UNIPROT:MP2K1_HUMAN"))
+                        :manner (p7 / phosphorylate-01)))
+
+95(i3 / increase-01
+                  :ARG0 (p8 / protein)
+                  :ARG1 (a2 / add-modification-00
+                        :ARG0 (p10 / protein)
+                        :ARG1 (e2 / enzyme :name (n5 / name :op1 "ERK")
+                              :xref (x2 / xref :value "UNIPROT:MK01_HUMAN"))
+                        :manner (p9 / phosphorylate-01))))
+
+96(d / decrease-01
+                  :ARG0 (p11 / protein)
+                  :ARG1 (a3 / add-modification-00
+                        :ARG0 (p12 / protein)
+                        :ARG1 (e3 / enzyme :name (n6 / name :op1 "MEK")
+                              :xref (x3 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                        :manner (p13 / phosphorylate-01)))
+
+97(d2 / decrease-01
+                  :ARG0 (p14 / protein)
+                  :ARG1 (a4 / add-modification-00
+                        :ARG0 (p15 / protein)
+                        :ARG1 (e4 / enzyme :name (n7 / name :op1 "ERK")
+                              :xref (x4 / xref :value "UNIPROT:MK01_HUMAN"))
+                        :manner (p16 / phosphorylate-01)))))
+
+
+98(i2 / increase-01
+            :ARG0 (s3 / small-molecule :name (n3 / name :op1 "PLX")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p5 / protein)
+                  :ARG1 (e / enzyme :name (n4 / name :op1 "MEK")
+                        :xref (x2 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                  :manner (p6 / phosphorylate-01))
+            :location (c / cell-line :name (n5 / name :op1 "MEF")
+                  :mod (w / wild-type)
+                  :xref (x3 / xref :value "MEF:CVCL_L690")))
+
+99(i4 / increase-01
+            :ARG0 (s4 / small-molecule :name (n9 / name :op1 "PLX")
+                  :xref (x7 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p11 / protein)
+                  :ARG1 (e3 / enzyme :name (n10 / name :op1 "MEK")
+                        :xref (x8 / xref :value "UNIPROT:MP2K1_HUMAN"))
+                  :manner (p12 / phosphorylate-01))
+            :location (c3 / cell-line :name (n11 / name :op1 "MEF")
+                  :xref (x9 / xref :value "MEF-1:CVCL_4240")))
+
+100(i3 / increase-01
+            :ARG0 (s2 / small-molecule :name (n6 / name :op1 "PLX")
+                  :xref (x4 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (e2 / enzyme :name (n7 / name :op1 "ERK")
+                        :xref (x5 / xref :value "UNIPROT:MK01_HUMAN"))
+                  :manner (p9 / phosphorylate-01))
+            :location (c2 / cell-line :name (n8 / name :op1 "MEF")
+                  :mod (w2 / wild-type)
+                  :xref (x6 / xref :value "MEF:CVCL_L690")))
+
+101(i5 / increase-01
+            :ARG0 (s / small-molecule :name (n12 / name :op1 "PLX")
+                  :xref (x10 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (a4 / add-modification-00
+                  :ARG0 (p15 / protein)
+                  :ARG1 (e4 / enzyme :name (n13 / name :op1 "ERK")
+                        :xref (x11 / xref :value "UNIPORT:PLK1_HUMAN"))
+                  :manner (p14 / phosphorylate-01))
+            :location (c4 / cell-line :name (n14 / name :op1 "MEF")
+                  :xref (x12 / xref :value "MEF-1:CVCL_4240"))))
+
+
+102(i2 / increase-01
+      :ARG0 (a2 / and
+            :op1 (e / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+            :op2 (p / protein-family :name (n3 / name :op1 "RAS")
+                  :ARG1-of (a / add-modification-00
+                        :ARG0 (p3 / protein)
+                        :manner (p2 / phosphorylate-01))))
+      :ARG1 (e3 / enzyme :name (n5 / name :op1 "CRAF")
+            :mod (w / wild-type)
+            :xref (x4 / xref :value "UNIPROT:RAF1_HUMAN"))
+      :location (c / cell-line :name (n2 / name :op1 "MEF")
+            :xref (x3 / xref :value "MEF-1:CVCL_4240")))
+
+103(i2 / increase-01 :polarity -
+            :ARG0 (e / enzyme :value "UNIPROT:BRAF_HUMAN" :name (n / name :op1 "BRAF"))
+            :ARG1 (i3 / increase-01
+                  :ARG0 (s2 / small-molecule :name (n3 / name :op1 "PLX")
+                        :xref (x / xref :value "PUBCHEM:24180719"))
+                  :ARG1 (p / pathway :name (n2 / name :op1 "MEK/ERK")
+                        :ARG0-of (a / activity-06))))
+
+104(i4 / increase-01
+            :ARG0 (e2 / enzyme :name (n4 / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN"))
+            :ARG1 (i5 / increase-01
+                  :ARG0 (s / small-molecule :name (n5 / name :op1 "PLX")
+                        :xref (x3 / xref :value "PUBCHEM:24180719"))
+                  :ARG1 (p4 / pathway :name (n6 / name :op1 "MEK/ERK")
+                        :ARG0-of (a2 / activity-06)))))
+
+
+105(i2 / increase-01
+      :ARG0 (i3 / increase-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (c / complex-with-00
+                  :ARG1 (p2 / protein)
+                  :ARG2 (p3 / protein-family :name (n2 / name :op1 "RAF"))))
+      :ARG1 (e / enzyme
+            :ARG0-of (a / activity-06)))
+
+106(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule)
+            :ARG2 (p / protein-segment :name (n / name :op1 "ATP-binding" :op2 "site")
+                  :part-of (e2 / enzyme)))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")))
+
+107(d / decrease-01
+            :ARG0 (b / bind-01
+                  :ARG1 (s / small-molecule)
+                  :ARG2 (c / complex-with-00
+                        :ARG1 (e3 / enzyme :name (n / name :op1 "CRAF")
+                              :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+                        :ARG2 (e4 / enzyme :name (n4 / name :op1 "CRAF")
+                              :xref x)))
+            :ARG1 (p / protein))
+
+108(d2 / decrease-01
+            :ARG0 (b2 / bind-01
+                  :ARG1 (s2 / small-molecule)
+                  :ARG2 (c2 / complex-with-00
+                        :ARG1 (e / enzyme :name (n2 / name :op1 "CRAF")
+                              :xref x)
+                        :ARG2 (e2 / enzyme :name (n3 / name :op1 "BRAF")
+                              :xref (x2 / xref :value "UNIPROT:BRAF_HUMAN"))))
+            :ARG1 (p2 / protein)))
+
+
+109(i2 / increase-01
+      :ARG0 (i3 / increase-01
+            :ARG0 (p2 / protein)
+            :ARG1 (c / complex-with-00
+                  :ARG1 (e2 / enzyme
+                        :mod p4)
+                  :ARG2 (e / enzyme
+                        :mod (p4 / protein-family :name (n2 / name :op1 "RAF")))))
+      :ARG1 (p / pathway :name (n / name :op1 "MEK/ERK")))
+
+110(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (e / enzyme :name (n2 / name :op1 "BRAF")
+                  :xref (x / xref :value "UNIPROT:BRAF_HUMAN"))
+            :ARG2 (e2 / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (p / protein
+            :ARG0-of (a / activity-06)))
+
+111(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 e)
+      :ARG1 (a2 / add-modification-00
+            :ARG0 (p2 / protein)
+            :ARG1 (e / enzyme :name (n2 / name :op1 "RAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+            :manner (p5 / phosphorylate-01)))
+
+112(i2 / increase-01
+            :ARG1 (e / enzyme :name (n / name :op1 "CRAF")
+                  :xref (x / xref :value "UNIPORT:RAF1_HUMAN")
+                  :mod (w / wild-type))
+            :location (c / cell-line :name (n2 / name :op1 "293H")
+                  :xref (x2 / xref :value "HEK:CVCL_6643")))
+
+113(i3 / increase-01
+            :ARG1 (p2 / protein :name (n3 / name :op1 "CRAF")
+                  :xref (x3 / xref :value "UNIPORT:RAF1_HUMAN")
+                  :ARG1-of (m2 / mutate-01 :value "D486N"))
+            :location (c2 / cell-line :name (n4 / name :op1 "293H")
+                  :xref (x4 / xref :value "HEK:CVCL_6643"))))
+
+
+114(i2 / increase-01
+      :ARG1 (a / add-modification-00
+            :ARG0 (p3 / protein)
+            :ARG1 (a2 / amino-acid :mod 338 :name (n2 / name :op1 "serine"))))
+
+115(i2 / increase-01
+            :ARG0 (d / decrease-01
+                  :ARG0 (m3 / molecular-physical-entity)
+                  :ARG1 (e / enzyme :name (n2 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (a / add-modification-00
+                  :ARG0 (p3 / protein)
+                  :ARG1 (e2 / enzyme :name (n3 / name :op1 "RAF")
+                        :xref x
+                        :mod (w / wild-type))
+                  :manner (p5 / phosphorylate-01)))
+
+116(i3 / increase-01
+            :ARG0 (d2 / decrease-01
+                  :ARG0 (m4 / molecular-physical-entity)
+                  :ARG1 (e3 / enzyme :name (n4 / name :op1 "RAF")
+                        :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (a3 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (e4 / enzyme :name (n5 / name :op1 "RAF")
+                        :xref (x3 / xref :value "UNIPROT:RAF1_HUMAN")
+                        :ARG1-of (m2 / mutate-01))
+                  :manner (p7 / phosphorylate-01))))
+
+
+117(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 p
+            :ARG2 (p2 / protein-segment
+                  :part-of (e / enzyme :name (n2 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+                  :ARG0-of a))
+      :ARG1 (i3 / increase-01
+            :ARG0 (s / small-molecule :name (n3 / name :op1 "PLX")
+                  :xref (x2 / xref :value "PUBCHEM:24180719"))
+            :ARG1 (p / pathway :name (n / name :op1 "MEK-ERK")
+                  :ARG0-of (a / activity-06))))
+
+118(i2 / increase-01
+            :ARG0 (d / decrease-01
+                  :ARG0 (m2 / molecular-physical-entity)
+                  :ARG1 (e / enzyme :name (n / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "RAF")
+                  :ARG0-of (a / activity-06)
+                  :xref x))
+
+119(i3 / increase-01
+            :ARG0 (b / bind-01
+                  :ARG1 (m3 / molecular-physical-entity)
+                  :ARG2 (e3 / enzyme :name (n3 / name :op1 "RAF")
+                        :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+            :ARG1 (e4 / enzyme :name (n4 / name :op1 "RAF")
+                  :ARG0-of (a2 / activity-06)
+                  :xref x2)))
+
+
+120(i4 / increase-01
+            :ARG0 (i3 / increase-01
+                  :ARG0 (e / enzyme :name (n / name :op1 "RAS")
+                        :ARG0-of (a / activity-06)
+                        :xref (x / xref :value "UNIPROT:RASH_HUMAN")))
+            :ARG1 (c / complex-with-00
+                  :ARG1 (e2 / enzyme :name (n2 / name :op1 "BRAF")
+                        :xref (x4 / xref :value "UNIPROT:BRAF_HUMAN"))
+                  :ARG2 (e3 / enzyme :name (n3 / name :op1 "BRAF")
+                        :xref x4)))
+
+121(i2 / increase-01
+            :ARG0 (i6 / increase-01
+                  :ARG0 (e4 / enzyme :name (n4 / name :op1 "RAS")
+                        :ARG0-of (a2 / activity-06)
+                        :xref (x2 / xref :value "UNIPROT:RASH_HUMAN"))
+                  :ARG1 (c2 / complex-with-00
+                        :ARG1 (e5 / enzyme :name (n5 / name :op1 "CRAF")
+                              :xref (x3 / xref :value "UNIPROT:RAF1_HUMAN"))
+                        :ARG2 (e6 / enzyme :name (n6 / name :op1 "CRAF")
+                              :xref x3))))
+
+122(i5 / increase-01
+            :ARG0 (i7 / increase-01
+                  :ARG0 (e7 / enzyme :name (n7 / name :op1 "RAS")
+                        :xref (x5 / xref :value "UNIPROT:RASH_HUMAN")
+                        :ARG0-of (a3 / activity-06))
+                  :ARG1 (c3 / complex-with-00
+                        :ARG1 (e8 / enzyme :name (n8 / name :op1 "BRAF")
+                              :xref (x7 / xref :value "UNIPROT:BRAF_HUMAN"))
+                        :ARG2 (e9 / enzyme :name (n9 / name :op1 "CRAF")
+                              :xref (x6 / xref :value "UNIPROT:RAF1_HUMAN"))))))
+
+
+123(i2 / increase-01
+      :ARG0 (c / complex-with-00
+            :ARG1 (e2 / enzyme
+                  :mod p2)
+            :ARG2 (e / enzyme
+                  :mod (p2 / protein-family :name (n / name :op1 "RAF")))))
+
+124(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p6 / protein-family :name (n2 / name :op1 "RAF")))
+      :ARG1 (a / add-modification-00
+            :ARG0 (p4 / protein)
+            :ARG1 (p5 / protein-segment :name (n3 / name :op1 "p338")
+                  :part-of (e2 / enzyme :name (n4 / name :op1 "CRAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN")
+                        :mod (e / endogenous)))
+            :manner (p3 / phosphorylate-01)))
+
+125(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule :name (n / name :op1 "PLX")
+                  :xref (x / xref :value "PUBCHEM:24180719"))
+            :ARG2 (e / enzyme :name (n2 / name :op1 "CRAF")
+                  :xref (x2 / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (e2 / enzyme :name (n3 / name :op1 "CRAF")
+            :ARG0-of (a / activity-06)
+            :xref x2))
+
+126(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (e / enzyme :name (n3 / name :op1 "RAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (e2 / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+127(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (e / enzyme :name (n3 / name :op1 "RAF")
+                  :xref (x / xref :value "UNIPROT:RAF1_HUMAN")))
+      :ARG1 (e2 / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x2 / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+128(i2 / increase-01
+            :ARG0 (p / protein)
+            :ARG1 (e / enzyme :name (n / name :op1 "CRAF"))
+            :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))
+
+129(i3 / increase-01
+            :ARG0 (p2 / protein)
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "BRAF")
+                  :xref (x2 / xref :value "UNIPROT:BRAF_HUMAN"))))
+
+
+130(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (s / small-molecule)
+            :ARG2 (p / protein-segment :name (n / name :op1 "catalytic" :op2 "domain")
+                  :part-of (e / enzyme :name (n3 / name :op1 "RAF")
+                        :xref (x / xref :value "UNIPROT:RAF1_HUMAN"))))
+      :ARG1 (p4 / pathway :name (n4 / name :op1 "MEK/ERK")
+            :ARG0-of (a / activity-06)))
+
+131(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+132(i2 / increase-01
+      :ARG0 (d / decrease-01
+            :ARG0 (m / molecular-physical-entity)
+            :ARG1 (p3 / protein-family :name (n3 / name :op1 "RAF")))
+      :ARG1 (e / enzyme :name (n4 / name :op1 "ERK")
+            :xref (x / xref :value "UNIPROT:MK01_HUMAN")
+            :ARG0-of (a / activity-06))
+      :location (c / cell))
+
+133(b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC1")
+                  :part-of (p3 / protein-family :name (n3 / name :op1 "RHO"))
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (p2 / protein-segment :name (n2 / name :op1 "RBD")
+                  :part-of (e4 / enzyme :name (n8 / name :op1 "p110β")
+                        :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+134(b2 / bind-01
+            :ARG1 (p9 / protein :name (n9 / name :op1 "CDC42")
+                  :xref (x7 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (p10 / protein-segment :name (n10 / name :op1 "RBD")
+                  :part-of (e3 / enzyme :name (n11 / name :op1 "p110β")
+                        :xref (x8 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+135(i2 / increase-01
+            :ARG0 (p4 / protein :name (n4 / name :op1 "RAC1")
+                  :xref (x3 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n5 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a / activity-06)))
+
+136(i3 / increase-01
+            :ARG0 (p6 / protein :name (n6 / name :op1 "CDC42")
+                  :xref (x5 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n7 / name :op1 "p110β")
+                  :xref (x6 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06))))
+
+
+137(b / bind-01
+            :ARG1 (e / enzyme :name (n / name :op1 "p110β")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p2 / protein :name (n2 / name :op1 "RAC1")
+                  :xref (x2 / xref :value "UNIPROT:RAC1_HUMAN")))
+
+138(b2 / bind-01
+            :ARG1 (e2 / enzyme :name (n4 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN"))))
+
+
+139(b / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "RAC")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+140(b2 / bind-01
+            :ARG1 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (e2 / enzyme :name (n / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a / activity-06))))
+
+141(i2 / increase-01
+            :ARG0 (p / protein :name (n5 / name :op1 "RAC")
+                  :xref (x5 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e3 / enzyme :name (n6 / name :op1 "p110b")
+                  :xref (x6 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06)))
+
+142(i3 / increase-01
+            :ARG0 (p4 / protein :name (n7 / name :op1 "CDC42")
+                  :xref (x7 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e4 / enzyme :name (n8 / name :op1 "p110b")
+                  :xref (x8 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a3 / activity-06))))
+
+
+143(b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN")
+                  :part-of (p3 / protein-family :name (n3 / name :op1 "RHO")))
+            :ARG2 (e2 / enzyme :name (n2 / name :op1 "p110β")
+                  :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+144(b2 / bind-01
+            :ARG1 (p4 / protein :name (n4 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN")
+                  :part-of (p2 / protein-family :name (n6 / name :op1 "RHO")))
+            :ARG2 (e / enzyme :name (n5 / name :op1 "p110β")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+
+145(b / bind-01
+            :ARG1 (e / enzyme :name (n / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p3 / protein :name (n3 / name :op1 "RAC1")
+                  :xref (x3 / xref :value "UNIPROT:RAC1_HUMAN")))
+
+146(b2 / bind-01
+            :ARG1 (e2 / enzyme :name (n2 / name :op1 "p110b")
+                  :xref (x2 / xref :value "UNIPROT:PK3CB_HUMAN"))
+            :ARG2 (p4 / protein :name (n4 / name :op1 "CDC42")
+                  :xref (x4 / xref :value "UNIPROT:CDC42_HUMAN"))))
+
+
+147(b / bind-01
+      :ARG1 (e / enzyme :name (n / name :op1 "GTPase")
+            :part-of (p / protein-family :name (n2 / name :op1 "RHO")))
+      :ARG2 (e2 / enzyme :name (n3 / name :op1 "p110b")
+            :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+148(b / bind-01
+            :ARG1 (p / protein :name (n / name :op1 "RAC")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG2 (p3 / protein-segment :name (n7 / name :op1 "RAS-binding" :op2 "domain")
+                  :part-of (e3 / enzyme :name (n3 / name :op1 "p110b")
+                        :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+149(b2 / bind-01
+            :ARG1 (p2 / protein :name (n2 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG2 (p4 / protein-segment :name (n4 / name :op1 "RAS-binding" :op2 "domain")
+                  :part-of (e / enzyme :name (n5 / name :op1 "p110b")
+                        :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN")))))
+
+
+150(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN")
+                  :ARG1-of (b / bind-01
+                        :ARG2 (e3 / enzyme :name (n5 / name :op1 "GTPγ")
+                              :xref (x5 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e / enzyme :name (n2 / name :op1 "p110b")
+                  :ARG0-of (a / activity-06)
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+151(i3 / increase-01
+            :ARG0 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN")
+                  :ARG1-of (b2 / bind-01
+                        :ARG2 (e4 / enzyme :name (n6 / name :op1 "GTPγ")
+                              :xref (x6 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e2 / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+
+152(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN")
+                  :ARG1-of (b / bind-01
+                        :ARG2 (e3 / enzyme :name (n5 / name :op1 "GTPγ")
+                              :xref (x5 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e / enzyme :name (n2 / name :op1 "p110b")
+                  :ARG0-of (a / activity-06)
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")))
+
+153(i3 / increase-01
+            :ARG0 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN")
+                  :ARG1-of (b2 / bind-01
+                        :ARG2 (e4 / enzyme :name (n6 / name :op1 "GTPγ")
+                              :xref (x6 / xref :value "UNIPROT:GCA_DICDI"))))
+            :ARG1 (e2 / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"))))
+
+
+154(i2 / increase-01
+            :ARG0 (p / protein :name (n / name :op1 "RAC1")
+                  :xref (x / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n3 / name :op1 "p110b")
+                  :xref (x3 / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a2 / activity-06)))
+
+155(i3 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "CDC42")
+                  :xref (x2 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a / activity-06)))))
+
+
+156(i2 / increase-01
+      :ARG0 (b / bind-01
+            :ARG1 (p / pathway :name (n / name :op1 "RAC/CDC42"))
+            :ARG2 (e2 / enzyme :name (n2 / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")))
+      :ARG1 (e / enzyme :name (n3 / name :op1 "PI3K")
+            :ARG0-of (a / activity-06)
+            :xref (x2 / xref :value "PK3CA_HUMAN")))
+
+157(i2 / increase-01
+            :ARG0 (p2 / protein :name (n2 / name :op1 "RAC1")
+                  :xref (x2 / xref :value "UNIPROT:RAC1_HUMAN"))
+            :ARG1 (e2 / enzyme :name (n / name :op1 "p110b")
+                  :xref (x / xref :value "UNIPROT:PK3CB_HUMAN")
+                  :ARG0-of (a / activity-06)))
+
+158(i3 / increase-01
+            :ARG0 (p3 / protein :name (n3 / name :op1 "CDC42")
+                  :xref (x3 / xref :value "UNIPROT:CDC42_HUMAN"))
+            :ARG1 (e / enzyme :name (n4 / name :op1 "p110b")
+                  :xref (x4 / xref :value "UNIPROT:PK3CB_HUMAN"
+                        :ARG0-of (a2 / activity-06)))))
+
+
+159(b / bind-01
+      :ARG1 (m / macro-molecular-complex :name (n4 / name :op1 "Gβγ"))
+      :ARG2 (p3 / protein-segment :name (n2 / name :op1 "N-terminus")
+            :part-of (p4 / protein :name (n3 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPROT:ELMO1_HUMAN"))))
+
+160(b / bind-01
+            :ARG1 (m3 / macro-molecular-complex :name (n / name :op1 "Gβγ"))
+            :ARG2 (p2 / protein :name (n2 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPORT:ELMO1_HUMAN")))
+
+161(b2 / bind-01
+            :ARG1 (m2 / macro-molecular-complex :name (n3 / name :op1 "Gβγ"))
+            :ARG2 (p / protein-segment :name (n4 / name :op1 "N-terminus")
+                  :part-of (p3 / protein :name (n5 / name :op1 "Elmo1")
+                        :xref (x2 / xref :value "UNIPORT:ELMO1_HUMAN")))))
+
+
+162(b / bind-01
+      :ARG1 (p / protein-segment :name (n / name :op1 "N-terminus")
+            :part-of (p2 / protein :name (n2 / name :op1 "Elmo1")
+                  :xref (x / xref :value "UNIPORT:ELMO1_HUMAN")))
+      :ARG2 (m / macro-molecular-complex :name (n3 / name :op1 "Gbg")))
+
+163(i3 / increase-01
+      :ARG0 (p / pathway :name (n / name :op1 "PI3K/AKt"))
+      :ARG1 (i2 / increase-01
+            :ARG0 (e / enzyme :name (n3 / name :op1 "Ras")
+                  :ARG0-of (a / activity-06))
+            :ARG1 (g / gene :name (n4 / name :op1 "MKP3")
+                  :xref (x / xref :value "HGNC:895"))))
+
+164(i2 / increase-01
+            :ARG0 (p / pathway :name (n / name :op1 "PI3K/Akt"))
+            :ARG1 (e / enzyme :name (n2 / name :op1 "Ras")
+                  :ARG0-of (a / activity-06)))
+
+165(d / decrease-01
+            :ARG0 (e2 / enzyme :name (n3 / name :op1 "MKP3")
+                  :xref (x / xref :value "UNIPROT:DUS6_HUMAN"))
+            :ARG1 (p2 / pathway :name (n4 / name :op1 "ERK1/2"))
+            :location (c / cell-line :name (n5 / name :op1 "NIH3T3")
+                  :xref (x2 / xref :value "NIH3T3:CVCL_0594"))))
+
+
+166(i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "Ras")
+                  :ARG0-of (a / activity-06)
+                  :ARG1-of (m2 / mutate-01 :value "V12"))
+            :ARG1 (m3 / macro-molecular-complex
+                  :part (e2 / enzyme :name (n2 / name :op1 "Mkp3")
+                        :xref (x / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p / protein :name (n3 / name :op1 "Luc"))
+                  :ARG0-of a))
+
+167(i3 / increase-01
+            :ARG0 (e6 / enzyme :name (n4 / name :op1 "p110")
+                  :ARG1-of (m4 / mutate-01 :value "CAAX")
+                  :ARG0-of (a2 / activity-06))
+            :ARG1 (m5 / macro-molecular-complex
+                  :part (e3 / enzyme :name (n5 / name :op1 "Mkp3")
+                        :xref (x2 / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p3 / protein :name (n6 / name :op1 "Luc"))
+                  :ARG0-of a2))
+
+168(i4 / increase-01
+            :ARG0 (e4 / enzyme :name (n7 / name :op1 "Akt")
+                  :xref (x3 / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a3 / activity-06))
+            :ARG1 (m6 / macro-molecular-complex
+                  :part (e5 / enzyme :name (n8 / name :op1 "Mkp3")
+                        :xref (x4 / xref :value "UNIPROT:DUS6_HUMAN"))
+                  :part (p4 / protein :name (n9 / name :op1 "Luc"))
+                  :ARG0-of a3)))
+
+
+169(i2 / increase-01
+      :ARG0 (e2 / enzyme :name (n7 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (n8 / nucleic-acid :name (n9 / name :op1 "mRNA")
+            :ARG0-of (e3 / encode-01
+                  :ARG1 (e / enzyme :name (n10 / name :op1 "MAP" :op2 "kinase" :op3 "phosphatase" :op4 "3")
+                        :xref (x / xref :value "UNIPORT:MK03_HUMAN")))))
+
+170(i2 / increase-01
+      :ARG0 (e / enzyme :name (n2 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (p2 / protein :name (n3 / name :op1 "MKP3")
+            :xref (x / xref :value "UNIPORT:MK03_HUMAN")))
+
+171(i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "H-Ras")
+                  :ARG0-of (a / activity-06)
+                  :xref (x / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m2 / mutate-01 :value "V12"))
+            :ARG1 (p / protein
+                  :ARG0-of a)
+            :location (c / cell-line :name (n2 / name :op1 "NIH3T3")
+                  :xref (x2 / xref :value "NIH3T3:CVCL_0594")))
+
+172(i3 / increase-01
+            :ARG0 (m3 / macro-molecular-complex
+                  :part (e2 / enzyme :name (n3 / name :op1 "Mkp3")
+                        :xref (x3 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p2 / protein :name (n4 / name :op1 "Luc"))
+                  :ARG0-of (a2 / activity-06))
+            :ARG1 (p3 / protein
+                  :ARG0-of a2)
+            :location (c2 / cell-line :name (n5 / name :op1 "NIH3T3")
+                  :xref (x4 / xref :value "NIH3T3:CVCL_0594")))
+
+173(i4 / increase-01 :polarity -
+            :ARG0 (e3 / enzyme :name (n6 / name :op1 "Ras")
+                  :ARG1-of (m4 / mutate-01 :value "N17"))
+            :ARG1 (p4 / protein :name (n7 / name :op1 "H-Ras")
+                  :ARG0-of (a3 / activity-06)
+                  :xref (x5 / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m5 / mutate-01 :value "V12"))
+            :location (c3 / cell-line :xref "NIH3T3:CVCL_0594" :name (n8 / name :op1 "NIH3T3")))
+
+174(i5 / increase-01 :polarity -
+            :ARG0 (e4 / enzyme :name (n9 / name :op1 "Ras")
+                  :ARG1-of (m6 / mutate-01))
+            :ARG1 (m7 / macro-molecular-complex
+                  :part (e5 / enzyme :name (n10 / name :op1 "Mkp3")
+                        :xref (x6 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p5 / protein :name (n11 / name :op1 "Luc"))
+                  :ARG0-of (a4 / activity-06))))
+
+
+175(i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "H-Ras")
+                  :ARG0-of (a / activity-06)
+                  :xref (x / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m2 / mutate-01 :value "V12"))
+            :ARG1 (p / protein
+                  :ARG0-of a)
+            :location (c / cell-line :name (n2 / name :op1 "NIH3T3")
+                  :xref (x2 / xref :value "NIH3T3:CVCL_0594")))
+
+176(i3 / increase-01
+            :ARG0 (m3 / macro-molecular-complex
+                  :part (e2 / enzyme :name (n3 / name :op1 "Mkp3")
+                        :xref (x3 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p2 / protein :name (n4 / name :op1 "Luc"))
+                  :ARG0-of (a2 / activity-06))
+            :ARG1 (p3 / protein
+                  :ARG0-of a2)
+            :location (c2 / cell-line :name (n5 / name :op1 "NIH3T3")
+                  :xref (x4 / xref :value "NIH3T3:CVCL_0594")))
+
+177(i4 / increase-01 :polarity -
+            :ARG0 (e3 / enzyme :name (n6 / name :op1 "Ras")
+                  :ARG1-of (m4 / mutate-01 :value "N17"))
+            :ARG1 (p4 / protein :name (n7 / name :op1 "H-Ras")
+                  :ARG0-of (a3 / activity-06)
+                  :xref (x5 / xref :value "UNIPROT:RASH_HUMAN")
+                  :ARG1-of (m5 / mutate-01 :value "V12"))
+            :location (c3 / cell-line :xref "NIH3T3:CVCL_0594" :name (n8 / name :op1 "NIH3T3")))
+
+178(i5 / increase-01 :polarity -
+            :ARG0 (e4 / enzyme :name (n9 / name :op1 "Ras")
+                  :ARG1-of (m6 / mutate-01))
+            :ARG1 (m7 / macro-molecular-complex
+                  :part (e5 / enzyme :name (n10 / name :op1 "Mkp3")
+                        :xref (x6 / xref :value "UNIPORT:MK03_HUMAN"))
+                  :part (p5 / protein :name (n11 / name :op1 "Luc"))
+                  :ARG0-of (a4 / activity-06))))
+
+
+179(i2 / increase-01
+      :ARG0 (p2 / pathway :name (n2 / name :op1 "Ras")
+            :ARG0-of (a / activity-06))
+      :ARG1 (p3 / protein :name (n3 / name :op1 "MKP3")
+            :xref (x / xref :value "UNIPROT:MK03_HUMAN"))
+      :location (c / cell-line :name (n / name :op1 "NIH3T3")
+            :xref (x2 / xref :value "NIH3T3:CVCL_0594")))
+
+180(i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "Ras")
+                  :ARG1-of (m / mutate-01 :value "V12")
+                  :ARG0-of (a / activity-06))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 (m3 / macro-molecular-complex
+                        :part (e4 / enzyme :name (n6 / name :op1 "Mkp3")
+                              :xref (x3 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p6 / protein :name (n7 / name :op1 "Luc")))
+                  :manner (p3 / phosphorylate-01)))
+
+181(i3 / increase-01
+            :ARG0 (e6 / enzyme :name (n2 / name :op1 "p110")
+                  :ARG1-of (m2 / mutate-01 :value "CAAX")
+                  :ARG0-of (a3 / activity-06))
+            :ARG1 (a5 / add-modification-00
+                  :ARG0 (p / protein)
+                  :ARG1 (m5 / macro-molecular-complex
+                        :part (e3 / enzyme :name (n5 / name :op1 "Mkp3")
+                              :xref (x2 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p5 / protein :name (n4 / name :op1 "Luc")))
+                  :manner (p7 / phosphorylate-01)))
+
+182(i4 / increase-01
+            :ARG0 (e2 / enzyme :name (n3 / name :op1 "Akt")
+                  :xref (x / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a4 / activity-06))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (m6 / macro-molecular-complex
+                        :part (e5 / enzyme :name (n8 / name :op1 "Mkp3")
+                              :xref (x4 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p9 / protein :name (n9 / name :op1 "Luc"))))))
+
+
+183(i2 / increase-01
+            :ARG0 (e / enzyme :name (n / name :op1 "Ras")
+                  :ARG1-of (m / mutate-01 :value "V12")
+                  :ARG0-of (a / activity-06))
+            :ARG1 (a2 / add-modification-00
+                  :ARG0 (p4 / protein)
+                  :ARG1 (m3 / macro-molecular-complex
+                        :part (e4 / enzyme :name (n6 / name :op1 "Mkp3")
+                              :xref (x3 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p6 / protein :name (n7 / name :op1 "Luc")))
+                  :manner (p3 / phosphorylate-01)))
+
+184(i3 / increase-01
+            :ARG0 (e6 / enzyme :name (n2 / name :op1 "p110")
+                  :ARG1-of (m2 / mutate-01 :value "CAAX")
+                  :ARG0-of (a3 / activity-06))
+            :ARG1 (a5 / add-modification-00
+                  :ARG0 (p / protein)
+                  :ARG1 (m5 / macro-molecular-complex
+                        :part (e3 / enzyme :name (n5 / name :op1 "Mkp3")
+                              :xref (x2 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p5 / protein :name (n4 / name :op1 "Luc")))
+                  :manner (p7 / phosphorylate-01)))
+
+185(i4 / increase-01
+            :ARG0 (e2 / enzyme :name (n3 / name :op1 "Akt")
+                  :xref (x / xref :value "UNIPROT:AKT1_HUMAN")
+                  :ARG0-of (a4 / activity-06))
+            :ARG1 (a6 / add-modification-00
+                  :ARG0 (p8 / protein)
+                  :ARG1 (m6 / macro-molecular-complex
+                        :part (e5 / enzyme :name (n8 / name :op1 "Mkp3")
+                              :xref (x4 / xref :value "UNIPROT:DUS6_HUMAN"))
+                        :part (p9 / protein :name (n9 / name :op1 "Luc"))))))
+
+

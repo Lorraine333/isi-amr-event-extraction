@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG0(x1 / bind-01 :ARG0(x2 / protein)  :ARG0(x3 / add-modification-00 :manner(x4 / activity-06)  :manner(x5 / phosphorylate-01) ) ) )

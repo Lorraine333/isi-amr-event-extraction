@@ -1,0 +1,1 @@
+TOP(incubate-01(r_ARG1(enzyme(r_ARG1-of(load-01(r_ARG2(enzyme(r_ARG1-of(purify-01) r_ARG0-of(recombine-01) r_name(name(r_op1_GDP/GTPγS_)))))) r_name(name(r_op1_RHO_ r_op2_gtpase_)))) r_ARG2(enzyme(r_ARG1-of(purify-01) r_ARG1-of(recombine-01) r_name(name(r_op1_p110β/p85_)) r_quant(concentration-quantity(r_UNK r_unit(nanomolar)))))))

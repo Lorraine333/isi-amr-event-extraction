@@ -1,0 +1,21 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RAF1_HUMAN_ ) #0.00453514739229
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.r_op1(x0: ) -> r_ARG2(qc.x0 ) #0.0793650793651
+qc.xref(x0: ) -> xref(r_value_UNIPROT_RASH_HUMAN_ ) #0.0124716553288
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.name(x0: ) -> name(r_op1_CRAF_ ) #0.00407830342577
+qr.r_ARG1(x0: ) -> r_ARG0(qc.x0 ) #0.204511278195
+qr.r_op2(x0: ) -> r_ARG1(qc.x0 ) #0.234513274336
+qc.enhance-01(x0: ) -> increase-01(qr.x0 ) #1.0
+qr.TOP(consistent-01(x0: r_ARG2(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qc.r_op1_hetero_ -> activity-06 #1.0
+qr.r_op1_RAS_ -> r_op1_RAS_ #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.induce-01(x0: x1: ) -> increase-01(qr.x0 qr.x1 ) #0.75
+qc.and(x0: x1: ) -> complex-with-00(qr.x0 qr.x1 ) #0.0882352941176
+qc.enzyme(x0: x1: x2: x3: ) -> enzyme(qr.x1 qr.x2 qr.x3 ) #0.166666666667
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG0-of(promote-01(r_ARG1(and(x0: r_op2(dimerize-01(r_ARG1(enzyme(r_name(name(x1: ) ) ) ) ) ) ) ) ) ) -> r_ARG0-of(qc.x1 ) #1.0
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

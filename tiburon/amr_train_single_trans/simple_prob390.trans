@@ -1,0 +1,22 @@
+qr
+qc.r_mod_1b_ -> protein #0.714285714286
+qc.amino-acid(x0: x1: x2: ) -> amino-acid(qr.x0 qr.x1 ) #0.181818181818
+qc.mutate-01(x0: r_ARG2(enzyme(x1: ) ) ) -> protein-segment(r_ARG2-of(mutate-01(r_value_CC_ ) ) qr.x0 qr.x1 ) #0.5
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.655462184874
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_DBD_ -> r_op1_DBD_ #1.0
+qr.r_ARG1(x0: ) -> r_part-of(qc.x0 ) #0.0676691729323
+qr.r_op1_serine_ -> r_op1_serine_ #0.872340425532
+qc.phosphorylate-01(x0: ) -> phosphorylate-01 #0.606060606061
+qc.induce-01(x0: x1: r_ARG0-of(represent-01(x2: x3: ) ) r_ARG1-of(describe-01(x4: ) ) ) -> increase-01(qr.x0 r_ARG1(add-modification-00(qr.x1 qr.x3 qr.x4 ) ) ) #1.0
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.TOP(contrast-01(r_ARG2(and(x0: x1: r_ARG0-of(exemplify-01(r_ARG1(x2: ) ) ) x3: x4: x5: ) ) ) ) -> TOP(qc.x2 ) #1.0
+qr.r_ARG1(and(x0: r_op2(x1: ) x2: ) ) -> r_ARG1(qc.x1 ) #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_ARG2(x0: ) -> r_manner(qc.x0 ) #0.0619834710744
+qr.r_ARG0(figure(x0: ) ) -> r_ARG0(qc.x0 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_mod_543_ -> r_mod_543_ #1.0
+qr.r_op1_ERα_ -> r_op1_ERα_ #0.976744186047
+qr.r_ARG0(x0: ) -> r_ARG0(qc.x0 ) #0.622580645161

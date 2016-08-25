@@ -1,0 +1,1 @@
+(x0 / increase-01 :location(x1 / cell)  :ARG0(x2 / decrease-01 :ARG1(x3 / protein-family :name(x4 / name :op1 "RAF" ) )  :ARG0(x5 / molecular-physical-entity) )  :ARG1(x6 / enzyme :xref(x7 / xref :value "UNIPROT"MK01"HUMAN" )  :name(x8 / name :op1 "ERK" )  :ARG0-of(x9 / activity-06) ) )

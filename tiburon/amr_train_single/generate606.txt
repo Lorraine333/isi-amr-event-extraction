@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG2(x1 / protein :name(x2 / name :op1 (x3 / p85) )  :xref(x4 / xref :value "UNIPROT" ) )  :ARG1(x5 / protein :name(x6 / name :op1 (x7 / p110) )  :xref(x8 / xref :value "UNIPROT" ) )  :ARG1-of(x9 / describe-01 :ARG0(x10 / figure :mod "S4"E" ) ) )

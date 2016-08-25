@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / amino-acid :name(x2 / name :op1 "ERα" )  :manner(x3 / phosphorylate-01)  :mod "740" )  :polarity"-  :ARG0(x4 / phosphorylate-01) )

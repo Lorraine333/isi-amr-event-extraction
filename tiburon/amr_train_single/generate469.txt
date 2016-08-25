@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG1(x1 / enzyme :name(x2 / name :op1 "p110α" )  :xref(x3 / xref :value "UNIPROT"PK3CA"HUMAN" ) )  :ARG0(x4 / enzyme :xref(x5 / xref :value "UNIPROT"RASN"HUMAN" )  :name(x6 / name :op1 "NRAS" ) ) )

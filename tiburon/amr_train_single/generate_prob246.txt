@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / small-molecule :name(x2 / name :op1 "E2" )  :xref(x3 / xref :value "PUBCHEM"5757" ) )  :ARG1(x4 / add-modification-00 :ARG1(x5 / amino-acid :mod "24"  :name(x6 / name :op1 "threonine" )  :ARG0(x7 / amino-acid :mod "505"  :name(x8 / name :op1 "serine" )  :mod "24" ) )  :manner(x9 / protein)  :ARG0(x10 / protein) ) )

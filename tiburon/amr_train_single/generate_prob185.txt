@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / muti-index-card :op1 "Akt"  :value "UNIPROT"AKT1"HUMAN" )  :ARG1(x2 / add-modification-00 :ARG1(x3 / increase-01 :ARG1-of(x4 / activity-06)  :ARG1-of(x5 / add-modification-00 :value "UNIPROT"DUS6"HUMAN" ) )  :ARG0(x6 / protein) ) )

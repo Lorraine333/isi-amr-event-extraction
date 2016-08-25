@@ -1,0 +1,16 @@
+qr
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_NCOA3_HUMAN_ ) ) qr.x0 ) #0.366863905325
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qr.r_op1_ERα_ -> r_op1_ERα_ #0.976744186047
+qc.enzyme(x0: x1: x2: ) -> protein(qr.x0 qr.x1 qr.x2 ) #0.121212121212
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.wild-type -> wild-type #0.741935483871
+qr.TOP(appear-02(r_ARG1(x0: ) x1: ) ) -> TOP(qc.x0 ) #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qr.r_value_UNIPROT_ESR1_HUMAN_ -> r_value_UNIPROT_ESR1_HUMAN_ #0.903225806452
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 ) #0.0345864661654
+qr.r_op1_SRC-3_ -> r_op1_SRC-3_ #0.957894736842
+qc.effective-04(x0: x1: r_ARG1(support-01(r_ARG1(phosphorylate-01(x2: ) ) ) ) r_compared-to(or(r_op1(be-located-at-91(x3: x4: ) ) x5: ) ) ) -> bind-01(qr.x2 qr.x3 ) #1.0
+qr.r_mod(x0: ) -> r_mod(qc.x0 ) #0.268292682927

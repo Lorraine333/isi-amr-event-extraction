@@ -1,0 +1,29 @@
+qr
+qr.r_ARG0(x0: ) -> r_ARG0(and(r_op2(lane(r_mod(value-interval(r_op2_6_ r_op1_4_ ) ) ) ) r_op1(qc.x0 ) ) ) #0.00645161290323
+qr.r_ARG1-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.211764705882
+qc.xref(x0: ) -> figure(qr.x0 ) #0.00453514739229
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_mod_i_ -> r_mod_S2_G_ #0.333333333333
+qr.r_ARG1(x0: ) -> r_op1(qc.x0 ) #0.0015037593985
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG3-of(x0: ) -> r_manner(qc.x0 ) #0.545454545455
+qc.name(x0: ) -> name(r_op1_CDC42_ ) #0.00570962479608
+qr.r_op1(x0: ) -> r_ARG1(qc.x0 ) #0.216931216931
+qc.figure(x0: ) -> figure(qr.x0 ) #0.384615384615
+qc.activate-01(x0: x1: x2: ) -> or(qr.x0 qr.x1 ) #0.5
+qc.enzyme(x0: x1: x2: ) -> enzyme(r_ARG1-of(add-modification-00(qr.x0 r_ARG0(protein ) ) ) qr.x1 qr.x2 ) #0.010101010101
+qc.name(x0: ) -> name(r_op1_RAC1_ ) #0.00734094616639
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ ) #0.031746031746
+qc.describe-01(x0: ) -> describe-01(qr.x0 ) #0.733333333333
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_AKT_ -> r_op1_AKT_ #1.0
+qc.phosphorylate-01 -> phosphorylate-01 #0.923076923077
+qc.protein(x0: x1: ) -> describe-01(qr.x1 ) #0.00280112044818
+qr.r_xref(x0: ) -> r_ARG0(qc.x0 ) #0.00357142857143
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143
+qc.enzyme(x0: x1: ) -> protein(qr.x0 qr.x1 ) #0.194690265487
+qr.r_value_UNIPROT_MTMRC_HUMAN_ -> r_mod_2_I_ #0.5
+qr.r_ARG1(x0: ) -> r_op2(qc.x0 ) #0.00300751879699
+qr.r_quant-of(x0: ) -> r_ARG1-of(qc.x0 ) #0.047619047619
+qc.and(x0: r_op2(level(x1: ) ) x2: r_ARG0-of(indicate-01(x3: ) ) ) -> increase-01(qr.x0 qr.x1 r_ARG0(coexpress-00(qr.x2 qr.x3 ) ) ) #1.0

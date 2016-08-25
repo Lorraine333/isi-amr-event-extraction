@@ -1,0 +1,1 @@
+TOP(and(r_op1(culture-01(r_ARG1(cell))) r_op2(plasmid) r_op3(transfect-01(r_ARG2(nucleic-acid(r_name(name(r_op1_siRNA_))))))))

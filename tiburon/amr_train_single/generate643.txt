@@ -1,0 +1,1 @@
+(x0 / decrease-01 :location(x1 / enzyme :name(x2 / name :op1 "MEF" )  :xref(x3 / xref :value "CHEBI"37550" ) )  :ARG1(x4 / add-modification-00 :ARG0(x5 / small-molecule :xref(x6 / xref :value "CHEBI"37550" )  :name(x7 / name :op1 "S1P" ) )  :ARG1(x8 / enzyme :name(x9 / name :op1 "AKT" )  :xref(x10 / xref :value "UNIPROT"AKT1"HUMAN" ) ) ) )

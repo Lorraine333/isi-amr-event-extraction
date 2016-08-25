@@ -1,0 +1,11 @@
+Tree info for input tree amr536.tree:
+	72 nodes
+	15 yield length
+Transducer info for input tree transducer simple536.trans:
+	2 states
+	16 rules
+RTG info for forward application of tree:
+	19 states
+	23 rules
+	5 unique terminal symbols
+	16 derivations

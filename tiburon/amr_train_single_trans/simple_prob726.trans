@@ -1,0 +1,15 @@
+qr
+qr.r_location(x0: ) -> r_ARG3(qc.x0 ) #0.0289855072464
+qc.protein(x0: ) -> protein-segment(qr.x0 r_mod_p110β/p85_ ) #0.0118343195266
+qr.r_op1_COS7_ -> r_op1_COS7_ #0.833333333333
+qr.r_ARG1(or(x0: x1: r_op2(x2: ) ) ) -> r_ARG1(qc.x2 ) #1.0
+qc.name(x0: x1: ) -> name(qr.x0 ) #0.214285714286
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.TOP(x0: ) -> TOP(add-modification-00(r_manner(qc.x0 ) ) ) #0.0042194092827
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qc.cell(x0: ) -> cell(qr.x0 ) #0.233333333333
+qc.coexpress-01(x0: x1: x2: ) -> coexpress-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qr.r_op1_FLAG_ -> r_op1_FLAG_ #1.0
+qr.r_op1_DIRAS2_ -> r_op1_DIRAS2_ #1.0

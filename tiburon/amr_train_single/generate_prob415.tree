@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(add-modification-00(r_manner(phosphorylate-01) r_ARG1(pathway(r_name(name(r_op1_MEK/ERK_)))) r_ARG0(protein))) r_ARG1(bind-01(r_ARG1(protein-segment(r_name(name(r_op1_catalytic_)) r_part-of(muti-index-card(r_op1_RAF_ r_value_UNIPROT_RAF1_HUMAN_)))))))) # 0.000896

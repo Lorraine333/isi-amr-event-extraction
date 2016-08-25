@@ -1,0 +1,1 @@
+TOP(stimulate-01(r_ARG1(ratio-of(r_ARG1-of(UNK))) r_time(after(r_op1(transfect-01))) r_ARG1(cell(r_ARG1-of(starve-01(r_ARG2(serum))))) r_ARG2(small-molecule(r_name(name(r_op1_LPA_)) r_quant(concentration-quantity(r_quant_10_ r_unit(micromolar))) r_xref(xref(r_value_PUBCHEM_62707_)))) r_duration(temporal-quantity(r_quant_5_ r_unit(minute)))))

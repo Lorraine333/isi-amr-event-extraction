@@ -1,0 +1,21 @@
+qr
+qc.name(x0: ) -> name(r_op1_PUBCHEM_5757_ ) #0.00326264274062
+qc.transfect-01(r_purpose(investigate-01(x0: ) ) r_ARG1(plasmid(x1: ) ) r_ARG2(cell-line(r_name(x2: ) ) ) ) -> increase-01(qr.x0 qr.x1 qr.x2 ) #1.0
+qc.small-molecule(x0: x1: ) -> value(qr.x0 ) #0.019801980198
+qc.protein(x0: ) -> value(qr.x0 ) #0.0177514792899
+qc.r_op1_HEK293T_ -> hypothesis #0.25
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qc.and(r_op1(mutate-01(x0: ) ) r_op2(protein(x1: x2: ) ) ) -> small-molecule(qr.x0 qr.x1 ) #1.0
+qr.r_ARG1(x0: ) -> r_xref(qc.x0 ) #0.018045112782
+qc.phosphorylate-01(r_ARG1(mutate-01(r_ARG2(protein(x0: ) ) ) ) r_ARG2-of(respond-01(x1: ) ) ) -> protein(r_ARG2-of(mutate-01 ) qr.x0 qr.x1 ) #1.0
+qr.r_ARG2(x0: ) -> r_xref(qc.x0 ) #0.0165289256198
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.name(x0: ) -> r_mode(qc.x0 ) #0.0921052631579
+qc.name(x0: ) -> name(r_op1_UNIPROT_SRC-3-AAA_HUMAN_ ) #0.000815660685155
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.possible-01(x0: x1: ) -> add-modification-00(r_manner(qc.x0 ) qr.x1 r_ARG0(protein ) ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_SRC-3-AAA_ -> r_op1_SRC-3-AAA_ #1.0
+qc.name(x0: ) -> name(r_op1_E2_ ) #0.0228384991843
+qc.r_mode_interrogative_ -> phosphorylate-01 #0.8

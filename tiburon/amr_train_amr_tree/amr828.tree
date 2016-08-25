@@ -1,0 +1,1 @@
+TOP(purify-01(r_ARG1(enzyme(r_ARG1-of(tag-01(r_ARG2(protein(r_name(name(r_op1_GST_)) r_xref(xref(r_value_UNIPROT_SO6A1_HUMAN_)))))) r_name(name(r_op1_RFGs_)) r_xref(xref(r_UNK)))) r_ARG2(protein(r_name(name(r_op1_e-cadherin_)) r_xref(xref(r_value_UNIPROT_CADH1_HUMAN_))))))

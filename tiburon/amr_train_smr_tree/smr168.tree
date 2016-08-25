@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(macro-molecular-complex(r_part(protein(r_name(name(r_op1_Luc_)))) r_ARG0-of(activity-06) r_part(enzyme(r_name(name(r_op1_Mkp3_)) r_xref(xref(r_value_UNIPROT_DUS6_HUMAN_)))))) r_ARG0(enzyme(r_ARG0-of(activity-06) r_name(name(r_op1_Akt_)) r_xref(xref(r_value_UNIPROT_AKT1_HUMAN_))))))

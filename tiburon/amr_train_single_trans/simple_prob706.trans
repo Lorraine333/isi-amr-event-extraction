@@ -1,0 +1,14 @@
+qr
+qr.r_op1_PI_ -> r_op1_PI_ #1.0
+qc.interact-01(r_ARG0(enzyme(x0: x1: r_xref(xref(x2: ) ) ) ) x3: ) -> bind-01(qr.x0 qr.x2 qr.x3 ) #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 ) #0.0796460176991
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_RAS_ -> r_op1_RAS_ #1.0
+qr.r_mod(x0: ) -> r_ARG1(qc.x0 ) #0.0569105691057
+qr.r_value_UNIPROT_EXOS6_HUMAN_ -> r_polarity_- #1.0
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op2_3-Kinase_ -> r_op2_3-Kinase_ #0.5
+qr.TOP(possible-01(x0: r_ARG1(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG2(qc.x0 ) #0.0345864661654
+qc.name(x0: x1: ) -> name(r_op3_p110β_ qr.x0 qr.x1 ) #0.0238095238095
+qc.enzyme(x0: ) -> enzyme(qr.x0 ) #0.0615384615385

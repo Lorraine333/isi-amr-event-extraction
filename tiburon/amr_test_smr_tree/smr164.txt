@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / pathway :name(x2 / name :op1 "PI3K"Akt" ) )  :ARG1(x3 / enzyme :ARG0-of(x4 / activity-06)  :name(x5 / name :op1 "Ras" ) ) )

@@ -1,0 +1,3 @@
+q0
+q0 -> TOP(increase-01(r_ARG1(increase-01(r_ARG1(pathway(r_ARG0-of(activity-06) r_name(name(r_op1_MEK/ERK_)))) r_ARG0(small-molecule(r_xref(xref(r_value_PUBCHEM_24180719_)) r_name(name(r_op1_PLX_)))))) r_ARG0(enzyme(r_xref(xref(r_value_UNIPROT_RAF1_HUMAN_)) r_name(name(q1)))))) # 1.000000
+q1 -> r_op1_CRAF_ # 1.000000

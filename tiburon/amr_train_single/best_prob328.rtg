@@ -1,0 +1,18 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q4 )
+q2 -> r_ARG0(q3 )
+q4 -> r_ARG1(q5 )
+q3 -> molecular-physical-entity
+q5 -> increase-01(q6 q15 )
+q6 -> r_ARG1(q7 )
+q15 -> r_ARG0(q16 )
+q7 -> add-modification-00(q8 q11 q13 )
+q16 -> phosphorylate-01
+q8 -> r_op1(q9 )
+q11 -> r_manner(q12 )
+q13 -> r_manner(q14 )
+q9 -> xref(q10 )
+q12 -> phosphorylate-01
+q14 -> protein
+q10 -> r_value_UNIPROT_NCOA3_HUMAN_

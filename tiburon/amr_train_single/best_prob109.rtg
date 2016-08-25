@@ -1,0 +1,21 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q7 )
+q2 -> r_ARG1(q3 )
+q7 -> r_ARG0(q8 )
+q3 -> pathway(q4 )
+q8 -> increase-01(q9 q18 )
+q4 -> r_name(q5 )
+q9 -> r_ARG1(q10 )
+q18 -> r_ARG0(q19 )
+q5 -> name(q6 )
+q10 -> complex-with-00(q11 q13 )
+q19 -> protein
+q6 -> r_op1_MEK/ERK_
+q11 -> r_ARG1(q12 )
+q13 -> r_ARG1(q14 )
+q12 -> smr-empty
+q14 -> enzyme(q15 )
+q15 -> r_name(q16 )
+q16 -> name(q17 )
+q17 -> r_op1_RAF_

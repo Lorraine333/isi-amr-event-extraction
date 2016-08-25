@@ -1,0 +1,15 @@
+q14
+q14 -> TOP(q15) # 1.000000
+q33 -> xref(q34) # 1.000000
+q32 -> name(q35) # 1.000000
+q27 -> protein(q28 q29) # 1.000000
+q15 -> add-modification-00(q16 q17 q18) # 1.000000
+q28 -> r_xref(q33) # 1.000000
+q25 -> phosphorylate-01 # 1.000000
+q16 -> r_manner(q25) # 1.000000
+q26 -> protein # 1.000000
+q17 -> r_ARG0(q26) # 1.000000
+q34 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q35 -> r_op1_SRC-3_ # 1.000000
+q29 -> r_name(q32) # 1.000000
+q18 -> r_ARG1(q27) # 1.000000

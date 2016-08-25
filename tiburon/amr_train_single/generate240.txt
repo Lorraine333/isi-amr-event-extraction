@@ -1,0 +1,1 @@
+(x0 / decrease-01 :ARG1(x1 / protein :name(x2 / name :op1 "ERα" )  :mod (x3 / endogenous)  :name(x4 / name :op1 "ERα" ) ) )

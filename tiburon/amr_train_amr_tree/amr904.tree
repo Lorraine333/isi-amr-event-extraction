@@ -1,0 +1,1 @@
+TOP(important(r_domain(pathway(r_name(name(r_op1_Ras/Raf/MEK/Erk_)) r_ARG0-of(signal-07))) r_purpose(regulate-01(r_ARG1(and(r_op1(grow-01(r_ARG1(cell))) r_op2(and(r_op1(proliferate-01) r_op2(differentiate-01) r_op3(survive-01))) r_op3(respond-01(r_ARG2(apoptosis) r_ARG1(stimulus(r_mod(variety) r_mod(extracellular)))))))))))

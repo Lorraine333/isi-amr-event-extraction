@@ -1,0 +1,33 @@
+q41
+q41 -> TOP(q42) # 1.000000
+q73 -> r_xref(q84) # 1.000000
+q84 -> xref(q88) # 1.000000
+q61 -> r_ARG2(q68) # 1.000000
+q83 -> name(q90) # 1.000000
+q46 -> r_ARG1(q51) # 1.000000
+q86 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q43 -> r_ARG0(q44) # 1.000000
+q49 -> enzyme(q52 q53 q54) # 1.000000
+q68 -> enzyme(q76 q77) # 1.000000
+q77 -> r_xref(q82) # 1.000000
+q70 -> r_op1_RAS_ # 1.000000
+q52 -> r_name(q67) # 1.000000
+q51 -> complex-with-00(q61 q62) # 1.000000
+q66 -> enzyme(q72 q73) # 1.000000
+q85 -> name(q91) # 1.000000
+q53 -> r_ARG0-of(q69) # 1.000000
+q44 -> increase-01(q45 q46) # 1.000000
+q65 -> xref(q81) # 1.000000
+q82 -> xref(q86) # 1.000000
+q62 -> r_ARG1(q66) # 1.000000
+q88 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q91 -> r_op1_CRAF_ # 1.000000
+q67 -> name(q70) # 1.000000
+q69 -> activity-06 # 1.000000
+q81 -> r_value_UNIPROT_RASH_HUMAN_ # 1.000000
+q76 -> r_name(q85) # 1.000000
+q54 -> r_xref(q65) # 1.000000
+q42 -> increase-01(q43) # 1.000000
+q72 -> r_name(q83) # 1.000000
+q45 -> r_ARG0(q49) # 1.000000
+q90 -> r_op1_CRAF_ # 1.000000

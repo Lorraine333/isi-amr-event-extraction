@@ -1,0 +1,1 @@
+(x0 / increase-01 :manner(x1 / cell)  :ARG0(x2 / smr-empty)  :polarity"-  :ARG1(x3 / phosphorylate-01) )

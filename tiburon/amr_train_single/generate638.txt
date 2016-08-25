@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / small-molecule :name(x2 / name :op1 "LPA" )  :xref(x3 / xref :value "CHEBI"74330" ) )  :ARG1(x4 / UNK)  :location(x5 / cell :mod (x6 / wild-type) ) )

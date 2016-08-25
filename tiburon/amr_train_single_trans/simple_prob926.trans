@@ -1,0 +1,18 @@
+qr
+qr.r_value_PUBCHEM_54671203_ -> r_value_PUBCHEM_54671203_ #1.0
+qr.r_op1_doxycycline_ -> r_op1_doxycycline_ #1.0
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_op1_Erk1/2_ -> r_op1_Erk1/2_ #1.0
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.small-molecule(x0: x1: ) -> small-molecule(qr.x0 qr.x1 ) #0.50495049505
+qc.phosphorylate-01 -> phosphorylate-01 #0.923076923077
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 ) #0.223140495868
+qc.enzyme(x0: x1: ) -> enzyme(r_ARG1-of(add-modification-00(qr.x0 ) ) r_xref(xref(r_value_UNIPROT_MK01_HUMAN_ ) ) qr.x1 ) #0.00294985250737
+qc.nucleus(x0: ) -> nucleus #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.assess-01(x0: x1: r_ARG1(translocate-01(x2: x3: ) ) r_ARG1-of(follow-01(r_ARG2(treat-04(x4: ) ) ) ) ) -> translocate-01(qr.x2 qr.x3 qr.x4 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_ARG3-of(x0: ) -> r_manner(qc.x0 ) #0.545454545455
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

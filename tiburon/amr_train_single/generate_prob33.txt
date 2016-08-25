@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / increase-01 :ARG1(x2 / protein :name(x3 / name :op1 "EGF" )  :xref(x4 / xref :value "UNIPROT"EGF"HUMAN" ) )  :ARG1(x5 / muti-index-card :op1 "Akt"  :value "UNIPROT"AKT1"HUMAN" ) )  :location(x6 / cell)  :location(x7 / amino-acid :name(x8 / name :op1 "Gab1" )  :manner(x9 / smr-empty)  :mod "740" ) )

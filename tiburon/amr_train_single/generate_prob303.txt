@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / protein)  :value "UNIPROT"ESR1"HUMAN"  :location(x2 / cell-line)  :ARG1(x3 / bind-01 :ARG2(x4 / add-modification-00 :manner(x5 / activity-06)  :manner(x6 / phosphorylate-01) )  :ARG1(x7 / protein :ARG1(x8 / phosphorylate-01) ) ) )

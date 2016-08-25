@@ -1,0 +1,1 @@
+TOP(add-modification-00(r_manner(phosphorylate-01) r_ARG1(cell-line(r_name(name(r_op1_COS7_)) r_xref(xref(r_value_COS7_CVCL_0224_)))) r_ARG1(enzyme(r_ARG2-of(mutate-01) r_name(name(r_op1_NRAS_)) r_xref(xref(r_value_UNIPROT_RASN_HUMAN_)))))) # 7.273789E-12

@@ -1,0 +1,26 @@
+q25
+q25 -> TOP(q26) # 1.000000
+q57 -> protein # 1.000000
+q54 -> r_op1_AF-2_ # 1.000000
+q61 -> r_value_PUBCHEM_5757_ # 1.000000
+q28 -> r_ARG1(q32) # 1.000000
+q51 -> r_xref(q59) # 1.000000
+q56 -> phosphorylate-01 # 1.000000
+q58 -> protein # 1.000000
+q38 -> add-modification-00(q41 q42 q43) # 1.000000
+q39 -> name(q54) # 1.000000
+q43 -> r_ARG0(q58) # 1.000000
+q34 -> r_ARG0(q40) # 1.000000
+q59 -> xref(q61) # 1.000000
+q55 -> name(q60) # 1.000000
+q33 -> r_ARG1(q38) # 1.000000
+q32 -> increase-01(q33 q34) # 1.000000
+q31 -> protein-segment(q37) # 1.000000
+q40 -> small-molecule(q50 q51) # 1.000000
+q50 -> r_name(q55) # 1.000000
+q41 -> r_ARG1(q57) # 1.000000
+q26 -> increase-01(q27 q28) # 1.000000
+q60 -> r_op1_E2_ # 1.000000
+q42 -> r_manner(q56) # 1.000000
+q37 -> r_name(q39) # 1.000000
+q27 -> r_ARG0(q31) # 1.000000

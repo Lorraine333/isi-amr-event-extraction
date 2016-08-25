@@ -1,0 +1,1 @@
+TOP(decrease-01(r_ARG0(molecular-physical-entity(r_name(name(r_op1_Sorafenib_)))) r_ARG1(protein(r_name(name(r_op1_catC_)) r_ARG2-of(mutate-01(r_value_T421M_)) r_xref(value(r_name(name(r_op1_UNIPROT_catC_HUMAN_))))))))

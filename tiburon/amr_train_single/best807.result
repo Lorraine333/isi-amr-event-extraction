@@ -1,0 +1,11 @@
+q10
+q10 -> TOP(q11) # 1.000000
+q14 -> r_name(q18) # 1.000000
+q20 -> r_op1_LPA_ # 1.000000
+q11 -> translocate-01(q12) # 1.000000
+q12 -> r_ARG2(q13) # 1.000000
+q15 -> r_xref(q19) # 1.000000
+q13 -> molecular-physical-entity(q14 q15) # 1.000000
+q21 -> r_value_PUBCHEM_5497152_ # 1.000000
+q19 -> xref(q21) # 1.000000
+q18 -> name(q20) # 1.000000

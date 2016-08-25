@@ -1,0 +1,15 @@
+qr
+qr.r_op1_RAB5_ -> r_op1_RAB5_
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 )
+qc.contrast-01(r_ARG1(bind-01(x0: x1: ) ) r_ARG2(bind-01(x2: ) ) ) -> bind-01(qr.x0 qr.x2 )
+qr.TOP(contrast-01(r_ARG2(x0: ) x1: ) ) -> TOP(qc.x0 )
+qc.name(x0: ) -> name(qr.x0 )
+qr.r_op1_p110β_ -> r_op1_p110β_
+qc.protein(x0: x1: x2: ) -> protein(qr.x0 qr.x2 )
+qr.r_ARG2(x0: ) -> r_ARG2(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qc.xref(x0: ) -> xref(qr.x0 )
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 )
+qr.r_value_UNIPROT_RAB5A_HUMAN_ -> r_value_UNIPROT_RAB5A_HUMAN_
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

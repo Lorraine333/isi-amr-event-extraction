@@ -1,0 +1,1 @@
+(x0 / muti-index-card :op1 "RAC"  :value "UNIPROT"AKT1"HUMAN" )

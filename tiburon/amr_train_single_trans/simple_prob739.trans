@@ -1,0 +1,3 @@
+qr
+qc.r_op1_SD_ -> smr-empty #1.0
+qr.TOP(and(x0: r_op2(medical-condition(x1: r_ARG1-of(mean-01(r_ARG2(name(x2: ) ) ) ) ) ) ) ) -> TOP(qc.x2 ) #1.0

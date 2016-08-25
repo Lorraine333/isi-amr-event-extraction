@@ -1,0 +1,13 @@
+qr
+qc.name(x0: ) -> name(r_op1_p110β_ ) #0.036704730832
+qc.enzyme(x0: x1: ) -> enzyme(r_ARG0-of(activity-06 ) qr.x0 qr.x1 ) #0.0501474926254
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_RBD_ -> r_op1_RBD_ #0.842105263158
+qc.small-molecule(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.0693069306931
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_ARG1(x0: ) -> r_part-of(qc.x0 ) #0.0676691729323
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.abolish-01(x0: r_ARG1(phosphorylate-01(x1: x2: r_ARG2-of(respond-01(x3: ) ) ) ) x4: x5: r_ARG0-of(indicate-01(r_ARG1(essential(r_domain(protein-segment(x6: ) ) x7: ) ) ) ) ) -> increase-01(qr.x2 r_ARG0(protein-sement(qr.x3 qr.x6 ) ) ) #1.0
+qc.xref(x0: ) -> xref(r_value_UNIPROT_PK3CB_HUMAN_ ) #0.0907029478458
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

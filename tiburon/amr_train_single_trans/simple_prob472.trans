@@ -1,0 +1,16 @@
+qr
+qr.r_part-of(x0: ) -> r_part-of(qc.x0 ) #0.807692307692
+qc.abrogate-01(x0: r_ARG1(contrast-01(x1: x2: x3: x4: ) ) x5: ) -> decrease-01(r_ARG0(mutate-01(qr.x0 ) ) qr.x1 ) #1.0
+qc.bind-01(x0: ) -> bind-01(qr.x0 ) #0.6
+qc.enzyme(x0: x1: ) -> protein-family(qr.x0 ) #0.0442477876106
+qc.name(x0: x1: ) -> name(qr.x0 ) #0.214285714286
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_op1_p110α_ -> r_op1_p110α_ #0.9375
+qr.r_ARG1(residue(x0: x1: r_location(x2: ) ) ) -> r_ARG1(qc.x2 ) #1.0
+qc.enzyme(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_PK3CA_HUMAN_ ) ) qr.x0 ) #0.0153846153846
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.protein-segment(x0: x1: ) -> protein-segment(qr.x0 qr.x1 ) #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.name(x0: ) -> name(r_op1_Ras_ ) #0.00652528548124
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qr.r_op1_RBD_ -> r_op1_RBD_ #0.842105263158

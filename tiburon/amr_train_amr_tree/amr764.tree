@@ -1,0 +1,1 @@
+TOP(compare-01(r_ARG0(homozygous(r_mod(UNK) r_mod(adult))) r_ARG2(mouse(r_mod(enzyme(r_name(name(r_op1_p110β-RBD_)) r_ARG1-of(dm) r_xref(xref(r_value_UNIPROT_BID_HUMAN_)))) r_mod(old))) r_ARG1(UNK) r_ARG1-of(pair-01(r_ARG1(test-01(r_ARG1(enzyme(r_name(name(r_op1_t_)) r_xref(xref(r_value_UNIPROT_BRAC_HUMAN_))))))))))

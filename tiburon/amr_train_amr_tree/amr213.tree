@@ -1,0 +1,1 @@
+TOP(identify-01(r_location(cell(r_ARG0-of(induce-01(r_ARG0(express-03(r_ARG2(enzyme(r_name(name(r_op1_E2_)))))) r_ARG2(phosphorylate-01(r_ARG1(protein(r_name(name(r_op1_SRC-3_)))) r_location(site(r_mod(all) r_quant_6_ r_mod(phosphorylate-01))))))))) r_ARG1(statistical-test-91(r_ARG2(less-than(r_op1_0_02_))))))

@@ -1,0 +1,15 @@
+qr
+qc.xref(x0: ) -> xref(r_value_UNIPROT_ )
+qc.protein(x0: x1: ) -> protein(qr.x0 qr.x1 )
+qc.name(x0: ) -> name(qr.x0 )
+qc.protein(x0: ) -> protein(r_xref(xref(r_value_UNIPROT_ ) ) qr.x0 )
+qc.name(x0: ) -> name(r_op1_RAC1_ )
+qc.r_location(x0: ) -> name(qr.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.solve-01 -> r_UNK
+qr.r_UNK -> r_op1_p110β_
+qr.TOP(x0: ) -> TOP(qc.x0 )
+qr.r_ARG1(x0: ) -> r_ARG1(macro-molecular-complex(r_part(molecular-physical-entity(r_xref(xref(r_UNK ) ) r_name(name(r_op1_GTPγS_ ) ) ) ) r_part(qc.x0 ) ) )
+qc.bind-01(x0: x1: x2: x3: ) -> bind-01(r_ARG1-of(describe-01(r_ARG0(and(r_op2(figure(r_name(name(r_UNK ) ) ) ) r_op1(figure(r_name(qc.x0 ) ) ) ) ) ) ) qr.x1 qr.x2 )
+qr.r_ARG2(x0: ) -> r_ARG2(macro-molecular-complex(r_part(protein(r_xref(xref(r_value_UNIPROT_ ) ) r_name(name(r_op1_Δp85_ ) ) ) ) r_part(qc.x0 ) ) )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

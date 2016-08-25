@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG2(x1 / protein :name(x2 / name :op1 "CDC42" )  :xref(x3 / xref :value "UNIPROT" ) )  :ARG1(x4 / macro-molecular-complex :part(x5 / protein :name(x6 / name :op1 "p110β" )  :xref(x7 / xref :value "UNIPROT" ) )  :part(x8 / protein :name(x9 / name :op1 "p85" )  :xref(x10 / xref :value "UNIPROT" ) )  :mod (x11 / wild-type) ) )

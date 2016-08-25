@@ -1,0 +1,33 @@
+q34
+q34 -> TOP(q35) # 1.000000
+q76 -> xref(q80) # 1.000000
+q38 -> r_location(q47) # 1.000000
+q68 -> r_xref(q79) # 1.000000
+q46 -> protein(q48 q49) # 1.000000
+q79 -> xref(q82) # 1.000000
+q49 -> r_xref(q58) # 1.000000
+q78 -> name(q83) # 1.000000
+q75 -> name(q81) # 1.000000
+q47 -> cell # 1.000000
+q81 -> r_op1_EGF_ # 1.000000
+q58 -> xref(q65) # 1.000000
+q82 -> r_value_UNIPROT_AKT1_HUMAN_ # 1.000000
+q37 -> r_ARG1(q45) # 1.000000
+q59 -> enzyme(q66 q67 q68) # 1.000000
+q61 -> r_xref(q76) # 1.000000
+q83 -> r_op1_Akt_ # 1.000000
+q60 -> r_name(q75) # 1.000000
+q53 -> r_ARG1(q59) # 1.000000
+q48 -> r_name(q56) # 1.000000
+q66 -> r_ARG0-of(q77) # 1.000000
+q64 -> r_op1_ErbB3_ # 1.000000
+q56 -> name(q64) # 1.000000
+q80 -> r_value_UNIPROT_EGF_HUMAN_ # 1.000000
+q57 -> protein(q60 q61) # 1.000000
+q77 -> activity-06 # 1.000000
+q45 -> increase-01(q52 q53) # 1.000000
+q65 -> r_value_UNIPROT_ERBB3_HUMAN_ # 1.000000
+q35 -> increase-01(q36 q37 q38) # 1.000000
+q36 -> r_ARG0(q46) # 1.000000
+q67 -> r_name(q78) # 1.000000
+q52 -> r_ARG0(q57) # 1.000000

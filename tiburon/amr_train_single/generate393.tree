@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(protein-segment(r_ARG2-of(mutate-01(r_value_EG_)) r_part-of(protein(r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_)))) r_name(name(r_op1_DBD_)))) r_ARG1(add-modification-00(r_manner(phosphorylate-01) r_ARG1(amino-acid(r_mod_543_ r_name(name(r_op1_serine_)))) r_ARG0(protein))))) # 0.000002

@@ -1,0 +1,1 @@
+TOP(bind-01(r_ARG1(mutate-01(r_ARG1(gene(r_name(name(r_op1_coactivator_)) r_xref(xref(r_value_UNIPROT_NCOA5_HUMAN_)))))) r_ARG1(groove) r_ARG2(protein(r_name(name(r_op1_ERα_)) r_xref(xref(r_value_UNIPROT_ESR1_HUMAN_))))))

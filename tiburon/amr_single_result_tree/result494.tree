@@ -1,0 +1,11 @@
+Tree info for input tree amr494.tree:
+	52 nodes
+	16 yield length
+Transducer info for input tree transducer simple494.trans:
+	2 states
+	16 rules
+RTG info for forward application of tree:
+	17 states
+	21 rules
+	6 unique terminal symbols
+	16 derivations

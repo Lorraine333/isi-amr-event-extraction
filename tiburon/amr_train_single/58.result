@@ -1,0 +1,44 @@
+q68
+q68 -> TOP(q69) # 1.000000
+q107 -> r_op3_domain_ # 1.000000
+q69 -> decrease-01(q70 q71) # 1.000000
+q129 -> r_value_PUBCHEM_5757_ # 1.000000
+q117 -> r_xref(q124) # 1.000000
+q89 -> protein(q116 q117) # 1.000000
+q139 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q124 -> xref(q135) # 1.000000
+q125 -> protein(q130 q131) # 1.000000
+q70 -> r_ARG1(q75) # 1.000000
+q120 -> xref(q129) # 1.000000
+q93 -> add-modification-00(q98 q99 q100) # 1.000000
+q75 -> increase-01(q85 q86) # 1.000000
+q71 -> r_ARG0(q74) # 1.000000
+q91 -> mutate-01 # 1.000000
+q131 -> r_xref(q138) # 1.000000
+q85 -> r_ARG1(q93) # 1.000000
+q109 -> r_op1_ligand_ # 1.000000
+q123 -> name(q127) # 1.000000
+q122 -> protein # 1.000000
+q78 -> r_name(q92) # 1.000000
+q94 -> r_xref(q120) # 1.000000
+q137 -> name(q140) # 1.000000
+q135 -> r_value_UNIPROT_ESR1_HUMAN_ # 1.000000
+q127 -> r_op1_ERα_ # 1.000000
+q121 -> name(q134) # 1.000000
+q116 -> r_name(q123) # 1.000000
+q98 -> r_manner(q126) # 1.000000
+q77 -> r_ARG1-of(q91) # 1.000000
+q86 -> r_ARG0(q90) # 1.000000
+q108 -> r_op2_binding_ # 1.000000
+q74 -> protein-segment(q76 q77 q78) # 1.000000
+q90 -> small-molecule(q94 q95) # 1.000000
+q99 -> r_ARG1(q125) # 1.000000
+q126 -> phosphorylate-01 # 1.000000
+q95 -> r_name(q121) # 1.000000
+q138 -> xref(q139) # 1.000000
+q100 -> r_ARG0(q122) # 1.000000
+q134 -> r_op1_E2_ # 1.000000
+q130 -> r_name(q137) # 1.000000
+q140 -> r_op1_SRC-3_ # 1.000000
+q92 -> name(q107 q108 q109) # 1.000000
+q76 -> r_part-of(q89) # 1.000000

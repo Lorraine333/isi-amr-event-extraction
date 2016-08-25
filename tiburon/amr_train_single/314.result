@@ -1,0 +1,34 @@
+q43
+q43 -> TOP(q44) # 1.000000
+q57 -> r_name(q64) # 1.000000
+q47 -> r_ARG1(q54) # 1.000000
+q100 -> r_op1_SRC_3_ # 1.000000
+q80 -> r_name(q84) # 1.000000
+q61 -> r_ARG0(q68) # 1.000000
+q64 -> name(q69) # 1.000000
+q73 -> r_ARG1(q85) # 1.000000
+q90 -> r_op1_E2_ # 1.000000
+q94 -> r_name(q98) # 1.000000
+q89 -> protein # 1.000000
+q97 -> xref(q99) # 1.000000
+q85 -> protein(q93 q94) # 1.000000
+q65 -> add-modification-00(q71 q72 q73) # 1.000000
+q81 -> r_xref(q87) # 1.000000
+q84 -> name(q90) # 1.000000
+q93 -> r_xref(q97) # 1.000000
+q46 -> r_polarity_- # 1.000000
+q92 -> r_value_PUBCHEM_5757_ # 1.000000
+q99 -> r_value_UNIPROT_NCOA3_HUMAN_ # 1.000000
+q72 -> r_ARG0(q89) # 1.000000
+q60 -> r_ARG1(q65) # 1.000000
+q55 -> amino-acid(q56 q57) # 1.000000
+q87 -> xref(q92) # 1.000000
+q45 -> r_ARG0(q55) # 1.000000
+q68 -> small-molecule(q80 q81) # 1.000000
+q56 -> r_mod_282_ # 1.000000
+q98 -> name(q100) # 1.000000
+q71 -> r_manner(q88) # 1.000000
+q54 -> increase-01(q60 q61) # 1.000000
+q69 -> r_op1_asparagine_ # 1.000000
+q44 -> increase-01(q45 q46 q47) # 1.000000
+q88 -> phosphorylate-01 # 1.000000

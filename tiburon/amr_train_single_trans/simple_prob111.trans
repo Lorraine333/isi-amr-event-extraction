@@ -1,0 +1,19 @@
+qr
+qr.r_value_UNIPROT_RAF1_HUMAN_ -> r_value_UNIPROT_RAF1_HUMAN_ #0.952380952381
+qr.r_op1_RAF_ -> r_op1_RAF_ #1.0
+qc.enzyme(x0: x1: ) -> enzyme(qr.x0 qr.x1 ) #0.34808259587
+qr.TOP(and(x0: r_op2(x1: ) ) ) -> TOP(qc.x1 ) #1.0
+qc.inhibit-01(x0: ) -> decrease-01(qr.x0 r_ARG0(molecular-physical-entity ) ) #0.142857142857
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_ARG0-of(x0: ) -> r_ARG0(qc.x0 ) #0.129032258065
+qc.protein-segment(x0: x1: x2: ) -> add-modification-00(qr.x0 qr.x1 qr.x2 ) #0.142857142857
+qc.xref(x0: ) -> xref(qr.x0 ) #0.332199546485
+qc.activate-01 -> protein #0.214285714286
+qr.r_ARG1-of(x0: ) -> r_manner(qc.x0 ) #0.235294117647
+qr.r_location(x0: ) -> r_ARG1(qc.x0 ) #0.115942028986
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qc.phosphorylate-01 -> phosphorylate-01 #0.923076923077
+qr.r_ARG2(x0: ) -> r_ARG0(qc.x0 ) #0.235537190083
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008
+qc.result-01(r_ARG1(treat-04(x0: ) ) r_ARG2(phosphorylate-01(x1: x2: ) ) ) -> increase-01(qr.x0 qr.x2 ) #1.0
+qr.r_xref(x0: ) -> r_xref(qc.x0 ) #0.969642857143

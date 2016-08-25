@@ -1,0 +1,22 @@
+q0
+q0 -> TOP(q1 )
+q1 -> increase-01(q2 q8 q17 )
+q2 -> r_ARG0(q3 )
+q8 -> r_ARG1(q9 )
+q17 -> r_location(q18 )
+q3 -> add-modification-00(q4 q6 )
+q9 -> enzyme(q10 q12 q15 )
+q18 -> cell(q19 )
+q4 -> r_manner(q5 )
+q6 -> r_manner(q7 )
+q10 -> r_manner(q11 )
+q12 -> r_name(q13 )
+q15 -> r_manner(q16 )
+q19 -> r_manner(q20 )
+q5 -> phosphorylate-01
+q7 -> smr-empty
+q11 -> phosphorylate-01
+q13 -> name(q14 )
+q16 -> smr-empty
+q20 -> wild-type
+q14 -> r_op1_AKT_

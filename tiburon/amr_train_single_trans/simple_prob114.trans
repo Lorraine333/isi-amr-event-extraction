@@ -1,0 +1,12 @@
+qr
+qr.name(x0: ) -> r_ARG0(qc.x0 ) #0.0921052631579
+qc.r_op1_MEK/ERK_ -> protein #1.0
+qc.amino-acid(x0: x1: x2: ) -> amino-acid(qr.x0 qr.x1 ) #0.181818181818
+qc.name(x0: ) -> name(qr.x0 ) #0.477977161501
+qr.r_name(x0: ) -> r_name(qc.x0 ) #0.959712230216
+qr.r_op1_serine_ -> r_op1_serine_ #0.872340425532
+qr.r_UNK -> r_UNK #0.275862068966
+qc.reach-01(r_ARG0(phosphorylate-01(x0: ) ) x1: r_ARG1(inhibit-01(r_ARG1(enzyme(r_name(x2: ) ) ) ) ) ) -> add-modification-00(qr.x0 qr.x2 ) #1.0
+qr.TOP(x0: ) -> TOP(qc.x0 ) #0.947257383966
+qc.note-02(x0: ) -> increase-01(qr.x0 ) #1.0
+qr.r_ARG1(x0: ) -> r_ARG1(qc.x0 ) #0.592481203008

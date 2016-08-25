@@ -1,0 +1,11 @@
+Tree info for input tree amr208.tree:
+	71 nodes
+	13 yield length
+Transducer info for input tree transducer simple208.trans:
+	2 states
+	21 rules
+RTG info for forward application of tree:
+	22 states
+	24 rules
+	7 unique terminal symbols
+	8 derivations

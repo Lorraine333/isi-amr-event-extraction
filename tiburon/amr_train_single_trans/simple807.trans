@@ -1,0 +1,10 @@
+qr
+qr.r_op1_4;_ -> r_op1_LPA_
+qc.name(x0: ) -> name(qr.x0 )
+qc.sample-01(x0: ) -> translocate-01(qr.x0 )
+qc.xref(x0: ) -> xref(r_value_PUBCHEM_5497152_ )
+qr.r_ARG2(and(r_op1(x0: ) x1: ) ) -> r_ARG2(qc.x0 )
+qr.r_name(x0: ) -> r_name(qc.x0 )
+qr.TOP(and(x0: r_op2(normalize-01(x1: x2: r_ARG1-of(x3: ) x4: ) ) ) ) -> TOP(qc.x3 )
+qc.mean-01(r_ARG1(protein(x0: ) ) r_ARG2(enzyme(x1: x2: ) ) ) -> molecular-physical-entity(qr.x0 qr.x2 )
+qr.r_xref(x0: ) -> r_xref(qc.x0 )

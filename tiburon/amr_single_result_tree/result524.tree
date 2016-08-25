@@ -1,0 +1,11 @@
+Tree info for input tree amr524.tree:
+	50 nodes
+	11 yield length
+Transducer info for input tree transducer simple524.trans:
+	2 states
+	14 rules
+RTG info for forward application of tree:
+	16 states
+	18 rules
+	4 unique terminal symbols
+	4 derivations

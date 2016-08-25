@@ -1,0 +1,10 @@
+q0
+q0 -> TOP(q1 )
+q1 -> enzyme(q2 q4 q7 )
+q2 -> r_manner(q3 )
+q4 -> r_name(q5 )
+q7 -> r_manner(q8 )
+q3 -> phosphorylate-01
+q5 -> name(q6 )
+q8 -> smr-empty
+q6 -> r_op1_AKT_

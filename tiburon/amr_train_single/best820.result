@@ -1,0 +1,23 @@
+q22
+q22 -> TOP(q23) # 1.000000
+q50 -> name(q57) # 1.000000
+q42 -> r_xref(q53) # 1.000000
+q52 -> xref(q56) # 1.000000
+q26 -> r_location(q34) # 1.000000
+q36 -> r_xref(q52) # 1.000000
+q49 -> mutate-01 # 1.000000
+q51 -> name(q54) # 1.000000
+q34 -> cell-line(q36 q37) # 1.000000
+q55 -> r_value_UNIPROT_RASH_HUMAN_ # 1.000000
+q54 -> r_op1_HRAS_ # 1.000000
+q56 -> r_value_COS7_CVCL_0224_ # 1.000000
+q33 -> phosphorylate-01 # 1.000000
+q37 -> r_name(q50) # 1.000000
+q40 -> r_ARG2-of(q49) # 1.000000
+q53 -> xref(q55) # 1.000000
+q41 -> r_name(q51) # 1.000000
+q25 -> r_ARG1(q35) # 1.000000
+q23 -> add-modification-00(q24 q25 q26) # 1.000000
+q35 -> enzyme(q40 q41 q42) # 1.000000
+q24 -> r_manner(q33) # 1.000000
+q57 -> r_op1_COS7_ # 1.000000

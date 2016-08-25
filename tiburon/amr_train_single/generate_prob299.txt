@@ -1,0 +1,1 @@
+(x0 / and :ARG0(x1 / amino-acid :mod "867"  :name(x2 / name :op1 "serine" )  :mod "24" )  :location(x3 / molecular-physical-entity :ARG0(x4 / muti-index-card :op1 "4HT"  :value "UNIPROT"ESR1"HUMAN" )  :manner(x5 / phosphorylate-01) ) )

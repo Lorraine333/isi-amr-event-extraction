@@ -1,0 +1,1 @@
+(x0 / bind-01 :ARG2(x1 / protein :mod (x2 / wild-type)  :name(x3 / name :op1 "p110β" )  :xref(x4 / xref :value "UNIPROT"PK3CB"HUMAN" ) )  :ARG1(x5 / enzyme :name(x6 / name :op1 "DIRAS" ) ) )

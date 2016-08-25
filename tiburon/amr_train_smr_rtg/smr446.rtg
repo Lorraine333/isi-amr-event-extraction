@@ -1,0 +1,17 @@
+q0
+q0 -> TOP(q1 )
+q1 -> add-modification-00(q7 q2 )
+q1 -> add-modification-00(q2 q7 )
+q7 -> r_ARG1(q8 )
+q2 -> r_ARG0(q3 )
+q8 -> protein(q12 q9 )
+q8 -> protein(q9 q12 )
+q3 -> protein(q4 )
+q12 -> r_mod(q13 )
+q9 -> r_name(q10 )
+q4 -> r_name(q5 )
+q13 -> isoform
+q10 -> name(q11 )
+q5 -> name(q6 )
+q11 -> r_op1_PI3K_
+q6 -> r_op1_RAS_

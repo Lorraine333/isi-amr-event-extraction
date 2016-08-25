@@ -1,0 +1,28 @@
+q33
+q33 -> TOP(q34) # 1.000000
+q57 -> r_part-of(q61) # 1.000000
+q43 -> r_ARG0-of(q52) # 1.000000
+q44 -> r_name(q54) # 1.000000
+q39 -> pathway(q43 q44) # 1.000000
+q36 -> r_ARG0(q41) # 1.000000
+q52 -> activity-06 # 1.000000
+q73 -> r_op1_RAF_ # 1.000000
+q41 -> bind-01(q47 q48) # 1.000000
+q62 -> r_op2_domain_ # 1.000000
+q72 -> r_value_UNIPROT_RAF1_HUMAN_ # 1.000000
+q53 -> protein-segment(q56 q57) # 1.000000
+q71 -> name(q73) # 1.000000
+q67 -> r_xref(q70) # 1.000000
+q61 -> enzyme(q66 q67) # 1.000000
+q55 -> r_op1_MEK/ERK_ # 1.000000
+q66 -> r_name(q71) # 1.000000
+q47 -> r_ARG2(q53) # 1.000000
+q54 -> name(q55) # 1.000000
+q51 -> small-molecule # 1.000000
+q63 -> r_op1_catalytic_ # 1.000000
+q60 -> name(q62 q63) # 1.000000
+q48 -> r_ARG1(q51) # 1.000000
+q70 -> xref(q72) # 1.000000
+q34 -> increase-01(q35 q36) # 1.000000
+q56 -> r_name(q60) # 1.000000
+q35 -> r_ARG1(q39) # 1.000000

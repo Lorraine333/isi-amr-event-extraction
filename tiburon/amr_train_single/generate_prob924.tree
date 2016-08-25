@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG1(enzyme(r_name(name(r_op1_p90_ r_op2_ribosomal_ r_op3_S6_ r_op4_kinase_)) r_xref(xref(r_value_UNIPROT_KS6A1_HUMAN_)))) r_polarity_- r_ARG0(protein(r_name(name(r_op1_FGF2_)) r_xref(xref(r_value_UNIPROT_FGF2_HUMAN_)))) r_location(cell))) # 0.003458

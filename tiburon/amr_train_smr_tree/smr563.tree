@@ -1,0 +1,1 @@
+TOP(increase-01(r_ARG0(and(r_op1(protein(r_name(name(r_op1_RAC1_)) r_xref(xref(r_value_UNIPROT_RAC1_HUMAN_)))) r_op2(amino-acid(r_name(name(r_op1_tyrosine_)) r_ARG1-of(phosphorylate-01) r_mod_740_)))) r_ARG1(protein(r_xref(xref(r_value_UNIPROT_PK3CB_HUMAN_)) r_name(name(r_op1_p110β_))))))

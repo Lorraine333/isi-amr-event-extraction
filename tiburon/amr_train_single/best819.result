@@ -1,0 +1,22 @@
+q21
+q21 -> TOP(q22) # 1.000000
+q50 -> r_value_UNIPROT_PK3CB_HUMAN_ # 1.000000
+q45 -> xref(q50) # 1.000000
+q53 -> r_op1_PI_3-Kinase_ # 1.000000
+q46 -> name(q51) # 1.000000
+q44 -> macro-molecular-complex(q48) # 1.000000
+q52 -> name(q53) # 1.000000
+q24 -> r_ARG2(q32) # 1.000000
+q43 -> r_name(q46) # 1.000000
+q23 -> r_ARG1(q33) # 1.000000
+q34 -> r_part-of(q44) # 1.000000
+q48 -> r_name(q52) # 1.000000
+q35 -> r_name(q47) # 1.000000
+q51 -> r_op1_RAS_ # 1.000000
+q32 -> protein-family(q43) # 1.000000
+q25 -> r_polarity_- # 1.000000
+q49 -> r_op1_p110β_ # 1.000000
+q22 -> bind-01(q23 q24 q25) # 1.000000
+q47 -> name(q49) # 1.000000
+q36 -> r_xref(q45) # 1.000000
+q33 -> enzyme(q34 q35 q36) # 1.000000

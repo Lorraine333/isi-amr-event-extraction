@@ -1,0 +1,1 @@
+(x0 / coexpress-00 :ARG2(x1 / add-modification-00 :manner(x2 / phosphorylate-01)  :manner(x3 / phosphorylate-01) )  :ARG1-of(x4 / describe-01 :ARG1(x5 / name :manner(x6 / name :UNK ) ) ) )

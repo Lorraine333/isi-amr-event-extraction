@@ -1,0 +1,1 @@
+TOP(find-01(r_mod(UNK) r_ARG0(we) r_ARG1(bind-01(r_ARG1(protein-segment(r_name(name(r_op1_n-terminus_)) r_part-of(protein(r_mod(human) r_name(name(r_op1_Elmo1_)) r_xref(xref(r_value_UNIPROT_ELMO1_HUMAN_)))))) r_ARG1-of(direct-02) r_ARG2(subunit(r_name(name(r_op1_Gbg_)))))) r_ARG0-of(suggest-01(r_ARG1(conserve-01(r_ARG1(pathway(r_mod(this))) r_location(mammal)))))))

@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG1(x1 / muti-index-card :op1 "CRAF"  :value "UNIPROT"RAF1"HUMAN" )  :ARG1(x2 / phosphorylate-01)  :ARG0(x3 / and :ARG1(x4 / muti-index-card :op1 "CRAF"  :value "UNIPROT"RAF1"HUMAN" )  :op2 (x5 / protein-family :manner(x6 / smr-empty)  :name(x7 / name :op1 "RAS" ) ) ) )

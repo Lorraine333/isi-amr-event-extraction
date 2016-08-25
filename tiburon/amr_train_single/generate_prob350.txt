@@ -1,0 +1,1 @@
+(x0 / increase-01 :ARG0(x1 / smr-empty)  :ARG1(x2 / add-modification-00 :manner(x3 / smr-empty)  :ARG1(x4 / protein :manner(x5 / phosphorylate-01) )  :manner(x6 / phosphorylate-01) )  :value "CHEBI"50114" )

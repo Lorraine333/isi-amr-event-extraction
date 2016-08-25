@@ -1,0 +1,29 @@
+q892
+q892 -> TOP(q893) # 1.000000
+q937 -> r_name(q968) # 1.000000
+q897 -> r_location(q911) # 1.000000
+q894 -> r_ARG1(q914) # 1.000000
+q1267 -> r_value_UNIPROT_KS6A1_HUMAN_ # 1.000000
+q911 -> cell # 1.000000
+q973 -> xref(q1096) # 1.000000
+q973 -> xref(q1154) # 1.000000
+q914 -> enzyme(q937 q938) # 1.000000
+q1323 -> r_value_UNIPROT_KS6A1_HUMAN_ # 1.000000
+q893 -> increase-01(q894 q895 q896 q897) # 1.000000
+q994 -> r_op1_FGF2_ # 1.000000
+q1252 -> r_op2_ribosomal_ # 1.000000
+q1251 -> r_op1_p90_ # 1.000000
+q1253 -> r_op3_S6_ # 1.000000
+q938 -> r_xref(q971) # 1.000000
+q1096 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q923 -> protein(q941 q942) # 1.000000
+q1154 -> r_value_UNIPROT_FGF2_HUMAN_ # 1.000000
+q971 -> xref(q1267) # 1.000000
+q971 -> xref(q1323) # 1.000000
+q895 -> r_polarity_- # 1.000000
+q1254 -> r_op4_kinase_ # 1.000000
+q968 -> name(q1251 q1252 q1253 q1254) # 1.000000
+q970 -> name(q994) # 1.000000
+q896 -> r_ARG0(q923) # 1.000000
+q941 -> r_name(q970) # 1.000000
+q942 -> r_xref(q973) # 1.000000
